@@ -1,29 +1,29 @@
 <?php
 /**
- * _s functions and definitions
+ * _jchck functions and definitions
  *
- * @package _s
+ * @package _jchck
  */
 
-if ( ! function_exists( '_s_setup' ) ) :
+if ( ! function_exists( '_jchck_jchcketup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
- * Note that this function is hooked into the after_setup_theme hook, which
+ * Note that this function is hooked into the after_jchcketup_theme hook, which
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function _s_setup() {
+function _jchck_jchcketup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on _s, use a find and replace
-	 * to change '_s' to the name of your theme in all the template files
+	 * If you're building a theme based on _jchck, use a find and replace
+	 * to change 'jchck_' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( '_s', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'jchck_', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+	add_theme_jchckupport( 'automatic-feed-links' );
 
 	/*
 	 * Let WordPress manage the document title.
@@ -31,25 +31,25 @@ function _s_setup() {
 	 * hard-coded <title> tag in the document head, and expect WordPress to
 	 * provide it for us.
 	 */
-	add_theme_support( 'title-tag' );
+	add_theme_jchckupport( 'title-tag' );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
-	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
+	 * @link http://codex.wordpress.org/Function_Reference/add_theme_jchckupport#Post_Thumbnails
 	 */
-	add_theme_support( 'post-thumbnails' );
+	add_theme_jchckupport( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary Menu', '_s' ),
+		'primary' => esc_html__( 'Primary Menu', 'jchck_' ),
 	) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
 	 */
-	add_theme_support( 'html5', array(
+	add_theme_jchckupport( 'html5', array(
 		'search-form',
 		'comment-form',
 		'comment-list',
@@ -61,7 +61,7 @@ function _s_setup() {
 	 * Enable support for Post Formats.
 	 * See http://codex.wordpress.org/Post_Formats
 	 */
-	add_theme_support( 'post-formats', array(
+	add_theme_jchckupport( 'post-formats', array(
 		'aside',
 		'image',
 		'video',
@@ -70,13 +70,13 @@ function _s_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( '_s_custom_background_args', array(
+	add_theme_jchckupport( 'custom-background', apply_filters( '_jchck_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 }
-endif; // _s_setup
-add_action( 'after_setup_theme', '_s_setup' );
+endif; // _jchck_jchcketup
+add_action( 'after_jchcketup_theme', '_jchck_jchcketup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -85,19 +85,19 @@ add_action( 'after_setup_theme', '_s_setup' );
  *
  * @global int $content_width
  */
-function _s_content_width() {
-	$GLOBALS['content_width'] = apply_filters( '_s_content_width', 640 );
+function _jchck_content_width() {
+	$GLOBALS['content_width'] = apply_filters( '_jchck_content_width', 640 );
 }
-add_action( 'after_setup_theme', '_s_content_width', 0 );
+add_action( 'after_jchcketup_theme', '_jchck_content_width', 0 );
 
 /**
  * Register widget area.
  *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
+ * @link http://codex.wordpress.org/Function_Reference/register_jchckidebar
  */
-function _s_widgets_init() {
-	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', '_s' ),
+function _jchck_widgets_init() {
+	register_jchckidebar( array(
+		'name'          => esc_html__( 'Sidebar', 'jchck_' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -106,23 +106,23 @@ function _s_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 }
-add_action( 'widgets_init', '_s_widgets_init' );
+add_action( 'widgets_init', '_jchck_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function _s_scripts() {
-	wp_enqueue_style( '_s-style', get_stylesheet_uri() );
+function _jchck_jchckcripts() {
+	wp_enqueue_jchcktyle( '_jchck-style', get_jchcktylesheet_uri() );
 
-	wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_jchckcript( '_jchck-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( '_s-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_jchckcript( '_jchck-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
+	if ( is_jchckingular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_jchckcript( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', '_s_scripts' );
+add_action( 'wp_enqueue_jchckcripts', '_jchck_jchckcripts' );
 
 /**
  * Implement the Custom Header feature.

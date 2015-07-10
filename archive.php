@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package _s
+ * @package _jchck
  */
 
 get_header(); ?>
@@ -47,5 +47,5 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php get_jchckidebar(); ?>
 <?php get_footer(); ?>
