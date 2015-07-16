@@ -8,11 +8,15 @@
   "private": true,
   "dependencies": {
     "modernizr": "2.8.2",
-    "bootstrap-sass-official": "3.3.5"
+    "bootstrap-sass-official": "3.3.5",
+    "scotch-panels": "~1.0.3"
   },
   "overrides": {
     "modernizr": {
       "main": "./modernizr.js"
+    },
+    "scotch-panels": {
+      "main": "./dist/scotchPanels.js"
     },
     "bootstrap-sass-official": {
       "main": [
