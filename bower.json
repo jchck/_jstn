@@ -10,7 +10,7 @@
     "modernizr": "2.8.2",
     "bootstrap-sass-official": "3.3.5",
     "scotch-panels": "~1.0.3",
-    "flexboxgrid": "https://github.com/jchck/flexboxgrid.git#master"
+    "flexboxgrid": "sass"
   },
   "overrides": {
     "modernizr": {
@@ -20,7 +20,7 @@
       "main": "./dist/scotchPanels.js"
     },
     "flexboxgrid": {
-      "main": "./dist/flexboxgrid.css"
+      "main": "./src/sass/flexboxgrid.scss"
     },
     "bootstrap-sass-official": {
       "main": [
