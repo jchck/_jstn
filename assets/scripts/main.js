@@ -19,6 +19,17 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        // Scotch Panels
+        $('#scotch-panel').scotchPanel({
+          containerSelector: 'body',
+          direction: 'right',
+          duration: 300,
+          transition: 'ease',
+          clickSelector: '.toggle-panel',
+          distanceX: '70%',
+          enableEscapeKey: true
+        }); 
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
