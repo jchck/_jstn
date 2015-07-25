@@ -2,16 +2,16 @@
 $icon-font-path:        "../fonts/";
 
 // Grid settings
-$main-sm-columns:       12;
-$sidebar-sm-columns:    4;
-
 $gutter-width: 1rem !default;
-$outer-margin: 4rem;
+$outer-margin: 2rem;
 
 $width-xs: 30 !default;
 $width-sm: 48 !default;
 $width-md: 62 !default;
 $width-lg: 75 !default;
+
+// Wrap Width
+$container-desktop:            1140px;
 
 // Colors
 $brand-primary:         #27ae60;
