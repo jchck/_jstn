@@ -30,6 +30,10 @@
           distanceX: '70%',
           enableEscapeKey: true
         }); 
+
+        // Fitter Happier Text
+        var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+        fitterHappierText(nodes);
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

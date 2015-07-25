@@ -10,7 +10,8 @@
     "modernizr": "2.8.2",
     "bootstrap-sass-official": "3.3.5",
     "scotch-panels": "~1.0.3",
-    "flexboxgrid": "sass"
+    "flexboxgrid": "sass",
+    "fitter-happier-text": "https://github.com/jxnblk/fitter-happier-text.git#~0.0.1"
   },
   "overrides": {
     "modernizr": {
@@ -18,6 +19,9 @@
     },
     "scotch-panels": {
       "main": "./dist/scotchPanels.js"
+    },
+    "fitter-happier-text": {
+      "main": "./dist/fitter-happier-text.js"
     },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"

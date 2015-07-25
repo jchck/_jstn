@@ -7,8 +7,8 @@
     ?>
     <div class="latest-post text-center" style="background-image: url(<?php the_field('featured_image') ?>)">
     	<div class="container-fluid wrap">
-			<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-			<p><?php the_excerpt(); ?></p>
+			<h3 data-fitter-happier-text class="text-uppercase"><?php the_title(); ?></h3>
+			<?php the_excerpt(); ?>
 		</div>
 	</div>
 	<?php endwhile; ?>
