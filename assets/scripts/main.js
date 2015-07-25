@@ -32,8 +32,12 @@
         }); 
 
         // Fitter Happier Text
-        var nodes = document.querySelectorAll('[data-fitter-happier-text]');
-        fitterHappierText(nodes);
+        var nodes = document.querySelectorAll('[data-heading]');
+        fitterHappierText(nodes, {
+          baseline: 8,
+          paddingY: 0,
+          paddingX: 0
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

@@ -7,7 +7,7 @@
     ?>
     <div class="latest-post text-center" style="background-image: url(<?php the_field('featured_image') ?>)">
     	<div class="container-fluid wrap">
-			<h3 data-fitter-happier-text class="text-uppercase"><?php the_title(); ?></h3>
+			<h2 data-heading class="text-uppercase"><?php the_title(); ?></h2 >
 			<?php the_excerpt(); ?>
 		</div>
 	</div>
