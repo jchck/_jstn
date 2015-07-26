@@ -12,5 +12,13 @@
 
 	p{
 		font-size: $font-size-h4;
+
+		&:last-of-type{
+			margin-top: 2rem;
+		}
+	}
+
+	a{
+		color: inherit;
 	}
 }
