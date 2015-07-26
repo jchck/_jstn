@@ -7,12 +7,23 @@
     ?>
     <div class="latest-post text-center" style="color: <?php the_field('heading_color') ?>; background-image: url(<?php the_field('featured_image') ?>)">
     	<div class="container-fluid wrap">
-			<h2 data-heading class="text-uppercase"><?php the_title(); ?></h2 >
+			<h2 data-heading class="text-capitalize"><?php the_title(); ?></h2 >
 			<?php the_excerpt(); ?>
 		</div>
 	</div>
 	<?php endwhile; ?>
 	<?php wp_reset_query(); ?>
+
+	<div class="container-fluid wrap">
+		<div class="row center-xs">
+			<ul class="list-inline">
+				<li>i design</li>
+				<li>i develop</li>
+				<li>i podcast</li>
+				<li>i travel</li>
+			</ul>
+		</div>
+	</div>
 
 	<?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
