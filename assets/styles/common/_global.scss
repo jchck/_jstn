@@ -3,3 +3,11 @@
 	max-width: $container-desktop;
 	//margin: 0 auto;
 }
+
+img{
+	@include img-responsive;
+}
+
+.img-retina{
+	@include img-retina($file-1x, $file-2x, $width-1x, $height-1x);
+}
