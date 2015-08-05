@@ -8,7 +8,7 @@
     <div class="latest-post text-center" style="color: <?php the_field('heading_text_color') ?>; background-image: url(<?php the_field('banner_image') ?>)">
     	<div class="container-fluid wrap">
 			<a href="<?php echo the_permalink(); ?>"><h2 data-heading class="text-capitalize"><?php the_title(); ?></h2 ></a>
-			<?php the_excerpt(); ?>
+			<p><a href="<?php echo the_permalink(); ?>" class="btn btn-default">Continue</a></p>
 		</div>
 	</div>
 	<?php endwhile; ?>
