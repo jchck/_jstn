@@ -1,4 +1,4 @@
-<header class="banner canvas container-fluid wrap" role="banner">
+<header class="banner canvas" role="banner">
   <div class="row center-xs">
     <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
   </div>
