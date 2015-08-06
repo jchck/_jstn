@@ -1,13 +1,9 @@
-<?php 
+<?php $location = get_field('the_map');
 
-	$location = get_field('the_map');
+if (!empty($location)) : ?>
 
-	if (!empty($location)) : ?>
+	<div class="acf-map">
+		<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
+	<div>
 
-		<div class="acf-map">
-			<div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-		<div>
-
-	<?php endif; ?>
-
-?>
+<?php endif; ?>

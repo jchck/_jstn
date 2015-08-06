@@ -1,3 +1,5 @@
+<?php get_template_part( 'templates/the', 'map' ); ?>
+
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header>
