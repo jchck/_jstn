@@ -40,6 +40,7 @@
         "./assets/stylesheets/bootstrap/_code.scss",
         "./assets/stylesheets/bootstrap/_tables.scss",
         "./assets/stylesheets/bootstrap/_forms.scss",
+        "./assets/stylesheets/bootstrap/_buttons.scss",
         "./assets/stylesheets/bootstrap/_component-animations.scss",
         "./assets/stylesheets/bootstrap/_dropdowns.scss",
         "./assets/stylesheets/bootstrap/_button-groups.scss",

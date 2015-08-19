@@ -1,8 +1,8 @@
-<header class="banner canvas container-fluid wrap mt4-md" role="banner">
+<header class="banner canvas container-fluid wrap mt2" role="banner">
   <div class="row end-xs">
-    <a href="#" id="toggle-nav" class="btn btn-default">Toggle Panel</a>
+    <a href="#" id="toggle-nav" class="btn btn-default"><i class="fa fa-bars"></i></a>
   </div>
   <div class="row center-xs">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
+    <a class="logo" href="<?= esc_url(home_url('/')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
   </div>
 </header>

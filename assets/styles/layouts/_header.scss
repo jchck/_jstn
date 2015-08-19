@@ -1,5 +1,7 @@
-.no-svg{
+header{
 	.logo{
-		background: url('dist/images/logo.png');
+		@media (min-width: $screen-md){
+			margin-bottom: 41px;
+		}
 	}
 }
