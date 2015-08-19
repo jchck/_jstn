@@ -21,12 +21,12 @@
         // JavaScript to be fired on all pages
 
         // Scotch Panels
-        $('#scotch-panel').scotchPanel({
+        $('#nav').scotchPanel({
           containerSelector: 'body',
           direction: 'right',
           duration: 300,
           transition: 'ease',
-          clickSelector: '.toggle-panel',
+          clickSelector: '#toggle-nav',
           distanceX: '70%',
           enableEscapeKey: true
         }); 

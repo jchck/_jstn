@@ -11,7 +11,9 @@
     "bootstrap-sass-official": "3.3.5",
     "scotch-panels": "~1.0.3",
     "flexboxgrid": "sass",
-    "fitter-happier-text": "https://github.com/jxnblk/fitter-happier-text.git#~0.0.1"
+    "fitter-happier-text": "https://github.com/jxnblk/fitter-happier-text.git#~0.0.1",
+    "jchck-btn": "~1.0.0",
+    "jchck-spacing": "~1.5.5"
   },
   "overrides": {
     "modernizr": {
@@ -38,7 +40,6 @@
         "./assets/stylesheets/bootstrap/_code.scss",
         "./assets/stylesheets/bootstrap/_tables.scss",
         "./assets/stylesheets/bootstrap/_forms.scss",
-        "./assets/stylesheets/bootstrap/_buttons.scss",
         "./assets/stylesheets/bootstrap/_component-animations.scss",
         "./assets/stylesheets/bootstrap/_dropdowns.scss",
         "./assets/stylesheets/bootstrap/_button-groups.scss",

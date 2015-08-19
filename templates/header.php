@@ -1,12 +1,8 @@
-<header class="banner canvas" role="banner">
+<header class="banner canvas container-fluid wrap mt4-md" role="banner">
+  <div class="row end-xs">
+    <a href="#" id="toggle-nav" class="btn btn-default">Toggle Panel</a>
+  </div>
   <div class="row center-xs">
     <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
   </div>
-  <nav class="row center-xs" role="navigation">
-      <?php
-      if (has_nav_menu('primary_navigation')) :
-        wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav nav-pills']);
-      endif;
-      ?>
-    </nav>
 </header>

@@ -12,7 +12,6 @@
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_code.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_tables.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_forms.scss";
-@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_component-animations.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_dropdowns.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_button-groups.scss";
@@ -37,6 +36,8 @@
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_utilities.scss";
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_responsive-utilities.scss";
 @import "../../bower_components/flexboxgrid/src/sass/flexboxgrid.scss";
+@import "../../bower_components/jchck-btn/src/btn.scss";
+@import "../../bower_components/jchck-spacing/src/spacing.scss";
 // endbower
 
 @import "common/_global";
