@@ -8,10 +8,18 @@
 	//max-width: $width-lg+rem;
 }
 
+.bg-gray{
+	background: $gray;
+}
+
 img{
 	@include img-responsive;
 }
 
 a{
 	@include ease-in-out(.3s);
+}
+
+.border-top-gray{
+	border-top: 1px solid $gray
 }

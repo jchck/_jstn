@@ -37,7 +37,7 @@
 			</div>
 		</div>
 
-		<div class="row center-xs mt4 mb4">
+		<div class="row center-xs mt4">
 			<div class="col-sm-10 col-xs-12">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus sem ac accumsan dictum. In vehicula augue lorem, id ultricies quam pharetra molestie. Donec sem metus, scelerisque a justo sit amet, commodo lobortis lectus.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus sem ac accumsan dictum. In vehicula augue lorem, id ultricies quam pharetra molestie. Donec sem metus, scelerisque a justo sit amet, commodo lobortis lectus.</p>
@@ -45,16 +45,7 @@
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-xs-12">
-				<h3 class="m0 text-center">Let's Work Together</h3>
-			</div>
-		</div>
-		<div class="row center-xs">
-			<div class="col-xs-10">
-				<a href="#" class="btn btn-default">Go</a>
-			</div>
-		</div>
+		
 
 	</div>
 

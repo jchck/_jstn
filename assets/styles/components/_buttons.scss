@@ -3,7 +3,7 @@
 }
 
 .btn-red{
-	@include btn-color(#fff, $red, #e0e0e0);
+	@include btn-color(#fff, $red, $gray);
 
 	&:hover{
 		background-color: lighten($red, 4%);
