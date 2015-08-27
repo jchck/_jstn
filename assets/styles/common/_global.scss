@@ -1,14 +1,3 @@
-@font-face {
-    font-family: 'paneuropa_neue_beta_1.1Rg';
-    src: url('../fonts/paneuropaneueregular-webfont.eot');
-    src: url('../fonts/paneuropaneueregular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/paneuropaneueregular-webfont.woff2') format('woff2'),
-         url('../fonts/paneuropaneueregular-webfont.woff') format('woff'),
-         url('../fonts/paneuropaneueregular-webfont.ttf') format('truetype'),
-         url('../fonts/paneuropaneueregular-webfont.svg#paneuropa_neue_beta_1.1Rg') format('svg');
-
-}
-
 .wrap{
 	box-sizing: border-box;
 	max-width: $container-desktop;
