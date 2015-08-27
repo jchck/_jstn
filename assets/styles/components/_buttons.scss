@@ -3,7 +3,11 @@
 }
 
 .btn-red{
-	@include btn-color(#fff, $red, #fff);
+	@include btn-color(#fff, $red, #e0e0e0);
+
+	&:hover{
+		background-color: lighten($red, 4%);
+	}
 }
 
 .btn-sm{
