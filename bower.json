@@ -7,13 +7,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "modernizr": "2.8.2",
     "bootstrap-sass-official": "3.3.5",
-    "scotch-panels": "~1.0.3",
     "fitter-happier-text": "https://github.com/jxnblk/fitter-happier-text.git#~0.0.1",
+    "flexboxgrid": "sass",
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
-    "flexboxgrid": "7.0"
+    "modernizr": "2.8.2",
+    "scotch-panels": "~1.0.3"
   },
   "overrides": {
     "modernizr": {
@@ -26,7 +26,7 @@
       "main": "./dist/fitter-happier-text.js"
     },
     "flexboxgrid": {
-      "main": "./sass/flexboxgrid.scss"
+      "main": "./src/sass/flexboxgrid.scss"
     },
     "bootstrap-sass-official": {
       "main": [
