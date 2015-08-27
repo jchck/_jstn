@@ -1,0 +1,7 @@
+.btn-red{
+	@include btn-color(#fff, $red, #fff);
+}
+
+.btn-sm{
+	font-size: 75%;
+}

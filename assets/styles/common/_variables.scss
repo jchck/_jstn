@@ -14,9 +14,13 @@ $width-lg: 75 !default;
 //$container-desktop:            1140px;
 
 // Colors
+$red:					#ff4242;
 $brand-primary:         #27ae60;
 
 // Type
+$font-family-base:        'paneuropa_neue_beta_1.1Rg', sans-serif;
+$headings-font-family:    "paneuropa_neue_beta_1.1Rg";
+
 $font-size-base:		22px;
 $font-size-large:       ceil(($font-size-base * 1.25));
 
