@@ -1,3 +1,7 @@
+.btn{
+	font-family: $headings-font-family;
+}
+
 .btn-red{
 	@include btn-color(#fff, $red, #fff);
 }

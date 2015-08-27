@@ -13,7 +13,7 @@
 
 		<div class="row center-xs mt4 mb4">
 			<div class="col-xs-12">
-				<h3 class="m0 text-center">Organizations I've Worked With</h3>
+				<h2 class="m0 text-center">Organizations I've Worked With</h2>
 			</div>
 		</div>
 		<div class="row center-sm">
