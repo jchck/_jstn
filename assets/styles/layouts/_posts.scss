@@ -1,3 +1,15 @@
+/**
+ *
+ * Notebook Index
+ *
+ */
+
+.post-card{
+	display: block;
+	border: 1px solid $gray;
+	border-radius: $border-radius-base;
+}
+
 .acf-map{
 	width: 100%;
 	min-height: 476px;
