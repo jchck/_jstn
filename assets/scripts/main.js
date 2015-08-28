@@ -24,10 +24,10 @@
         $('#nav').scotchPanel({
           containerSelector: 'body',
           direction: 'right',
-          duration: 300,
+          duration: 200,
           transition: 'ease',
           clickSelector: '#toggle-nav',
-          distanceX: '70%',
+          distanceX: '20rem',
           enableEscapeKey: true
         }); 
 
