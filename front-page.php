@@ -2,11 +2,11 @@
 
 	<div class="container-fluid wrap">
 
-		<div class="row middle-xs">
+		<div class="row middle-xs center-xs">
 			<div class="col-sm-6 col-xs-12">
 				<p class="m0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus sem ac accumsan dictum. In vehicula augue lorem, id ultricies quam pharetra molestie. Donec sem metus, scelerisque a justo sit amet, commodo lobortis lectus.</p>
 			</div>
-			<div class="col-sm-6 col-xs-12 first-xs last-sm last-md last-lg">
+			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
 				<img src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
 			</div>
 		</div>
