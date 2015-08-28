@@ -1,3 +1,3 @@
 <?php use Roots\Sage\Titles; ?>
 
-<h1 style="margin-top:0;"><?= Titles\title(); ?></h1>
+<h1 class="mt0 text-center"><?= Titles\title(); ?></h1>
