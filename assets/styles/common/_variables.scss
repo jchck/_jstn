@@ -16,6 +16,7 @@ $width-lg: 75 !default;
 // Colors
 $red:					#ff0f0f;
 $gray:					#e0e0e0;
+$black:					#292929;
 $brand-primary:         #27ae60;
 
 // Type
@@ -24,6 +25,12 @@ $headings-font-family:    inherit;
 
 $font-size-base:		20px;
 $font-size-large:       ceil(($font-size-base * 1.25));
+
+// Forms
+$input-color:                    $black;
+$input-border:                   #ccc !default;
+//$input-border-radius:            $border-radius-base;
+$input-border-focus:             $red;
 
 // Buttons
 $btn-font-size-base: $font-size-large;
