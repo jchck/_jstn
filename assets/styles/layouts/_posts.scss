@@ -8,6 +8,17 @@
 	display: block;
 	border: 1px solid $gray;
 	border-radius: $border-radius-base;
+	&:hover,
+	&:focus{
+		text-decoration: none;
+	}
+	p,
+	h2{
+		color: $text-color;
+		&:hover{
+			color: $text-color;
+		}
+	}
 }
 
 .acf-map{
