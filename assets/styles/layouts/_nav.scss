@@ -2,8 +2,6 @@ nav{
 	background: $black;
 }
 
-$desktop-nav-width: 400px;
-
 @media (min-width: $screen-sm){
 	.scotch-panel-canvas.scotch-is-showing{
 		transform: translate3d(-$desktop-nav-width, 0px, 0px) !important;
