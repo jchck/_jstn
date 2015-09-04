@@ -4,58 +4,57 @@
  *
  */
 
-@media (min-width: $screen-xs){
-	.post-card{
-		position: relative;
-		border: 1px solid $gray;
-		border-radius: $border-radius-base;
-		color: transparent;
-		min-height: 200px;
-		min-width: 100%;
-		background: rgba(0, 0, 0, 0.1);
+.post-card{
+	position: relative;
+	border: 1px solid $gray;
+	border-radius: $border-radius-base;
+	color: transparent;
+	min-height: 200px;
+	min-width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	h2{
+		color: #fff;
+		@include ease-in-out(.5s);
+	}
+	&:hover,
+	&:focus{
+		text-decoration: none;
+		color: #fff;
+		background: $notebook-transparency-hover;
+
 		h2{
 			color: #fff;
+		}
+
+		.card-img{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: transparent;
 			@include ease-in-out(.5s);
 		}
-		&:hover,
-		&:focus{
-			text-decoration: none;
-			color: #fff;
-			background: $notebook-transparency-hover;
-
-			h2{
-				color: #fff;
-			}
-
-			.card-img{
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				bottom: 0;
-				right: 0;
-				background-color: transparent;
-				@include ease-in-out(.5s);
-			}
-			&:before{
-				background-color: $notebook-transparency-hover;
-			}
+		&:before{
+			background-color: $notebook-transparency-hover;
 		}
 	}
-
-	.card-img{
-		position: absolute;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		z-index: -1;
-	}
-
 }
+
+.card-img{
+	position: absolute;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+
 
 @media (min-width: $screen-sm){
 	.post-card{
