@@ -12,11 +12,19 @@
 		color: transparent;
 		min-height: 200px;
 		min-width: 100%;
+		h2{
+			color: $black;
+			@include ease-in-out(.5s);
+		}
 		&:hover,
 		&:focus{
 			text-decoration: none;
 			color: #fff;
 			background: $notebook-transparency;
+
+			h2{
+				color: #fff;
+			}
 
 			.card-img{
 				content: '';
