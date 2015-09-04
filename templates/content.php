@@ -1,6 +1,6 @@
 <article <?php post_class('col-md-4 col-sm-6 col-xs-12 pb3 pl2 pr2 flex'); ?>>
 	<a href="<?php the_permalink(); ?>" class="post-card p3 flex flex-center">
-		<div class="text-center">
+		<div class="text-center center-block">
 			<header>
 				<h2 class="h3 mt0"><?php the_title(); ?></h2>
 			</header>

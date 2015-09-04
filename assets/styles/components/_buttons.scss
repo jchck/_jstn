@@ -10,6 +10,14 @@
 	}
 }
 
+.btn-blue{
+	@include btn-color(#fff, $blue, $gray);
+
+	&:hover{
+		background-color: lighten($blue, 4%);
+	}
+}
+
 .btn-sm{
 	font-size: 75%;
 }
