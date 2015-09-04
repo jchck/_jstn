@@ -9,9 +9,12 @@
 	position: relative;
 	border: 1px solid $gray;
 	border-radius: $border-radius-base;
+	color: transparent;
 	&:hover,
 	&:focus{
 		text-decoration: none;
+		color: #fff;
+		background: $notebook-transparency;
 
 		.card-img{
 			content: '';
@@ -26,6 +29,7 @@
 		&:before{
 			background-color: $notebook-transparency;
 		}
+	}
 }
 
 .card-img{
@@ -37,6 +41,9 @@
 	bottom: 0;
 	right: 0;
 	z-index: -1;
+	// &:hover{
+	// 	background: $notebook-transparency;
+	// }
 }
 
 
