@@ -12,15 +12,16 @@
 		color: transparent;
 		min-height: 200px;
 		min-width: 100%;
+		background: rgba(0, 0, 0, 0.1);
 		h2{
-			color: $black;
+			color: #fff;
 			@include ease-in-out(.5s);
 		}
 		&:hover,
 		&:focus{
 			text-decoration: none;
 			color: #fff;
-			background: $notebook-transparency;
+			background: $notebook-transparency-hover;
 
 			h2{
 				color: #fff;
@@ -37,7 +38,7 @@
 				@include ease-in-out(.5s);
 			}
 			&:before{
-				background-color: $notebook-transparency;
+				background-color: $notebook-transparency-hover;
 			}
 		}
 	}

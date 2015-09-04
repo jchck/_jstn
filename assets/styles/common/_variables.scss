@@ -44,4 +44,5 @@ $btn-font-size-base: $font-size-large;
 $btn-default-border: transparent;
 
 // Notebook
-$notebook-transparency:		rgba(0,0,0,0.75);
+$notebook-transparency-regular:		rgba(0, 0, 0, 0.1);
+$notebook-transparency-hover:		rgba(0, 0, 0, 0.6);
