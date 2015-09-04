@@ -12,18 +12,20 @@
 	&:hover,
 	&:focus{
 		text-decoration: none;
+
+		.card-img{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: transparent;
+			@include ease-in-out(.5s);
+		}
 		&:before{
 			background-color: $notebook-transparency;
 		}
-		p,
-		h2{
-			color: #fff;
-		}
-	}
-	p,
-	h2{
-		color: transparent;
-	}
 }
 
 .card-img{
@@ -34,18 +36,10 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-
-	&:before{
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		right: 0;
-		background-color: transparent;
-		@include ease-in-out(.5s);
-	}
+	z-index: -1;
 }
+
+
 
 .acf-map{
 	width: 100%;
