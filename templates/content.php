@@ -8,6 +8,6 @@
 				<?php the_excerpt(); ?>
 			</div>
 		</div>
-		<div class="card-img"></div>
+		<div class="card-img" style="background: url('<?php the_field('main_image'); ?>'); background-size: cover;"></div>
 	</a>
 </article>

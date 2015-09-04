@@ -44,7 +44,8 @@
 
 	.card-img{
 		position: absolute;
-		background: url('../images/notebook1.jpg') center center no-repeat;
+		background-position: center center;
+		background-repeat: no-repeat;
 		background-size: cover;
 		top: 0;
 		left: 0;
