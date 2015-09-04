@@ -5,10 +5,12 @@ $icon-font-path:        "../fonts/";
 $gutter-width: 1rem !default;
 $outer-margin: 2rem;
 
-$width-xs: 30 !default;
-$width-sm: 48 !default;
-$width-md: 62 !default;
-$width-lg: 75 !default;
+// Bootstrap Screen Width Variables
+$screen-xs:		480px;
+$screen-sm:		768px;
+$screen-md:		992px;
+$screen-lg:		1200px;
+
 
 // Wrap Width
 //$container-desktop:            1140px;

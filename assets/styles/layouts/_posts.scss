@@ -4,45 +4,64 @@
  *
  */
 
-.post-card{
-	display: block;
-	position: relative;
-	border: 1px solid $gray;
-	border-radius: $border-radius-base;
-	color: transparent;
-	&:hover,
-	&:focus{
-		text-decoration: none;
-		color: #fff;
-		background: $notebook-transparency;
+@media (min-width: $screen-xs){
+	.post-card{
+		position: relative;
+		border: 1px solid $gray;
+		border-radius: $border-radius-base;
+		color: transparent;
+		min-height: 200px;
+		min-width: 100%;
+		&:hover,
+		&:focus{
+			text-decoration: none;
+			color: #fff;
+			background: $notebook-transparency;
 
-		.card-img{
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			right: 0;
-			background-color: transparent;
-			@include ease-in-out(.5s);
+			.card-img{
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				background-color: transparent;
+				@include ease-in-out(.5s);
+			}
+			&:before{
+				background-color: $notebook-transparency;
+			}
 		}
-		&:before{
-			background-color: $notebook-transparency;
-		}
+	}
+
+	.card-img{
+		position: absolute;
+		background: url('../images/notebook1.jpg') center center no-repeat;
+		background-size: cover;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: -1;
+	}
+
+}
+
+@media (min-width: $screen-sm){
+	.post-card{
+		min-height: 300px;
 	}
 }
 
-.card-img{
-	position: absolute;
-	background: url('../images/notebook1.jpg') center center no-repeat;
-	background-size: cover;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: -1;
+@media (min-width: $screen-md){
+	.post-card{
+		min-height: 300px;
+	}
 }
 
+@media (min-width: $screen-xs){
+
+}
 
 
 .acf-map{
