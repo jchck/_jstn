@@ -1,5 +1,5 @@
 <header class="banner canvas container-fluid wrap mt2" role="banner">
-  <div class="row end-xs">
+  <div class="row end-xs pr0-md pr3-xs">
   	<a href="#" class="btn btn-blue mr2 hidden-xs">Hire Me</a>
     <a href="#" id="toggle-nav" class="btn btn-default"><i class="fa fa-bars"></i></a>
   </div>
