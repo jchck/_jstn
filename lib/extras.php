@@ -31,3 +31,11 @@ function excerpt_more() {
   return ' &hellip; <p></p>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+/**
+ * Custom excerpt length
+ */
+function excerpt_length(){
+  return 20;
+}
+add_filter('excerpt_length', __NAMESPACE__ . '\\excerpt_length', 999);
