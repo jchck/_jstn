@@ -9,7 +9,6 @@
 				<div>
 					<div class="ipad">
 						<?php get_template_part( 'templates/ipad' ); ?>
-						<!-- <img class="ipad-screen" src="<?php the_field('ipad_screen'); ?>"> -->
 						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
 					</div>
 					<?php if( get_field( "project_url" ) ): ?>
