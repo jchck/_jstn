@@ -9,9 +9,11 @@
 				<div>
 					<div class="ipad">
 						<?php get_template_part( 'templates/ipad' ); ?>
-						<div class="ipad-screen"></div>
+						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
 					</div>
-					<p class="mt3 mb3 text-center"><a href="#" class="btn btn-blue">View Project</a></p>
+					<?php if( get_field( "project_url" ) ): ?>
+						<p class="mt3 mb3 text-center"><a href="<?php the_field('project_url'); ?>" class="btn btn-blue">View Project</a></p>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
