@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<div class="row center-xs mb4">
-				<button type="submit" class="btn btn-blue">Sign Up</button>
+				<a type="submit" href="#" class="btn btn-blue">Sign Up</a>
 			</div>
 		</form>
 		<div class="row">

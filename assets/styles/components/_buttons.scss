@@ -13,8 +13,10 @@
 .btn-blue{
 	@include btn-color(#fff, $blue, $gray);
 
-	&:hover{
+	&:hover,
+	&:focus{
 		background-color: lighten($blue, 4%);
+		color: darken($text-color, 12%);
 	}
 }
 

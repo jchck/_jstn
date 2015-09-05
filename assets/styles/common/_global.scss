@@ -2,10 +2,14 @@
   transition: all $time ease-in-out;
 }
 
+::selection{
+	color: $body-bg;
+	background: $brand-primary;
+}
+
 .wrap{
 	box-sizing: border-box;
 	max-width: $container-desktop;
-	//max-width: $width-lg+rem;
 }
 
 .bg-gray{
