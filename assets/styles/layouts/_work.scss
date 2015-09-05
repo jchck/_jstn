@@ -2,11 +2,11 @@
 	position: relative;
 	display: block;
 	margin: 0 auto;
+	width: 280px;
 	&:after{
 		content: '';
 		position: absolute;
-		//background-color: rgb(38, 38, 38);
-		background-color: purple;
+		background-color: rgb(38, 38, 38);
 		top: 0;
 		left: 0;
 		bottom: 7px;
@@ -14,6 +14,18 @@
 		z-index: -2;
 		border-radius: $border-radius-base;
 	}
+}
+
+.ipad-body{
+	width: 280px;
+	height: 189px;
+}
+
+.ipad-screen{
+	top: 8px;
+	margin: 0 10%;
+	height: 173px;
+	width: 225px;
 }
 
 .ipad-screen{
