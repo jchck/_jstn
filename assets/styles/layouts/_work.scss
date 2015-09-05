@@ -5,12 +5,14 @@
 
 .ipad-screen{
 	position: absolute;
+	// margin-left: 9.7%;
+	// margin-right: 9.7%;
 	//background: url('../images/dashtaki.png') center center;
-	background-size: cover;
-	height: 280px;
-	width: 370px;
-	top: 16px;
-	left: 45px;
+	//background-size: cover;
+	// height: 280px;
+	// width: 370px;
+	// top: 16px;
+	//left: 45px;
 	z-index: -1;
 }
 
@@ -20,12 +22,34 @@
 
 @media(min-width: $screen-sm){
 	.single-work{background: green}
+	.ipad-body{
+		width: 359px;
+		height: 242px;
+	}
+	.ipad-screen{
+		top: 12px;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		height: 219px;
+	}
 }
 
 @media(min-width: $screen-md){
 	.single-work{background: orange}
+	.ipad-body{
+		width: 460px;
+		height: 311px;
+	}
+	.ipad-screen{
+		top: 15px;
+		margin-left: 9.7%;
+		margin-right: 9.7%;
+		height: 281px;
+		//width: 370px;
+	}
 }
 
 @media(min-width: $screen-lg){
 	.single-work{background: red}
+
 }
