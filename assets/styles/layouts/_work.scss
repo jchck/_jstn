@@ -1,31 +1,22 @@
 .ipad{
 	position: relative;
-
+	&:after{
+		content: '';
+		position: absolute;
+		//background-color: rgb(38, 38, 38);
+		background-color: purple;
+		top: 0;
+		left: 0;
+		bottom: 7px;
+		right: 0;
+		z-index: -2;
+		border-radius: $border-radius-base;
+	}
 }
 
 .ipad-screen{
 	position: absolute;
-	// margin-left: 9.7%;
-	// margin-right: 9.7%;
-	//background: url('../images/dashtaki.png') center center;
-	//background-size: cover;
-	// height: 280px;
-	// width: 370px;
-	// top: 16px;
-	//left: 45px;
 	z-index: -1;
-}
-.ipad:after{
-	content: '';
-	position: absolute;
-	background-color: rgb(38, 38, 38);
-	//background-color: purple;
-	top: 0;
-	left: 0;
-	bottom: 7px;
-	right: 0;
-	z-index: -2;
-	border-radius: $border-radius-base;
 }
 
 @media(min-width: $screen-xs){
@@ -34,6 +25,11 @@
 
 @media(min-width: $screen-sm){
 	.single-work{background: green}
+	.ipad{
+		width: 359px;
+		display: block;
+		margin: 0 auto;
+	}
 	.ipad-body{
 		width: 359px;
 		height: 242px;
