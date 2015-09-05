@@ -68,8 +68,6 @@ function asset_path($filename) {
 function assets() {
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
 
-  wp_enqueue_style('fa', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css', false, null);
-
   wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
 
   wp_enqueue_script( 'gmaps', '//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false', [], null, true );
