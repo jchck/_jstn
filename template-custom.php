@@ -13,7 +13,10 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<?php get_template_part( 'templates/ipad' ); ?>
+				<div class="ipad">
+					<?php get_template_part( 'templates/ipad' ); ?>
+					<div class="ipad-screen"></div>
+				</div>
 			</div>
 		</div>
 		<?php get_template_part('templates/content', 'page'); ?>
