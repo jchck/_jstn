@@ -34,7 +34,6 @@
 }
 
 @media(min-width: $screen-xs){
-	.single-work{background: yellow}
 	.ipad{
 		width: 440px;
 	}
@@ -51,7 +50,6 @@
 }
 
 @media(min-width: $screen-sm){
-	.single-work{background: green}
 	.ipad{
 		width: 359px;
 	}
@@ -68,7 +66,6 @@
 }
 
 @media(min-width: $screen-md){
-	.single-work{background: orange}
 	.ipad{
 		width: 460px;
 	}
@@ -82,9 +79,4 @@
 		height: 281px;
 		width: 370px;
 	}
-}
-
-@media(min-width: $screen-lg){
-	.single-work{background: red}
-
 }
