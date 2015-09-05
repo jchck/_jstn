@@ -13,3 +13,19 @@
 	left: 45px;
 	z-index: -1;
 }
+
+@media(min-width: $screen-xs){
+	.single-work{background: yellow}
+}
+
+@media(min-width: $screen-sm){
+	.single-work{background: green}
+}
+
+@media(min-width: $screen-md){
+	.single-work{background: orange}
+}
+
+@media(min-width: $screen-lg){
+	.single-work{background: red}
+}
