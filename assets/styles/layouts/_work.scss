@@ -1,5 +1,7 @@
 .ipad{
 	position: relative;
+	display: block;
+	margin: 0 auto;
 	&:after{
 		content: '';
 		position: absolute;
@@ -27,8 +29,6 @@
 	.single-work{background: green}
 	.ipad{
 		width: 359px;
-		display: block;
-		margin: 0 auto;
 	}
 	.ipad-body{
 		width: 359px;
@@ -36,8 +36,6 @@
 	}
 	.ipad-screen{
 		top: 12px;
-		// margin-left: 7.5%;
-		// margin-right: 7.5%;
 		margin: 0 9%;
 		height: 219px;
 	}
@@ -54,8 +52,7 @@
 	}
 	.ipad-screen{
 		top: 15px;
-		margin-left: 9.7%;
-		margin-right: 9.7%;
+		margin: 0 9.7%;
 		height: 281px;
 		width: 370px;
 	}
