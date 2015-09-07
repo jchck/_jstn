@@ -8,4 +8,7 @@ Author URI:         https://justinchick.com/
 
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
+
+
+style="background: url('<?php the_field('main_image'); ?>'); background-size: cover"
 */
