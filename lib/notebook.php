@@ -6,8 +6,6 @@ function banner(){
 	if (is_single() && !is_singular('work')) {
 		$image = get_field('main_image');
 		$style = "background: url(' $image '); background-size: cover";
-		//return $image;
-		//var_dump($style);
 		return $style;
 	}
 }
