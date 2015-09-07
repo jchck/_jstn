@@ -13,7 +13,7 @@
 			<div class="col-sm-6 <?php echo $label; ?> col-xs-12 first-xs">
 				<div>
 					<div class="ipad">
-						<?php get_template_part( 'templates/ipad2' ); ?>
+						<?php get_template_part( 'templates/ipad' ); ?>
 						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
 					</div>
 					<?php if( get_field( "project_url" ) ): ?>
