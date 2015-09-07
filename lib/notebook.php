@@ -4,6 +4,10 @@ namespace Roots\Sage\Notebook;
 
 function banner(){
 	if (is_single() && !is_singular('work')) {
-		echo "style='background:red'";
+		$image = get_field('main_image');
+		$style = "background: url(' $image '); background-size: cover";
+		//return $image;
+		//var_dump($style);
+		return $style;
 	}
 }
