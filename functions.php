@@ -20,7 +20,6 @@ $sage_includes = [
   'lib/extras.php',                // Custom functions
 
   'lib/work.php',                  // Functions for the Work section
-  'lib/notebook.php',              // Functions for single posts
 ];
 
 foreach ($sage_includes as $file) {
