@@ -31,3 +31,18 @@ a{
 .lead{
 	font-weight: 600;
 }
+
+.highlight{
+	background: lighten($blue, 4%);
+	color: #fff;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid;
+
+	&:hover,
+	&:focus{
+		text-decoration: none;
+		color: $blue;
+		background: transparent;
+	}
+}
