@@ -4,7 +4,7 @@
 
 		<div class="row middle-xs center-xs">
 			<div class="col-sm-6 col-xs-12">
-				<p>My name is Justin Chick. I design. I code. I travel. I podcast.</p>
+				<p class="lead">Hi, I'm Justin. I'm a designer, developer, traveler, comicbook reader. You can hire me.</p>
 				<p>I create beautiful websites for amazing organizations so they can do more of what they do best.</p>
 			</div>
 			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
@@ -14,7 +14,7 @@
 
 		<div class="row center-xs mt4 mb4">
 			<div class="col-xs-12">
-				<h2 class="m0 text-center">Organizations I've Worked With</h2>
+				<h2 class="m0 text-center">Projects I've Been A Part Of</h2>
 			</div>
 		</div>
 		<div class="row center-xs">
