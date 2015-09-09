@@ -4,8 +4,9 @@
 
 		<div class="row middle-xs center-xs">
 			<div class="col-sm-6 col-xs-12">
-				<p class="lead">Hi, I'm Justin. I'm a designer, developer, traveler, comicbook reader. You can hire me.</p>
-				<p>I create beautiful websites for amazing organizations so they can do more of what they do best.</p>
+				<p class="lead m0">Hi, I'm Justin. I'm a designer, developer, traveler, and comicbook reader.</p>
+				<p class="lead"><a class="highlight" href="#">You can hire me.</a></p>
+				<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
 			</div>
 			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
 				<img src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
@@ -35,10 +36,11 @@
 		
 		<div class="row center-xs mt4">
 			<div class="col-sm-10 col-xs-12">
-				<p>Designer, developer, consultant.</p>
-				<p>WordPress consultant, designer, developer, project manager. I specialize in building custom websites that are visually appealing and infused with each client’s unique personality. My work is driven by ongoing collaboration, a passion for positive causes, and personal innovation.</p>
-				<p>With a keen eye for user experience, social media strategy, search optimization, and how all these play together I bring a valuable perspective to every project I take on.</p>
-				<p class="mb0">I’m also a devout cyclist, amateur photographer, social justice advocate, vegetarian, and avid DC Comics fan (Detective Comics 27, anyone?). You can usually find me rolling around St. Louis on my bike, reading at 2 Schae Cafe, or enjoying the day in Forest Park.</p>
+				<p>Yes, easy to use for everyone.</p>
+				<p>It's people of all walks of life who ues the web everyday and I keep this at the forefront of every decision I make. How will this feature/design/experience effect the people who'll be using this site? Who are those people and what do we know about them?</p>
+				<p>My work is driven by collaboration, an inquisitive nature, and some good `ol fashioned elbow greese. With these three pillars (and over 5 years full-time freelance experience) I'm able to create thoughtful, holistic design solutions that get out of the way to allow people to accomplish what they need to.</p>
+				<p>I’m also a devout cyclist, amateur photographer, social justice advocate, vegetarian, and avid DC Comics fan (Detective Comics 27, anyone?). Right now, you can find me rolling around the western half of the United States by train, reading under a tree, or enjoying the day in a new cafe.</p>
+				<p>Want to find out what we can do together? <a class="highlight" href="#">This is a good first step.</a></p>
 			</div>
 		</div>
 
