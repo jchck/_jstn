@@ -116,9 +116,16 @@
     @include form-control-focus($alert-danger-text);
   }
 }
-.validation_error {
+.validation_error,
+.validation_message{
   @extend .alert;
+  margin-top: 1rem;
+}
+.validation_error {
   @extend .alert-danger;
+}
+.validation_message{
+  @extend .alert-warning;
 }
 #gforms_confirmation_message {
   @extend .alert;
