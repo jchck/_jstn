@@ -1,7 +1,7 @@
 <footer class="content-info" role="contentinfo">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
 		<h3 class="m0 text-center">Keep Up With Me</h3>
-		<p class="m0 text-center">Proin tempus sem ac accumsan dictum.</p>
+		<p class="m0 text-center">Sign up and I'll send you a Digital Postcard every week</p>
 		<form>
 			<div class="row center-sm mt4 mb3">
 				<div class="col-xs col-sm-4">
