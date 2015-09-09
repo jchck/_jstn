@@ -20,6 +20,7 @@ $sage_includes = [
   'lib/extras.php',                // Custom functions
 
   'lib/work.php',                  // Functions for the Work section
+  'lib/shortcodes.php',            // Just some quick lil shortcodes
 ];
 
 foreach ($sage_includes as $file) {
