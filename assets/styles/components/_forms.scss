@@ -1,78 +1,76 @@
 .gform_wrapper{
+  //border-top: 1px solid $gray;
+
+  form{
+    margin-bottom: 0
+  }
+
   ul{
-    padding-left: 0;
+    @extend .list-unstyled;
   }
+
   li{
-    // Make these behave like row
+    @extend .form-group;
+  }
+
+  .gfield_required{
+    padding-left: 1px;
+    color: $state-danger-text;
+  }
+
+  label{
+    font-weight: normal;
+  }
+
+  .ginput_counter{
+    color: $gray-light;
+  }
+}
+
+.ginput_container{
+  input,
+  select,
+  textarea{
+    @extend .form-control;
+  }
+
+  textarea{
+    height: 10rem;
+  }
+}
+
+.ginput_complex{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: $gutter-compensation;
+  margin-left: $gutter-compensation;
+
+  span{
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: $gutter-compensation;
-    margin-left: $gutter-compensation;
+    flex: 0 0 auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
 
-    margin-bottom: $form-group-margin-bottom;
-    list-style: none;
+    label{
+      color: $gray-light;
+    }
   }
 }
-.gform_wrapper form {
-  margin-bottom: 0;
-}
-.gform_wrapper .gfield_required {
-  padding-left: 1px;
-  color: $state-danger-text;
-}
-.ginput_container input,
-.ginput_container select,
-.ginput_container textarea {
+
+.gform_button{
+  // This is to make the btn transistion like a link
+  @include ease-in-out(.5s);
+
+  // This is to center the btn
+  margin: 0 auto !important;
+
+  // This is to style the btn
   display: block;
-  width: 100%;
-  height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
-  padding: $padding-base-vertical $padding-base-horizontal;
-  font-size: $font-size-base;
-  line-height: $line-height-base;
-  color: $input-color;
-  background-color: $input-bg;
-  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
-  border: 1px solid $input-border;
-  border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
-  @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
-  @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
-
-  // Customize the `:focus` state to imitate native WebKit styles.
-  @include form-control-focus;
-
-  // Placeholder
-  @include placeholder;
-
-  // Disabled and read-only inputs
-  //
-  // HTML5 says that controls under a fieldset > legend:first-child won't be
-  // disabled if the fieldset is disabled. Due to implementation difficulty, we
-  // don't honor that edge case; we style them as disabled anyway.
-  &[disabled],
-  &[readonly],
-  fieldset[disabled] & {
-    background-color: $input-bg-disabled;
-    opacity: 1; // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655
-  }
-
-  &[disabled],
-  fieldset[disabled] & {
-    cursor: $cursor-disabled;
-  }
-
-  // [converter] extracted textarea& to textarea.form-control
-}
-.ginput_container textarea {
-  height: auto;
-}
-.ginput_container textarea.small{
-  height: 120px;
-}
-.gform_button {
-  // For the Button
-  display: inline-block;
   font-size: $btn-font-size-base;
   font-weight: $btn-font-weight;
   line-height: $line-height-base;
@@ -94,7 +92,8 @@
   &:active{
     text-decoration: none;
   }
-  // For the button color
+
+  // This is to make the btn blue
   @include btn-color(#fff, $blue, $gray);
 
   &:hover,
@@ -103,6 +102,7 @@
     color: darken($text-color, 12%);
   }
 }
+
 .gform_wrapper .gfield_error {
   .gfield_label {
     color: $state-danger-text;
@@ -113,46 +113,14 @@
     border-color: $alert-danger-border;
     background-color: $alert-danger-bg;
     color: $alert-danger-text;
-    //.form-control-focus($alert-danger-text);
+    @include form-control-focus($alert-danger-text);
   }
 }
 .validation_error {
-  // .alert();
-  // .alert-danger();
+  @extend .alert;
+  @extend .alert-danger;
 }
 #gforms_confirmation_message {
-  // .alert();
-  // .alert-success();
-}
-
-.ginput_container input[type=radio],
-.ginput_container input[type=checkbox]{
-  height: inherit;
-  width: inherit !important;
-  display: inline-block;
-}
-
-.gfield_radio{
-  label{
-    padding-left: 10px;
-  }
-}
-
-.gfield_checkbox{
-  label{
-    padding-left: 10px;
-  }
-}
-
-.panel-body .gform_body{
-  label{
-    display: none !important;
-  }
-}
-
-.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium{
-  width: 97.5% !important;
-}
-.gform_footer{
-  text-align: center;
+  @extend .alert;
+  @extend .alert-success;
 }

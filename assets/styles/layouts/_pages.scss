@@ -1,0 +1,17 @@
+.hire-justin{
+	ol,
+	form{
+		width: 75%;
+		margin: 0 auto;
+	}
+	ol{
+		border: 1px solid $gray;
+		border-radius: $border-radius-base;
+		padding: 15px 15px 15px 55px;
+		margin-bottom: 3rem;
+	}
+	h3,
+	h4{
+		margin: 3rem 0;
+	}
+}
