@@ -5,7 +5,7 @@
 		<div class="row middle-xs center-xs">
 			<div class="col-sm-6 col-xs-12">
 				<p class="lead m0">Hi, I'm Justin. I'm a designer, developer, traveler, and comicbook reader.</p>
-				<p class="lead"><a class="highlight" href="#">You can hire me.</a></p>
+				<p class="lead"><a class="highlight" title="Hire freelance web designer Justin Chick" href="<?= esc_url(home_url('hire-justin')); ?>">You can hire me.</a></p>
 				<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
 			</div>
 			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
@@ -39,8 +39,8 @@
 				<p>Yes, easy to use for everyone.</p>
 				<p>It's people of all walks of life who ues the web everyday and I keep this at the forefront of every decision I make. How will this feature/design/experience effect the people who'll be using this site? Who are those people and what do we know about them?</p>
 				<p>My work is driven by collaboration, an inquisitive nature, and some good `ol fashioned elbow greese. With these three pillars (and over 5 years full-time freelance experience) I'm able to create thoughtful, holistic design solutions that get out of the way to allow people to accomplish what they need to.</p>
-				<p>I’m also a devout cyclist, amateur photographer, social justice advocate, vegetarian, and avid DC Comics fan (Detective Comics 27, anyone?). Right now, you can find me rolling around the western half of the United States by train, reading under a tree, or enjoying the day in a new cafe.</p>
-				<p>Want to find out what we can do together? <a class="highlight" href="#">This is a good first step.</a></p>
+				<p>I’m also a devout cyclist, amateur photographer, social justice advocate, vegetarian, and avid DC Comics fan (<a href="<?= esc_url(home_url('dc-27')); ?>">Detective Comics 27, anyone?</a>). Right now, you can find me rolling around the western half of the United States by train, reading under a tree, or enjoying the day in a new cafe.</p>
+				<p>Want to find out what we can do together? <a title="Hire Justin Chick freelance web designer" class="highlight" href="<?= esc_url(home_url('hire-justin')); ?>">This is a good first step.</a></p>
 			</div>
 		</div>
 
