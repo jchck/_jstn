@@ -4,8 +4,7 @@
 		width: 75%;
 		margin: 0 auto;
 	}
-	ol,
-	.col-md{
+	ol{
 		border: 1px solid $gray;
 		border-radius: $border-radius-base;
 		padding: 15px 15px 15px 55px;
@@ -15,4 +14,7 @@
 	h4{
 		margin: 3rem 0;
 	}
+}
+.work-box{
+	min-height: 15rem;
 }

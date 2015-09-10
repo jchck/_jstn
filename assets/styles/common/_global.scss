@@ -28,8 +28,18 @@ a{
 	border-top: 1px solid $gray
 }
 
+.border{
+	border: 1px solid $gray;
+	border-radius: $border-radius-base;
+}
+
 .lead{
 	font-weight: 600;
+}
+
+.strong{
+	font-weight: bold;
+	//text-decoration: underline;
 }
 
 .highlight{
