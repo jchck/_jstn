@@ -8,7 +8,6 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "3.3.5",
-    "fitter-happier-text": "https://github.com/jxnblk/fitter-happier-text.git#~0.0.1",
     "flexboxgrid": "sass",
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
@@ -21,9 +20,6 @@
     },
     "scotch-panels": {
       "main": "./dist/scotchPanels.js"
-    },
-    "fitter-happier-text": {
-      "main": "./dist/fitter-happier-text.js"
     },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"

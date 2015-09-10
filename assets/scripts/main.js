@@ -29,14 +29,6 @@
           clickSelector: '#toggle-nav',
           distanceX: '20rem',
           enableEscapeKey: true
-        }); 
-
-        // Fitter Happier Text
-        var nodes = document.querySelectorAll('[data-heading]');
-        fitterHappierText(nodes, {
-          baseline: 8,
-          paddingY: -2,
-          paddingX: 0
         });
 
       },
