@@ -21,6 +21,7 @@ $sage_includes = [
 
   'lib/work.php',                  // Functions for the Work section
   'lib/shortcodes.php',            // Just some quick lil shortcodes
+  'lib/category.php',              // Control the display of category names
 ];
 
 foreach ($sage_includes as $file) {
