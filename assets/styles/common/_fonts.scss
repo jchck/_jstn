@@ -40,8 +40,12 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
- 
+
 .i-menu:before { content: '\e800'; }
 .i-github:before { content: '\e801'; }
 .i-instagram:before { content: '\e802'; }
 .i-twitter:before { content: '\e803'; }
+.i-code:before { content: '\e804'; }
+.i-train:before { content: '\e807'; }
+.i-music:before { content: '\e808'; }
+.i-photos:before { content: '\e809'; }
