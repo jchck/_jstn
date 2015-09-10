@@ -7,9 +7,9 @@
 
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap">
-		<?php get_template_part('templates/page', 'header'); ?>
+		<h1 class="mt0 text-center">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
-		<p>I am available for WordPress and front-end development as well as user experience design consulting. I am currently scheduling projects to begin mid October.</p>
+		<p>I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid October</span>.</p>
 		<h3 class="text-center">There are two ways we can work together</h3>
 		<div class="row">
 			<div class="col-md mr2 ml2 p3 border">
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 		</div>
-		<h3 class="text-center">Here’s how things typically go up until your project begins</h3>
+		<h3 class="text-center">How things run until the project kicks off</h3>
 		<ol>
 			<li>You'll fill out the questionnaire below introducing yourself and your project to me</li>
 			<li>I'll review and follow up with my availability to grab coffee either in person (if we're in the same city) or via Skype.</li>
