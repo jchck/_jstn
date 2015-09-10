@@ -1,5 +1,8 @@
 footer{
 	a{
 		color: $gray;
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }
