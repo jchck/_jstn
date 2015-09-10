@@ -12,7 +12,7 @@
 		<p>I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid October</span>.</p>
 		<h3 class="text-center">There are two ways we can work together</h3>
 		<div class="row">
-			<div class="col-md mr2 ml2 p3 border">
+			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm p3 border">
 				<div class="work-box flex flex-center">
 					<div>
 						<p class="strong"><u>The Kitchen Sink</u></p>
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md mr2 ml2 p3 border">
+			<div class="col-sm col-xs-12 mr2-sm ml2-sm p3 border">
 				<div class="work-box flex flex-center">
 					<div>
 						<p class="strong"><u>Just a Taste</u></p>
