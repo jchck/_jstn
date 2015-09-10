@@ -1,5 +1,10 @@
 <div class="container-fluid wrap">
 
+	<i class="i-code"></i>
+	<i class="i-train"></i>
+	<i class="i-music"></i>
+	<i class="i-photos"></i>
+
 	<?php get_template_part('templates/page', 'header'); ?>
 
 	<?php if (!have_posts()) : ?>
