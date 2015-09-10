@@ -20,6 +20,13 @@
 	}
 }
 
+.btn-default{
+	&:hover,
+	&:focus{
+		color: lighten($blue, 4%);
+	}
+}
+
 .btn-sm{
 	font-size: 75%;
 }
