@@ -11,3 +11,55 @@ nav{
 		right: -$desktop-nav-width !important
 	}
 }
+
+/**
+ *
+ * Posts Navigation
+ *
+ */
+
+.posts-navigation{
+	background: $body-bg;
+	.nav-previous,
+	.nav-next{
+		@include clearfix;
+		a{
+			display: inline-block;
+			font-size: $btn-font-size-base * .55;
+			font-weight: $btn-font-weight;
+			line-height: $line-height-base;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+			text-decoration: none;
+			padding: $btn-padding-y $btn-padding-x;
+			border-radius: $btn-border-radius-base;
+			border: $btn-border-width solid transparent;
+			margin: 0;
+			white-space: nowrap;
+
+			@include btn-color(#fff, $blue, $gray);
+
+			&:hover,
+			&:focus{
+				background-color: lighten($blue, 8%);
+				color: darken(#fff, 12%);
+			}
+
+	&:focus{
+		outline: none;
+	}
+
+	&:hover,
+	&:active{
+		text-decoration: none;
+	}
+		}
+	}
+	.nav-previous{
+		float: left;
+	}
+	.nav-next{
+		float: right;
+	}
+}

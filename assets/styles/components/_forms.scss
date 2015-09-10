@@ -98,8 +98,8 @@
 
   &:hover,
   &:focus{
-    background-color: lighten($blue, 4%);
-    color: darken($text-color, 12%);
+    background-color: lighten($blue, 8%);
+    color: darken(#fff, 12%);
   }
 }
 
