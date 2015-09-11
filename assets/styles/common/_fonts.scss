@@ -32,7 +32,12 @@
 	font-style: normal;
 }
  
-[class^="i-"]:before, [class*=" i-"]:before {
+[class^="i-"]:before, 
+[class*=" i-"]:before,
+.digital-nomad:before,
+.front-end-development:before,
+.music:before,
+.photography:before {
 	display: inline-block;
 	font: normal normal normal 14px/1 fontello;
 	font-size: inherit;
@@ -45,7 +50,8 @@
 .i-github:before { content: '\e801'; }
 .i-instagram:before { content: '\e802'; }
 .i-twitter:before { content: '\e803'; }
-.i-code:before { content: '\e804'; }
-.i-train:before { content: '\e807'; }
-.i-music:before { content: '\e808'; }
-.i-photos:before { content: '\e809'; }
+
+.i-code:before, .front-end-development:before { content: '\e804'; }
+.i-train:before, .digital-nomad:before { content: '\e807'; }
+.i-music:before, .music:before { content: '\e808'; }
+.i-photos:before, .photography:before { content: '\e809'; }
