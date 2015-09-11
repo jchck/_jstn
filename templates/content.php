@@ -4,7 +4,8 @@
 		<div class="text-center center-block">
 			<header>
 				<h2 class="h3 mt0"><?php the_title(); ?></h2>
-				<?= Category\no_link(); ?>
+				<ul class="list-inline"><?= Category\slug(); ?></ul>
+				
 			</header>
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>

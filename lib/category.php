@@ -14,11 +14,13 @@ function title(){
 /**
  *
  * Return as many category slugs are associated with the post
+ * And then slaps that baby into an <li> class
+ * 
  * @link https://wordpress.org/support/topic/getting-category-slug-from-posts-in-the-loop
  *
  */
 function slug(){
 	foreach (get_the_category() as $category) {
-		echo $category->slug . ' ';
+		echo '<li class="' . $category->slug . '"></li>';
 	}
 }
