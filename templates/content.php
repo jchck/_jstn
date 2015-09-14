@@ -3,8 +3,8 @@
 	<a href="<?php the_permalink(); ?>" class="post-card p3 flex flex-center">
 		<div class="text-center center-block">
 			<header>
-				<h2 class="h3 mt0"><?php the_title(); ?></h2>
-				<ul class="list-inline"><?= Category\slug(); ?></ul>
+				<h2 class="h3 mb3 mt0"><?php the_title(); ?></h2>
+				<ul class="m0 list-inline h4"><?= Category\slug(); ?></ul>
 				
 			</header>
 		</div>
