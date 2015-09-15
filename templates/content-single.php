@@ -1,7 +1,11 @@
+<?php use Roots\Sage\Category; ?>
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
-    <header>
-      <h1 class="mt0 text-center"><?php the_title(); ?></h1>
+    <header class="text-center">
+      <h1 class="m0"><?php the_title(); ?></h1>
+      <img class="img-circle center-block" src="<?php the_field('main_image'); ?>">
+      <ul class="m0 list-inline h4 category-icons"><?= Category\permalink(); ?></ul>
+      <?php get_template_part( 'templates/entry', 'meta' ); ?>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>

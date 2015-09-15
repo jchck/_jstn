@@ -16,12 +16,6 @@
 		color: #fff;
 		@include ease-in-out(.5s);
 	}
-	.list-inline{
-		.post,
-		.uncategorized{
-			display: none;
-		}
-	}
 	&:hover,
 	&:focus{
 		text-decoration: none;
@@ -60,6 +54,13 @@
 	z-index: -1;
 }
 
+.list-inline{
+	.post,
+	.uncategorized{
+		display: none;
+	}
+}
+
 
 
 @media (min-width: $screen-sm){
@@ -86,7 +87,15 @@
 
 .single-post{
 	header{
-		background-position: center center;
-		background-attachment: fixed;
+		img{
+			max-width: 240px;
+		}
+	}
+}
+
+.category-icons{
+	a{
+		position: relative;
+		display: block;
 	}
 }

@@ -24,3 +24,12 @@ function slug(){
 		echo '<li class="' . $category->slug . '"></li>';
 	}
 }
+
+function permalink(){
+	foreach (get_the_category() as $category){
+		// $id = get_cat_id( $post->ID );
+		// $link = get_category_link( $id );
+		// $permalink = esc_url( $link );
+		echo '<li><a href="'.$permalink.'" class="' . $category->slug . '"></a></li>';
+	}
+}
