@@ -3,9 +3,9 @@
   <article <?php post_class(); ?>>
     <header class="text-center">
       <h1 class="m0"><?php the_title(); ?></h1>
+      <?php get_template_part( 'templates/entry', 'meta' ); ?>
       <img class="img-circle center-block" src="<?php the_field('main_image'); ?>">
       <ul class="m0 list-inline h4 category-icons"><?= Category\permalink(); ?></ul>
-      <?php get_template_part( 'templates/entry', 'meta' ); ?>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
