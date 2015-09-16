@@ -9,8 +9,6 @@
 	border: 1px solid $gray;
 	border-radius: $border-radius-base;
 	color: transparent;
-	min-height: 200px;
-	min-width: 100%;
 	background: rgba(0, 0, 0, 0.1);
 	h2{
 		color: #fff;
@@ -42,7 +40,7 @@
 	}
 }
 
-.card-img{
+.post-img{
 	position: absolute;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -61,23 +59,33 @@
 	}
 }
 
+.img-size{
+	min-height: 200px;
+	min-width: 100%;
+}
 
+.img-holder{
+	width: 200px;
+}
 
 @media (min-width: $screen-sm){
-	.post-card{
+	.img-size{
 		min-height: 300px;
+	}
+	.img-holder{
+		width: 300px;
 	}
 }
 
 @media (min-width: $screen-md){
-	.post-card{
+	.img-size{
 		min-height: 300px;
+	}
+	.img-holder{
+		width: 300px;
 	}
 }
 
-@media (min-width: $screen-xs){
-
-}
 
 /**
  *
@@ -85,16 +93,12 @@
  *
  */
 
-.single-post{
-	header{
-		img{
-			max-width: 240px;
-		}
-	}
-}
-
 .category-icons{
 	.no-icon:before{
 		content: '';
 	}
+}
+
+.single-post-img{
+	border-radius: 50%;
 }

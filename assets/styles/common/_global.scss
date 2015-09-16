@@ -24,6 +24,10 @@ a{
 	@include ease-in-out(.5s);
 }
 
+.position-relative{
+	position: relative;
+}
+
 .border-top-gray{
 	border-top: 1px solid $gray;
 }

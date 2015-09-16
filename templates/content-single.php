@@ -3,9 +3,13 @@
   <article <?php post_class(); ?>>
     <header class="text-center">
       <h1 class="m0"><?php the_title(); ?></h1>
-      <?php get_template_part( 'templates/entry', 'meta' ); ?>
-      <img class="img-circle center-block" src="<?php the_field('main_image'); ?>">
       <ul class="m0 list-inline h4 category-icons"><?= Category\permalink(); ?></ul>
+        <div class="img-holder center-block">
+          <div class="position-relative img-size flex flex-center">
+            <?php get_template_part( 'templates/entry', 'meta' ); ?>
+            <div class="post-img single-post-img" style="background: url('<?php the_field('main_image'); ?>'); background-size: cover;"></div>
+          </div>
+        </div>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
