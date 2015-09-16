@@ -27,6 +27,13 @@ a{
 .position-relative{
 	position: relative;
 }
+.border-radius{
+	border-radius: $border-radius-base;
+}
+
+.circle{
+	border-radius: 50%;
+}
 
 .border-top-gray{
 	border-top: 1px solid $gray;

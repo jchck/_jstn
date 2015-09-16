@@ -7,9 +7,9 @@
 .post-card{
 	position: relative;
 	border: 1px solid $gray;
-	border-radius: $border-radius-base;
 	color: transparent;
 	background: rgba(0, 0, 0, 0.1);
+	@include ease-in-out(.5s);
 	h2{
 		color: #fff;
 		@include ease-in-out(.5s);
@@ -97,8 +97,11 @@
 	.no-icon:before{
 		content: '';
 	}
-}
-
-.single-post-img{
-	border-radius: 50%;
+	a{
+		color: #fff;
+		@include ease-in-out(.5s);
+		&:hover{
+			color: $blue;
+		}
+	}
 }
