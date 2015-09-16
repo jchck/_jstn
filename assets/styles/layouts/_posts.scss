@@ -94,8 +94,7 @@
 }
 
 .category-icons{
-	a{
-		position: relative;
-		display: block;
+	.no-icon:before{
+		content: '';
 	}
 }
