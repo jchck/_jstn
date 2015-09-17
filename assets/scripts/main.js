@@ -47,10 +47,25 @@
         // JavaScript to be fired on the home page, after the init JS
       }
     },
-    // About us page, note the change from about-us to about_us.
-    'about_us': {
+    // Hire Justin page, note the change from hire-justin to hire_justin.
+    'hire_justin': {
       init: function() {
-        // JavaScript to be fired on the about us page
+        // JavaScript to be fired on the hire justin page
+        // @link https://css-tricks.com/snippets/jquery/smooth-scrolling/
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+        });
+        });
       }
     }
   };

@@ -13,7 +13,7 @@
 		<h3 class="text-center">There are two ways we can work together</h3>
 		<div class="row">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
-				<a href="#" class="p3 work-box flex flex-center border">
+				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div>
 						<p class="strong"><u>The Kitchen Sink</u></p>
 						<p>Get it all and then some -- stragety, design, development, UX, custom WordPress theming</p>
@@ -22,7 +22,7 @@
 				</a>
 			</div>
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm">
-				<a href="#" class="p3 work-box flex flex-center border">
+				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div>
 						<p class="strong"><u>Just a Taste</u></p>
 						<p>You pick my brain and I'll pick your brain on the topic of your choice (provided it's in my wheelhouse)</p>
@@ -44,7 +44,9 @@
 			<li>We schedule project kickoff. I schedule strictly on a first come, first serve basis.</li>
 			<li>Your project begins on the date of project kickoff.</li>
 		</ol>
-		<h4 class="text-center">If working together sounds like something you’d like to do, let’s get this ball rolling!</h4>
-		<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
+		<div id="lets-go">
+			<h4 class="text-center hire-cta">If working together sounds like something you’d like to do, let’s get this ball rolling!</h4>
+			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
+		</div>
 	</div>
 <?php endwhile; ?>
