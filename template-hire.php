@@ -12,23 +12,23 @@
 		<p>I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid October</span>.</p>
 		<h3 class="text-center">There are two ways we can work together</h3>
 		<div class="row">
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm p3 border">
-				<div class="work-box flex flex-center">
+			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
+				<a href="#" class="p3 work-box flex flex-center border">
 					<div>
 						<p class="strong"><u>The Kitchen Sink</u></p>
 						<p>Get it all and then some -- stragety, design, development, UX, custom WordPress theming</p>
 						<p class="m0 strong">$3,000+</p>
 					</div>
-				</div>
+				</a>
 			</div>
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm p3 border">
-				<div class="work-box flex flex-center">
+			<div class="col-sm col-xs-12 mr2-sm ml2-sm">
+				<a href="#" class="p3 work-box flex flex-center border">
 					<div>
 						<p class="strong"><u>Just a Taste</u></p>
 						<p>You pick my brain and I'll pick your brain on the topic of your choice (provided it's in my wheelhouse)</p>
 						<p class="m0 strong">$100 per hour, 1 hour minimum</p>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 		<h3 class="text-center">How things run until the project kicks off</h3>

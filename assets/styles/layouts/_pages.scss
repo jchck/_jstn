@@ -17,4 +17,14 @@
 }
 .work-box{
 	min-height: 15rem;
+	background: $blue;
+	color: #fff;
+	border-radius: $btn-border-radius-base;
+	border: $btn-border-width solid $gray;
+	&:hover{
+		background: lighten($blue, 8%);
+		color: darken(#fff, 12%);
+		border-color: darken($gray, 12%);
+		text-decoration: none;
+	}
 }
