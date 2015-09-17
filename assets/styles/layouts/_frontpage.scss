@@ -6,6 +6,7 @@
 .home{
 	.ipad{
 		width: inherit;
+		//display: flex;
 	}
 	.ipad-screen{
 		@media (min-width: $screen-md){
