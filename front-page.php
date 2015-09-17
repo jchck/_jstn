@@ -1,4 +1,20 @@
-<?php while (have_posts()) : the_post(); ?>	
+<?php
+    $args = array(
+		//Type & Status Parameters
+		'post_type'   => 'work',
+		'post_status' => 'publish',
+		
+		//Order & Orderby Parameters
+		'order'               => 'DESC',
+		'orderby'             => 'date',
+		
+		//Pagination Parameters
+		'posts_per_page'         => 3
+			
+		);
+
+    $query = new WP_Query( $args );
+?>	
 
 	<div class="container-fluid wrap">
 
@@ -19,18 +35,15 @@
 			</div>
 		</div>
 		<div class="row center-xs">
-			<div class="col-sm-3 col-xs-6">
-				<img class="thumbnail center-block" src="<?php echo get_template_directory_uri() . '/dist/images/square.jpg'; ?>">
-			</div>
-			<div class="col-sm-3 col-xs-6">
-				<img class="thumbnail center-block" src="<?php echo get_template_directory_uri() . '/dist/images/square.jpg'; ?>">
-			</div>
-			<div class="col-sm-3 col-xs-6">
-				<img class="thumbnail center-block" src="<?php echo get_template_directory_uri() . '/dist/images/square.jpg'; ?>">
-			</div>
-			<div class="col-sm-3 col-xs-6">
-				<img class="thumbnail center-block" src="<?php echo get_template_directory_uri() . '/dist/images/square.jpg'; ?>">
-			</div>
+			<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
+				<div class="col-sm-4 col-xs-6">
+					<a href="<?php the_permalink(); ?>" class="ipad pl2 pr2">
+						<?php get_template_part( 'templates/ipad' ); ?>
+
+						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
+					</a>
+				</div>
+			<?php endwhile; endif; wp_reset_postdata(); ?>
 		</div>
 
 		
@@ -47,5 +60,3 @@
 		
 
 	</div>
-
-<?php endwhile; ?>

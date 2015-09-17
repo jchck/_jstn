@@ -1,0 +1,17 @@
+/**
+ *
+ * iPads
+ *
+ */
+.home{
+	.ipad{
+		width: inherit;
+	}
+	.ipad-screen{
+		@media (min-width: $screen-md){
+			height: 175px;
+			width: 234px;
+			top: 14px;
+		}
+	}
+}
