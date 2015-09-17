@@ -36,3 +36,17 @@ function permalink(){
 		echo '<li class="no-icon ' . $category->slug . '"><a href="' . $link . '" class="' . $category->slug . '"></a></li>';
 	}
 }
+/**
+ *
+ * This allows us to display category icons on archive pages 
+ * @link http://stackoverflow.com/a/8832952
+ *
+ */
+
+function icon(){
+	if (is_archive()) {
+		$category = get_category( get_query_var( 'cat' ) );
+		$slug = $category->slug;
+		echo '<h2 class="mt0 text-center"><i class="' . $slug . '"></i></h2>';
+	}
+}
