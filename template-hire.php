@@ -46,7 +46,7 @@
 		</ol>
 		<div id="lets-go">
 			<h4 class="text-center hire-cta">If working together sounds like something you’d like to do, let’s get this ball rolling!</h4>
-			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
+			<?php echo do_shortcode( '[gravityform id="3" title="false" description="false"]' ); ?>
 		</div>
 	</div>
 <?php endwhile; ?>
