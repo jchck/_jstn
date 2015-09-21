@@ -5,17 +5,35 @@
  */
 .home{
 	.ipad{
-		//width: inherit;
-		//display: flex;
-		min-height: 199px;
-		.inner{
-			height: 199px;
+		// color: transparent;
+		// background: rgba(0, 0, 0, 0.2);
+		// @include ease-in-out(.5s);
+		height: 200px;
+		&:hover,
+		&:focus{
+			.ipad-screen:before{
+				content: '';
+				text-decoration: none;
+				color: #fff;
+				background: $notebook-transparency-hover;
+			}
 		}
 	}
 	.ipad-screen{
+		&:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			color: transparent;
+			background: rgba(0, 0, 0, 0.2);
+			@include ease-in-out(.5s);
+		}
 		@media (min-width: $screen-md){
-			height: 175px;
-			width: 234px;
+			height: 181px;
+			width: 242px;
 			top: 14px;
 		}
 	}
