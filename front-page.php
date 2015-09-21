@@ -36,10 +36,9 @@
 		</div>
 		<div class="row center-xs">
 			<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
-				<div class="col-sm-4 col-xs-6">
-					<a href="<?php the_permalink(); ?>" class="ipad pl2 pr2 flex-center">
+				<div class="col-sm-4 col-xs-6 flex">
+					<a href="<?php the_permalink(); ?>" class="ipad pl2 pr2">
 						<?php get_template_part( 'templates/ipad' ); ?>
-						<p class="text-center m0"><?php the_title(); ?></p>
 						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
 					</a>
 				</div>

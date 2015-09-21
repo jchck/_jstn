@@ -5,8 +5,12 @@
  */
 .home{
 	.ipad{
-		width: inherit;
+		//width: inherit;
 		//display: flex;
+		min-height: 199px;
+		.inner{
+			height: 199px;
+		}
 	}
 	.ipad-screen{
 		@media (min-width: $screen-md){
