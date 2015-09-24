@@ -76,3 +76,17 @@ a{
 		background: transparent;
 	}
 }
+
+article,
+footer{
+	margin: 0 auto;
+	@media(min-width: $screen-xs){
+		width: 90%;
+	}
+	@media(min-width: $screen-sm){
+		width: 85%;
+	}
+	// @media (max-width: $screen-md){
+	// 	width: 85%;
+	// }
+}
