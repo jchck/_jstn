@@ -7,10 +7,10 @@ use Roots\Sage\Date;
 
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap">
-		<h1 class="mt0 text-center">It all starts with a conversation</h1>
+		<h1 class="mt0 text-center h1-md">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
-		<h3 class="text-center">There are two ways we can work together</h3>
+		<h3 class="text-center h3-md">There are two ways we can work together</h3>
 		<div class="row">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
@@ -31,7 +31,7 @@ use Roots\Sage\Date;
 				</a>
 			</div>
 		</div>
-		<h3 class="text-center">How things run until your project kicks off</h3>
+		<h3 class="text-center h3-md">How things run until your project kicks off</h3>
 		<ol>
 			<li>You'll fill out the questionnaire below introducing yourself and your project to me</li>
 			<li>I'll review and follow up with my availability to grab coffee either in person (if we're in the same city) or via Skype.</li>
@@ -45,7 +45,7 @@ use Roots\Sage\Date;
 			<li>Your project begins on the date scheduled.</li>
 		</ol>
 		<div id="lets-go">
-			<h4 class="text-center hire-cta">Does working together sound like something you’d like to do?<br />
+			<h4 class="text-center hire-cta h4-md">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
 			</h4>
 			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
