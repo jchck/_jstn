@@ -37,12 +37,20 @@
 	border-radius: $btn-border-radius-base;
 	border: $btn-border-width solid $gray;
 	line-height: 1.3;
-	// &:hover,
+	&:hover,
 	&:focus{
 		background: lighten($blue, 8%);
 		color: darken(#fff, 12%);
 		border-color: darken($gray, 12%);
 		text-decoration: none;
+	}
+	&.no-hover{
+		&:hover{
+			background: $blue;
+			color: #fff;
+			border-color: $gray;
+			text-decoration: none;
+		}
 	}
 }
 .work-box{
