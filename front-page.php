@@ -51,7 +51,7 @@
 				<p>Yes, the web should be easy to use for <em>everyone</em>.</p>
 				<p>It's people of all walks of life who ues the web everyday and I keep this at the forefront of every decision I make. How will this feature/design/experience effect the people who'll be using this site? Who are those people and what do we know about them?</p>
 				<p>My work is driven by collaboration, an inquisitive nature, and some good `ol fashioned elbow greese. With these three pillars (and over 5 years full-time freelance experience) I'm able to create thoughtful, holistic design solutions that get out of the way to allow people to accomplish what they need to.</p>
-				<p>I’m also a devout cyclist, <a href="https://instagram.com/jchck_/" title="Justin Chick on Instagram | @jchck_" target="_blank">amateur photographer</a>, social justice advocate, vegetarian, and avid DC Comics fan (<a href="<?= esc_url(home_url('dc-27')); ?>">Detective Comics 27, anyone?</a>). Right now, you can find me rolling around the western half of the United States by train, reading under a tree, or enjoying the day in a new cafe.</p>
+				<p>I’m also a devout cyclist, <a href="https://instagram.com/jchck_/" title="Justin Chick on Instagram | @jchck_" target="_blank">amateur photographer</a>, social justice advocate, vegetarian, and avid DC Comics fan (<a href="<?= esc_url(home_url('dc-27')); ?>">Detective Comics 27, anyone?</a>). Right now, you can find me rolling around the western half of North America by train, reading under a tree, or enjoying the day in a new cafe.</p>
 				<p>Want to find out what we can do together? <a title="Hire Justin Chick freelance web designer" class="highlight" href="<?= esc_url(home_url('hire-justin')); ?>">This is a good first step.</a></p>
 			</div>
 		</div>
