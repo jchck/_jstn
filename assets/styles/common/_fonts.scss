@@ -37,7 +37,11 @@
 .digital-nomad:before,
 .front-end-development:before,
 .music:before,
-.photography:before {
+.photography:before,
+.menu-front-end-development a:before,
+.menu-music a:before,
+.menu-digital-nomad a:before,
+.menu-photography a:before {
 	display: inline-block;
 	font: normal normal normal 14px/1 fontello;
 	font-size: inherit;
@@ -51,7 +55,7 @@
 .i-instagram:before { content: '\e802'; }
 .i-twitter:before { content: '\e803'; }
 
-.i-code:before, .front-end-development:before { content: '\e804'; }
-.i-train:before, .digital-nomad:before { content: '\e805'; }
-.i-music:before, .music:before { content: '\e808'; }
-.i-photos:before, .photography:before { content: '\e806'; }
+.i-code:before, .front-end-development:before, .menu-front-end-development a:before { content: '\e804'; }
+.i-train:before, .digital-nomad:before, .menu-digital-nomad a:before { content: '\e805'; }
+.i-music:before, .music:before, .menu-music a:before { content: '\e808'; }
+.i-photos:before, .photography:before, .menu-photography a:before { content: '\e806'; }
