@@ -45,7 +45,9 @@ use Roots\Sage\Date;
 			<li>Your project begins on the date scheduled.</li>
 		</ol>
 		<div id="lets-go">
-			<h4 class="text-center hire-cta">Does working together sound like something you’d like to do?<br />Well then, let’s get this ball rolling!</h4>
+			<h4 class="text-center hire-cta">Does working together sound like something you’d like to do?<br />
+				Then let’s get this ball rolling!
+			</h4>
 			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
 		</div>
 	</div>
