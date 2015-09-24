@@ -2,10 +2,10 @@
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
 		<?php if (!is_page( 'Hire Justin' )) { ?>
 			<h3 class="m0 text-center">Get My Prospective</h3>
-			<p class="m0 text-center">Sign up and you'll get my prospective in your email inbox once a week</p>
+			<p class="m0 text-center">Sign up and I'll share my prospective with you every week</p>
 			<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
 		<? } ?>
-		<div class="row">
+		<div class="row mt4">
 			<div class="col-xs-12">
 				<p class="mb0 small text-center"><a href="<?= esc_url(home_url('colophon')); ?>">Colophon</a></p>
 				<ul class="list-inline text-center m0">

@@ -16,9 +16,7 @@ footer{
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			margin-right: $gutter-compensation;
-			margin-left: $gutter-compensation;
-			margin-bottom: 0;
+			margin: 4rem $gutter-compensation 4rem;
 			li{
 				box-sizing: border-box;
 				flex: 0 0 auto;
@@ -40,6 +38,9 @@ footer{
 					flex-basis: 50%;
 					width: 50%;
 					max-width: 50%;
+					&:last-of-type{
+						margin-top: 0;
+					}
 				}
 			}
 		}
