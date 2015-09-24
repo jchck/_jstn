@@ -1,8 +1,11 @@
 .hire-justin{
 	ol,
 	form{
-		width: 75%;
+		width: 85%;
 		margin: 0 auto;
+		@media (min-width: $screen-md){
+			width: 75%;	
+		}
 	}
 	ol{
 		border: 1px solid $gray;
