@@ -11,7 +11,7 @@ use Roots\Sage\Date;
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
 		<h3 class="text-center h3-md">There are two ways we can work together</h3>
-		<div class="row">
+		<div class="row middle-xs">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div>
