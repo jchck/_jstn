@@ -44,7 +44,7 @@ use Roots\Sage\Date;
 			<li>We schedule project kickoff. I schedule strictly on a first come, first serve basis.</li>
 			<li>Your project begins on the date scheduled.</li>
 		</ol>
-		<div id="lets-go">
+		<div id="lets-go" class="hire-form">
 			<h4 class="text-center hire-cta no-hover h4-md">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
 			</h4>
