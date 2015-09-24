@@ -3,21 +3,7 @@
 		<?php if (!is_page( 'Hire Justin' )) { ?>
 			<h3 class="m0 text-center">Get My Prospective</h3>
 			<p class="m0 text-center">Sign up and you'll get my prospective in your email inbox once a week</p>
-			<form>
-				<div class="row center-sm mt4 mb3">
-					<div class="col-xs col-sm-4">
-						<label for="name" class="sr-only">Your Name</label>
-						<input type="text" class="form-control" id="name" placeholder="Your Name">
-					</div>
-					<div class="col-xs col-sm-4">
-						<label for="email" class="sr-only">Your Email</label>
-						<input type="text" class="form-control" id="email" placeholder="Your Email">
-					</div>
-				</div>
-				<div class="row center-xs mb4">
-					<a type="submit" href="#" class="btn btn-blue">Sign Up</a>
-				</div>
-			</form>
+			<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
 		<? } ?>
 		<div class="row">
 			<div class="col-xs-12">
