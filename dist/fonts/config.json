@@ -55,15 +55,15 @@
       "src": "fontawesome"
     },
     {
+      "uid": "d6944e1d9af302093d43b299bbecbbbe02",
+      "css": "home",
+      "code": 59402,
+      "src": "iconic"
+    },
+    {
       "uid": "1n2jlgp5brxxzpvvrly6jbfutnk2fpra",
       "css": "camera",
       "code": 59398,
-      "src": "modernpics"
-    },
-    {
-      "uid": "c1d1ix1r5ldq6yl3xwvh3u3fxqale7sy",
-      "css": "home",
-      "code": 59402,
       "src": "modernpics"
     },
     {
