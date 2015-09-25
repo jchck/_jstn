@@ -41,7 +41,9 @@
 .menu-front-end-development a:before,
 .menu-music a:before,
 .menu-digital-nomad a:before,
-.menu-photography a:before {
+.menu-photography a:before,
+.menu-notebook a:before,
+.menu-home a:before {
 	display: inline-block;
 	font: normal normal normal 14px/1 fontello;
 	font-size: inherit;
@@ -59,3 +61,5 @@
 .i-train:before, .digital-nomad:before, .menu-digital-nomad a:before { content: '\e805'; }
 .i-music:before, .music:before, .menu-music a:before { content: '\e808'; }
 .i-photos:before, .photography:before, .menu-photography a:before { content: '\e806'; }
+.i-notebook:before, .menu-notebook a:before { content: '\e809'; }
+.i-home:before, .menu-home a:before { content: '\e80a'; }
