@@ -2,7 +2,7 @@
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
 		<?php if (!is_page( array('Hire Justin', 'Signup') )) { ?>
 			<h3 class="m0 text-center">Get My Prospective</h3>
-			<p class="m0 text-center">Sign up and I'll share my prospective with you every week</p>
+			<p class="m0 text-center">Sign up and I'll share it with you every week</p>
 			<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
 		<? } ?>
 		<div class="row mt4">
