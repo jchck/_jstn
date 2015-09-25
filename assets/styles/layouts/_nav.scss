@@ -19,6 +19,7 @@ nav{
 	}
 	.btn{
 		font-size: 22px;
+		@include ease-in-out(.5s);
 	}
 }
 
