@@ -48,7 +48,7 @@ use Roots\Sage\Date;
 			<h4 class="text-center hire-cta no-hover h4-md">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
 			</h4>
-			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
+			<?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>
 		</div>
 	</div>
 <?php endwhile; ?>
