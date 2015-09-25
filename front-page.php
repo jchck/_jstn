@@ -25,7 +25,7 @@
 				<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
 			</div>
 			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
-				<img src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
+				<img data-action="zoom" src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
 			</div>
 		</div>
 

@@ -12,7 +12,8 @@
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
     "modernizr": "2.8.2",
-    "scotch-panels": "~1.0.3"
+    "scotch-panels": "~1.0.3",
+    "zoom.js": "~0.0.1"
   },
   "overrides": {
     "modernizr": {
@@ -59,7 +60,14 @@
         "./assets/stylesheets/bootstrap/_wells.scss",
         "./assets/stylesheets/bootstrap/_close.scss",
         "./assets/stylesheets/bootstrap/_utilities.scss",
-        "./assets/stylesheets/bootstrap/_responsive-utilities.scss"
+        "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
+        "./assets/javascripts/bootstrap/transition.js"
+      ]
+    },
+    "zoom.js": {
+      "main": [
+        "./js/zoom.js",
+        "./css/zoom.css"
       ]
     }
   }
