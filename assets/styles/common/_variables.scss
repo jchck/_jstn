@@ -21,12 +21,15 @@ $gray:					#e0e0e0;
 $black:					#292929;
 $blue:					#0074D9;
 $brand-primary:         $blue;
+$blue-light:			lighten($blue, 8%);
 $gray-base: 			$black;
 
 // Type
 $text-color: 			  $black;
 $font-family-base:        "gotham_lightregular", Helvetica, Arial, sans-serif;
 $headings-font-family:    inherit;
+
+$blockquote-border-color:     $blue-light;
 
 $font-size-base:		22px;
 $font-size-large:       ceil(($font-size-base * 1.25));
