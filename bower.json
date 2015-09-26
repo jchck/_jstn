@@ -19,9 +19,6 @@
     "modernizr": {
       "main": "./modernizr.js"
     },
-    "scotch-panels": {
-      "main": "./dist/scotchPanels.js"
-    },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"
     },
