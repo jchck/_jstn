@@ -12,7 +12,8 @@
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
     "modernizr": "2.8.2",
-    "scotch-panels": "~1.0.3",
+    "pure-drawer": "https://github.com/mac81/pure-drawer.git",
+    "scotchPanels": "scotch-panels#~1.0.3",
     "zoom.js": "~0.0.1"
   },
   "overrides": {
@@ -21,6 +22,9 @@
     },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"
+    },
+    "pure-drawer": {
+      "main": "./src/scss/pure-drawer.scss"
     },
     "bootstrap-sass-official": {
       "main": [
@@ -60,6 +64,9 @@
         "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
         "./assets/javascripts/bootstrap/transition.js"
       ]
+    },
+    "scotchPanels":{
+      "main": "./dist/scotchPanels.js"
     },
     "zoom.js": {
       "main": [

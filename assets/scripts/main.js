@@ -22,7 +22,7 @@
 
         // Scotch Panels
         $('#nav').scotchPanel({
-          containerSelector: 'body',
+          containerSelector: '.hey-scotch',
           direction: 'right',
           duration: 200,
           transition: 'ease',
