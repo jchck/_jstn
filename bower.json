@@ -13,7 +13,6 @@
     "jchck-spacing": "~1.5.5",
     "modernizr": "2.8.2",
     "pure-drawer": "https://github.com/mac81/pure-drawer.git",
-    "scotchPanels": "scotch-panels#~1.0.3",
     "zoom.js": "~0.0.1"
   },
   "overrides": {
@@ -64,9 +63,6 @@
         "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
         "./assets/javascripts/bootstrap/transition.js"
       ]
-    },
-    "scotchPanels":{
-      "main": "./dist/scotchPanels.js"
     },
     "zoom.js": {
       "main": [
