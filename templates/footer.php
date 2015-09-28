@@ -1,7 +1,7 @@
 <footer class="content-info" role="contentinfo">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
 		<?php if (!is_page( array('Hire Justin', 'Signup') )) { ?>
-			<h3 class="m0 text-center">Want My Prospective?</h3>
+			<h3 class="m0 text-center">Want My Perspective?</h3>
 			<p class="m0 text-center">Sign up and I'll share it with you every week</p>
 			<?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
 		<? } ?>

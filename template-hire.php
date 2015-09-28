@@ -9,7 +9,7 @@ use Roots\Sage\Date;
 	<div class="container-fluid wrap">
 		<h1 class="mt0 text-center h1-md">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
-		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
+		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
 		<h3 class="text-center h3-md">There are two ways we can work together</h3>
 		<div class="row middle-xs">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
@@ -33,7 +33,7 @@ use Roots\Sage\Date;
 		</div>
 		<h3 class="text-center h3-md">How things run until your project kicks off</h3>
 		<ol>
-			<li>You'll fill out the questionnaire below introducing yourself and your project to me</li>
+			<li>You'll fill out the questionnaire below introducing yourself and your project to me.</li>
 			<li>I'll review and follow up with my availability to grab coffee either in person (if we're in the same city) or via Skype.</li>
 			<li>We get to know each other.  I'll ask you questions to find out what makes you tick, what drives your business, and to explore the project at hand. I expect you to have a few questions of your own.</li>
 			<li>Based on our conversation, I'll follow up with a proposed project scope, timeline, and cost.</li>
