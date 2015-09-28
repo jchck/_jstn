@@ -39,3 +39,5 @@ function excerpt_length(){
   return 10;
 }
 add_filter('excerpt_length', __NAMESPACE__ . '\\excerpt_length', 999);
+
+add_filter('use_default_gallery_style', '__return_false');
