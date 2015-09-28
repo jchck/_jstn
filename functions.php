@@ -23,6 +23,7 @@ $sage_includes = [
   'lib/shortcodes.php',            // Just some quick lil shortcodes
   'lib/category.php',              // Control the display of category names
   'lib/date.php',                  // A future project start date function
+  'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
 ];
 
 foreach ($sage_includes as $file) {
