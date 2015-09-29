@@ -2,6 +2,16 @@
 
 namespace Roots\Sage\Gallery;
 
+/**
+ *
+ * Refractor the [gallery] shortcode
+ * Customizations relivent to this theme are on lines 50-61
+ * 
+ * @link http://stackoverflow.com/a/19804410
+ *
+ */
+
+
 function gallery( $output, $attr ){
 	global $post;
 
