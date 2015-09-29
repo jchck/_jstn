@@ -42,6 +42,10 @@ a{
 .border{
 	border: 1px solid $gray;
 	border-radius: $border-radius-base;
+	&.zoom-img{
+		border-color: transparent;
+		border-radius: 0;
+	}
 }
 
 .lead{
@@ -86,7 +90,4 @@ footer{
 	@media(min-width: $screen-sm){
 		width: 85%;
 	}
-	// @media (max-width: $screen-md){
-	// 	width: 85%;
-	// }
 }
