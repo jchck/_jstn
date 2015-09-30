@@ -30,21 +30,21 @@ nav{
  *
  */
 
+@media (min-width: $screen-sm){ // 768px;
+	.scotch-panel-canvas.scotch-is-showing{
+		transform: translate3d(-$desktop-nav-width, 0px, 0px) !important;
+	}
+	nav.scotch-panel-right{
+		width: $desktop-nav-width !important;
+		right: -$desktop-nav-width !important;
+	}
+}
 .scotch-panel-canvas.scotch-is-showing{
 	transform: translate3d(-$screen-sm-nav-width, 0px, 0px);
 }
 nav.scotch-panel-right{
 	width: $screen-sm-nav-width;
 	right: -$screen-sm-nav-width
-}
-@media (min-width: $screen-sm){ // 768px;
-	.scotch-panel-canvas.scotch-is-showing{
-		transform: translate3d(-$desktop-nav-width, 0px, 0px);
-	}
-	nav.scotch-panel-right{
-		width: $desktop-nav-width;
-		right: -$desktop-nav-width
-	}
 }
 
 .menu-front-end-development a:before,
