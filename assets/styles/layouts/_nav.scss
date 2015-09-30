@@ -31,11 +31,11 @@ nav{
  */
 
 .scotch-panel-canvas.scotch-is-showing{
-	transform: translate3d(-$mobile-nav-width, 0px, 0px);
+	transform: translate3d(-$screen-sm-nav-width, 0px, 0px);
 }
 nav.scotch-panel-right{
-	width: $mobile-nav-width;
-	right: -$mobile-nav-width
+	width: $screen-sm-nav-width;
+	right: -$screen-sm-nav-width
 }
 @media (min-width: $screen-sm){ // 768px;
 	.scotch-panel-canvas.scotch-is-showing{
@@ -67,6 +67,25 @@ nav.scotch-panel-right{
 	}
 	a:hover:after{
 		color: darken(#fff, 25%);
+	}
+}
+@media (max-width: $screen-sm){
+	.menu-home,
+	.menu-notebook{
+		a:after{
+			display: none;
+		}
+	}
+	.menu-notebook{
+		.sub-menu{
+			&:before{
+				display: none !important;
+			}
+			a{
+				padding: 10px;
+				font-size: 18px;
+			}
+		}
 	}
 }
 
