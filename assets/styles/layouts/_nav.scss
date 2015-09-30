@@ -15,7 +15,7 @@ nav{
 		}
 	}
 	.border-top{
-		border-top: 1px solid lighten($black, 15%);
+		border-top: 1px solid $black-light;
 	}
 	.btn{
 		font-size: 22px;
@@ -40,6 +40,64 @@ nav{
 .menu-notebook a:before,
 .menu-home a:before{
 	margin-right: 1rem;
+}
+
+.menu-home,
+.menu-notebook{
+	a:after{
+		display: inline-block;
+		color: transparent;
+		font-size: 1.4rem;
+		margin-left: 1rem;
+		@include ease-in-out(.1s);
+	}
+	a:hover:after{
+		color: darken(#fff, 25%);
+	}
+}
+
+.menu-home a:after{
+	content: '(the beginning)';
+}
+
+.menu-notebook{
+	.sub-menu{
+		width: 90%;
+		margin: 0 auto;
+		border: 1px solid $black-light;
+		border-radius: $border-radius-base;
+		padding-bottom: 27px;
+		&:before{
+			content: '(notebook collections)';
+			display: block;
+			color: transparent;
+			text-align: center;
+			font-size: 1.4rem;
+			padding-top: .5rem;
+			@include ease-in-out(.1s);
+		}
+		&:hover:before{
+			color: darken(#fff, 25%);
+		}
+		a:after{
+			content: '';
+		}
+	}
+	ul{
+		padding: 0;
+	}
+	a{
+		padding: 10px 15px;
+		position: relative;
+		display: block;
+		&:hover{
+			text-decoration: none;
+			background-color: $blue;
+		}
+		&:after{
+			content: '(all my thoughts)';
+		}
+	}
 }
 
 /**

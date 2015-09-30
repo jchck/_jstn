@@ -57,9 +57,9 @@
 .i-instagram:before { content: '\e802'; }
 .i-twitter:before { content: '\e803'; }
 
-.i-code:before, .front-end-development:before, .menu-front-end-development a:before { content: '\e804'; }
-.i-train:before, .digital-nomad:before, .menu-digital-nomad a:before { content: '\e805'; }
-.i-music:before, .music:before, .menu-music a:before { content: '\e808'; }
-.i-photos:before, .photography:before, .menu-photography a:before { content: '\e806'; }
+.i-code:before, .front-end-development:before, .sub-menu .menu-front-end-development a:before { content: '\e804'; }
+.i-train:before, .digital-nomad:before, .sub-menu .menu-digital-nomad a:before { content: '\e805'; }
+.i-music:before, .music:before, .sub-menu .menu-music a:before { content: '\e808'; }
+.i-photos:before, .photography:before, .sub-menu .menu-photography a:before { content: '\e806'; }
 .i-notebook:before, .menu-notebook a:before { content: '\e809'; }
 .i-home:before, .menu-home a:before { content: '\e80a'; }

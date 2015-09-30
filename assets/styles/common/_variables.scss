@@ -19,6 +19,7 @@ $screen-lg:		1200px;
 $red:					#ff0f0f;
 $gray:					#e0e0e0;
 $black:					#292929;
+$black-light:			lighten($black, 15%);
 $blue:					#0074D9;
 $brand-primary:         $blue;
 $blue-light:			lighten($blue, 8%);
