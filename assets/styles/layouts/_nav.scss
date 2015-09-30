@@ -23,13 +23,27 @@ nav{
 	}
 }
 
-@media (min-width: $screen-sm){
+/**
+ *
+ * Since css is turned off for scotch panels via the js in main.js
+ * the following is needed to show the sidebar
+ *
+ */
+
+.scotch-panel-canvas.scotch-is-showing{
+	transform: translate3d(-$mobile-nav-width, 0px, 0px);
+}
+nav.scotch-panel-right{
+	width: $mobile-nav-width;
+	right: -$mobile-nav-width
+}
+@media (min-width: $screen-sm){ // 768px;
 	.scotch-panel-canvas.scotch-is-showing{
-		transform: translate3d(-$desktop-nav-width, 0px, 0px) !important;
+		transform: translate3d(-$desktop-nav-width, 0px, 0px);
 	}
 	nav.scotch-panel-right{
-		width: $desktop-nav-width !important;
-		right: -$desktop-nav-width !important
+		width: $desktop-nav-width;
+		right: -$desktop-nav-width
 	}
 }
 
