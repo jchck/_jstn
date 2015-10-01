@@ -92,4 +92,24 @@
 			content: 'That\'ll be next';
 		}
 	}
+	.embed-responsive{
+		margin: 0 auto;
+		width: 280px;
+		@media(min-width: $screen-sm){
+			width: 728px;
+		}
+		@media(min-width: $screen-md){
+			width: 100%;
+		}
+	}
+	.embed-responsive,
+	.embed-responsive-item{
+		height: 745px;
+		@media(min-width: $screen-sm){ //768px
+			height: 715px;
+		}
+		@media(min-width: $screen-md){
+			height: 745px;
+		}
+	}
 }
