@@ -64,6 +64,11 @@
 }
 
 .step2{
+	.timeline{
+		@media(max-width: $screen-sm){
+			display: none;
+		}
+	}
 	.done,
 	.now,
 	.next{
