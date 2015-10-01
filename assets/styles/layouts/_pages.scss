@@ -79,17 +79,17 @@
 	.done{
 		text-decoration: line-through;
 		&:after{
-			content: 'Already did that';
+			content: 'That\'s done.';
 		}
 	}
 	.now{
 		&:after{
-			content: 'We\'re doing this now';
+			content: 'Doing this now.';
 		}
 	}
 	.next{
 		&:after{
-			content: 'That\'ll be next';
+			content: 'That\'ll be next.';
 		}
 	}
 	.embed-responsive{
