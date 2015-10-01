@@ -1,19 +1,9 @@
 .hire-justin{
-	ol,
 	form{
 		width: 85%;
 		margin: 0 auto;
 		@media (min-width: $screen-md){
 			width: 75%;	
-		}
-	}
-	ol{
-		border: 1px solid $gray;
-		border-radius: $border-radius-base;
-		padding: 15px 5px 15px 35px;
-		margin-bottom: 3rem;
-		@media (min-width: $screen-sm){
-			padding: 15px 15px 15px 55px;
 		}
 	}
 	h3,
@@ -30,6 +20,20 @@
 		}
 		margin-right: -2rem;
 		margin-left: -2rem;
+	}
+}
+.timeline{
+	width: 85%;
+	margin: 0 auto;
+	@media (min-width: $screen-md){
+		width: 75%;
+	}
+	border: 1px solid $gray;
+	border-radius: $border-radius-base;
+	padding: 15px 5px 15px 35px;
+	margin-bottom: 3rem;
+	@media (min-width: $screen-sm){
+		padding: 15px 15px 15px 55px;
 	}
 }
 .hire-cta{
@@ -58,14 +62,34 @@
 	background: $blue;
 }
 
-/**
- *
- * Follow along page
- *
- */
-// #instafeed{
-// 	img{
-// 		float: right;
-// 		@include clearfix;
-// 	}
-// }
+.step2{
+	.done,
+	.now,
+	.next{
+		&:after{
+			color: transparent;
+			display: inline-block;
+			margin-left: 1rem;
+			@include ease-in-out(.5s);
+		}
+		&:hover:after{
+			color: inherit;
+		}
+	}
+	.done{
+		text-decoration: line-through;
+		&:after{
+			content: 'Already did that';
+		}
+	}
+	.now{
+		&:after{
+			content: 'We\'re doing this now';
+		}
+	}
+	.next{
+		&:after{
+			content: 'That\'ll be next';
+		}
+	}
+}
