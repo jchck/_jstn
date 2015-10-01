@@ -39,7 +39,7 @@ use Roots\Sage\Date;
 			<li>Based on our conversation, I'll follow up with a proposed project scope, timeline, and cost.</li>
 			<li>If necessary, we'll review and I'll answer any questions you have regarding the proposal.</li>
 			<li>We both accept the proposal.</li>
-			<li>We both sign a working agreement (sample agreement).</li>
+			<li>We both sign a working agreement.</li>
 			<li>You make a payment of 1/3 the agreed project total cost.</li>
 			<li>We schedule project kickoff. I schedule strictly on a first come, first serve basis.</li>
 			<li>Your project begins on the date scheduled.</li>
