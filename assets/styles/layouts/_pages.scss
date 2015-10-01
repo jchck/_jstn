@@ -1,4 +1,5 @@
-.hire-justin{
+.hire-justin,
+.step2{
 	form{
 		width: 85%;
 		margin: 0 auto;
@@ -90,6 +91,12 @@
 	.next{
 		&:after{
 			content: 'That\'ll be next.';
+		}
+	}
+	.hire-cta{
+		color: $gray;
+		span{
+			color: #fff;
 		}
 	}
 	.embed-responsive{
