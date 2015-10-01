@@ -1,5 +1,3 @@
-<?php use Roots\Sage\Notebook; ?>
-
 <header class="banner canvas container-fluid wrap" role="banner">
   <div class="row end-xs pr0-md pr3-xs  pt2">
   	<?php if ( !is_page( array('Hire Justin', 'Follow Along', 'Hire Confirmation Step 2') ) ) { ?>
