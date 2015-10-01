@@ -22,7 +22,7 @@
 					</div>
 				</div>
 				<p class="mt3 mb0">If you answered yes <span class="hidden-xs">to any of those,</span> I've got two more questions for you:</p>
-				<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
+				<?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
 			</div>
 		</div>
 	</div>
