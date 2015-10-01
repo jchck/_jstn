@@ -37,17 +37,6 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
-        var userFeed = new Instafeed({
-          get: 'user',
-          userId: 1334627384,
-          accessToken: '1334627384.467ede5.298c00980a90416dbabfc9c85c2b357c',
-          sortBy: 'most-recent',
-          limit: 1,
-          resolution: 'standard_resolution',
-          template: '<img class="img-responsive" src="{{image}}" />'
-        });
-
-        userFeed.run();
      
       }
     },
@@ -79,6 +68,22 @@
             }
         });
         });
+      }
+    },
+    // Follow Along page
+    'follow_along': {
+      init: function() {
+        var userFeed = new Instafeed({
+          get: 'user',
+          userId: 1334627384,
+          accessToken: '1334627384.467ede5.298c00980a90416dbabfc9c85c2b357c',
+          sortBy: 'most-recent',
+          limit: 1,
+          resolution: 'low_resolution',
+          template: '<img class="img-responsive" src="{{image}}" />'
+        });
+
+        userFeed.run();
       }
     }
   };
