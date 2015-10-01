@@ -23,6 +23,9 @@
     "scotchPanels": {
       "main": "./dist/scotchPanels.js"
     },
+    "instafeed.js": {
+      "main": "./instafeed.js"
+    },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"
     },

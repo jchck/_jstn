@@ -13,6 +13,9 @@
 						<p>Would you like my latest photography and stories delivered fresh to your inbox every Wednesday morning?</p>
 						<p>Do you like trains, hummus, and/or cats?</p>
 					</div>
+					<div class="col-sm-6">
+						<div id="instafeed"></div>
+					</div>
 				</div>
 				<p class="m0">Then I'd like for you to answer these two simple questions:</p>
 				<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
