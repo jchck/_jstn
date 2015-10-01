@@ -1,6 +1,6 @@
 <ol class="timeline">
 	<li class="done">You'll fill out the questionnaire below introducing yourself and your project to me.</li>
-	<li class="now">I'll review and follow up with my availability to grab coffee either in person (if we're in the same city) or via Skype.</li>
+	<li class="now">I'll review while you schdule a time for us to have a 30 minute conversation about your project. Being face to face is importaint to me so unless we're in the same city, we'll do this via Google Hangouts.</li>
 	<li class="next">We get to know each other.  I'll ask you questions to find out what makes you tick, what drives your business, and to explore the project at hand. I expect you to have a few questions of your own.</li>
 	<?php if (is_page_template( 'template-hire.php' )) { ?>
 		<li>Based on our conversation, I'll follow up with a proposed project scope, timeline, and cost.</li>
