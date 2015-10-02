@@ -31,7 +31,8 @@ use Roots\Sage\Date;
 				</a>
 			</div>
 		</div>
-		<h3 class="text-center h3-md">How things run until your project kicks off</h3>
+		<h3 class="text-center h3-md" style="margin-bottom:0.5rem;">How things run until your project kicks off</h3>
+		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first two taken care of today</p>
 
 		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
 		<div id="lets-go" class="hire-form">
