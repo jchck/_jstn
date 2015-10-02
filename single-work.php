@@ -7,10 +7,10 @@
 	?>
 		<?php get_template_part('templates/page', 'header'); ?>
 		<div class="row middle-sm">
-			<div class="col-sm-6 col-xs-12">
+			<div class="col-sm-6 col-xs-12 pr3">
 				<?php get_template_part('templates/content', 'page'); ?>
 			</div>
-			<div class="col-sm-6 <?php echo $label; ?> col-xs-12 first-xs">
+			<div class="col-sm-6 <?php echo $label; ?> col-xs-12 first-xs pl3">
 				<div>
 					<div class="ipad">
 						<?php get_template_part( 'templates/ipad' ); ?>
