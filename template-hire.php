@@ -14,7 +14,7 @@ use Roots\Sage\Date;
 		<div class="row middle-xs">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
-					<div>
+					<div style="width:100%;">
 						<p class="strong"><u>The Kitchen Sink</u></p>
 						<p>Everything and then some -- strategy, design, development, UX, custom WordPress theming</p>
 						<p class="m0 strong">$3,000+</p>
@@ -23,7 +23,7 @@ use Roots\Sage\Date;
 			</div>
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
-					<div>
+					<div style="width:100%;">
 						<p class="strong"><u>Just a Taste</u></p>
 						<p>You pick my brain and I pick yours on the topic of your choice (provided it's in my wheelhouse)</p>
 						<p class="m0 strong">$100 per hour, 1-hour minimum</p>
