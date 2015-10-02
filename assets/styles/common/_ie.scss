@@ -20,4 +20,20 @@
 			vertical-align: top;
 		}
 	}
+
+	.done,
+	.now,
+	.next{
+		&:after{
+			content: '' !important;
+		}
+	}
+
+	.ie10-width100{
+		width: 100%;
+	}
+
+	.ie-max-width100{
+		max-width: 100%
+	}
 }
