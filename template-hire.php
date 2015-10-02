@@ -9,14 +9,14 @@ use Roots\Sage\Date;
 	<div class="container-fluid wrap">
 		<h1 class="mt0 text-center h1-md">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
-		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
+		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
 		<h3 class="text-center h3-md">There are two ways we can work together</h3>
 		<div class="row middle-xs">
 			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div>
 						<p class="strong"><u>The Kitchen Sink</u></p>
-						<p>Everything and then some -- stragety, design, development, UX, custom WordPress theming</p>
+						<p>Everything and then some -- strategy, design, development, UX, custom WordPress theming</p>
 						<p class="m0 strong">$3,000+</p>
 					</div>
 				</a>
@@ -26,7 +26,7 @@ use Roots\Sage\Date;
 					<div>
 						<p class="strong"><u>Just a Taste</u></p>
 						<p>You pick my brain and I pick yours on the topic of your choice (provided it's in my wheelhouse)</p>
-						<p class="m0 strong">$100 per hour, 1 hour minimum</p>
+						<p class="m0 strong">$100 per hour, 1-hour minimum</p>
 					</div>
 				</a>
 			</div>
