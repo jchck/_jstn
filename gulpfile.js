@@ -291,3 +291,19 @@ gulp.task('wiredep', function() {
 gulp.task('default', ['clean'], function() {
   gulp.start('build');
 });
+
+// ### UNCSS
+// `gulp uncss`
+gulp.task('uncss', function() {
+  return gulp.src([
+      'dist/styles/main-40c21f7c.css'
+    ])
+    .pipe(uncss({
+      html: [
+        'http://vagrant.local/jchck/',
+        'http://vagrant.local/jchck/hire-justin',
+        'http://localhost:3000/jchck/follow-along/'
+      ]
+    }))
+    .pipe(gulp.dest('dist/styles/'));
+});
