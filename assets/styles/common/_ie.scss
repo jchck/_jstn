@@ -1,0 +1,39 @@
+/**
+ *
+ * Put all our Internet Explorer hacks and bullshit here
+ *
+ * First we target IE 10+ with a specific media query
+ * @link https://philipnewcomer.net/2014/04/target-internet-explorer-10-11-css/
+ *
+ */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+	.ipad{
+		width: 70%;
+		height: 0;
+		padding-top: 70%;
+		position: relative;
+		svg{
+			position: absolute;
+			top: 0;
+			left: 0;
+			vertical-align: top;
+		}
+	}
+
+	.done,
+	.now,
+	.next{
+		&:after{
+			content: '' !important;
+		}
+	}
+
+	.ie10-width100{
+		width: 100%;
+	}
+
+	.ie-max-width100{
+		max-width: 100%
+	}
+}

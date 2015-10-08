@@ -1,8 +1,6 @@
-<?php use Roots\Sage\Notebook; ?>
-
 <header class="banner canvas container-fluid wrap" role="banner">
   <div class="row end-xs pr0-md pr3-xs  pt2">
-  	<?php if ( !is_page( array('Hire Justin', 'Follow Along') ) ) { ?>
+  	<?php if ( !is_page( array('Hire Justin', 'Follow Along', 'Hire Justin Step 2') ) ) { ?>
 		<a href="<?= esc_url(home_url('hire-justin')); ?>" class="btn btn-blue mr2 hidden-xs">Hire Me</a>
 	<? } ?>
     <a href="#" id="toggle-nav" class="btn btn-default"><i class="i-menu"></i></a>

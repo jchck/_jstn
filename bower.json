@@ -50,8 +50,7 @@
     },
     "zoom.js": {
       "main": [
-        "./js/zoom.js",
-        "./css/zoom.scss"
+        "./js/zoom.js"
       ]
     }
   }

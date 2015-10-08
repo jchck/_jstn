@@ -9,41 +9,41 @@ use Roots\Sage\Date;
 	<div class="container-fluid wrap">
 		<h1 class="mt0 text-center h1-md">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
-		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid <?= Date\month(); ?></span>.</p>
-		<h3 class="text-center h3-md">There are two ways we can work together</h3>
-		<div class="row middle-xs">
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
+		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
+		<h3 class="text-center h3-md">There are three ways we can work together</h3>
+		<div class="row">
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
-					<div>
+					<div class="ie10-width100">
 						<p class="strong"><u>The Kitchen Sink</u></p>
-						<p>Everything and then some -- stragety, design, development, UX, custom WordPress theming</p>
+						<p>Everything and then some -- strategy, design, development, UX, custom WordPress theming</p>
+						<p class="m0 strong">$6,000+</p>
+					</div>
+				</a>
+			</div>
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
+				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
+					<div class="ie10-width100">
+						<p class="strong"><u>Concentrate</u></p>
+						<p>Right to the point -- top notch development with a rapid turnaround</p>
 						<p class="m0 strong">$3,000+</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm">
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
-					<div>
+					<div class="ie10-width100">
 						<p class="strong"><u>Just a Taste</u></p>
 						<p>You pick my brain and I pick yours on the topic of your choice (provided it's in my wheelhouse)</p>
-						<p class="m0 strong">$100 per hour, 1 hour minimum</p>
+						<p class="m0 strong">$100 per hour, 1-hour minimum</p>
 					</div>
 				</a>
 			</div>
 		</div>
-		<h3 class="text-center h3-md">How things run until your project kicks off</h3>
-		<ol>
-			<li>You'll fill out the questionnaire below introducing yourself and your project to me.</li>
-			<li>I'll review and follow up with my availability to grab coffee either in person (if we're in the same city) or via Skype.</li>
-			<li>We get to know each other.  I'll ask you questions to find out what makes you tick, what drives your business, and to explore the project at hand. I expect you to have a few questions of your own.</li>
-			<li>Based on our conversation, I'll follow up with a proposed project scope, timeline, and cost.</li>
-			<li>If necessary, we'll review and I'll answer any questions you have regarding the proposal.</li>
-			<li>We both accept the proposal.</li>
-			<li>We both sign a working agreement.</li>
-			<li>You make a payment of 1/3 the agreed project total cost.</li>
-			<li>We schedule project kickoff. I schedule strictly on a first come, first serve basis.</li>
-			<li>Your project begins on the date scheduled.</li>
-		</ol>
+		<h3 class="text-center h3-md" style="margin-bottom:0.5rem;">How things run until your project kicks off</h3>
+		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first two taken care of today</p>
+
+		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
 		<div id="lets-go" class="hire-form">
 			<h4 class="text-center hire-cta no-hover h4-md">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
