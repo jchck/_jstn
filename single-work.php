@@ -6,6 +6,9 @@
 		$label = $field['choices'][$value];
 	?>
 		<?php get_template_part('templates/page', 'header'); ?>
+		<?php if( get_field( "project_url" ) ): ?>
+			<p class="mb3 text-center"><a target="_blank" href="<?php the_field('project_url'); ?>" class="btn btn-blue">View Project</a></p>
+		<?php endif; ?>
 		<div class="row middle-sm">
 			<div class="col-sm-6 col-xs-12 pr3">
 				<?php get_template_part('templates/content', 'page'); ?>
@@ -16,9 +19,6 @@
 						<?php get_template_part( 'templates/ipad' ); ?>
 						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
 					</div>
-					<?php if( get_field( "project_url" ) ): ?>
-						<p class="mt3 mb3 text-center"><a target="_blank" href="<?php the_field('project_url'); ?>" class="btn btn-blue">View Project</a></p>
-					<?php endif; ?>
 				</div>
 			</div>
 		</div>
