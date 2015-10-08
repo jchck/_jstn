@@ -11,8 +11,8 @@ use Roots\Sage\Date;
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
 		<h3 class="text-center h3-md">There are three ways we can work together</h3>
-		<div class="row middle-xs">
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
+		<div class="row">
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div class="ie10-width100">
 						<p class="strong"><u>The Kitchen Sink</u></p>
@@ -21,16 +21,16 @@ use Roots\Sage\Date;
 					</div>
 				</a>
 			</div>
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div class="ie10-width100">
 						<p class="strong"><u>Concentrate</u></p>
-						<p>Top shelf development with a rapid turnaround, 3-week timeline max </p>
+						<p>Right to the point -- top notch development with a rapid turnaround</p>
 						<p class="m0 strong">$3,000+</p>
 					</div>
 				</a>
 			</div>
-			<div class="col-sm col-xs-12 mr2-sm ml2-sm">
+			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
 					<div class="ie10-width100">
 						<p class="strong"><u>Just a Taste</u></p>
