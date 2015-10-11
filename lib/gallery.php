@@ -49,7 +49,7 @@ function gallery( $output, $attr ){
 
     if (empty($attachments)) return '';
 
-    $output = "<div class=\"row center-xs\">\n";
+    $output = "<div class=\"row center-xs middle-xs\">\n";
 
     // Loop through the attachments
     foreach ($attachments as $id => $attachment) {
