@@ -43,7 +43,9 @@
 .menu-digital-nomad a:before,
 .menu-photography a:before,
 .menu-notebook a:before,
-.menu-home a:before {
+.menu-home a:before,
+.menu-wordpress a:before,
+.menu-creative-life a:before {
 	display: inline-block;
 	font: normal normal normal 14px/1 fontello;
 	font-size: inherit;
@@ -63,3 +65,5 @@
 .i-photos:before, .photography:before, .sub-menu .menu-photography a:before { content: '\e806'; }
 .i-notebook:before, .menu-notebook a:before { content: '\e809'; }
 .i-home:before, .menu-home a:before { content: '\e80a'; }
+.i-beaker:before, .menu-creative-life:before, .sub-menu .menu-creative-life a:before { content: '\e807'; }
+.i-wordpress:before, .menu-wordpress:before, .sub-menu .menu-wordpress a:before { content: '\e80b'; }
