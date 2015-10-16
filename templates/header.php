@@ -6,6 +6,6 @@
     <a href="#" id="toggle-nav" class="btn btn-default"><i class="i-menu"></i></a>
   </div>
   <div class="row center-xs">
-    <a class="logo" href="<?= esc_url(home_url('/')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
+    <a class="logo" href="<?= esc_url(home_url('/ck')); ?>"><?php get_template_part( 'templates/logo' ); ?></a>
   </div>
 </header>
