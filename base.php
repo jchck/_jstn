@@ -34,7 +34,10 @@ use Roots\Sage\Wrapper;
     </div><!-- /.wrap -->
     <?php
       do_action('get_footer');
-      get_template_part('templates/footer');
+      get_template_part( 'templates/footer' );
+      if (is_home() || is_single() || is_category() ) {
+        get_template_part( 'templates/banner' );
+      }
       wp_footer();
     ?>
   </body>

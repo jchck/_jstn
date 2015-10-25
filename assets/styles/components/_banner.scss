@@ -1,0 +1,23 @@
+.slider{
+	width: 100%;
+	height: auto;
+	//background: $blue;
+	//color: #fff;
+	position: fixed;
+	right: 0;
+	top: -300px;
+	border-bottom: 2px solid $gray;
+	font-size: $font-size-small;
+	a{
+		background: $blue;
+		color: #fff;
+		display: block;
+		text-align: center;
+		&:hover,
+		&:focus{
+			background-color: lighten($blue, 8%);
+			color: darken(#fff, 12%);
+			text-decoration: none;
+		}
+	}
+}

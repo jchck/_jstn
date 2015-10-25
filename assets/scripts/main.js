@@ -21,6 +21,23 @@
         // JavaScript to be fired on all pages
 
         // Scotch Panels
+        // $('#nav').scotchPanel({
+        //   containerSelector: 'body',
+        //   direction: 'right',
+        //   duration: 200,
+        //   transition: 'ease',
+        //   clickSelector: '#toggle-nav',
+        //   distanceX: '20rem',
+        //   enableEscapeKey: true,
+        //   useCSS: false,
+        //   easingPluginTransition: 'easeInCirc',
+        //   useEasingPlugin: true
+        // });
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+
         $('#nav').scotchPanel({
           containerSelector: 'body',
           direction: 'right',
@@ -34,9 +51,16 @@
           useEasingPlugin: true
         });
 
-      },
-      finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
+
+        $(function() {
+          $(window).scroll(function(){
+            if ($(window).scrollTop() > 200) {
+              $('#banner').animate({'top': '0px'}, 500);
+            } else {
+              $('#banner').stop(true).animate({'top':'-300px'}, 500);
+            }
+          });
+        });
      
       }
     },
