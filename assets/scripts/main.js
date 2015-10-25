@@ -51,13 +51,14 @@
           useEasingPlugin: true
         });
 
+
         $(function() {
           $(window).scroll(function(){
-
-            if  ($(window).scrollTop() > 10)
-              $('#banner').animate({'top':'0px'},500);
-            else
-            $('#banner').stop(true).animate({'top':'-300px'},500);
+            if ($(window).scrollTop() > 200) {
+              $('#banner').animate({'top': '0px'}, 500);
+            } else {
+              $('#banner').stop(true).animate({'top':'-300px'}, 500);
+            }
           });
         });
      
