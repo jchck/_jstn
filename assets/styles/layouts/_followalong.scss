@@ -1,8 +1,13 @@
+.prospective{
+	//transform: translateZ(-300px) perspective(750px) rotateX(50deg);
+}
 .acf-map{
 	width: 100%;
-	min-height: 476px;
+	min-height: 25em;
+	margin: 0 auto;
 
-	img{
-		max-width: inherit !important;
+	.pin-img{
+		max-width: 15em;
+		margin: 0 auto;
 	}
 }
