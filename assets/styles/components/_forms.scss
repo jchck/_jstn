@@ -10,6 +10,7 @@
   }
 
   li{
+    margin-bottom: 2em;
     @extend .form-group;
   }
 
@@ -19,7 +20,7 @@
   }
 
   label{
-    font-weight: normal;
+    display: none;
   }
 
   .ginput_counter{
@@ -56,8 +57,14 @@
     padding-left: .5rem;
     padding-right: .5rem;
 
+    &.name_first{
+      flex-basis: 100%;
+      width: 100%;
+      max-width: 100%;
+    }
+
     label{
-      color: $gray-light;
+      display: none;
     }
   }
 }
