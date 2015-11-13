@@ -17,7 +17,7 @@ use Roots\Sage\Date;
 					<div class="ie10-width100">
 						<p class="strong"><u>The Kitchen Sink</u></p>
 						<p>Everything and then some -- strategy, design, development, UX, custom WordPress theming</p>
-						<p class="m0 strong">$6,000+</p>
+						<p class="m0 strong">$5,000+</p>
 					</div>
 				</a>
 			</div>
@@ -26,7 +26,7 @@ use Roots\Sage\Date;
 					<div class="ie10-width100">
 						<p class="strong"><u>Concentrate</u></p>
 						<p>Right to the point -- top notch development with a rapid turnaround</p>
-						<p class="m0 strong">$3,000+</p>
+						<p class="m0 strong">$2,000+</p>
 					</div>
 				</a>
 			</div>
