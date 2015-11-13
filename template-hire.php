@@ -17,7 +17,7 @@ use Roots\Sage\Date;
 					<div class="ie10-width100">
 						<p class="strong"><u>The Kitchen Sink</u></p>
 						<p>Everything and then some -- strategy, design, development, UX, custom WordPress theming</p>
-						<p class="m0 strong">$6,000+</p>
+						<p class="m0 strong">$5,000+</p>
 					</div>
 				</a>
 			</div>
@@ -26,7 +26,7 @@ use Roots\Sage\Date;
 					<div class="ie10-width100">
 						<p class="strong"><u>Concentrate</u></p>
 						<p>Right to the point -- top notch development with a rapid turnaround</p>
-						<p class="m0 strong">$3,000+</p>
+						<p class="m0 strong">$2,000</p>
 					</div>
 				</a>
 			</div>
@@ -41,7 +41,7 @@ use Roots\Sage\Date;
 			</div>
 		</div>
 		<h3 class="text-center h3-md" style="margin-bottom:0.5rem;">How things run until your project kicks off</h3>
-		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first two taken care of today</p>
+		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first few taken care of today</p>
 
 		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
 		<div id="lets-go" class="hire-form">
