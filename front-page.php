@@ -20,7 +20,7 @@
 
 		<div class="row middle-xs center-xs">
 			<div class="col-sm-6 col-xs-12">
-				<h1 class="lead m0">Hi, I'm Justin Chick. I'm a designer, developer, digital nomad, and comic book reader.</h1>
+				<h1 class="lead m0">Hi, I'm Justin Chick. I'm a designer, developer, and digital nomad.</h1>
 				<h2 class="lead mb2-sm mb3-md mt0"><a class="highlight" title="Hire freelance web designer Justin Chick" href="<?= esc_url(home_url('hire-justin')); ?>">You can hire me.</a></h2>
 				<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
 			</div>
