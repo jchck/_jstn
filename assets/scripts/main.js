@@ -100,7 +100,7 @@
             zoomControl         : true,
             scaleControl        : false,
             navigationControl   : false,
-            draggable           : true,
+            draggable           : false,
 
             styles              : [
     {
