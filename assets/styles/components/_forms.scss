@@ -40,6 +40,14 @@
   }
 }
 
+.planner{
+  .ginput_container{
+    textarea{
+      height: 15rem;
+    }
+  }
+}
+
 .hire-form .ginput_complex{
   box-sizing: border-box;
   display: flex;

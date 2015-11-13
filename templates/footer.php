@@ -1,6 +1,6 @@
 <footer class="content-info" role="contentinfo">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
-		<?php if (!is_page( array('Hire Justin', 'Follow Along', 'Heck Yes', 'Hire Justin Step 2') )) { ?>
+		<?php if (!is_page( array('Hire Justin', 'Follow Along', 'Heck Yes', 'Hire Justin Step 2', 'Planner') )) { ?>
 			<h3 class="m0 text-center">Join my mailing list</h3>
 			<p class="m0 text-center">If you're awesome (which you probably are) I think you'll really enjoy it</p>
 			<?php echo do_shortcode( '[gravityform id="5" title="false" description="false"]' ); ?>
