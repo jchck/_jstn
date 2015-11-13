@@ -26,7 +26,7 @@ use Roots\Sage\Date;
 					<div class="ie10-width100">
 						<p class="strong"><u>Concentrate</u></p>
 						<p>Right to the point -- top notch development with a rapid turnaround</p>
-						<p class="m0 strong">$2,000+</p>
+						<p class="m0 strong">$2,000</p>
 					</div>
 				</a>
 			</div>
@@ -41,14 +41,14 @@ use Roots\Sage\Date;
 			</div>
 		</div>
 		<h3 class="text-center h3-md" style="margin-bottom:0.5rem;">How things run until your project kicks off</h3>
-		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first two taken care of today</p>
+		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first few taken care of today</p>
 
 		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
 		<div id="lets-go" class="hire-form">
 			<h4 class="text-center hire-cta no-hover h4-md">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
 			</h4>
-			<?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>
+			<?php echo do_shortcode( '[gravityform id="1" title="false" description="false"]' ); ?>
 		</div>
 	</div>
 <?php endwhile; ?>
