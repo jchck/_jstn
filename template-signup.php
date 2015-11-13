@@ -8,9 +8,9 @@
 		<div class="row center-xs">
 			<div class="col-sm-12 col-xs">
 				<h1 class="mt0 lead">Did you know I'm traveling the globe, living out of a backpack, and working where I please?</h1>
-				<p class="mb0">The map below has every place I've been since I started in St. Louis, Missouri on September 23, 2015.</p>
+				<p class="mb0">The map below shows every place I've lived as a digital nomad since beginning this adventure on September 23, 2015.</p>
 				<?php get_template_part( 'templates/the', 'map' ); ?>
-				<p class="mt0 mb0">You should sign up to follow along and find out how I'm doing it. I send a newsletter every Wednesday morning with stories, inspiration, and pictures.</p>
+				<p class="mt1 mb0">Do you want to join the others following along and get stories, inspiration, and pictures every Wednesday? </p>
 				<?php echo do_shortcode( '[gravityform id="2" title="false" description="false"]' ); ?>
 			</div>
 		</div>
