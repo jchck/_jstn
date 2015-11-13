@@ -6,5 +6,7 @@ node_modules
 npm-debug.log
 .DS_Store
 
+templates/footer.php
+
 assets/fonts/gotham-light
 assets/images/logo.*
