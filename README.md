@@ -3,7 +3,7 @@ my site
 
 ## Colophon
 
-This [WordPress](http://wordpress.org) site was hand coded by [Justin Chick](http://justinchick.com) at [TechArtista](http://techartista.org) while in [St. Louis, Missouri](https://en.wikipedia.org/wiki/St._Louis) using [Sublime Text 2](http://www.sublimetext.com/2), [Git](http://git-scm.com/), [Vagrant](https://www.vagrantup.com/), [Chassis](http://chassis.io/), and a [15 inch MacBook Pro](https://support.apple.com/kb/SP704?locale=en_US).
+This [WordPress](http://wordpress.org) site was hand coded by [Justin Chick](http://justinchick.com) using [Sublime Text 2](http://www.sublimetext.com/2), [Git](http://git-scm.com/), [Vagrant](https://www.vagrantup.com/), [Chassis](http://chassis.io/), and a [15 inch MacBook Pro](https://support.apple.com/kb/SP704?locale=en_US).
 
 I used the [Sage Starter Theme](https://github.com/roots/sage) (v8.2.1) as a jumping off point which uses [NPM](https://www.npmjs.com/) to manage development dependencies, [Bower](http://bower.io) to manage front-end packages, and [Gulp](http://gulpjs.com/) to automate the build process.
 
