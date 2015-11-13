@@ -470,7 +470,7 @@
             google.maps.event.addListener(marker, 'click', function() {
 
               infowindow.open( map, marker );
-             // setTimeout(function () { infowindow.close(); }, 5000);
+              setTimeout(function () { infowindow.close(); }, 5000);
             });
           }
 
