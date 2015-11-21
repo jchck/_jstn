@@ -19,7 +19,7 @@ add_theme_support('soil-jquery-cdn');       // Enable to load jQuery from the Go
 if (!defined('WP_ENV')) {
   // Fallback if WP_ENV isn't defined in your WordPress config
   // Used in lib/assets.php to check for 'development' or 'production'
-  define('WP_ENV', 'production');
+  define('WP_ENV', 'development');
 }
 
 if (!defined('DIST_DIR')) {
