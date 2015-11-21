@@ -210,3 +210,8 @@ footer,
     }
   }
 }
+
+
+.search-submit{
+  @include ease-in-out(.5s);
+}
