@@ -13,7 +13,7 @@
 	</div>
 </div>
 
-<h2 class="text-center mt4 mb4">Or Read An Article or Two</h2>
+<h2 class="text-center mt4 mb4">Read An Article or Two</h2>
 
 <div class="row">
 	<?php
@@ -39,3 +39,7 @@
 	<?php endwhile; endif; wp_reset_postdata(); ?>
 
 </div>
+
+<h2 class="text-center mt4 mb4">Or try the search bar</h2>
+
+<?php get_search_form(); ?>
