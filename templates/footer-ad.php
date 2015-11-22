@@ -8,7 +8,7 @@
 		
 		//Order & Orderby Parameters
 		'order'               => 'RAND',
-		'orderby'             => 'date',
+		'orderby'             => 'rand',
 		
 		//Pagination Parameters
 		'posts_per_page'         => 1
