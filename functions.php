@@ -25,6 +25,7 @@ $sage_includes = [
   'lib/date.php',                  // A future project start date function
   'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
   'lib/gallery.php',               // Alter output of [gallery] so pics will open via zoom.js
+  'lib/ads.php',                   // Let's run some ads on this baybe!
 ];
 
 foreach ($sage_includes as $file) {
