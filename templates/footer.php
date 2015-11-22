@@ -1,6 +1,6 @@
 <footer class="content-info" role="contentinfo">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
-		<?php if (!is_page( array('Hire Justin', 'Follow Along', 'Heck Yes', 'Hire Justin Step 2', 'Planner') )) { ?>
+		<?php if (is_singular('post'))  { ?>
 				<?php get_template_part( 'templates/footer', 'ad' ); ?>
 		<? } ?>
 		<div class="row mt4">
