@@ -1,12 +1,7 @@
 <footer class="content-info" role="contentinfo">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
 		<?php if (!is_page( array('Hire Justin', 'Follow Along', 'Heck Yes', 'Hire Justin Step 2', 'Planner') )) { ?>
-		<h5 class="text-center mt0 mb1 ad-title">Ad</h5>
-			<div class="row center-xs">
-				<a href="#" class="ad">
-					<img class="center-block" src="<?php echo get_template_directory_uri() . '/dist/images/flywheel.png'; ?>">
-				</a>
-			</div>
+				<?php get_template_part( 'templates/footer', 'ad' ); ?>
 		<? } ?>
 		<div class="row mt4">
 			<div class="col-xs-12">
