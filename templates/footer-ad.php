@@ -20,7 +20,7 @@
 
 <?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 
-	<a href="<?php echo the_field('ad_url'); ?>" class="ad">
+	<a href="<?php echo the_field('ad_url'); ?>" target="_blank" class="ad">
 
 		<img class="center-block" src="<?php the_field('ad_image'); ?>">
 
