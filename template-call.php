@@ -25,10 +25,10 @@
 		</div>
 		<div class="bg-off-white border-radius">
 			<div class="row middle-xs center-xs">
-				<div class="col-sm col-10-xs">
+				<div class="col-sm col-xs-10">
 					<img style="margin-top:0;" class="pr2 border-radius-top-left" data-action="zoom" src="<?php echo get_template_directory_uri() . '/dist/images/smile-pic.jpg'; ?>">
 				</div>
-				<div class="col-sm col-10-xs">
+				<div class="col-sm col-xs-10">
 					<p class="lead pl2 mb0">Hi, I'm Justin Chick and I’ve been a full-time freelancer for the past 5 years.</p> 
 				</div>
 			</div>
