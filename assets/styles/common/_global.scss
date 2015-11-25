@@ -16,6 +16,10 @@
 	background: $gray;
 }
 
+.bg-off-white{
+	background: $off-white;
+}
+
 img{
 	@include img-responsive;
 }
@@ -29,6 +33,9 @@ a{
 }
 .border-radius{
 	border-radius: $border-radius-base;
+}
+.border-radius-top-left{
+	border-top-left-radius: $border-radius-base;
 }
 
 .circle{

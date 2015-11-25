@@ -1,5 +1,12 @@
 footer{
 	a{
+		&.call{
+			color: $link-color;
+			&:hover{
+				color: $link-hover-color;
+				text-decoration: underline;
+			}
+		}
 		color: $gray;
 		&:hover{
 			text-decoration: none;

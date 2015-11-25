@@ -12,6 +12,7 @@
 					<li><a target="_blank" title="Justin Chick (jchck) on Medium" href="https://medium.com/@jchck"><i class="i-medium"></i></a></li>
 					<li><a target="_blank" title="Justin Chick (jchck_) on Instagram" href="https://instagram.com/jchck_"><i class="i-instagram"></i></a></li>
 				</ul>
+				<h5 class="mt3 mb0 text-center"><a class="call" href="<?= esc_url(home_url('call')); ?>">Schedule a call with me</a></h5>
 			</div>
 		</div>
 		
