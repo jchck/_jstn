@@ -37,7 +37,7 @@
 					<p class="mt4">During undergrad, I took an internship at a digital agency and I worked for that agency for about 6 months.</p>
 					<p>It was a fantastic experience and I'm grateful to have had it. I learned a tremendous amount while there including that working for someone else wasn't for me. My path went a different way.</p>
 					<p>I’ve been running my own business ever since.</p>
-					<p>With the help of friends I've launched a <a href="http://hereandnow.io/" target="_blank">podcast</a>, a <a href="<?= esc_url(home_url('work/our-collective')); ?>" target="_blank">second business</a>, and more side projects than I can remember. Right now I'm living as a digital nomad.</p>
+					<p>With the help of friends I've launched a <a href="http://livenowstl.com/" target="_blank">live streaming network</a> a <a href="http://hereandnow.io/" target="_blank">podcast</a>, a <a href="<?= esc_url(home_url('work/our-collective')); ?>" target="_blank">second business</a>, and more side projects than I can remember. Right now I'm living as a digital nomad.</p>
 					<p>That doesn’t include all the client sites and projects I’ve been a part of either. Every one of them a learning experience.</p>
 					<ol class="timeline">
 						<li>I learned to code because I needed to.</li>
