@@ -26,6 +26,7 @@ $sage_includes = [
   'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
   'lib/gallery.php',               // Alter output of [gallery] so pics will open via zoom.js
   'lib/ads.php',                   // Let's run some ads on this baybe!
+  'lib/12-launches.php',           // Functions for this section
 ];
 
 foreach ($sage_includes as $file) {
