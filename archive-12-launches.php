@@ -1,32 +1,17 @@
 <div class="container-fluid wrap-12-launches">
 	<h1 data-heading>12 Launches</h1>
-	<p class="mt4">Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
-	<div class="row center-sm">
-		<?php while (have_posts()) : the_post(); ?>
-			<article <?php post_class('col-md-3 col-sm-6 col-xs-12 pb3-md pl2-md pr2-md pb4 pl3 pr3 flex'); ?>>
-				<a href="<?php the_permalink(); ?>" class="post-card border-radius img-size p3 flex flex-center ie10-width100">
-					<div class="text-center center-block ie-max-width100">
-						<header class="ie10-width100">
-							<h2 class="mt0">01</h2>
-							<h3 class="h3 mb0 mt0"><?php the_title(); ?></h3>
-						</header>
-					</div>
-					<div class="post-img ie10-width100" style="background: url('<?php the_field('main_image'); ?>'); background-size: cover;"></div>
-				</a>
-			</article>
-		<?php endwhile; ?>
+	<p class="mt4 mb4">Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+	<div class="row">
 		<!-- Static -->
-		<article <?php post_class('col-md-3 col-sm-6 col-xs-12 pb3-md pl2-md pr2-md pb4 pl3 pr3 flex'); ?>>
-			<div class="post-card border-radius img-size p3 flex flex-center ie10-width100">
-				<div class="text-center center-block ie-max-width100">
-					<header class="ie10-width100">
-						<h2 class="mt0">02</h2>
-						<h3 class="h3 mb0 mt0">Upcomming</h3>
-					</header>
-				</div>
-				<div class="post-img ie10-width100" style="background: url('<?php the_field('main_image'); ?>'); background-size: cover;"></div>
+		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex'); ?>>
+			<div style="border: 1px solid green;">
+				<a href="#" class="flex middle-xs">
+					<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="pr2" width="190" height="190">
+					<div class="col-xs">
+						<p class="m0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</a>
 			</div>
 		</article>
-
 	</div>
 </div>
