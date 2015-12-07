@@ -18,7 +18,11 @@ use Roots\Sage\Wrapper;
     <?php
       get_template_part( 'templates/nav' );
       do_action('get_header');
-      get_template_part('templates/header');
+      if (is_post_type_archive( '12-launches' )) {
+        get_template_part( 'templates/header', '12launches' );
+      } else {
+        get_template_part('templates/header');
+      }
     ?>
     <div role="document">
       <div class="content">
