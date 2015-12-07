@@ -1,6 +1,6 @@
 <div class="container-fluid wrap-12-launches">
 	<h1 data-heading>12 Launches</h1>
-	<p>Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+	<p class="mt4">Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
 	<div class="row center-sm">
 		<?php while (have_posts()) : the_post(); ?>
 			<article <?php post_class('col-md-3 col-sm-6 col-xs-12 pb3-md pl2-md pr2-md pb4 pl3 pr3 flex'); ?>>
