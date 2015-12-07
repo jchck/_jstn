@@ -13,7 +13,8 @@
     "jchck-spacing": "~1.5.5",
     "modernizr": "2.8.2",
     "scotchPanels": "scotch-panels#~1.0.3",
-    "zoom.js": "~0.0.1"
+    "zoom.js": "~0.0.1",
+    "fitter-happier-text": "~0.0.1"
   },
   "overrides": {
     "modernizr": {
@@ -21,6 +22,9 @@
     },
     "scotchPanels": {
       "main": "./dist/scotchPanels.js"
+    },
+    "fitter-happier-text": {
+      "main": "./dist/fitter-happier-text.js"
     },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"

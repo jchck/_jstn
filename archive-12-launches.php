@@ -1,5 +1,5 @@
 <div class="container-fluid wrap-12-launches">
-	<h1 class="mt0 text-center h1-md">12 Launches</h1>
+	<h1 data-heading>12 Launches</h1>
 	<p>Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
 	<div class="row center-sm">
 		<?php while (have_posts()) : the_post(); ?>
