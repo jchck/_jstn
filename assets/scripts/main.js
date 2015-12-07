@@ -53,7 +53,7 @@
         var nodes = document.querySelectorAll('[data-heading]');
         fitterHappierText(nodes, {
           baseline: 8,
-          paddingY: -2,
+          paddingY: -1,
           paddingX: 0
         });
      
