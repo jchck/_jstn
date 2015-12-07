@@ -1,0 +1,23 @@
+/**
+ *
+ * Styles specific to 12 Launches
+ * 
+ * Beginning with styles for archive-12-launches.php (index)
+ *
+ */
+
+ .launch-card{
+ 	color: $text-color;
+
+ 	&:hover{
+ 		color: #fff;
+ 		background: $blue;
+ 		text-decoration: none;
+ 	}
+ }
+
+/**
+ *
+ * Add 12 Launches Single styles below
+ *
+ */
