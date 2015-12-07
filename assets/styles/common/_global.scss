@@ -8,8 +8,11 @@
 }
 
 .wrap{
-	box-sizing: border-box;
-	max-width: $container-desktop;
+	max-width: $container-md;
+}
+
+.wrap-12-launches{
+	max-width: $container-lg;
 }
 
 .bg-gray{
