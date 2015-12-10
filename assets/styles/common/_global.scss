@@ -28,7 +28,7 @@ img{
 }
 
 a{
-	@include ease-in-out(.5s);
+	@include ease-in-out(.3s);
 }
 
 .position-relative{
@@ -47,6 +47,10 @@ a{
 
 .border-top-gray{
 	border-top: 1px solid $gray;
+}
+
+.border-bottom-gray{
+	border-bottom: 2px solid $gray;
 }
 
 .border{

@@ -12,7 +12,7 @@
 
  .launch-card{
  	color: $text-color;
- 	@include ease-in-out(.5s);
+ 	@include ease-in-out(.3s);
 
  	&:hover,
  	&:focus{
