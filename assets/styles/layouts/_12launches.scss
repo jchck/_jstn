@@ -6,14 +6,24 @@
  *
  */
 
+ body.post-type-archive-12-launches{
+ 	//font-family: 'Roboto', sans-serif;
+ }
+
  .launch-card{
  	color: $text-color;
+ 	@include ease-in-out(.5s);
 
  	&:hover,
  	&:focus{
  		color: #fff;
+ 		fill: #fff;
  		background: $blue;
  		text-decoration: none;
+
+ 	}
+ 	svg{
+ 		height: 100px;
  	}
 
  	p{
