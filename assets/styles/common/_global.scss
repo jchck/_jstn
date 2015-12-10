@@ -8,8 +8,11 @@
 }
 
 .wrap{
-	box-sizing: border-box;
-	max-width: $container-desktop;
+	max-width: $container-md;
+}
+
+.wrap-12-launches{
+	max-width: $container-lg + 90px;
 }
 
 .bg-gray{
@@ -25,7 +28,7 @@ img{
 }
 
 a{
-	@include ease-in-out(.5s);
+	@include ease-in-out(.3s);
 }
 
 .position-relative{
@@ -43,7 +46,11 @@ a{
 }
 
 .border-top-gray{
-	border-top: 1px solid $gray;
+	border-top: 2px solid $gray;
+}
+
+.border-bottom-gray{
+	border-bottom: 2px solid $gray;
 }
 
 .border{

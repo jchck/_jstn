@@ -47,6 +47,15 @@
             }
           });
         });
+
+        //Fittier Happier Text
+        // @link http://jxnblk.com/fitter-happier-text/
+        var nodes = document.querySelectorAll('[data-heading]');
+        fitterHappierText(nodes, {
+          baseline: 8,
+          paddingY: -1,
+          paddingX: 0
+        });
      
       }
     },

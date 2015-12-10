@@ -1,0 +1,38 @@
+/**
+ *
+ * Styles specific to 12 Launches
+ * 
+ * Beginning with styles for archive-12-launches.php (index)
+ *
+ */
+
+ body.post-type-archive-12-launches{
+ 	//font-family: 'Roboto', sans-serif;
+ }
+
+ .launch-card{
+ 	color: $text-color;
+ 	@include ease-in-out(.3s);
+
+ 	&:hover,
+ 	&:focus{
+ 		color: #fff;
+ 		fill: #fff;
+ 		background: $blue;
+ 		text-decoration: none;
+
+ 	}
+ 	svg{
+ 		height: 100px;
+ 	}
+
+ 	p{
+ 		font-size: 18px;
+ 	}
+ }
+
+/**
+ *
+ * Add 12 Launches Single styles below
+ *
+ */
