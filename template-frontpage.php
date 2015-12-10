@@ -21,13 +21,13 @@
 
 	<div class="container-fluid wrap">
 
-		<div class="row middle-xs center-xs">
-			<div class="col-sm-6 col-xs-12">
-				<h1 class="lead m0">Hi, I'm Justin Chick. I'm a designer, developer, digital nomad, and comic book reader.</h1>
+		<div class="row middle-xs center-xs between-sm">
+			<div class="col-sm-5 col-xs-12">
+				<h1 class="lead m0">Hi, I'm Justin Chick.<br />Designer, front-end developer, and digital nomad.</h1>
 				<h2 class="lead mb2-sm mb3-md mt0"><a class="highlight" title="Hire freelance web designer Justin Chick" href="<?= esc_url(home_url('hire-justin')); ?>">You can hire me.</a></h2>
 				<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
 			</div>
-			<div class="col-sm-6 col-xs-10 first-xs last-sm last-md last-lg">
+			<div class="col-sm-5 col-xs-10 first-xs last-sm last-md last-lg">
 				<img src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
 			</div>
 		</div>
@@ -48,9 +48,13 @@
 			<?php endwhile; endif; wp_reset_postdata(); ?>
 		</div>
 
+	</div>
+
+	<div class="container-fluid wrap">
+
 		
 		<div class="row center-xs mt4">
-			<div class="col-sm-10 col-xs-12">
+			<div class="col-sm-11 col-xs-12">
 				<p>Yes, the web should be easy to use for <em>everyone</em>.</p>
 				<p>It's people of all walks of life who use the web every day, and I keep this at the forefront of every decision I make. How will this feature/design/experience affect the people who'll be using this site? Who are those people and what do we know about them?</p>
 				<p>My work is driven by collaboration, an inquisitive nature, and some good ol’ fashioned elbow grease. With these three pillars (and over five years full-time freelance experience), I'm able to create thoughtful, holistic design solutions that get out of the way to allow people to accomplish what they need to.</p>

@@ -7,11 +7,12 @@
 	background: $brand-primary;
 }
 
-.wrap{
+.wrap-sm{
 	max-width: $container-md;
 }
 
-.wrap-12-launches{
+.wrap-12-launches,
+.wrap{
 	max-width: $container-lg + 90px;
 }
 

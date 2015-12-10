@@ -21,7 +21,7 @@ use Roots\Sage\Wrapper;
       if (is_post_type_archive( '12-launches' )) {
         get_template_part( 'templates/header', '12launches' );
       } else {
-        get_template_part('templates/header');
+        get_template_part('templates/header', '12launches');
       }
     ?>
     <div role="document">
