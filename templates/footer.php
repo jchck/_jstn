@@ -1,5 +1,5 @@
 <footer class="content-info" role="contentinfo">
-	<div class="container-fluid wrap pt4 pb4 mt4 mb4 border-top-gray">
+	<div class="container-fluid wrap-12-launches pt4 pb4 mt4 mb4 border-top-gray">
 		<?php if (is_singular('post'))  { ?>
 				<?php get_template_part( 'templates/footer', 'ad' ); ?>
 		<? } ?>
@@ -12,7 +12,7 @@
 					<li><a target="_blank" title="Justin Chick (jchck) on Medium" href="https://medium.com/@jchck"><i class="i-medium"></i></a></li>
 					<li><a target="_blank" title="Justin Chick (jchck_) on Instagram" href="https://instagram.com/jchck_"><i class="i-instagram"></i></a></li>
 				</ul>
-				<h5 class="mt3 mb0 text-center"><a class="call" href="<?= esc_url(home_url('call')); ?>">Schedule a call with me</a></h5>
+				<h5 class="mt3 mb0 text-center"><a class="btn btn-blue" href="<?= esc_url(home_url('call')); ?>">Schedule a call with me</a></h5>
 			</div>
 		</div>
 		
