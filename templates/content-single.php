@@ -2,7 +2,7 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header class="text-center">
-      <h1 class="m0 h1-md"><?php the_title(); ?></h1>
+      <h1 data-heading><?php the_title(); ?></h1>
       
         <div class="pt3-md pb3-md pt4 pb4 img-holder center-block">
           <div class="position-relative post-card circle img-size flex flex-center">

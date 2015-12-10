@@ -32,9 +32,28 @@
 			</div>
 		</div>
 
-		<div class="row center-xs mt4 mb4">
-			<div class="col-xs-12">
-				<h2 class="m0 text-center">Projects I've Been A Part Of</h2>
+		<div class="row middle-xs border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
+			<div class="col-sm-6 p0">
+				<a href="#" class="launch-card middle-xs p2 flex">
+					<?php get_template_part( 'templates/imac' ); ?>
+					<div class="col-xs">
+						<div class="card-text">
+							<h2 data-heading>Work Portfolio</h2>
+							<p class="m0">Selected collection of client projects</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-6 p0">
+				<a href="#" class="launch-card middle-xs p2 flex">
+					<?php get_template_part( 'templates/launches', 'launching' ); ?>
+					<div class="col-xs">
+						<div class="card-text">
+							<h2 data-heading>12 Launches</h2>
+							<p class="m0">1 project per month for 2016</p>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="row center-xs">

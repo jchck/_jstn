@@ -96,6 +96,22 @@ a{
 	}
 }
 
+.highlight-svg{
+	svg{
+		background: $blue;
+		color: #fff;
+		fill: #fff;
+
+		&:hover,
+		&:focus{
+			text-decoration: none;
+			background: transparent;
+			color: $blue;
+			fill: $blue;
+		}
+	}
+}
+
 article,
 footer{
 	margin: 0 auto;
