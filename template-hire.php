@@ -7,10 +7,12 @@ use Roots\Sage\Date;
 
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap">
-		<h1 class="mt0 text-center h1-md">It all starts with a conversation</h1>
+		<h1 data-heading>It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
-		<p class="mt3">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
-		<h3 class="text-center h3-md">There are three ways we can work together</h3>
+		<p class="mt3 mb0">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
+		<div class="mt4 mb4">
+			<h3 data-heading>There are three ways we can work together</h3>
+		</div>
 		<div class="row">
 			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
 				<a href="#lets-go" class="p3 work-box hire-cta flex flex-center border">
@@ -40,8 +42,10 @@ use Roots\Sage\Date;
 				</a>
 			</div>
 		</div>
-		<h3 class="text-center h3-md" style="margin-bottom:0.5rem;">How things run until your project kicks off</h3>
-		<p class="text-center" style="margin-bottom:3rem;">And I bet we can get these first few taken care of today</p>
+		<div class="mt4 mb4">
+			<h3 data-heading>How things run until your project kicks off</h3>
+			<p class="text-center m0">And I bet we can get these first few taken care of today</p>
+		</div>
 
 		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
 		<div id="lets-go" class="hire-form">
