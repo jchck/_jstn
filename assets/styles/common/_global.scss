@@ -114,11 +114,11 @@ a{
 
 article,
 footer{
-	margin: 0 auto;
-	@media(min-width: $screen-xs){
-		width: 90%;
-	}
-	@media(min-width: $screen-sm){
-		width: 85%;
-	}
+	// margin: 0 auto;
+	// @media(min-width: $screen-xs){
+	// 	width: 90%;
+	// }
+	// @media(min-width: $screen-sm){
+	// 	width: 85%;
+	// }
 }

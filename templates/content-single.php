@@ -1,6 +1,7 @@
 <?php use Roots\Sage\Category; ?>
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+  <div class="row center-xs">
+  <article <?php post_class('col-sm-10 col-xs-12'); ?>>
     <header class="text-center">
       <h1 data-heading><?php the_title(); ?></h1>
       
@@ -25,4 +26,5 @@
     </footer>
     
   </article>
+</div>
 <?php endwhile; ?>
