@@ -1,7 +1,7 @@
-<?php if (!is_page()) {
-	$wrap = 'wrap-sm';
-} else {
+<?php if (is_front_page() || is_page() || is_category() || is_post_type_archive( 'work' ) ) {
 	$wrap = 'wrap';
+} else {
+	$wrap = 'wrap-sm';
 }
 ?>
 
