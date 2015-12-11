@@ -6,12 +6,9 @@
  *
  */
 
- body.post-type-archive-12-launches{
- 	//font-family: 'Roboto', sans-serif;
- }
-
  .launch-card{
  	color: $text-color;
+ 	min-width: 100%;
  	@include ease-in-out(.3s);
 
  	&:hover,
@@ -29,6 +26,10 @@
  	p{
  		font-size: 18px;
  	}
+ }
+
+ .card-text{
+ 	width: 100%;
  }
 
 /**

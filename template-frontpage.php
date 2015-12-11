@@ -34,7 +34,7 @@
 
 		<div class="row middle-xs border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 			<div class="col-sm-6 p0">
-				<a href="#" class="launch-card middle-xs p2 flex">
+				<a href="<?= esc_url(home_url('work')); ?>" class="launch-card middle-xs p2 flex">
 					<?php get_template_part( 'templates/imac' ); ?>
 					<div class="col-xs">
 						<div class="card-text">
