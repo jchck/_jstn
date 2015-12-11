@@ -1,26 +1,10 @@
-<div class="container-fluid wrap">
-	<?php while (have_posts()) : the_post();
-
-		$field = get_field_object('device_on_left_or_right');
-		$value = get_field('device_on_left_or_right');
-		$label = $field['choices'][$value];
-	?>
+<div class="container-fluid wrap-sm">
+	<?php while (have_posts()) : the_post(); ?>
 		<?php get_template_part('templates/page', 'header'); ?>
+		<?php get_template_part('templates/content', 'page'); ?>
 		<?php if( get_field( "project_url" ) ): ?>
 			<p class="mb3 text-center"><a target="_blank" href="<?php the_field('project_url'); ?>" class="btn btn-blue">View Project</a></p>
 		<?php endif; ?>
-		<div class="row middle-sm">
-			<div class="col-sm-6 col-xs-12 pr3">
-				<?php get_template_part('templates/content', 'page'); ?>
-			</div>
-			<div class="col-sm-6 <?php echo $label; ?> col-xs-12 first-xs pl3">
-				<div>
-					<div class="ipad">
-						<?php get_template_part( 'templates/ipad' ); ?>
-						<div class="ipad-screen" style="background: url('<?php the_field('ipad_screen'); ?>') center center; background-size: cover"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 	<?php endwhile; ?>
 </div>

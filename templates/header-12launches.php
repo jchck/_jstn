@@ -1,4 +1,11 @@
-<header class="banner canvas container-fluid wrap-12-launches" role="banner">
+<?php if (!is_singular()) {
+	$wrap = 'wrap-sm';
+} else {
+	$wrap = 'wrap';
+}  return $wrap;
+?>
+
+<header class="banner canvas container-fluid <?php echo $wrap; ?>" role="banner">
   <div class="row pt4 pb4">
   	<div class="col-xs">
 		<a class="logo" href="<?= esc_url(home_url('/ck')); ?>"><?php get_template_part( 'templates/logo', 'sm' ); ?></a>
