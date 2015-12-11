@@ -11,12 +11,12 @@
 }
 
 .btn-blue{
-	@include btn-color(#fff, $blue, $gray);
+	@include btn-color(#fff, $blue, transparent);
 
 	&:hover,
 	&:focus{
-		background-color: lighten($blue, 8%);
-		color: darken(#fff, 12%);
+		background-color: lighten($blue, 9%);
+		color: #fff;
 	}
 }
 
