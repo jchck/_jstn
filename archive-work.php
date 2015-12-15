@@ -24,10 +24,14 @@
 
 		<article <?php post_class('col-md-7 col-sm-6 col-xs-12 flex p0'); ?>>
 			<a href="<?php the_permalink(); ?>" class="launch-card flex middle-xs p3">
-				<?php get_template_part( 'templates/launches', 'jframe' ); ?>
+				<?php if (get_field('project_svg_logo')) {
+					the_field('project_svg_logo');
+				} else {
+					get_template_part( 'templates/launches', 'jframe' );
+				} ?>
 				<div class="card-text ml2 mr2">
 					<h3 data-heading><?php the_title(); ?></h3>
-					<p class="m0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="m0"><?php the_field('project_summary') ?></p>
 				</div>
 			</a>
 		</article>
