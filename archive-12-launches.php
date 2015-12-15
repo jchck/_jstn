@@ -22,7 +22,7 @@
 	<div class="row">
 		<!-- Static Row 1 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="<?= esc_url(home_url('hire-justin')); ?>" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/test')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'jframe' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">

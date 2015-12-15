@@ -1,13 +1,16 @@
 .project-svg{
 	padding: 2rem;
+	text-align: center;
 	p{
-		text-align: center;
 		margin: 0;
 	}
 	svg{
 		@include ease-in-out(.3s);
+		max-width: 70px;
+		max-height: 70px;
 	}
-	&:hover{
+	&:hover,
+	&:focus{
 		text-decoration: none;
 		color: #fff;
 		background: $blue;
