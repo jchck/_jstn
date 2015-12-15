@@ -77,7 +77,10 @@
 
 @media (min-width: $screen-sm){
 	.img-size{
-		min-height: 290px;
+		min-height: 208px;
+		h2{
+			font-size: $font-size-h6;
+		}
 	}
 	.img-holder{
 		width: 300px;
