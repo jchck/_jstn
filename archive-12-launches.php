@@ -34,7 +34,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -46,7 +46,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -59,7 +59,7 @@
 
 		<!-- Static Row 2 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -71,7 +71,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -83,7 +83,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -96,7 +96,7 @@
 
 		<!-- Static Row 3 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -108,7 +108,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -120,7 +120,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -133,7 +133,7 @@
 
 		<!-- Static Row 4 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -145,7 +145,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
@@ -157,7 +157,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="#" class="launch-card flex middle-xs p2">
+			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="launch-card flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text ml2 mr2">
