@@ -17,20 +17,13 @@
 		svg{
 			fill: #fff;
 			#D{
+				/* This is for Dashtaki Logo */
 				fill: $blue;
 			}
 		}
 	}
 }
 
-/**
- *
- * Dashtaki Logo
- *
- */
 #D{
-	fill: #fff;
-	// &:hover{
-	// 	fill: $blue;
-	// }
+	@include ease-in-out(.3s);
 }
