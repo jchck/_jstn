@@ -16,6 +16,9 @@
 		background: $blue;
 		svg{
 			fill: #fff;
+			#D{
+				fill: $blue;
+			}
 		}
 	}
 }
@@ -27,7 +30,7 @@
  */
 #D{
 	fill: #fff;
-	&:hover{
-		fill: $blue;
-	}
+	// &:hover{
+	// 	fill: $blue;
+	// }
 }
