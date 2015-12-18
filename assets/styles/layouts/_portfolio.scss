@@ -25,5 +25,11 @@
 }
 
 #D{
+	/* This is for Dashtaki Logo */
 	@include ease-in-out(.3s);
+}
+.launch-card:hover{
+	#D{
+		fill: $blue;
+	}
 }
