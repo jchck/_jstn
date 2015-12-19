@@ -5,7 +5,7 @@
 		margin: 0;
 	}
 	svg{
-		@include ease-in-out(.3s);
+		
 		max-width: 70px;
 		max-height: 70px;
 	}
@@ -31,5 +31,22 @@
 .launch-card:hover{
 	#D{
 		fill: $blue;
+	}
+}
+
+.svg-color{
+	@include ease-in-out(.3s);
+	svg{
+		path{
+			@include ease-in-out(.3s);
+		}
+	}
+	&:hover,
+	&:focus{
+		svg{
+			path{
+				fill: #fff;
+			}
+		}
 	}
 }
