@@ -20,23 +20,14 @@
 	}
 }
 
+/**
+ *
+ * The .color-box class is used on both the work & 12 launches archives
+ * 
+ * To provide us with the color and hover effects of the blue boxes
+ *
+ */
 
-.svg-color{
-	//@include ease-in-out(.3s);
-	// svg{
-	// 	path{
-	// 		@include ease-in-out(.3s);
-	// 	}
-	// }
-	// &:hover,
-	// &:focus{
-	// 	svg{
-	// 		path{
-	// 			fill: #fff;
-	// 		}
-	// 	}
-	// }
-}
 
 .color-box{
 	color: $text-color;
