@@ -1,3 +1,9 @@
+/**
+ *
+ * .project-svg class is used on work-single.php
+ *
+ */
+
 .project-svg{
 	padding: 2rem;
 	text-align: center;
@@ -8,9 +14,9 @@
 		
 		max-width: 70px;
 		max-height: 70px;
+		@include ease-in-out(.3s);
 	}
-	&:hover,
-	&:focus{
+	&:hover{
 		text-decoration: none;
 		color: #fff;
 		background: $blue;
