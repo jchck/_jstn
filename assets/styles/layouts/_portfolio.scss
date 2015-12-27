@@ -16,23 +16,10 @@
 		background: $blue;
 		svg{
 			fill: #fff;
-			#D{
-				/* This is for Dashtaki Logo */
-				fill: $blue;
-			}
 		}
 	}
 }
 
-#D{
-	/* This is for Dashtaki Logo */
-	@include ease-in-out(.3s);
-}
-.launch-card:hover{
-	#D{
-		fill: $blue;
-	}
-}
 
 .svg-color{
 	@include ease-in-out(.3s);
