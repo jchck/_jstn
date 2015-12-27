@@ -19,3 +19,23 @@
 		}
 	}
 }
+
+/**
+ *
+ * The following is only used for the D in Dashtaki's logo
+ * Natural, :hover & :focus states
+ *
+ */
+
+#D{
+	fill: #fff;
+	
+}
+.color-box{
+	&:hover,
+	&:focus{
+		#D{
+			fill: $blue;
+		}
+	}
+}
