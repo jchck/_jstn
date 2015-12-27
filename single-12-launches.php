@@ -3,7 +3,7 @@
 		<?php get_template_part('templates/page', 'header'); ?>
 		<div class="row center-xs">
 			<?php if( get_field( "project_url" ) ): ?>
-				<a class="project-svg" href="<?php the_field('project_url'); ?>">
+				<a class="color-box color-targeting text-center p3" style="min-width:0" href="<?php the_field('project_url'); ?>">
 					<?php if (get_field('project_svg_logo')) {
 						the_field('project_svg_logo');
 					} else {
