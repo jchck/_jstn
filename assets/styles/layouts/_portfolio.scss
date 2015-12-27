@@ -1,33 +1,5 @@
 /**
  *
- * .project-svg class is used on work-single.php
- *
- */
-
-.project-svg{
-	padding: 2rem;
-	text-align: center;
-	p{
-		margin: 0;
-	}
-	svg{
-		
-		max-width: 70px;
-		max-height: 70px;
-		@include ease-in-out(.3s);
-	}
-	&:hover{
-		text-decoration: none;
-		color: #fff;
-		background: $blue;
-		svg{
-			fill: #fff;
-		}
-	}
-}
-
-/**
- *
  * The following are only used only for specific client logos
  # D for Dashtaki
  # C for Chapel
@@ -38,9 +10,15 @@
 #D,
 #C{
 	fill: #fff;
+	@include ease-in-out(.3s);
 	
 }
-.color-box{
+#C_feather{
+	stroke: #fff;
+	stroke-width: 5px;
+	@include ease-in-out(.3s);
+}
+.color-targeting{
 	&:hover{
 		#D,
 		#C{
@@ -50,9 +28,4 @@
 			stroke: $blue;
 		}
 	}
-}
-
-#C_feather{
-	stroke: #fff;
-	stroke-width: 5px;
 }

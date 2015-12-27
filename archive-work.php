@@ -23,7 +23,7 @@
 		<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
 
 		<article <?php post_class('col-md-7 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="<?php the_permalink(); ?>" class="color-box flex middle-xs p3">
+			<a href="<?php the_permalink(); ?>" class="color-box color-targeting flex middle-xs p3">
 				<?php if (get_field('project_svg_logo')) {
 					the_field('project_svg_logo');
 				} else {
