@@ -22,20 +22,31 @@
 
 /**
  *
- * The following is only used for the D in Dashtaki's logo
- * Natural, :hover & :focus states
+ * The following are only used only for specific client logos
+ # D for Dashtaki
+ # C for Chapel
+ * Natural & :hover states
  *
  */
 
-#D{
+#D,
+#C{
 	fill: #fff;
 	
 }
 .color-box{
-	&:hover,
-	&:focus{
-		#D{
+	&:hover{
+		#D,
+		#C{
 			fill: $blue;
 		}
+		#C_feather{
+			stroke: $blue;
+		}
 	}
+}
+
+#C_feather{
+	stroke: #fff;
+	stroke-width: 5px;
 }
