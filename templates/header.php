@@ -1,4 +1,4 @@
-<?php if (is_front_page() || is_page() || is_category() || is_post_type_archive( 'work' ) || is_post_type_archive( '12-launches' ) ) {
+<?php if (is_front_page() || is_page() || is_category() || is_post_type_archive( 'work' ) || is_post_type_archive( '12-launches' ) || is_404() ) {
 	$wrap = 'wrap';
 } else {
 	$wrap = 'wrap-sm';
