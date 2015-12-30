@@ -25,7 +25,7 @@
 			<a href="<?= esc_url(home_url('12-launches/test')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'jframe' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>jFrame</h3>
 						<p class="m0">A CSS Styleguide</p>
 					</div>
@@ -37,7 +37,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching Febuary</p>
 					</div>
@@ -49,7 +49,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching March</p>
 					</div>
@@ -62,7 +62,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching April</p>
 					</div>
@@ -74,7 +74,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching May</p>
 					</div>
@@ -86,7 +86,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching June</p>
 					</div>
@@ -99,7 +99,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching July</p>
 					</div>
@@ -111,7 +111,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching August</p>
 					</div>
@@ -123,7 +123,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching September</p>
 					</div>
@@ -136,7 +136,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching October</p>
 					</div>
@@ -148,7 +148,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching November</p>
 					</div>
@@ -160,7 +160,7 @@
 			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
-					<div class="card-text ml2 mr2">
+					<div class="width-100 ml2 mr2">
 						<h3 data-heading>Coming Soon</h3>
 						<p class="m0">Launching December</p>
 					</div>

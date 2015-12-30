@@ -4,7 +4,7 @@
 
 <div class="row middle-sm center-xs">
 	<div class="col-sm-6 col-xs-9">
-		<img class="center-block mr2-sm kid-confused" src="<?php echo get_template_directory_uri() . '/dist/images/kid-confused.gif'; ?>">
+		<img class="center-block mr2-sm width-100" src="<?php echo get_template_directory_uri() . '/dist/images/kid-confused.gif'; ?>">
 	</div>
 	<div class="col-sm-6 col-xs-9">
 		<p class="ml2-sm">Are you as confused as this kid right now?</p>
