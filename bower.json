@@ -11,15 +11,11 @@
     "flexboxgrid": "sass",
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
-    "modernizr": "2.8.2",
     "scotchPanels": "scotch-panels#~1.0.3",
     "zoom.js": "~0.0.1",
     "fitter-happier-text": "~0.0.1"
   },
   "overrides": {
-    "modernizr": {
-      "main": "./modernizr.js"
-    },
     "scotchPanels": {
       "main": "./dist/scotchPanels.js"
     },

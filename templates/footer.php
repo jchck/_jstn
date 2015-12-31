@@ -1,4 +1,4 @@
-<footer class="content-info" role="contentinfo">
+<footer class="content-info">
 	<div class="container-fluid wrap pt4 pb4 mt4 mb4">
 		<?php if ( !is_page( array('Hire Justin', 'Follow Along', 'Hire Justin Step 2', 'Planner') ) ) { ?>
 			<div class="row middle-xs border-top-gray border-bottom-gray" style="height: 33.3vh">

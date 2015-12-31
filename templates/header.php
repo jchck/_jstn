@@ -5,7 +5,7 @@
 }
 ?>
 
-<header class="banner canvas container-fluid <?php echo $wrap; ?>" role="banner">
+<header class="banner canvas container-fluid <?php echo $wrap; ?>">
   <div class="row pt4 pb4">
   	<div class="col-xs">
 		<a class="logo" href="<?= esc_url(home_url('/ck')); ?>"><?php get_template_part( 'templates/logo', 'sm' ); ?></a>

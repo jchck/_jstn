@@ -211,7 +211,28 @@ footer,
   }
 }
 
+/**
+ *
+ * Styling search form
+ * @link https://github.com/roots/sage/pull/1545/files
+ *
+ */
+ 
+.search-form{
+  @extend .form-inline;
 
-.search-submit{
-  @include ease-in-out(.5s);
+  label{
+    font-weight: normal;
+    @extend .form-group;
+  }
+
+  .search-field{
+    @extend .form-control;
+  }
+
+  .search-submit{
+    @extend .btn;
+    @extend .btn-blue;
+    @include ease-in-out(.5s);
+  }
 }
