@@ -94,7 +94,8 @@ function display_sidebar() {
     is_404(),
     is_front_page(),
     is_single(),
-    is_page_template('template-hire.php'),
+    is_page(),
+    is_archive(),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
