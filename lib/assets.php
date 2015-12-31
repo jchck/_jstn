@@ -9,8 +9,8 @@ namespace Roots\Sage\Assets;
  * 1. /theme/dist/styles/main.css
  *
  * Enqueue scripts in the following order:
- * 1. /theme/dist/scripts/modernizr.js
- * 2. /theme/dist/scripts/main.js
+ * 1. /theme/dist/scripts/main.js
+ * 2. //maps.google.com/maps/api/js
  */
 
 class JsonManifest {
@@ -67,8 +67,6 @@ function asset_path($filename) {
 
 function assets() {
   wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
-
-  wp_enqueue_script('modernizr', asset_path('scripts/modernizr.js'), [], null, true);
 
   wp_enqueue_script('sage_js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
