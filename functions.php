@@ -10,7 +10,6 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
-  'lib/utils.php',                 // Utility functions
   'lib/wrapper.php',               // Theme wrapper class
   'lib/setup.php',                 // Theme setup (previously config.php)
   'lib/assets.php',                // Scripts and stylesheets
