@@ -22,7 +22,7 @@ use Roots\Sage\Wrapper;
     ?>
     <div role="document">
       <div class="content">
-        <main class="main" role="main">
+        <main class="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if (Config\display_sidebar()) : ?>
