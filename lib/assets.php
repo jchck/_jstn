@@ -66,9 +66,9 @@ function asset_path($filename) {
 }
 
 function assets() {
-  wp_enqueue_style('sage_css', asset_path('styles/main.css'), false, null);
+  wp_enqueue_style('sage/css', asset_path('styles/main.css'), false, null);
 
-  wp_enqueue_script('sage_js', asset_path('scripts/main.js'), ['jquery'], null, true);
+  wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
   wp_enqueue_script( 'gmap', '//maps.google.com/maps/api/js', [], null, true );
 }
