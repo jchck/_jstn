@@ -7,9 +7,6 @@
 				</div>
 			</div>
 		<? } ?>
-		<?php if (is_singular('post'))  { ?>
-				<?php get_template_part( 'templates/footer', 'ad' ); ?>
-		<? } ?>
 		<div class="row mt4">
 			<div class="col-xs-12">
 				<p class="mb0 small text-center"><a href="<?= esc_url(home_url('colophon')); ?>">Colophon</a></p>
