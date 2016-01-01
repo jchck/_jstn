@@ -29,7 +29,7 @@
 				} else {
 					get_template_part( 'templates/launches', 'jframe' );
 				} ?>
-				<div class="card-text ml2 mr2">
+				<div class="width-100 ml2 mr2">
 					<h3 data-heading><?php the_title(); ?></h3>
 					<p class="m0"><?php the_field('project_summary') ?></p>
 				</div>
