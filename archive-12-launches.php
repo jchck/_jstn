@@ -18,7 +18,7 @@
 
 <div class="container-fluid wrap">
 	<h1 data-heading>12 Launches</h1>
-	<p class="mt4 mb4 pb4 border-bottom-gray">Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar.</p>
+	<p class="mt4 mb4 pb4 border-bottom-gray">1 project launch per month for an entire year.</p>
 	<div class="row">
 		<!-- Static Row 1 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
