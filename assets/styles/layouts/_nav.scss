@@ -161,16 +161,18 @@ nav.scotch-panel-right{
  */
 
 .posts-navigation{
-	background: $body-bg;
 	.nav-previous,
 	.nav-next{
 		@include clearfix;
 		a{
+			@include btn-color(#fff, $blue, transparent);
+
 			display: inline-block;
-			font-size: $btn-font-size-base * .55;
+			font-size: 75%;
 			font-weight: $btn-font-weight;
 			line-height: $line-height-base;
 			text-align: center;
+			text-transform: capitalize;
 			vertical-align: middle;
 			cursor: pointer;
 			text-decoration: none;
@@ -180,22 +182,20 @@ nav.scotch-panel-right{
 			margin: 0;
 			white-space: nowrap;
 
-			@include btn-color(#fff, $blue, $gray);
-
 			&:hover,
 			&:focus{
-				background-color: lighten($blue, 8%);
-				color: darken(#fff, 12%);
+				background-color: lighten($blue, 9%);
+				color: #fff;
 			}
 
-	&:focus{
-		outline: none;
-	}
+			&:hover,
+			&:active{
+				text-decoration: none;
+			}
 
-	&:hover,
-	&:active{
-		text-decoration: none;
-	}
+			&:focus{
+				outline: none;
+			}
 		}
 	}
 	.nav-previous{
