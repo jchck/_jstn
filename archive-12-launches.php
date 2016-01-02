@@ -1,21 +1,3 @@
-<?php
-    $args = array(
-		//Type & Status Parameters
-		'post_type'   => '12-launches',
-		'post_status' => 'publish',
-		
-		//Order & Orderby Parameters
-		'order'               => 'DESC',
-		'orderby'             => 'date',
-		
-		//Pagination Parameters
-		'posts_per_page'         => 12
-			
-		);
-
-    $query = new WP_Query( $args );
-?>
-
 <div class="container-fluid wrap">
 	<h1 data-heading>12 Launches</h1>
 	<p class="mt4 mb4 pb4 border-bottom-gray">1 project launch per month for an entire year.</p>
