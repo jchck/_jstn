@@ -1,0 +1,47 @@
+/**
+ *
+ * The .color-box class is used in the following templates:
+ * 
+ * 	+ archive-12-launches.php
+ * 	+ archive-work.php
+ * 	+ single-12-launches.php
+ *  + single-work.php
+ * 	+ template-frontpage.php
+ * 	+ front-page.php
+ * 
+ * To provide us with the color and hover effects of the blue boxes
+ *
+ */
+
+
+.color-box{
+	color: $text-color;
+	min-width: 100%;
+	@include ease-in-out(.3s);
+
+	svg{
+		height: 100px;
+
+		path{
+			fill: $text-color;
+			@include ease-in-out(.3s);
+		}
+	}
+
+	p{
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+
+	&:hover,
+ 	&:focus{
+ 		color: #fff;
+ 		fill: #fff;
+ 		background: $blue;
+ 		text-decoration: none;
+
+ 		svg path{
+ 			fill: #fff;
+ 		}
+ 	}
+}

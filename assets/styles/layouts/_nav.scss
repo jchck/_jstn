@@ -47,17 +47,28 @@ nav.scotch-panel-right{
 	right: -$screen-sm-nav-width
 }
 
+/**
+ *
+ * End Scotch Styles
+ *
+ */
+
+
+.menu-home a:before,
+.menu-work-portfolio a:before,
+.menu-12-launches a:before,
+.menu-notebook a:before,
 .menu-front-end-development a:before,
 .menu-digital-nomad a:before,
 .menu-music a:before,
-.menu-photography a:before,
-.menu-notebook a:before,
-.menu-home a:before{
+.menu-photography a:before{
 	margin-right: 1rem;
 }
 
 .menu-home,
-.menu-notebook{
+.menu-notebook,
+.menu-work-portfolio,
+.menu-12-launches{
 	a:after{
 		display: inline-block;
 		color: transparent;
@@ -71,7 +82,9 @@ nav.scotch-panel-right{
 }
 @media (max-width: $screen-sm){
 	.menu-home,
-	.menu-notebook{
+	.menu-notebook,
+	.menu-work-portfolio,
+	.menu-12-launches{
 		a:after{
 			display: none;
 		}
@@ -91,6 +104,14 @@ nav.scotch-panel-right{
 
 .menu-home a:after{
 	content: '(the beginning)';
+}
+
+.menu-work-portfolio a:after{
+	content: '(client projects)';
+}
+
+.menu-12-launches a:after{
+	content: '(1 project per month)';
 }
 
 .menu-notebook{

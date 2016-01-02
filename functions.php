@@ -10,11 +10,8 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
-  'lib/utils.php',                 // Utility functions
-  'lib/init.php',                  // Initial theme setup and constants
   'lib/wrapper.php',               // Theme wrapper class
-  'lib/conditional-tag-check.php', // ConditionalTagCheck class
-  'lib/config.php',                // Configuration
+  'lib/setup.php',                 // Theme setup (previously config.php)
   'lib/assets.php',                // Scripts and stylesheets
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
@@ -25,7 +22,7 @@ $sage_includes = [
   'lib/date.php',                  // A future project start date function
   'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
   'lib/gallery.php',               // Alter output of [gallery] so pics will open via zoom.js
-  'lib/ads.php',                   // Let's run some ads on this baybe!
+  'lib/12-launches.php',           // Functions for this section
 ];
 
 foreach ($sage_includes as $file) {

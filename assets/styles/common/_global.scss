@@ -4,12 +4,17 @@
 
 ::selection{
 	color: $body-bg;
+	fill: $body-bg;
 	background: $brand-primary;
 }
 
+.wrap-sm{
+	max-width: $container-md;
+}
+
+.wrap-12-launches,
 .wrap{
-	box-sizing: border-box;
-	max-width: $container-desktop;
+	max-width: $container-lg + 90px;
 }
 
 .bg-gray{
@@ -25,7 +30,7 @@ img{
 }
 
 a{
-	@include ease-in-out(.5s);
+	@include ease-in-out(.3s);
 }
 
 .position-relative{
@@ -42,8 +47,16 @@ a{
 	border-radius: 50%;
 }
 
+.width-100{
+	width: 100%;
+}
+
 .border-top-gray{
-	border-top: 1px solid $gray;
+	border-top: 4px solid $gray;
+}
+
+.border-bottom-gray{
+	border-bottom: 4px solid $gray;
 }
 
 .border{
@@ -65,7 +78,7 @@ a{
 		font-size: 2.5rem;
 	}
 	@media (min-width: $screen-md) {
-		font-size: 3rem;
+		font-size: 3.5rem;
 	}
 }
 
@@ -78,7 +91,7 @@ a{
 	color: #fff;
 	padding-left: 5px;
 	padding-right: 5px;
-	border: 1px solid;
+	//border: 1px solid;
 
 	&:hover,
 	&:focus{
@@ -88,13 +101,18 @@ a{
 	}
 }
 
-article,
-footer{
-	margin: 0 auto;
-	@media(min-width: $screen-xs){
-		width: 90%;
-	}
-	@media(min-width: $screen-sm){
-		width: 85%;
+.highlight-svg{
+	svg{
+		background: $blue;
+		color: #fff;
+		fill: #fff;
+
+		&:hover,
+		&:focus{
+			text-decoration: none;
+			background: transparent;
+			color: $blue;
+			fill: $blue;
+		}
 	}
 }

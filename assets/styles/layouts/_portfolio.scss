@@ -1,0 +1,30 @@
+/**
+ *
+ * The following are only used only for specific client logos
+ # D for Dashtaki
+ # C for Chapel
+ * Natural & :hover states
+ *
+ */
+
+#D,
+#C{
+	fill: #fff;
+	@include ease-in-out(.3s);	
+}
+#C_feather{
+	stroke: #fff;
+	stroke-width: 5px;
+	@include ease-in-out(.3s);
+}
+.color-targeting{
+	&:hover{
+		#D,
+		#C{
+			fill: $blue;
+		}
+		#C_feather{
+			stroke: $blue;
+		}
+	}
+}

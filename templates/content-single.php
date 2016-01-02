@@ -1,8 +1,9 @@
 <?php use Roots\Sage\Category; ?>
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+  <div class="row center-xs">
+  <article <?php post_class('col-sm-10 col-xs-12'); ?>>
     <header class="text-center">
-      <h1 class="m0 h1-md"><?php the_title(); ?></h1>
+      <h1 data-heading><?php the_title(); ?></h1>
       
         <div class="pt3-md pb3-md pt4 pb4 img-holder center-block">
           <div class="position-relative post-card circle img-size flex flex-center">
@@ -14,7 +15,7 @@
           </div>
         </div>
     </header>
-    <div class="entry-content">
+    <div class="the-content">
       <?php
         get_template_part( 'templates/video' );
         the_content();
@@ -25,4 +26,5 @@
     </footer>
     
   </article>
+</div>
 <?php endwhile; ?>

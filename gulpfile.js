@@ -19,7 +19,6 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
-var uncss        = require('gulp-uncss');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -101,9 +100,6 @@ var cssTasks = function(filename) {
     .pipe(autoprefixer, {
       browsers: [
         'last 2 versions',
-        'ie 8',
-        'ie 9',
-        'android 2.3',
         'android 4',
         'opera 12'
       ]
@@ -116,9 +112,7 @@ var cssTasks = function(filename) {
       return gulpif(enabled.rev, rev());
     })
     .pipe(function() {
-      return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'assets/styles/'
-      }));
+      return gulpif(enabled.maps, sourcemaps.write('.'));
     })();
 };
 
@@ -144,9 +138,7 @@ var jsTasks = function(filename) {
       return gulpif(enabled.rev, rev());
     })
     .pipe(function() {
-      return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'assets/scripts/'
-      }));
+      return gulpif(enabled.maps, sourcemaps.write('.'));
     })();
 };
 
@@ -290,20 +282,4 @@ gulp.task('wiredep', function() {
 // `gulp` - Run a complete build. To compile for production run `gulp --production`.
 gulp.task('default', ['clean'], function() {
   gulp.start('build');
-});
-
-// ### UNCSS
-// `gulp uncss`
-gulp.task('uncss', function() {
-  return gulp.src([
-      'dist/styles/main-40c21f7c.css'
-    ])
-    .pipe(uncss({
-      html: [
-        'http://vagrant.local/jchck/',
-        'http://vagrant.local/jchck/hire-justin',
-        'http://localhost:3000/jchck/follow-along/'
-      ]
-    }))
-    .pipe(gulp.dest('dist/styles/'));
 });

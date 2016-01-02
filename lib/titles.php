@@ -30,7 +30,7 @@ function title() {
   } elseif (is_search()) {
     return sprintf(__('Search Results for %s', 'sage'), get_search_query());
   } elseif (is_404()) {
-    return __('4 what 4?', 'sage');
+    return __('4 Oh What Now?', 'sage');
   } else {
     return get_the_title();
   }

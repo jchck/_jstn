@@ -1,4 +1,4 @@
-<nav id="nav" role="navigation">
+<nav id="nav">
 	<a href="<?= esc_url(home_url('hire-justin')); ?>" class="btn btn-blue m2 visible-xs">Hire Me</a>
 	<?php
 	if (has_nav_menu('primary_navigation')) :

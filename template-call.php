@@ -5,7 +5,7 @@
 ?>
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap step2">
-		<h1 class="mt0 text-center h1-md">Want to talk?</h1>
+		<h1 data-heading>Want to talk?</h1>
 		<p>That’s it. No gimmicky sales pitch or “let’s see if we can work together” type stuff. You’ve got ideas, I’ve got ideas, none of these ideas do much all alone.</p>
 		<ul class="timeline">
 			<li>Maybe you’re thinking about going nomad but don’t know where to start</li>
@@ -48,8 +48,9 @@
 				</div>
 			</div>
 		</div>
-
-		<h3 class="text-center h3-md">It's All a Learning Experience Anyway</h3>
+		<div class="mt3 mb3">
+			<h3 data-heading>It's All a Learning Experience Anyway</h3>
+		</div>
 
 		
 

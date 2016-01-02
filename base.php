@@ -1,6 +1,6 @@
 <?php
 
-use Roots\Sage\Config;
+use Roots\Sage\Setup;
 use Roots\Sage\Wrapper;
 
 ?>
@@ -18,14 +18,14 @@ use Roots\Sage\Wrapper;
     <?php
       get_template_part( 'templates/nav' );
       do_action('get_header');
-      get_template_part('templates/header');
+      get_template_part( 'templates/header' );
     ?>
     <div role="document">
       <div class="content">
-        <main class="main" role="main">
+        <main class="main">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
-        <?php if (Config\display_sidebar()) : ?>
+        <?php if (Setup\display_sidebar()) : ?>
           <aside class="sidebar" role="complementary">
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->

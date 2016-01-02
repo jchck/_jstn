@@ -14,6 +14,7 @@ $screen-lg:		1200px;
 
 // Wrap Width
 //$container-desktop:            1140px;
+$container-md:			870px;
 
 // Colors
 $red:					#ff0f0f;
@@ -35,11 +36,18 @@ $headings-font-family:    inherit;
 
 $blockquote-border-color:     $blue-light;
 
-$font-size-base:		22px;
+$font-size-base:		26px;
 $font-size-large:       ceil(($font-size-base * 1.25));
 
+// Text Links
+$link-color:			$brand-primary;
+$link-hover-color: 		$text-color;
+$link-hover-decoration: underline;
+
+
+
 // Scotch Panel
-$desktop-nav-width: 	400px;
+$desktop-nav-width: 	450px;
 $screen-sm-nav-width:	20rem;
 
 // Navbar
