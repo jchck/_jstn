@@ -43,11 +43,11 @@ function setup() {
   // http://codex.wordpress.org/Post_Thumbnails
   // http://codex.wordpress.org/Function_Reference/set_post_thumbnail_size
   // http://codex.wordpress.org/Function_Reference/add_image_size
-  add_theme_support('post-thumbnails');
+  //add_theme_support('post-thumbnails');
 
   // Add post formats
   // http://codex.wordpress.org/Post_Formats
-  add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);
+  //add_theme_support('post-formats', ['aside', 'gallery', 'link', 'image', 'quote', 'video', 'audio']);
 
   // Add HTML5 markup for captions
   // http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
@@ -80,7 +80,7 @@ function widgets_init() {
     'after_title'   => '</h3>'
   ]);
 }
-add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
+//add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 
 /**
  * Determine which pages should NOT display the sidebar
@@ -93,6 +93,7 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
+    is_home(),
     is_single(),
     is_page(),
     is_archive(),

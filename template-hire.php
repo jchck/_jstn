@@ -11,7 +11,7 @@ use Roots\Sage\Date;
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3 mb0">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
 		<div class="mt4 mb4">
-			<h3 data-heading>There are three ways we can work together</h3>
+			<h3 class="hidden-xs" data-heading>There are three ways we can work together</h3>
 		</div>
 		<div class="row">
 			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
@@ -42,14 +42,14 @@ use Roots\Sage\Date;
 				</a>
 			</div>
 		</div>
-		<div class="mt4 mb4">
+		<div class="mt4 mb4 hidden-xs">
 			<h3 data-heading>How things run until your project kicks off</h3>
 			<p class="text-center m0">And I bet we can get these first few taken care of today</p>
 		</div>
 
 		<?php get_template_part( 'templates/preproject', 'timeline' ); ?>
-		<div id="lets-go" class="hire-form">
-			<h4 class="text-center hire-cta no-hover h4-md">Does working together sound like something you’d like to do?<br />
+		<div id="lets-go" class="hire-form mt2 mt0-sm">
+			<h4 class="text-center hire-cta no-hover h4-md hidden-xs">Does working together sound like something you’d like to do?<br />
 				Then let’s get this ball rolling!
 			</h4>
 			<?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>

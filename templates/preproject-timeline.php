@@ -1,4 +1,4 @@
-<ol class="timeline">
+<ol class="timeline hidden-xs">
 	<li class="done">You'll answer a few questions below introducing yourself and your project to me.</li>
 	<li class="now">You propose a time for us to have a 30-minute conversation about the project. Being face to face is important to me so unless we're in the same city, we'll do this via Google Hangouts.</li>
 	<li class="next">I'll confirm our meeting and follow up with a short project planner for you to review.</li>

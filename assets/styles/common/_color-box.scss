@@ -19,6 +19,10 @@
 	min-width: 100%;
 	@include ease-in-out(.3s);
 
+	p svg{
+		width: 100px;
+	}
+
 	svg{
 		height: 100px;
 
