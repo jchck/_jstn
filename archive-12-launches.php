@@ -1,5 +1,5 @@
 <div class="container-fluid wrap">
-	<h1 data-heading>12 Launches</h1>
+	<h1 style="font-size:14.3vw">12 Launches</h1>
 	<p class="mt4 mb4 pb4 border-bottom-gray">1 project launch per month for an entire year.</p>
 	<div class="row">
 		<!-- Static Row 1 -->
