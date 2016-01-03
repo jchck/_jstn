@@ -12,15 +12,11 @@
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
     "scotchPanels": "scotch-panels#~1.0.3",
-    "zoom.js": "~0.0.1",
-    "fitter-happier-text": "~0.0.1"
+    "zoom.js": "~0.0.1"
   },
   "overrides": {
     "scotchPanels": {
       "main": "./dist/scotchPanels.js"
-    },
-    "fitter-happier-text": {
-      "main": "./dist/fitter-happier-text.js"
     },
     "flexboxgrid": {
       "main": "./src/sass/flexboxgrid.scss"
