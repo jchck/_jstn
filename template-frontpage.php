@@ -23,7 +23,7 @@
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="col-xs">
 					<div class="card-text">
-						<h2 data-heading>Work Portfolio</h2>
+						<h2 style="font-size:4.9vw">Work Portfolio</h2>
 						<p class="m0">Selected collection of client projects</p>
 					</div>
 				</div>
@@ -34,7 +34,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="card-text">
-						<h2 data-heading>12 Launches</h2>
+						<h2 style="font-size:5.7vw">12 Launches</h2>
 						<p class="m0">1 project per month for an entire year</p>
 					</div>
 				</div>

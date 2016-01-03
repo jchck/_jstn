@@ -7,7 +7,7 @@ use Roots\Sage\Date;
 
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap">
-		<h1 data-heading>It all starts with a conversation</h1>
+		<h1 style="font-size:5.62vw">It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3 mb0">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
 		<div class="mt4 mb4">
