@@ -12,8 +12,7 @@
     "jchck-btn": "~1.0.0",
     "jchck-spacing": "~1.5.5",
     "scotchPanels": "scotch-panels#~1.0.3",
-    "zoom.js": "~0.0.1",
-    "slabText": "~2.2.0"
+    "zoom.js": "~0.0.1"
   },
   "overrides": {
     "scotchPanels": {
@@ -44,11 +43,6 @@
     "zoom.js": {
       "main": [
         "./js/zoom.js"
-      ]
-    },
-    "slabText": {
-      "main": [
-        "./js/jquery.slabtext.js"
       ]
     }
   }
