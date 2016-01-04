@@ -20,10 +20,6 @@
       init: function() {
         // JavaScript to be fired on all pages
 
-      },
-      finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
-
         $('#nav').scotchPanel({
           containerSelector: 'body',
           direction: 'right',
@@ -37,6 +33,14 @@
           useEasingPlugin: true
         });
 
+        
+      },
+      finalize: function() {
+        // JavaScript to be fired on all pages, after page specific JS is fired
+
+        // FitText.js
+        //$('.card-text h2').fitText(0.6);
+        //window.fitText( document.getElementById("fittext"), 0.8 );
 
         $(function() {
           $(window).scroll(function(){

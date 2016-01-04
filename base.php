@@ -7,7 +7,7 @@ use Roots\Sage\Wrapper;
 
 <!doctype html>
 
-<html class="no-js" <?php language_attributes(); ?>>
+<html>
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>
     <!--[if gt IE 6]>
@@ -40,5 +40,9 @@ use Roots\Sage\Wrapper;
       }
       wp_footer();
     ?>
+    <script type="text/javascript">
+    var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+    fitterHappierText(nodes, { baseline: 10 });
+    </script>
   </body>
 </html>
