@@ -19,22 +19,6 @@
 	min-width: 100%;
 	@include ease-in-out(.3s);
 
-	.card-text{
-		@include box-sizing(initial);
-		&:before,
-		&:after{
-			@include box-sizing(initial);
-		}
-		svg,
-		text{
-			@include box-sizing(initial);
-			&:before,
-			&:after{
-				@include box-sizing(initial);
-			}
-		}
-	}
-
 	p svg{
 		width: 100px;
 	}
