@@ -2,7 +2,7 @@
 Theme Name:         jchck_
 Theme URI:          http://jstn.ch/ck
 Description:       	Hullo
-Version:            3.7.2
+Version:            3.7.3
 Author:             jchck
 Author URI:         http://jstn.ch/ck
 
@@ -15,6 +15,6 @@ License URI:        http://opensource.org/licenses/MIT
 /**
 
 	TODO:
-	- QA differences between fitter happier text between webkit & moz
+	- Fitter happier text webkit/moz bug singled out to be associated w .color-box 
 
  */
