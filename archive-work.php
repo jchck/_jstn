@@ -16,7 +16,7 @@
     $query = new WP_Query( $args );
 ?>
 <div class="container-fluid wrap-12-launches">
-	<h1 class="mb3" style="font-size:11.7vw">Work Portfolio</h1>
+	<h1 data-fitter-happier-text>Work Portfolio</h1>
 	<div class="row center-xs">
 
 		<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
@@ -29,7 +29,7 @@
 					get_template_part( 'templates/launches', 'jframe' );
 				} ?>
 				<div class="width-100 ml2 mr2">
-					<h3 data-heading><?php the_title(); ?></h3>
+					<h3 data-fitter-happier-text><?php the_title(); ?></h3>
 					<p class="m0"><?php the_field('project_summary') ?></p>
 				</div>
 			</a>
