@@ -91,7 +91,6 @@ a{
 	color: #fff;
 	padding-left: 5px;
 	padding-right: 5px;
-	//border: 1px solid;
 
 	&:hover,
 	&:focus{
@@ -114,5 +113,11 @@ a{
 			color: $blue;
 			fill: $blue;
 		}
+	}
+}
+
+@-moz-document url-prefix() {
+	.fit-txt{
+		margin-bottom: -20%;
 	}
 }
