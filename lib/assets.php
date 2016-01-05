@@ -70,7 +70,7 @@ function assets() {
 
   wp_enqueue_script('sage/js', asset_path('scripts/main.js'), ['jquery'], null, true);
 
-  wp_enqueue_script( 'fittext', 'http://jxnblk.com/fitter-happier-text/dist/fitter-happier-text.js', [], null, true );
+  wp_enqueue_script( 'fit-happy-txt', '//cdn.rawgit.com/jxnblk/fitter-happier-text/master/dist/fitter-happier-text.js', [], null, true );
 
   wp_enqueue_script( 'gmap', '//maps.google.com/maps/api/js', [], null, true );
 }
