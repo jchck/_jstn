@@ -42,7 +42,7 @@ use Roots\Sage\Wrapper;
     ?>
     <script type="text/javascript">
     var nodes = document.querySelectorAll('[data-fitter-happier-text]');
-    fitterHappierText(nodes, { baseline: 10 });
+    fitterHappierText(nodes, { baseline: 10, paddingY: 2 });
     </script>
   </body>
 </html>
