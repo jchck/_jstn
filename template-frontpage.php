@@ -20,11 +20,10 @@
 	<div class="flex border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="col-sm-6 col-xs-12 p0">
 
-			<a href="#" class="flex flex-center color-box p2">
+			<a href="#" class="flex flex-center color-box cb-ht p2">
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto ml1">
 					<h2 data-fitter-happier-text>Work Portfolio</h2>
-					<p class="ml3">A selection of client projects</p>
 				</div>
 			</a>
 
@@ -32,11 +31,10 @@
 
 		<div class="col-sm-6 col-xs-12 p0">
 
-			<a href="#" class="flex flex-center color-box p2">
+			<a href="#" class="flex flex-center color-box cb-ht p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto ml1">
 					<h2 data-fitter-happier-text>12 Launches</h2>
-					<p class="ml3">1 project per month for an entire year</p>
 				</div>
 			</a>
 
