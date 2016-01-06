@@ -42,35 +42,6 @@
 
 	</div>
 
-	<div class="row middle-xs border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
-		<div class="col-sm-6 col-xs-12">
-			<a href="<?= esc_url(home_url('work')); ?>" class="color-box row middle-xs">
-				<div class="col-xs-2">
-					<?php get_template_part( 'templates/imac' ); ?>
-				</div>
-				<div class="col-xs-10">
-					<div class="card-text">
-						<h2 data-fitter-happier-text>Work Portfolio</h2>
-						<p class="m0">Selected collection of client projects</p>
-					</div>
-				</div>
-			</a>
-		</div>
-		<div class="col-sm-6 col-xs-12">
-			<a href="<?= esc_url(home_url('12-launches')); ?>" class="color-box row middle-xs">
-				<div class="col-xs-2">
-					<?php get_template_part( 'templates/launches', 'launching' ); ?>
-				</div>
-				<div class="col-xs-10">
-					<div class="card-text">
-						<h2 data-fitter-happier-text>12 Launches</h2>
-						<p class="m0">1 project per month for an entire year</p>
-					</div>
-				</div>
-			</a>
-		</div>
-	</div>
-
 </div>
 
 <div class="container-fluid wrap">
