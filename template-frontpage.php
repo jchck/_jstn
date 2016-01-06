@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<div class="flex">
+	<div class="flex border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="flex-auto">
 
 			<div class="flex flex-center color-box">
