@@ -40,9 +40,9 @@ use Roots\Sage\Wrapper;
       }
       wp_footer();
     ?>
-    <script type="text/javascript">
-    var nodes = document.querySelectorAll('[data-fitter-happier-text]');
-    fitterHappierText(nodes, { baseline: 10 });
+    <script>
+      var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+      fitterHappierText(nodes, { baseline: 11, paddingY: 1});
     </script>
   </body>
 </html>

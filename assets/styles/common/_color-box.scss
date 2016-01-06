@@ -23,7 +23,7 @@
 		width: 100px;
 	}
 
-	svg{
+	svg.icon{
 		height: 100px;
 
 		path{
@@ -48,4 +48,8 @@
  			fill: #fff;
  		}
  	}
+}
+
+.cb-ht{
+	height: 15rem;
 }

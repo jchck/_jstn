@@ -1,5 +1,5 @@
 <div class="container-fluid wrap">
-	<h1 data-fitter-happier-text>12 Launches</h1>
+	<h1 data-fitter-happier-text class="moz-mb-17">12 Launches</h1>
 	<p class="mt4 mb4 pb4 border-bottom-gray">1 project launch per month for an entire year.</p>
 	<div class="row">
 		<!-- Static Row 1 -->
@@ -8,7 +8,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching January</p>
 					</div>
 				</div>
@@ -20,7 +20,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching Febuary</p>
 					</div>
 				</div>
@@ -32,7 +32,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching March</p>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching April</p>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching May</p>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching June</p>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching July</p>
 					</div>
 				</div>
@@ -94,7 +94,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching August</p>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching September</p>
 					</div>
 				</div>
@@ -119,7 +119,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching October</p>
 					</div>
 				</div>
@@ -131,7 +131,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching November</p>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 data-fitter-happier-text>Coming Soon</h3>
+						<h3 class="moz-mb-15" data-fitter-happier-text>Coming Soon</h3>
 						<p class="m0">Launching December</p>
 					</div>
 				</div>
