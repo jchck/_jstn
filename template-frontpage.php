@@ -20,7 +20,7 @@
 	<div class="flex">
 		<div class="flex-auto">
 
-			<div class="flex flex-center">
+			<div class="flex flex-center color-box">
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto">
 					<h2 data-fitter-happier-text>Work Portfolio</h2>
@@ -31,8 +31,8 @@
 
 		<div class="flex-auto">
 
-			<div class="flex flex-center">
-				<?php get_template_part( 'templates/imac' ); ?>
+			<div class="flex flex-center color-box">
+				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto">
 					<h2 data-fitter-happier-text>12 Launches</h2>
 				</div>
