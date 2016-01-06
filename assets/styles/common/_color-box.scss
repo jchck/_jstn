@@ -19,11 +19,15 @@
 	min-width: 100%;
 	@include ease-in-out(.3s);
 
-	p svg{
+	p svg{ /* Used on archives */
 		width: 100px;
+		path{
+			@include ease-in-out(.3s);
+			fill: $text-color;
+		}
 	}
 
-	svg.icon{
+	svg.icon{ /* Used on front-page */
 		height: 100px;
 
 		path{
@@ -44,7 +48,8 @@
  		background: $blue;
  		text-decoration: none;
 
- 		svg path{
+ 		svg.icon path, /* Used on front-page */
+ 		p svg path{ /* Used on archives */
  			fill: #fff;
  		}
  	}
