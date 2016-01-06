@@ -16,7 +16,7 @@
     $query = new WP_Query( $args );
 ?>
 <div class="container-fluid wrap-12-launches">
-	<h1 data-fitter-happier-text>Work Portfolio</h1>
+	<h1 class="moz-mb-17" data-fitter-happier-text>Work Portfolio</h1>
 	<div class="row center-xs">
 
 		<?php if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post(); ?>
