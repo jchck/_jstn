@@ -17,13 +17,14 @@
 .color-box{
 	color: $text-color;
 	min-width: 100%;
-	//@include ease-in-out(.3s);
+	@include ease-in-out(.3s);
+	//height: 120px;
 
 	p svg{
 		width: 100px;
 	}
 
-	svg{
+	svg.icon{
 		height: 100px;
 
 		path{
