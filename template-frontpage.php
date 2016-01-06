@@ -23,7 +23,7 @@
 			<a href="#" class="flex flex-center color-box cb-ht p2">
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto ml1">
-					<h2 data-fitter-happier-text>Work Portfolio</h2>
+					<h2 class="moz-mb-15" data-fitter-happier-text>Work Portfolio</h2>
 				</div>
 			</a>
 
@@ -34,7 +34,7 @@
 			<a href="#" class="flex flex-center color-box cb-ht p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto ml1">
-					<h2 data-fitter-happier-text>12 Launches</h2>
+					<h2 class="moz-mb-17" data-fitter-happier-text>12 Launches</h2>
 				</div>
 			</a>
 
