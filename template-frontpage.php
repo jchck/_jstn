@@ -24,6 +24,7 @@
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto ml1">
 					<h2 data-fitter-happier-text>Work Portfolio</h2>
+					<p class="ml3">A selection of client projects</p>
 				</div>
 			</a>
 
@@ -35,6 +36,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto ml1">
 					<h2 data-fitter-happier-text>12 Launches</h2>
+					<p class="ml3">1 project per month for an entire year</p>
 				</div>
 			</a>
 
