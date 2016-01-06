@@ -20,23 +20,23 @@
 	<div class="flex border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="col-sm-6 col-xs-12 p0">
 
-			<div class="flex flex-center color-box p2">
+			<a href="#" class="flex flex-center color-box p2">
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto">
 					<h2 data-fitter-happier-text>Work Portfolio</h2>
 				</div>
-			</div>
+			</a>
 
 		</div>
 
 		<div class="col-sm-6 col-xs-12 p0">
 
-			<div class="flex flex-center color-box p2">
+			<a href="#" class="flex flex-center color-box p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto">
 					<h2 data-fitter-happier-text>12 Launches</h2>
 				</div>
-			</div>
+			</a>
 
 		</div>
 
