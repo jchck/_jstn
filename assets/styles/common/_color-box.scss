@@ -30,6 +30,10 @@
 	svg.icon{ /* Used on front-page */
 		height: 100px;
 
+		@media (max-width: $screen-sm){
+			max-width: 3.5rem;
+		}
+
 		path{
 			fill: $text-color;
 			@include ease-in-out(.3s);
