@@ -7,11 +7,11 @@ use Roots\Sage\Date;
 
 <?php while (have_posts()) : the_post(); ?>
 	<div class="container-fluid wrap">
-		<h1 data-fitter-happier-text>It all starts with a conversation</h1>
+		<h1 class="moz-mb-7" data-fitter-happier-text>It all starts with a conversation</h1>
 		<p>I partner with individuals and organizations when I’m confident that a relationship can be beneficial for both of us.</p>
 		<p class="mt3 mb0">I am available for <span class="strong">WordPress</span> and <span class="strong">front-end development</span> as well as <span class="strong">user experience design consulting</span>. I am currently scheduling projects to begin <span class="strong">mid-<?= Date\month(); ?></span>.</p>
 		<div class="mt4 mb4">
-			<h3 class="hidden-xs" data-fitter-happier-text>There are three ways we can work together</h3>
+			<h3 class="hidden-xs moz-mb-7" data-fitter-happier-text>There are three ways we can work together</h3>
 		</div>
 		<div class="row">
 			<div class="flex col-sm col-xs-12 mr2-sm ml2-sm mb3 mb0-sm">
@@ -43,7 +43,7 @@ use Roots\Sage\Date;
 			</div>
 		</div>
 		<div class="mt4 mb4 hidden-xs">
-			<h3 data-fitter-happier-text>How things run until your project kicks off</h3>
+			<h3 class="moz-mb-7" data-fitter-happier-text>How things run until your project kicks off</h3>
 			<p class="text-center m0">And I bet we can get these first few taken care of today</p>
 		</div>
 
