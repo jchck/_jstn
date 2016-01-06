@@ -11,13 +11,13 @@
 		</div>
 	</div>
 
-	<div class="flex border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
+	<div class="row border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="col-sm-6 col-xs-12 p0">
 
-			<a href="<?= esc_url(home_url('work')); ?>" class="flex flex-center color-box cb-ht p2">
+			<a href="<?= esc_url(home_url('work')); ?>" class="flex flex-center color-box border-bottom-gray-sm cb-ht p2">
 				<?php get_template_part( 'templates/imac' ); ?>
 				<div class="flex-auto ml1">
-					<h2 class="moz-mb-15" data-fitter-happier-text>Work Portfolio</h2>
+					<h2 class="moz-mb-15" data-front-page>Work Portfolio</h2>
 				</div>
 			</a>
 
@@ -28,7 +28,7 @@
 			<a href="<?= esc_url(home_url('12-launches')); ?>" class="flex flex-center color-box cb-ht p2">
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="flex-auto ml1">
-					<h2 class="moz-mb-17" data-fitter-happier-text>12 Launches</h2>
+					<h2 class="moz-mb-17" data-front-page>12 Launches</h2>
 				</div>
 			</a>
 
