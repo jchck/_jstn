@@ -29,7 +29,7 @@
 					get_template_part( 'templates/launches', 'jframe' );
 				} ?>
 				<div class="width-100 ml2 mr2">
-					<h3 data-fitter-happier-text><?php the_title(); ?></h3>
+					<h3><?php the_title(); ?></h3>
 					<p class="m0"><?php the_field('project_summary') ?></p>
 				</div>
 			</a>
