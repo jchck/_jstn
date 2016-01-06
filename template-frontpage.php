@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<div class="flex border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
+	<div class="row border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="col-sm-6 col-xs-12 p0">
 
 			<a href="<?= esc_url(home_url('work')); ?>" class="flex flex-center color-box cb-ht p2">
