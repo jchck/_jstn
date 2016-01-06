@@ -26,6 +26,12 @@
 			fill: $text-color;
 		}
 	}
+	p,
+	h3{
+		@media (max-width: $screen-sm){
+			text-align: center;
+		}
+	}
 
 	svg.icon{ /* Used on front-page */
 		height: 100px;
