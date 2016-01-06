@@ -17,6 +17,31 @@
 		</div>
 	</div>
 
+	<div class="flex">
+		<div class="flex-auto">
+
+			<div class="flex flex-center">
+				<?php get_template_part( 'templates/imac' ); ?>
+				<div class="flex-auto">
+					<h2 data-fitter-happier-text>Work Portfolio</h2>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="flex-auto">
+
+			<div class="flex flex-center">
+				<?php get_template_part( 'templates/imac' ); ?>
+				<div class="flex-auto">
+					<h2 data-fitter-happier-text>12 Launches</h2>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
 	<div class="row middle-xs border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
 		<div class="col-sm-6 col-xs-12">
 			<a href="<?= esc_url(home_url('work')); ?>" class="color-box row middle-xs">
