@@ -41,8 +41,8 @@ use Roots\Sage\Wrapper;
       wp_footer();
     ?>
     <script>
-      var nodes = document.querySelectorAll('[data-front-page]');
-      fitterHappierText(nodes, { baseline: 11, paddingY: 1});
+      var nodes = document.querySelectorAll('[data-fitter-happier-text]');
+      fitterHappierText(nodes, { baseline: 8, paddingY: 1});
     </script>
   </body>
 </html>

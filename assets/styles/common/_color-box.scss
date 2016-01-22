@@ -18,12 +18,12 @@
 	color: $text-color;
 	min-width: 100%;
 	border: 1px solid #eee;
-	@include ease-in-out(.3s);
+	@include ease-in-out(.1s);
 
 	p svg{ /* Used on archives */
 		width: 100px;
 		path{
-			@include ease-in-out(.3s);
+			@include ease-in-out(.1s);
 			fill: $text-color;
 		}
 	}
@@ -48,7 +48,7 @@
 
 		path{
 			fill: $text-color;
-			@include ease-in-out(.3s);
+			@include ease-in-out(.1s);
 		}
 	}
 
