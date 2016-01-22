@@ -17,6 +17,7 @@
 .color-box{
 	color: $text-color;
 	min-width: 100%;
+	border: 1px solid #eee;
 	@include ease-in-out(.3s);
 
 	p svg{ /* Used on archives */
@@ -26,7 +27,12 @@
 			fill: $text-color;
 		}
 	}
+	h2{
+		margin: 0;
+		text-align: center;
+	}
 	p,
+	h2,
 	h3{
 		@media (max-width: $screen-sm){
 			text-align: center;
@@ -56,6 +62,7 @@
  		color: #fff;
  		fill: #fff;
  		background: $blue;
+ 		border-color: transparent;
  		text-decoration: none;
 
  		svg.icon path, /* Used on front-page */
