@@ -36,13 +36,9 @@ use Roots\Sage\Wrapper;
       do_action('get_footer');
       get_template_part( 'templates/footer' );
       if (is_home() || is_single() || is_category() ) {
-        get_template_part( 'templates/banner' );
+        get_template_part( 'templates/slider' );
       }
       wp_footer();
     ?>
-    <script>
-      var nodes = document.querySelectorAll('[data-fitter-happier-text]');
-      fitterHappierText(nodes, { baseline: 8, paddingY: 1});
-    </script>
   </body>
 </html>
