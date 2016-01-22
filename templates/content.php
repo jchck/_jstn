@@ -1,6 +1,6 @@
 <?php use Roots\Sage\Category; ?>
-<article <?php post_class('col-md-3 col-sm-6 col-xs-12 pb4-md pl3-md pr3-md pb4 pl3 pr3 flex'); ?>>
-	<a href="<?php the_permalink(); ?>" class="post-card border-radius img-size p3 flex flex-center ie10-width100">
+<article <?php post_class('col-md-3 col-sm-6 col-xs-12 p0 flex first-img'); ?>>
+	<a href="<?php the_permalink(); ?>" class="post-card img-size p3 flex flex-center ie10-width100">
 		<div class="text-center center-block ie-max-width100">
 			<header class="ie10-width100">
 				<h2 class="h4 mb3 mt0"><?php the_title(); ?></h2>
