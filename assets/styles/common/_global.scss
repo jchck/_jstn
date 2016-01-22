@@ -67,7 +67,7 @@ a{
 
 .border{
 	border: 1px solid $gray;
-	border-radius: $border-radius-base;
+	//border-radius: $border-radius-base;
 	&.zoom-img{
 		border-color: transparent;
 		border-radius: 0;
@@ -121,3 +121,5 @@ a{
 		}
 	}
 }
+
+.px0{ padding-left: 0; padding-right: 0}

@@ -49,14 +49,14 @@ function gallery( $output, $attr ){
 
     if (empty($attachments)) return '';
 
-    $output = "<div class=\"row center-xs middle-xs\">\n";
+    $output = "<div class=\"row center-xs bottom-xs\">\n";
 
     // Loop through the attachments
     foreach ($attachments as $id => $attachment) {
     	$img = wp_get_attachment_image_src($id, 'full');
 
-    	$output .= "<div class=\"col-sm-4 col-xs-8\">\n";
-    	$output .= "<img src=\"{$img[0]}\" class=\"p1 m3 border\" data-action=\"zoom\" />\n";
+    	$output .= "<div class=\"col-sm-6 col-xs-11 px0\">\n";
+    	$output .= "<img src=\"{$img[0]}\" data-action=\"zoom\" />\n";
         $output .= "</div>\n";
     }
 
