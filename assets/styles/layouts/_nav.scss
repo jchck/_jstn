@@ -164,6 +164,7 @@ nav.scotch-panel-right{
 	.nav-previous,
 	.nav-next{
 		@include clearfix;
+
 		a{
 			@include btn-color(#fff, $blue, transparent);
 
@@ -177,7 +178,7 @@ nav.scotch-panel-right{
 			cursor: pointer;
 			text-decoration: none;
 			padding: $btn-padding-y $btn-padding-x;
-			border-radius: $btn-border-radius-base;
+			//border-radius: $btn-border-radius-base;
 			border: $btn-border-width solid transparent;
 			margin: 0;
 			white-space: nowrap;
