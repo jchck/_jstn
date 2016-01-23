@@ -14,6 +14,8 @@
 		<?php endwhile; ?>
 	</div>
 
-	<?php the_posts_navigation(); ?>
+	<div class="row">
+		<?php the_posts_navigation(); ?>
+	</div>
 
 </div>
