@@ -14,7 +14,7 @@
 		<?php endwhile; ?>
 	</div>
 
-	<div class="row">
+	<div class="row mt4 mb4">
 		<?php the_posts_navigation(); ?>
 	</div>
 
