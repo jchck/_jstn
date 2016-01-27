@@ -1,6 +1,7 @@
 <div class="container-fluid wrap">
 	<h1 data-fitter-happier-text class="moz-mb-20">12 Launches</h1>
-	<p class="mt4 mb4 pb4 border-bottom-gray">1 project launch per month for an entire year.</p>
+	<p class="mt4">1 project launch per month for an entire year.</p>
+	<p class="mt4 mb4 pb4 border-bottom-gray">Every month I’ll take the entire month to either and launch or do a full iteration cycle (bump something preexisting from version 1.xx to 2.00) on 1 side project. On the last day of the month, I’ll launch what I’ve been working on as is, catch my breath, and move onto something else. <a href="<?= esc_url(home_url('/digital-nomad/launch-a-project-a-month')); ?>">Read the full announcement</a>.</p>
 	<div class="row">
 		<!-- Static Row 1 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
