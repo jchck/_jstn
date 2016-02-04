@@ -15,4 +15,5 @@
 		</div>
 		<?php get_template_part('templates/content', 'page'); ?>
 	<?php endwhile; ?>
+	<?php get_template_part( 'templates/project', 'pagination' ); ?>
 </div>
