@@ -1,7 +1,7 @@
 <footer class="content-info">
 	<div class="container-fluid wrap pb4 mb4">
 		<?php if ( !is_page( array('Hire Justin', 'Follow Along', 'Hire Justin Step 2', 'Planner') ) ) { ?>
-			<div class="row middle-xs border-top-gray border-bottom-gray" style="height: 33.3vh">
+			<div class="row middle-xs border-top-gray border-bottom-gray mt4" style="height: 33.3vh">
 				<div class="col-xs-12">
 					<h5 class="m0 text-center"><a class="btn btn-blue btn-sm" href="<?= esc_url(home_url('hire-justin')); ?>">Let's Work Together</a></h5>
 				</div>
