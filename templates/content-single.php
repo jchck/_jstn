@@ -15,7 +15,7 @@
           </div>
         </div>
     </header>
-    <div class="the-content">
+    <div class="the-content link">
       <?php
         get_template_part( 'templates/video' );
         the_content();
