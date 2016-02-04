@@ -14,7 +14,7 @@
 		<?php endwhile; ?>
 	</div>
 
-	<div class="row mt4 mb4">
+	<div class="clearfix mt4 mb4">
 		<?php the_posts_navigation(); ?>
 	</div>
 
