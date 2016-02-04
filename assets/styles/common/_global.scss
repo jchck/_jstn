@@ -33,7 +33,7 @@ a{
 	@include ease-in-out(.1s);
 }
 
-a.new{
+.link a{
 	box-shadow: inset 0 -3px 0 $blue;
 	&:hover{
 		color: $body-bg;
