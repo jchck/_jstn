@@ -6,7 +6,7 @@
 		<!-- Static Row 1 -->
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
 			<a href="http://jchck.github.io/jframe/" target="_blank" class="color-box flex middle-xs p2">
-				<?php get_template_part( 'templates/launches', 'launching' ); ?>
+				<?php get_template_part( 'templates/launches', 'jframe' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
 						<h3 class="mt4 mb2">jFrame.css</h3>
