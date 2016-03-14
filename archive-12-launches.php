@@ -17,7 +17,7 @@
 		</article>
 
 		<article <?php post_class('col-md-4 col-sm-6 col-xs-12 flex p0'); ?>>
-			<a href="<?= esc_url(home_url('12-launches/')); ?>" class="color-box flex middle-xs p2">
+			<a href="http://bowtie.justinchick.com/" target="_blank" class="color-box flex middle-xs p2">
 				<?php get_template_part( 'templates/launches', 'bowtie' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
