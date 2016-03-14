@@ -33,7 +33,7 @@
 				<?php get_template_part( 'templates/launches', 'launching' ); ?>
 				<div class="col-xs">
 					<div class="width-100 ml2 mr2">
-						<h3 class="mt4 mb2">Coming Soon</h3>
+						<h3 class="mt4 mb2">Freelance Studio</h3>
 						<p class="m0">Launching March</p>
 					</div>
 				</div>
