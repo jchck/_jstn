@@ -19,15 +19,3 @@
 	</div>
 
 </div>
-
-<div class="container-fluid wrap">
-			
-	<div class="row center-xs mt4">
-		<div class="col-sm-10 col-xs-12">
-			<div class="bg-off-white border-radius p1 p4-xs link">
-				<?php get_template_part( 'templates/frontpage', 'copy' ); ?>
-			</div>
-		</div>
-	</div>
-
-</div>
