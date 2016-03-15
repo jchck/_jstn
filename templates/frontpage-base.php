@@ -11,6 +11,8 @@
 	</div>
 
 	<div class="border-top-gray border-bottom-gray pt3 mt4 pb3 mb4">
+
+		<h3 class="text-center m0">Signup to get inspired every week.</h3>
 		
 		<?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>
 

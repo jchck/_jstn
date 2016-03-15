@@ -211,9 +211,16 @@ footer,
  */
 
 .frontpage-base .gform_wrapper{
-  ul{ @extend .row; }
+  ul{ 
+    @extend .row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-  li{ @extend .col-sm-6; }
+  li{ 
+    @extend .col-sm-6;
+    margin-bottom: 0;
+  }
 
   input{
     height: ($input-height-base * 1.3);
