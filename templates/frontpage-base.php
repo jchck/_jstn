@@ -2,9 +2,8 @@
 
 	<div class="row middle-xs center-xs between-sm link">
 		<div class="col-sm-6 col-xs-12">
-			<h1 class="lead mt2 mb0 m0-xs">Hi, I'm Justin Chick.<br />I'm a digital nomad and freelance front-end developer.</h1>
-			<h2 class="lead mb2-sm mb3-md mt0"><a class="highlight" title="Hire freelance web designer Justin Chick" href="<?= esc_url(home_url('hire-justin')); ?>">You can hire me.</a></h2>
-			<p class="m0">I believe in simplicity and that the web should be easy to use for everyone.</p>
+			<h1 class="lead mt2 mb0 m0-xs mb2-sm mb3-md">Hi, I'm Justin Chick.<br />I'm a digital nomad and freelance front-end developer.</h1>
+			<p class="m0">I live out of a backpack, learn every day, and help others do the same.</p>
 		</div>
 		<div class="col-sm-5 col-xs-12 first-xs last-sm last-md last-lg">
 			<img style="width: 100%" src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
