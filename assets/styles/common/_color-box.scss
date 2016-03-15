@@ -17,8 +17,12 @@
 .color-box{
 	color: $text-color;
 	min-width: 100%;
-	border: 1px solid #eee;
+	border: 1px solid;
+	border-bottom: none;
 	@include ease-in-out(.1s);
+	&:last-of-type{
+		border-bottom: 1px solid;
+	}
 
 	p svg{ /* Used on archives */
 		width: 100px;
