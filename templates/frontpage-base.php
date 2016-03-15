@@ -2,7 +2,7 @@
 
 	<div class="row middle-xs center-xs between-sm link">
 		<div class="col-sm-6 col-xs-12">
-			<h1 class="lead mt2 mb0 m0-xs">Hi, I'm Justin Chick.<br />I'm a front-end developer located in Cape Town, South Africa.</h1>
+			<h1 class="lead mt2 mb0 m0-xs">Hi, I'm Justin Chick.<br />I'm a digital nomad and freelance front-end developer.</h1>
 			<h2 class="lead mb2-sm mb3-md mt0"><a class="highlight" title="Hire freelance web designer Justin Chick" href="<?= esc_url(home_url('hire-justin')); ?>">You can hire me.</a></h2>
 			<p class="m0">I believe in simplicity and that the web should be easy to use for everyone.</p>
 		</div>

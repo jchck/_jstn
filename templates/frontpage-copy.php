@@ -1,3 +1,5 @@
+<p>I believe in simplicity and that the web should be easy to use for everyone.</p>
+
 <p>Yes, the web should be easy to use for <em>everyone</em>.</p>
 
 <p>It's people of all walks of life who use the web every day, and I keep this at the forefront of every decision I make. How will this feature, design, experience affect the people who'll be using this site? Who are those people and what do we know about them?</p>
