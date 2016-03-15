@@ -12,28 +12,4 @@ footer{
 			text-decoration: none;
 		}
 	}
-
-	.ad-title{
-		color: $gray;
-	}
-
-	.ad{
-		position: relative;
-
-		&:after{
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			background-color: rgba(0,0,0,.0);
-			@include ease-in-out(.5s);
-		}
-
-		&:hover:after{
-			background-color: rgba(0,0,0,.33);
-		}
-	}
 }
