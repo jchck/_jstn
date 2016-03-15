@@ -7,6 +7,18 @@
 				</div>
 			</div>
 		<? } ?>
+		<?php if (is_page( 'ck' )): ?>
+			<div class="row middle-xs" style="height: 33.3vh">
+				<div class="col-xs-12">
+					<ul class="list-inline text-center mb0">
+						<li><a href="#">Biography</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">12 Launches</a></li>
+						<li><a href="#">Notebook</a></li>
+					</ul>
+				</div>
+			</div>
+		<?php endif; ?>
 		<div class="row mt4">
 			<div class="col-xs-12">
 				<p class="mb0 small text-center"><a href="<?= esc_url(home_url('colophon')); ?>">Colophon</a></p>
