@@ -213,18 +213,30 @@ footer,
 .frontpage-base .gform_wrapper{
   ul{ 
     @extend .row;
+    @extend .center-xs;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
   li{ 
     @extend .col-sm-6;
+    @extend .col-xs-10;
     margin-bottom: 0;
+    &:first-of-type{
+      margin-bottom: 2rem;
+      @media(min-width: $screen-sm){
+        margin-bottom: 0;
+      }
+    }
   }
 
   input{
-    height: ($input-height-base * 1.3);
-    font-size: ($font-size-base * 1.3);
+    height: $input-height-base;
+    font-size: $font-size-base;
+    @media(min-width: $screen-sm){
+      height: ($input-height-base * 1.3);
+      font-size: ($font-size-base * 1.3);
+    }
     text-align: center;
   }
 }
