@@ -6,7 +6,7 @@
 			<p class="m0">I live out of a backpack, take risks every day, and help other freelancers do the same.</p>
 		</div>
 		<div class="col-sm-5 col-xs-12 first-xs last-sm last-md last-lg">
-			<img style="width: 100%" src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
+			<img style="width: 100%" title="Freelance Web Designer and Digital Nomad Justin Chick" src="<?php echo get_template_directory_uri() . '/dist/images/hat.jpg'; ?>">
 		</div>
 	</div>
 
