@@ -14,7 +14,7 @@
 
 		<h3 class="text-center m0">Signup to get inspired every week.</h3>
 		
-		<?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>
+		<?php echo do_shortcode( '[gravityform id="7" title="false" description="false"]' ); ?>
 
 	</div>
 
