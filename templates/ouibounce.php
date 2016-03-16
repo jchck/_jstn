@@ -10,11 +10,8 @@
       <p>You can style your Ouibounce modal however you see fit. You can also include big buttons, an email capture or just plain text. The sky's the limit!</p>
       <p>Close this modal by clicking "No Thanks" below or clicking anywhere outside of the modal.</p>
 
-      <form>
-        <input type="text" placeholder="you@email.com">
-        <input type="submit" value="learn more &raquo;">
-        <p class="form-notice">*this is a fake form</p>
-      </form>
+      <?php echo do_shortcode( '[gravityform id="4" title="false" description="false"]' ); ?>
+      <?php// for production echo do_shortcode( '[gravityform id="7" title="false" description="false"]' ); ?>
     </div>
 
     <div class="modal-footer">
