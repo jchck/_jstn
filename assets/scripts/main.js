@@ -38,15 +38,37 @@
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
 
-        $(function() {
-          $(window).scroll(function(){
-            if ($(window).scrollTop() > 200) {
-              $('#banner').animate({'top': '0px'}, 500);
-            } else {
-              $('#banner').stop(true).animate({'top':'-300px'}, 500);
-            }
-          });
-        });
+        // $(function() {
+        //   $(window).scroll(function(){
+        //     if ($(window).scrollTop() > 200) {
+        //       $('#banner').animate({'top': '0px'}, 500);
+        //     } else {
+        //       $('#banner').stop(true).animate({'top':'-300px'}, 500);
+        //     }
+        //   });
+        // });
+
+// if you want to use the 'fire' or 'disable' fn,
+      // you need to save OuiBounce to an object
+      var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
+        aggressive: true,
+        timer: 0,
+        callback: function() { console.log('ouibounce fired!'); }
+      });
+
+      $('body').on('click', function() {
+        $('#ouibounce-modal').hide();
+      });
+
+      $('#ouibounce-modal .modal-footer').on('click', function() {
+        $('#ouibounce-modal').hide();
+      });
+
+      $('#ouibounce-modal .modal').on('click', function(e) {
+        e.stopPropagation();
+      });
+
+        
      
       }
     },
