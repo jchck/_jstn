@@ -83,6 +83,7 @@ a{
 
 .lead{
 	font-weight: 600;
+	+p{ font-weight: initial }
 	font-size: $font-size-base;
 	@media (min-width: $screen-sm){
 		font-size: 2.5rem;
