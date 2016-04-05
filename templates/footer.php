@@ -12,7 +12,7 @@
 				<div class="col-xs-12">
 					<ul class="list-inline text-center mb0">
 						<li><a title="Justin Chick is a Freelance Front End Developer and Digital Nomad Find his Biography Here" href="<?= esc_url( home_url( 'justin-chick-bio' )); ?>">Biography</a></li>
-						<li><a title="The Work Portfolio of Justin Chick" href="<?= esc_url( home_url( 'work' )); ?>">Portfolio</a></li>
+						<li><a title="The Work Portfolio of Justin Chick" href="<?= esc_url( home_url( 'work' )); ?>">Success Stories</a></li>
 						<li><a title="Read the Notebook of Digital Nomad Justin Chick" href="<?= esc_url( home_url( 'notebook' )); ?>">Notebook</a></li>
 					</ul>
 				</div>
