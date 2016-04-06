@@ -12,4 +12,10 @@ footer{
 			text-decoration: none;
 		}
 	}
+	.footer-nav a{
+		color: $link-color;
+		&:hover{
+			color: $blue;
+		}
+	}
 }
