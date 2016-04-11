@@ -19,7 +19,7 @@
 	<p class="text-center"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
 </div>
 
-<div class="services pt4-sm pb4-sm">
+<div class="stragety pt4-sm pb4-sm">
 	<div class="container-fluid wrap">
 		<div class="row">
 			<div class="col-sm-4">
@@ -32,7 +32,7 @@
 			</div>
 			<div class="col-sm-4">
 				<h4 class="text-center mt0">Creativity + Experience</h4>
-				<p class="m0">I've got a long list of happy clients and over 6 years of experience. I want this process to feel simple and, dare I say, fun? WIbelieve in clear communication, great relationships and a web platform that works for you and customers.</p>
+				<p class="m0">I've got a long list of happy clients and over 6 years of experience. I want this process to feel simple and, dare I say, fun? I believe in clear communication, great relationships, and a web platform that works for you and customers.</p>
 			</div>
 		</div>
 	</div>
