@@ -14,7 +14,28 @@
 	<blockquote>
 		Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum. Proin id tempor augue.
 	</blockquote>
+	<h3 class="text-center">That's why I do what I do.</h3>
 	<p>Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
+	<p class="text-center"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
+</div>
+
+<div class="services pt4-sm pb4-sm">
+	<div class="container-fluid wrap">
+		<div class="row">
+			<div class="col-sm-4">
+				<h4 class="text-center mt0">Level Up Your Website</h4>
+				<p class="m0">Get a website that delivers results. In other words, you'll see lower bounce rates, more inqueries, and higher sales. These are measurable changes that smart content, design, and stragety will support.</p>
+			</div>
+			<div class="col-sm-4">
+				<h4 class="text-center mt0">Simple, One Stop Service</h4>
+				<p class="m0">Once I understand who you are and where you're going, I'll take you through the entire process. That means custom design, snappy content, and full intergration. It's fast, seamless, and it's the full package (with no shortcuts).</p>
+			</div>
+			<div class="col-sm-4">
+				<h4 class="text-center mt0">Creativity + Experience</h4>
+				<p class="m0">I've got a long list of happy clients and over 6 years of experience. I want this process to feel simple and, dare I say, fun? WIbelieve in clear communication, great relationships and a web platform that works for you and customers.</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="container-fluid wrap frontpage-base">

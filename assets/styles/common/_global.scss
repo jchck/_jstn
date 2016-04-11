@@ -99,12 +99,14 @@ a{
 
 blockquote{
 	position: relative;
+	font-style: italic;
+	padding-left: 6rem;
 
 	&:before{
 		content: "\201C";
 		position: absolute;
-		left: 10px;
-		top:5px;
+		left: 7px;
+		top: 0px;
 		font-size: 10rem;
 	}
 
