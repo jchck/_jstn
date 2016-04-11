@@ -1,5 +1,5 @@
-<footer class="content-info">
-	<div class="container-fluid wrap pb4 mb4">
+<footer class="content-info pb3 mt4 mb4">
+	<div class="container-fluid wrap">
 		<?php if ( !is_page( array('Hire Justin', 'Follow Along', 'Hire Justin Step 2', 'Planner', 'ck') ) ) { ?>
 			<div class="row middle-xs border-top-gray border-bottom-gray mt4" style="height: 33.3vh">
 				<div class="col-xs-12">
@@ -7,7 +7,7 @@
 				</div>
 			</div>
 		<? } ?>
-		<div class="row mt4">
+		<div class="row">
 			<div class="col-xs-12">
 				<p class="mb0 small text-center"><a href="<?= esc_url(home_url('colophon')); ?>">Colophon</a></p>
 				<ul class="list-inline text-center m0">
