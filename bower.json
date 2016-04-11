@@ -30,7 +30,6 @@
         "./assets/stylesheets/bootstrap/_type.scss",
         "./assets/stylesheets/bootstrap/_code.scss",
         "./assets/stylesheets/bootstrap/_forms.scss",
-        "./assets/stylesheets/bootstrap/_navs.scss",
         "./assets/stylesheets/bootstrap/_alerts.scss",
         "./assets/stylesheets/bootstrap/_list-group.scss",
         "./assets/stylesheets/bootstrap/_responsive-embed.scss",
