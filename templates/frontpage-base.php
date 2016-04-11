@@ -4,9 +4,9 @@
 	</div>
 </div>
 
-<div class="wrap center-block frontpage-base">
+<div class="wrap-sm center-block frontpage-base">
 	<h2 class="text-center">You're an entrepreneur, small business owner, or tech start-up...</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor in orci sit amet tempus. Aliquam vehicula commodo aliquet. Duis congue tincidunt metus. Sed id elit laoreet, elementum mi non, vehicula magna. Donec fermentum nisl nisi, eu euismod nibh sagittis in. In hac habitasse platea dictumst. Nulla posuere odio ut bibendum sodales. Donec mauris lacus, iaculis in augue vitae, vestibulum volutpat nisl.</p>
+	<p>You’ve got skills and expertise to spare, but you’re so busy running your business that your website is a little dusty. Or maybe there’s no site at all. You’re MIA online.</p>
 
 	<p>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</p>
 
