@@ -1,9 +1,5 @@
 header{
 	.logo{
-		margin-bottom: 3rem;
-		@media (min-width: $screen-sm){
-			margin-bottom: 6rem;
-		}
 		&:hover{
 			#jc{
 				stroke: $blue;
