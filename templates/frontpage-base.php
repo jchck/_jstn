@@ -1,4 +1,4 @@
-<section class="hero pt4-sm pb4-sm">
+<section class="hero hero-top pt4-sm pb4-sm">
 	<div class="wrap center-block">
 		<h1 class="text-center m0">I build creative platforms to support your business goals.</h1>
 	</div>
@@ -38,7 +38,7 @@
 	</div>
 </section>
 
-<section class="bio pt4-sm pb4-sm">
+<section class="hero hero-foot pt4-sm pb4-sm">
 	<div class="container-fluid wrap-sm">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-10 col-sm-6">
