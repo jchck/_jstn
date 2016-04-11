@@ -1,5 +1,23 @@
 /**
  *
+ * Header Nav
+ *
+ */
+
+header{
+	li:after{
+		content: '/';
+		padding-left: .5rem;
+		color: $text-color;
+	}
+	li:last-of-type:after{
+		content: '';
+	}
+	.active a, a:hover{ color: $blue }
+}
+
+/**
+ *
  * Posts Navigation
  *
  */
