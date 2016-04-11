@@ -1,3 +1,9 @@
+<div class="banner pt4-sm pb4-sm">
+	<div class="wrap center-block">
+		<h1 class="text-center m0">I build creative platforms to support your business goals.</h1>
+	</div>
+</div>
+
 <div class="container-fluid wrap frontpage-base">
 
 	<div class="row middle-xs center-xs between-sm link pb3">
