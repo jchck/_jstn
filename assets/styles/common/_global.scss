@@ -97,6 +97,23 @@ a{
 	font-weight: bold;
 }
 
+blockquote{
+	position: relative;
+
+	&:before{
+		content: "\201C";
+		position: absolute;
+		left: 10px;
+		top:5px;
+		font-size: 10rem;
+	}
+
+	&:after{
+		content: '';
+	}
+}
+
+
 .highlight-svg{
 	svg{
 		background: $blue;
