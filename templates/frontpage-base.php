@@ -1,4 +1,4 @@
-<div class="banner pt4-sm pb4-sm">
+<div class="hero pt4-sm pb4-sm">
 	<div class="wrap center-block">
 		<h1 class="text-center m0">I build creative platforms to support your business goals.</h1>
 	</div>
