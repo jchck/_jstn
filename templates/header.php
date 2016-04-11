@@ -7,10 +7,12 @@
 
 <header class="banner canvas container-fluid <?php echo $wrap; ?>">
   <div class="row center-xs middle-xs pt4 pb4">
-  	<div class="col-xs-10 col-sm-6">
-		<a class="logo" href="<?= esc_url(home_url('/ck')); ?>"><?php get_template_part( 'templates/logo', 'jc' ); ?></a>
+  	<div class="col-xs-12 col-sm-6">
+  		<div class="flex center-xs flex-off-sm">
+			<a class="logo" href="<?= esc_url(home_url('/ck')); ?>"><?php get_template_part( 'templates/logo', 'jc' ); ?></a>
+		</div>
 	</div>
-	<div class="col-xs-10 col-sm-6">
+	<div class="col-xs-12 col-sm-6">
 		<nav id="nav" class="flex end-sm center-xs">
 			<?php
 			if (has_nav_menu('primary_navigation')) :

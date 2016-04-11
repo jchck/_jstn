@@ -1,5 +1,9 @@
 .flex{ display: flex }
 
+.flex-off-sm{
+	@media(min-width: $screen-sm){ display: block }
+}
+
 .flex-center{ align-items: center }
 
 .flex-grow{ flex-grow: 2 }

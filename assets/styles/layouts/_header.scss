@@ -1,5 +1,11 @@
 header{
 	.logo{
+		svg{
+			width: 5rem;
+			@media (min-width: $screen-sm){
+				width: 9rem
+			}
+		}
 		&:hover{
 			#jc{
 				stroke: $blue;
