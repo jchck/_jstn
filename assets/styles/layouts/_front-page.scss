@@ -1,7 +1,7 @@
 .hero{
 	z-index: 1;
 	position: relative;
-	color: $body-bgl
+	color: $body-bg;
 	&:after{
 		content: '';
 		position: absolute;
