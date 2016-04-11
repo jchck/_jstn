@@ -4,6 +4,19 @@
 	</div>
 </div>
 
+<div class="wrap center-block frontpage-base">
+	<h2 class="text-center">You're an entrepreneur, small business owner, or tech start-up...</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempor in orci sit amet tempus. Aliquam vehicula commodo aliquet. Duis congue tincidunt metus. Sed id elit laoreet, elementum mi non, vehicula magna. Donec fermentum nisl nisi, eu euismod nibh sagittis in. In hac habitasse platea dictumst. Nulla posuere odio ut bibendum sodales. Donec mauris lacus, iaculis in augue vitae, vestibulum volutpat nisl.</p>
+
+	<p>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</p>
+
+	<p>Quisque non lacus mi. Sed vulputate lorem sed nisi maximus porta. Nulla lacinia est non ante varius commodo. Suspendisse sodales tristique volutpat. Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum. Proin id tempor augue. Fusce viverra finibus lacus eget mollis. Nullam tempus tellus quis est tincidunt, eu molestie libero tempor. Sed eget sapien eget urna iaculis suscipit. Curabitur pharetra leo neque, ut hendrerit leo tempus ac. Phasellus pulvinar augue et imperdiet auctor. Mauris felis elit, ullamcorper sed velit nec, euismod dapibus mauris. Nunc libero lacus, semper a neque id, posuere scelerisque lacus. Nullam sodales magna velit, id posuere leo aliquet a. Sed eget nulla convallis, vulputate mauris a, fringilla tellus.</p>
+	<blockquote>
+		Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum. Proin id tempor augue.
+	</blockquote>
+	<p>Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
+</div>
+
 <div class="container-fluid wrap frontpage-base">
 
 	<div class="row middle-xs center-xs between-sm link pb3">
