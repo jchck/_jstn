@@ -14,9 +14,9 @@
 	<blockquote>
 		Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum. Proin id tempor augue.
 	</blockquote>
-	<h3 class="text-center">That's why I do what I do.</h3>
-	<p>Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
-	<p class="text-center"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
+	<h3 class="text-center mt2 mb2">That's why I do what I do.</h3>
+	<p class="m0">Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
+	<p class="text-center mt4-sm mb4-sm"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
 </section>
 
 <section class="stragety pt4-sm pb4-sm">
@@ -42,7 +42,7 @@
 	<div class="container-fluid wrap-sm">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-10 col-sm-6">
-				<h3 class="text-center">Justin Chick</h3>
+				<h3 class="text-center mt0 mb2">Justin Chick</h3>
 				<p>Quisque non lacus mi. Sed vulputate lorem sed nisi maximus porta. Nulla lacinia est non ante varius commodo. Suspendisse sodales tristique volutpat. Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum.</p>
 			</div>
 			<div class="col-xs-10 col-sm-6">

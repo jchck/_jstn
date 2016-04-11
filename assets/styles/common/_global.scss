@@ -101,6 +101,7 @@ blockquote{
 	position: relative;
 	font-style: italic;
 	padding-left: 6rem;
+	margin-bottom: 0;
 
 	&:before{
 		content: "\201C";
