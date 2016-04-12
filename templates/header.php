@@ -16,7 +16,7 @@
 		<nav id="nav" class="flex end-sm center-xs">
 			<?php
 			if (has_nav_menu('primary_navigation')) :
-			  wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'list-inline mb0']);
+			  wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'list-inline mb0 small']);
 			endif;
 			?>
 		</nav>

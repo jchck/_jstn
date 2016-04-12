@@ -19,30 +19,30 @@
 	<p class="text-center mt4-sm mb4-sm"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
 </section>
 
-<section class="stragety pt4-sm pb4-sm">
+<section class="stragety pt4-sm pb4-sm small">
 	<div class="container-fluid wrap">
 		<div class="row center-xs">
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="text-center mt0">Level Up Your Website</h4>
+				<h4 class="h5 text-center mt0">Level Up Your Website</h4>
 				<p class="m0">Get a website that delivers results. In other words, you'll see lower bounce rates, more inqueries, and higher sales. These are measurable changes that smart content, design, and stragety will support.</p>
 			</div>
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="text-center mt0">Simple, One Stop Service</h4>
+				<h4 class="h5 text-center mt0">Simple, One Stop Service</h4>
 				<p class="m0">Once I understand who you are and where you're going, I'll take you through the entire process. That means custom design, snappy content, and full intergration. It's fast, seamless, and it's the full package (with no shortcuts).</p>
 			</div>
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="text-center mt0">Creativity + Experience</h4>
+				<h4 class="h5 text-center mt0">Creativity + Experience</h4>
 				<p class="m0">I've got a long list of happy clients and over 6 years of experience. I want this process to feel simple and, dare I say, fun? I believe in clear communication, great relationships, and a web platform that works for you and customers.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="hero hero-foot pt4-sm pb4-sm">
+<section class="hero hero-foot pt4-sm pb4-sm small">
 	<div class="container-fluid wrap-sm">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-10 col-sm-6">
-				<h3 class="text-center mt0 mb2">Justin Chick</h3>
+				<h4 class="mt0 mb2">Justin Chick</h4>
 				<p>Quisque non lacus mi. Sed vulputate lorem sed nisi maximus porta. Nulla lacinia est non ante varius commodo. Suspendisse sodales tristique volutpat. Maecenas lacinia urna enim, in tincidunt ex vehicula sed. Duis eu maximus leo, vel pretium ipsum.</p>
 			</div>
 			<div class="col-xs-10 col-sm-6">
