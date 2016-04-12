@@ -80,18 +80,6 @@ a{
 	}
 }
 
-.lead{
-	font-weight: 600;
-	+p{ font-weight: initial }
-	font-size: $font-size-base;
-	@media (min-width: $screen-sm){
-		font-size: 2.5rem;
-	}
-	@media (min-width: $screen-md) {
-		font-size: 3.5rem;
-	}
-}
-
 .strong{
 	font-weight: bold;
 }
