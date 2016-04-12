@@ -1,0 +1,59 @@
+h1, .h1{
+	font-size: ($font-size-h1 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h1 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h1 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h1 }
+}
+
+h2, .h2{
+	font-size: ($font-size-h2 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h2 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h2 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h2 }
+}
+
+h3, .h3{
+	font-size: ($font-size-h3 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h3 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h3 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h3 }
+}
+
+h4, .h4{
+	font-size: ($font-size-h4 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h4 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h4 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h4 }
+}
+
+h5, .h5{
+	font-size: ($font-size-h5 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h5 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h5 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h5 }
+}
+
+h6, .h6{
+	font-size: ($font-size-h6 * .6);
+
+	@media(min-width: $screen-xs){ font-size: ($font-size-h6 * .7) }
+
+	@media(min-width: $screen-sm){ font-size: ($font-size-h6 * .8) }
+
+	@media(min-width: $screen-md){ font-size: $font-size-h6 }
+}
