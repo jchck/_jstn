@@ -1,11 +1,11 @@
 <section class="hero hero-top pt3 pb3 pt4-sm pb4-sm">
-	<div class="wrap center-block">
+	<div class="wrap container-fluid">
 		<h1 class="text-center m0">I build creative platforms to support your business goals.</h1>
 	</div>
 </section>
 
-<section class="wrap-sm center-block frontpage-base">
-	<h2 class="text-center">You're an entrepreneur, small business owner, or tech start-up...</h2>
+<section class="wrap-sm frontpage-base container-fluid mt3">
+	<h2 class="text-center mt0">You're an entrepreneur, small business owner, or tech start-up...</h2>
 	<p>You’ve got skills and expertise to spare, but you’re so busy running your business that your website is a little dusty. Or maybe there’s no site at all. You’re MIA online.</p>
 
 	<p>abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz</p>
@@ -16,29 +16,29 @@
 	</blockquote>
 	<h3 class="text-center mt2 mb2">That's why I do what I do.</h3>
 	<p class="m0">Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
-	<p class="text-center mt4-sm mb4-sm"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
+	<p class="text-center mt3 mb3 mt4-sm mb4-sm"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
 </section>
 
-<section class="stragety pt4-sm pb4-sm small">
+<section class="stragety pt2 pb2 pt4-sm pb4-sm small">
 	<div class="container-fluid wrap">
 		<div class="row center-xs">
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="h5 text-center mt0">Level Up Your Website</h4>
+				<h4 class="h5 text-center">Level Up Your Website</h4>
 				<p class="m0">Get a website that delivers results. In other words, you'll see lower bounce rates, more inqueries, and higher sales. These are measurable changes that smart content, design, and stragety will support.</p>
 			</div>
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="h5 text-center mt0">Simple, One Stop Service</h4>
+				<h4 class="h5 text-center">Simple, One Stop Service</h4>
 				<p class="m0">Once I understand who you are and where you're going, I'll take you through the entire process. That means custom design, snappy content, and full intergration. It's fast, seamless, and it's the full package (with no shortcuts).</p>
 			</div>
 			<div class="col-xs-10 col-sm-4">
-				<h4 class="h5 text-center mt0">Creativity + Experience</h4>
+				<h4 class="h5 text-center">Creativity + Experience</h4>
 				<p class="m0">I've got a long list of happy clients and over 6 years of experience. I want this process to feel simple and, dare I say, fun? I believe in clear communication, great relationships, and a web platform that works for you and customers.</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="hero hero-foot pt4-sm pb4-sm small">
+<section class="hero hero-foot pt2 pb2 pt4-sm pb4-sm small">
 	<div class="container-fluid wrap-sm">
 		<div class="row center-xs middle-xs">
 			<div class="col-xs-10 col-sm-6">
