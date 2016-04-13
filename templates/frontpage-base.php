@@ -4,7 +4,7 @@
 	</div>
 </section>
 
-<section class="wrap-sm frontpage-base container-fluid mt3">
+<section class="wrap-sm container-fluid mt3">
 	<h2 class="text-center mt0">You're an entrepreneur, small business owner, or tech start-up...</h2>
 	<p>You’ve got skills and expertise to spare, but you’re so busy running your business that your website is a little dusty. Or maybe there’s no site at all. You’re MIA online.</p>
 
@@ -16,7 +16,7 @@
 	</blockquote>
 	<h3 class="text-center mt2 mb2">That's why I do what I do.</h3>
 	<p class="m0">Vestibulum vitae velit eu tortor fermentum accumsan tempor at tellus. Duis at fringilla odio. Curabitur ut quam eu mauris egestas malesuada a at nunc. Etiam ac auctor nisl. Phasellus id enim justo. Nulla quis ligula lobortis, convallis dui id, dictum mauris. Cras ultrices pharetra tortor, non dignissim massa. Duis vitae vehicula ipsum. Aenean molestie ex in justo placerat gravida. Etiam interdum eros leo, a tempus mauris ultrices ac. Maecenas elit odio, vestibulum id commodo ut, sagittis et massa.</p>
-	<p class="text-center mt3 mb3 mt4-sm mb4-sm"><a href="#" class="btn btn-blue">Let's Work Together</a></p>
+	<p class="text-center mt3 mb3 mt4-sm mb4-sm"><a href="<?= esc_url(home_url('/work')); ?>" class="btn btn-blue">Let's Work Together</a></p>
 </section>
 
 <section class="stragety pt2 pb2 pt4-sm pb4-sm small">
