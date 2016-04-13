@@ -1,7 +1,8 @@
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class('mt3'); ?>>
-    <header class="text-center">
-      <h1 class="mt0"><?php the_title(); ?></h1>
+  <article <?php post_class(); ?>>
+    <header>
+      <h1 class="mt0 mb4"><?php the_title(); ?></h1>
+      <?php get_template_part( 'templates/entry', 'meta' ); ?>
     </header>
       <?php
         get_template_part( 'templates/video' );
