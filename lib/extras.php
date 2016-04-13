@@ -36,8 +36,9 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
  * Custom excerpt length
  */
 function excerpt_length(){
-  return 10;
+  return 50;
 }
 add_filter('excerpt_length', __NAMESPACE__ . '\\excerpt_length', 999);
+
 
 add_filter('use_default_gallery_style', '__return_false');

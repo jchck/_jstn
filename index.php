@@ -1,4 +1,4 @@
-<div class="container-fluid wrap">
+<div class="container-fluid wrap-sm">
 
 	<?php get_template_part('templates/page', 'header'); ?>
 
@@ -8,7 +8,7 @@
 		</div>
 		<?php get_search_form(); ?>
 	<?php endif; ?>
-	<div class="row center-sm">
+	<div class="row">
 		<?php while (have_posts()) : the_post(); ?>
 			<?php get_template_part('templates/content', get_post_type() != 'post' ? get_post_type() : get_post_format()); ?>
 		<?php endwhile; ?>
