@@ -33,7 +33,7 @@ use Roots\Sage\Wrapper;
     </div><!-- /.wrap -->
     <?php
       do_action('get_footer');
-      if (!is_page_template( 'template-frontpage.php' )) {
+      if (!is_page_template( 'template-frontpage.php' ) || !is_post_type_archive( 'work' )) {
         get_template_part( 'templates/footer' );
       }
       if (is_home() || is_single() || is_category() ) {
