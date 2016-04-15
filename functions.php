@@ -16,7 +16,7 @@ $sage_includes = [
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
 
-  'lib/work.php',                  // Functions for the Work section
+  //'lib/work.php',                  // Functions for the Work section
   'lib/shortcodes.php',            // Just some quick lil shortcodes
   //'lib/category.php',              // Control the display of category names
   'lib/date.php',                  // A future project start date function
