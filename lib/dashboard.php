@@ -3,6 +3,18 @@
 namespace Roots\Sage\Dashboard;
 
 /**
+ * Cleanup the main dashboard
+ * 
+ * @link https://codex.wordpress.org/Dashboard_Widgets_API
+ * @link https://codex.wordpress.org/Function_Reference/remove_meta_box
+ */
+function dashboard(){
+	remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' );
+	remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');
+}
+add_action( 'admin_init', __NAMESPACE__ . '\\dashboard' );
+
+/**
  * Remove unused menu items
  * 
  * @link https://codex.wordpress.org/Function_Reference/remove_menu_page
