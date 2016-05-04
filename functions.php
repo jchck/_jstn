@@ -17,6 +17,7 @@ $sage_includes = [
   'lib/extras.php',                // Custom functions
 
   'lib/shortcodes.php',            // Just some quick lil shortcodes
+  'lib/wrap.php',                  // The .container.wrap size function
   'lib/date.php',                  // A future project start date function
   'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
   'lib/gallery.php',               // Alter output of [gallery] so pics will open via zoom.js

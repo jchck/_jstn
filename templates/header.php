@@ -1,11 +1,6 @@
-<?php if (is_front_page() || is_page() || is_category() || is_post_type_archive( 'work' ) || is_post_type_archive( '12-launches' ) || is_404() || is_home() ) {
-	$wrap = 'wrap';
-} else {
-	$wrap = 'wrap-sm';
-}
-?>
+<?php use Roots\Sage\Wrap; ?>
 
-<header class="banner canvas container-fluid <?php echo $wrap; ?>">
+<header class="banner canvas container-fluid <?= Wrap\wrap(); ?>">
   <div class="row center-xs middle-xs pt4 pb4">
   	<div class="col-xs-12 col-sm-6">
   		<div class="flex center-xs flex-off-sm">
