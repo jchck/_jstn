@@ -25,15 +25,34 @@ function jchck_widget(){
 	}
 
 	?>
-		<div id="jchck-widget" class="welcome-panel" style="display:none">
+		<div id="jchck-widget" class="welcome-panel" style="display:none; padding-bottom: 23px;">
 			<div class="welcome-panel-content">
-				<h2 style="text-align: center">sup?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<div style="max-width: 150px; margin: 0 auto 16px;">
+					<?php get_template_part( 'templates/logo', 'jc' ); ?>
+				</div>
+				<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="welcome-panel-column-container" style="text-align: center;">
+					<div class="welcome-panel-column">
+						<h3>Static Pages</h3>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Add New Page</a></p>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View All Pages</a></p>
+					</div>
+					<div class="welcome-panel-column">
+						<h3>Blog Posts</h3>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Add New Post</a></p>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View All Posts</a></p>
+					</div>
+					<div class="welcome-panel-column">
+						<h3>Support</h3>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View Your Site</a></p>
+						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Email For Support</a></p>
+					</div>
+				</div>
 			</div>
 		</div>
 
