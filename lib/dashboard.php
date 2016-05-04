@@ -3,6 +3,16 @@
 namespace Roots\Sage\Dashboard;
 
 /**
+ * Remove unused submenu pages
+ * @link https://codex.wordpress.org/remove_submenu_page
+ */
+function submenu(){
+	remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=post_tag' ); // Remove tags
+}
+add_action( 'admin_menu', __NAMESPACE__ . '\\submenu' );
+
+
+/**
  * Remove unused things from the post editor
  * @link https://codex.wordpress.org/Function_Reference/remove_meta_box
  */
