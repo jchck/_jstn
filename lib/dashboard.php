@@ -25,15 +25,15 @@ function jchck_widget(){
 	}
 
 	?>
-		<div id="custom-id" class="welcome-panel" style="display:none">
+		<div id="jchck-widget" class="welcome-panel" style="display:none">
 			<div class="welcome-panel-content">
-				<h2>sup</h2>
+				<h2 style="text-align: center">sup?</h2>
 			</div>
 		</div>
 
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$('#welcome-panel').after($('#custom-id').show());
+				$('#welcome-panel').after($('#jchck-widget').show());
 			})
 		</script>
 	<?
