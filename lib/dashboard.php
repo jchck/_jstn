@@ -15,6 +15,22 @@ function dashboard(){
 add_action( 'admin_init', __NAMESPACE__ . '\\dashboard' );
 
 /**
+ * Create custom dashboard widget
+ * 
+ * @link https://codex.wordpress.org/Function_Reference/wp_add_dashboard_widget
+ */
+function jchck_widget(){
+	global $wp_meta_boxes;
+
+	wp_add_dashboard_widget( 'jchck_widget', 'jchck widget',  __NAMESPACE__ . '\\jchck_widget_content' );
+}
+add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\\jchck_widget' );
+
+function jchck_widget_content(){ ?>
+	<p>Hello</p>
+<? }
+
+/**
  * Remove unused menu items
  * 
  * @link https://codex.wordpress.org/Function_Reference/remove_menu_page
