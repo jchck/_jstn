@@ -27,7 +27,7 @@ function jchck_widget(){
 	?>
 		<div id="jchck-widget" class="welcome-panel" style="display:none; padding-bottom: 23px;">
 			<div class="welcome-panel-content">
-				<div style="max-width: 150px; margin: 0 auto 16px;">
+				<div style="max-width: 100px; margin: 0 auto 16px;">
 					<?php get_template_part( 'templates/logo', 'jc' ); ?>
 				</div>
 				<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
