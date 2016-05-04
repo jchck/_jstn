@@ -39,18 +39,18 @@ function jchck_widget(){
 				<div class="welcome-panel-column-container" style="text-align: center;">
 					<div class="welcome-panel-column">
 						<h3>Static Pages</h3>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Add New Page</a></p>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View All Pages</a></p>
+						<p style="margin: 0"><a href="<?php echo admin_url( 'post-new.php?post_type=page' ); ?>" class="button button-primary button-hero">Add New Page</a></p>
+						<p style="margin: 0"><a href="<?php echo admin_url( 'edit.php?post_type=page' ); ?>" class="button button-primary button-hero">View All Pages</a></p>
 					</div>
 					<div class="welcome-panel-column">
 						<h3>Blog Posts</h3>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Add New Post</a></p>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View All Posts</a></p>
+						<p style="margin: 0"><a href="<?php echo admin_url( 'post-new.php' ); ?>" class="button button-primary button-hero">Add New Post</a></p>
+						<p style="margin: 0"><a href="<?php echo admin_url( 'edit.php' ); ?>" class="button button-primary button-hero">View All Posts</a></p>
 					</div>
 					<div class="welcome-panel-column">
 						<h3>Support</h3>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">View Your Site</a></p>
-						<p style="margin: 0"><a href="#" class="button button-primary button-hero">Email For Support</a></p>
+						<p style="margin: 0"><a href="<?= esc_url(home_url('/')); ?>" target="_blank" class="button button-primary button-hero">View Your Site</a></p>
+						<p style="margin: 0"><a href="mailto:hey@justinchick.com?subject=Support Request: <?php bloginfo( 'name' ); ?>" class="button button-primary button-hero">Email For Support</a></p>
 					</div>
 				</div>
 			</div>
