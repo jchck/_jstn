@@ -3,17 +3,23 @@
 namespace Roots\Sage\Dashboard;
 
 /**
- * Remove unused submenu pages
+ * Remove unused menu items
+ * 
+ * @link https://codex.wordpress.org/Function_Reference/remove_menu_page
  * @link https://codex.wordpress.org/remove_submenu_page
  */
-function submenu(){
+function menu(){
+	remove_menu_page( 'edit-comments.php' ); // Remove comments
+	remove_menu_page( 'users.php' ); // Remove users
 	remove_submenu_page('edit.php', 'edit-tags.php?taxonomy=post_tag' ); // Remove tags
+	remove_submenu_page( 'options-general.php', 'options-discussion.php' );  // Remove comment options
 }
-add_action( 'admin_menu', __NAMESPACE__ . '\\submenu' );
+add_action( 'admin_menu', __NAMESPACE__ . '\\menu' );
 
 
 /**
  * Remove unused things from the post editor
+ * 
  * @link https://codex.wordpress.org/Function_Reference/remove_meta_box
  */
 function posts(){
