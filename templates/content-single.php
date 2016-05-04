@@ -5,7 +5,6 @@
       <?php get_template_part( 'templates/entry', 'meta' ); ?>
     </header>
       <?php
-        get_template_part( 'templates/video' );
         the_content();
       ?>
     <footer>
