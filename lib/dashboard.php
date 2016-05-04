@@ -17,18 +17,30 @@ add_action( 'admin_init', __NAMESPACE__ . '\\dashboard' );
 /**
  * Create custom dashboard widget
  * 
- * @link https://codex.wordpress.org/Function_Reference/wp_add_dashboard_widget
+ * @link https://www.engagewp.com/how-to-create-full-width-dashboard-widget-wordpress/
  */
 function jchck_widget(){
-	global $wp_meta_boxes;
+	if (get_current_screen()->base !== 'dashboard'){
+		return;
+	}
 
-	wp_add_dashboard_widget( 'jchck_widget', 'jchck widget',  __NAMESPACE__ . '\\jchck_widget_content' );
+	?>
+		<div id="custom-id" class="welcome-panel" style="display:none">
+			<div class="welcome-panel-content">
+				<h2>sup</h2>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$('#welcome-panel').after($('#custom-id').show());
+			})
+		</script>
+	<?
+
 }
-add_action( 'wp_dashboard_setup', __NAMESPACE__ . '\\jchck_widget' );
+add_action( 'admin_footer', __NAMESPACE__ . '\\jchck_widget' );
 
-function jchck_widget_content(){ ?>
-	<p>Hello</p>
-<? }
 
 /**
  * Remove unused menu items
