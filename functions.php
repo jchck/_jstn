@@ -16,9 +16,7 @@ $sage_includes = [
   'lib/titles.php',                // Page titles
   'lib/extras.php',                // Custom functions
 
-  //'lib/work.php',                  // Functions for the Work section
   'lib/shortcodes.php',            // Just some quick lil shortcodes
-  //'lib/category.php',              // Control the display of category names
   'lib/date.php',                  // A future project start date function
   'lib/pics.php',                  // Make all pics uploaded via WYSIWYG open via zoom.js
   'lib/gallery.php',               // Alter output of [gallery] so pics will open via zoom.js
