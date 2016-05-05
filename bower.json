@@ -6,42 +6,6 @@
   ],
   "license": "MIT",
   "private": true,
-  "dependencies": {
-    "bootstrap-sass-official": "3.3.5",
-    "flexboxgrid": "sass",
-    "jchck-btn": "~1.0.0",
-    "jchck-spacing": "~1.5.5",
-    "zoom.js": "~0.0.1"
-  },
-  "overrides": {
-    "scotchPanels": {
-      "main": "./dist/scotchPanels.js"
-    },
-    "flexboxgrid": {
-      "main": "./src/sass/flexboxgrid.scss"
-    },
-    "bootstrap-sass-official": {
-      "main": [
-        "./assets/stylesheets/bootstrap/_variables.scss",
-        "./assets/stylesheets/bootstrap/_mixins.scss",
-        "./assets/stylesheets/bootstrap/_normalize.scss",
-        "./assets/stylesheets/bootstrap/_print.scss",
-        "./assets/stylesheets/bootstrap/_scaffolding.scss",
-        "./assets/stylesheets/bootstrap/_type.scss",
-        "./assets/stylesheets/bootstrap/_code.scss",
-        "./assets/stylesheets/bootstrap/_forms.scss",
-        "./assets/stylesheets/bootstrap/_alerts.scss",
-        "./assets/stylesheets/bootstrap/_list-group.scss",
-        "./assets/stylesheets/bootstrap/_responsive-embed.scss",
-        "./assets/stylesheets/bootstrap/_utilities.scss",
-        "./assets/stylesheets/bootstrap/_responsive-utilities.scss",
-        "./assets/javascripts/bootstrap/transition.js"
-      ]
-    },
-    "zoom.js": {
-      "main": [
-        "./js/zoom.js"
-      ]
-    }
-  }
+  "dependencies": {},
+  "overrides": {}
 }
