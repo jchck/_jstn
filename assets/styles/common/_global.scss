@@ -45,6 +45,26 @@ article a:hover{
 	@extend small;
 }
 
+.drop-cap{
+	float: left;
+	padding: 1rem 0;
+	margin-right: 2rem;
+	display: block;
+	color: $body-bg;
+	font-size: $font-size-h1;
+	line-height: 50px;
+
+	/* Webkit */
+	-webkit-text-stroke: 1px $text-color;
+
+	/* Non-Webkit Fallback */
+	text-shadow: 1px 1px 0px $text-color,
+		-1px -1px 0px $text-color,
+		1px 1px 0px $text-color,
+		-1px -1px 0px $text-color,
+		1px 1px 0px $text-color;
+}
+
 .position-relative{
 	position: relative;
 }
