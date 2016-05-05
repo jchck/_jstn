@@ -1,7 +1,9 @@
 <?php
 
 $jchck_includes = [
-	'lib/assets.php'
+	'lib/assets.php',
+	'lib/setup.php',
+	'lib/titles.php'
 ];
 
 foreach ($jchck_includes as $file) {
