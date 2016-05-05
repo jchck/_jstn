@@ -19,11 +19,19 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+
+        // Wrap the first letter of .content-single in a span so we can drop-cap it
+        $('.content-single p:first-of-type').each(function(){
+          var text          = $.trim($(this).text());
+          var first_letter  = text.substr(0,1);
+
+          $(this).html('<span class="drop-cap">' + first_letter + '</span>' + text.slice(1));
+        });
+
+        // End init func()
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
-
-        
 
       } // End finalize func()
     },
