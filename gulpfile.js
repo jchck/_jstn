@@ -65,16 +65,25 @@ gulp.task('css', function(){
 gulp.task('watch', function(){
 
 	browserSync.init({
+
+		// the php files to watch
 		files: [
 			'{lib,templates}/**/*.php',
 			'*.php'
 		],
+
+		// the url getting proxied, defined above
 		proxy: devUrl,
+
+		// @see https://www.browsersync.io/docs/options/#option-snippetOptions
 		snippetOptions: {
 			whitelist: ['/wp-admin/admin-ajax.php'],
 			blacklist: ['/wp-admin/**']
 		}
 	});
 
+	// the css files to watch on change runs the css processing task
 	gulp.watch(['./src/css/*'], ['css']);
 });
+
+
