@@ -14,9 +14,14 @@ var mqpacker		=		require('css-mqpacker');
 var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
+var browserSync		=		require('browser-sync').create();
+var devUrl			=		'http://vagrant.local/jchck/';
+
 
 //
 // css processing task
+//
+// $ gulp css
 //
 
 gulp.task('css', function(){
@@ -46,4 +51,28 @@ gulp.task('css', function(){
 
 		// spit it out
 		.pipe(gulp.dest('./dest'));
+});
+
+
+//
+// watch task
+//
+// $ gulp watch
+//
+
+gulp.task('watch', function(){
+
+	browserSync.init({
+		files: [
+			'{lib,templates}/**/*.php',
+			'*.php'
+		],
+		proxy: devUrl,
+		snippetOptions: {
+			whitelist: ['/wp-admin/admin-ajax.php'],
+			blacklist: ['/wp-admin/**']
+		}
+	});
+
+	gulp.watch(['./src/css/**/*'], ['css']);
 });
