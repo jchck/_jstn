@@ -32,9 +32,9 @@ function setup(){
 	 *
 	 */
 	
-	register_nav_menu( [
-		'primary_nav'	=> __('Primary Navigation', 'jchck')
-	] );
+	// register_nav_menu( [
+	// 	'primary_nav'	=> __('Primary Navigation', 'jchck')
+	// ] );
 	
 	/**
 	 *
