@@ -1,0 +1,31 @@
+{
+  "name": "jchck_",
+  "version": "4.0.0",
+  "description": "Hullo",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jaechick@justinchick.git.beanstalkapp.com/jchck_.git"
+  },
+  "keywords": [
+    "jchck_",
+    "wordpress"
+  ],
+  "author": "Justin Chick <hey@justinchick.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "css-mqpacker": "^4.0.1",
+    "cssnano": "^3.5.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-size": "^2.1.0",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.1",
+    "precss": "^1.4.0"
+  }
+}
