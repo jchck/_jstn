@@ -50,7 +50,9 @@ gulp.task('css', function(){
 		.pipe(size({gzip: true, showFiles: true, title: 'Processed & gZipped!'}))
 
 		// spit it out
-		.pipe(gulp.dest('./dest'));
+		.pipe(gulp.dest('./dest'))
+
+		.pipe(browserSync.stream());
 });
 
 
@@ -74,5 +76,5 @@ gulp.task('watch', function(){
 		}
 	});
 
-	gulp.watch(['./src/css/**/*'], ['css']);
+	gulp.watch(['./src/css/*'], ['css']);
 });
