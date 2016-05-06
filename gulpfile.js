@@ -42,7 +42,7 @@ gulp.task('css', function(){
 
 		// what's the size?
 		.pipe(size({gzip: false, showFiles: true, title: 'Processed!'}))
-		.pile(size({gzip: true, showFiles: true, title: 'Processed & gZipped!'}))
+		.pipe(size({gzip: true, showFiles: true, title: 'Processed & gZipped!'}))
 
 		// spit it out
 		.pipe(gulp.dest('./dest'));
