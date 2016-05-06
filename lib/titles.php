@@ -22,6 +22,6 @@ function title(){
 	} elseif ( is_404() ) {
 		return __( 'Not Found', 'jchck' );
 	} else {
-		return get_thte_title();
+		return get_the_title();
 	}
 }
