@@ -12,7 +12,9 @@ use Jchck\Wrapper;
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<?php include Wrapper\template_path(); ?>
+	<div class="lg-px3">
+		<?php include Wrapper\template_path(); ?>
+	</div>
 	<?php wp_footer(); ?>
 </body>
 </html>
