@@ -52,6 +52,7 @@ gulp.task('css', function(){
 		// spit it out
 		.pipe(gulp.dest('./dest'))
 
+		// add to the browser sync stream
 		.pipe(browserSync.stream());
 });
 
