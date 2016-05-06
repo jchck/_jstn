@@ -1,6 +1,12 @@
 // jchck_'s gulpfile
 
 //
+// site's dev URL (used in the watch task below)
+//
+
+var devUrl			=		'http://vagrant.local/jchck/';
+
+//
 // gulp plugin registry
 //
 
@@ -15,7 +21,6 @@ var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
 var browserSync		=		require('browser-sync').create();
-var devUrl			=		'http://vagrant.local/jchck/';
 
 
 //
