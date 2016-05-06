@@ -87,3 +87,10 @@ gulp.task('watch', function(){
 });
 
 
+//
+// default task
+//
+// $ gulp
+//
+
+gulp.task('default', ['css', 'watch']);
