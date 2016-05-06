@@ -1,3 +1,5 @@
+<?php get_template_part( 'templates/page', 'title' ); ?>
+
 <?php if (!have_posts()) : ?>
 	<?php _e('Whoops! Nothing here.', 'jchck'); ?>
 	<?php get_search_form(); ?>
