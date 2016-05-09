@@ -41,4 +41,5 @@
 
 /* Theme Specific Styles */
 
+@import '_global';
 @import '_header';
