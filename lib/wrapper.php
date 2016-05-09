@@ -18,10 +18,6 @@ function template_path() {
   return Wrapping::$main_template;
 }
 
-function sidebar_path() {
-  return new Wrapping('templates/sidebar.php');
-}
-
 class Wrapping {
   // Stores the full path to the main template file
   public static $main_template;
