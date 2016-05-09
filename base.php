@@ -12,8 +12,8 @@ use Jchck\Wrapper;
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div class="lg-px3">
-		<?php get_template_part( 'templates/header' ); ?>
+	<?php get_template_part( 'templates/header' ); ?>
+	<div class="px3 wrap mx-auto">
 		<?php include Wrapper\template_path(); ?>
 	</div>
 	<?php wp_footer(); ?>
