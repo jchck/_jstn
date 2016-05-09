@@ -34,7 +34,7 @@
 @import 'basscss-addons/modules/lighten';
 @import 'basscss-addons/modules/background-images';
 
-/* Theme Specific Variables */
+/* Theme Specific Media Queries & Variables */
 
 @import '_mq';
 @import '_variables';

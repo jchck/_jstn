@@ -1,4 +1,12 @@
 :root{
+	/**
+	 *
+	 * All of our variables
+	 * First with Basscss default
+	 * Followed by project specifics
+	 *
+	 */
+	
 	--h1: 2rem;
 	--h2: 1.5rem;
 	--h3: 1.25rem;
