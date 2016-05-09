@@ -1,1 +1,19 @@
+/**
+ *
+ * Set the size of header logo
+ *
+ */
 header svg{ width: calc( var(--space-4) * 2) }
+
+/**
+ *
+ * Add / after all but last <li> inside <ul class="list-reset">
+ *
+ */
+.list-reset li:after{
+	content: '/';
+	padding-left: var(--space-1);
+}
+.list-reset li:last-of-type:after{
+	content: '';
+}
