@@ -32,10 +32,10 @@ function setup(){
 	 *
 	 */
 	
-	// register_nav_menu( [
-	// 	'primary_nav'	=> __('Primary Navigation', 'jchck')
-	// ] );
-	
+	register_nav_menus( [
+		'primary_nav'	=> __('Primary Navigation', 'jchck')
+	] );
+
 	/**
 	 *
 	 * Turn on HTML5 support
@@ -47,3 +47,15 @@ function setup(){
 }
 
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
+
+/**
+ *
+ * Add class' into nav menu <li>'s
+ *
+ */
+function nav_menu($class, $items, $args){
+	$class[] = 'inline-block mr1';
+	return $class;
+}
+
+add_filter('nav_menu_css_class', __NAMESPACE__ . '\\nav_menu', 1, 3);

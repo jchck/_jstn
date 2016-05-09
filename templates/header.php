@@ -8,11 +8,11 @@
 		</div>
 		<div class="flex-auto"></div>
 		<div>
-			<ul class="list-reset">
-				<li class="inline-block mr1">Articles</li>
-				<li class="inline-block mr1">Tutorials</li>
-				<li class="inline-block mr1">Work</li>
-			</ul>
+			<?php
+			if (has_nav_menu( 'primary_nav' )) :
+				wp_nav_menu([ 'theme_location' => 'primary_nav', 'menu_class' => 'list-reset', 'items_wrap' => '<ul class="%2$s">%3$s</ul>']);
+			endif;
+			?>
 		</div>
 	</div>
 </header>
