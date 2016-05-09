@@ -4,7 +4,6 @@
 			<a href="<?= esc_url(home_url('/')); ?>">
 				<?php get_template_part( 'templates/logo', 'jc' ); ?>
 			</a>
-			<p>I build creative platforms to meet your business needs</p>
 		</div>
 		<div class="flex-auto"></div>
 		<div>
