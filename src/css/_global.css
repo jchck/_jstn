@@ -1,3 +1,13 @@
+/**
+ *
+ * Set our <body> level defaults
+ *
+ */
 body{ font-family: Athelas, Georgia, Times, 'Times New Roman', serif;}
 
+/**
+ *
+ * The main content wrap max-width
+ *
+ */
 .wrap{ max-width: var(--width-4); }
