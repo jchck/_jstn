@@ -3,7 +3,7 @@
  * Set the size of header logo
  *
  */
-header svg{ width: calc( var(--space-4) * 2) }
+header svg{ width: calc( var(--space-4) + var(--space-2) ) }
 
 /**
  *
