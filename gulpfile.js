@@ -13,7 +13,6 @@ var devUrl			=		'http://vagrant.local/jchck/';
 var gulp 			=		require('gulp');
 var postcss 		=		require('gulp-postcss');
 var cssnext 		= 		require('postcss-cssnext');
-var precss			=		require('precss');
 var atImport		=		require('postcss-import');
 var mqpacker		=		require('css-mqpacker');
 var cssnano			=		require('cssnano');
@@ -37,7 +36,6 @@ gulp.task('css', function(){
 		cssnano,
 		cssnext,
 		mqpacker,
-		precss
 	];
 
 	// processing plumbing
