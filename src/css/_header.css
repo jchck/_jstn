@@ -7,6 +7,13 @@ header svg{ width: calc( var(--space-4) + var(--space-2) ) }
 
 /**
  *
+ * Set logo :hover state
+ *
+ */
+header svg:hover #jc{stroke: var(--blue);}
+
+/**
+ *
  * Add / after all but last <li> inside <ul class="list-reset">
  *
  */
