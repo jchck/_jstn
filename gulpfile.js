@@ -34,7 +34,9 @@ gulp.task('css', function(){
 		atImport,
 		cssvariables,
 		cssnano,
-		cssnext,
+		cssnext({
+			'browsers': ['last 2 version']
+		}),
 		mqpacker,
 	];
 
