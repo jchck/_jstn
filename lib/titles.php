@@ -34,7 +34,7 @@ function classes(){
 	 */
 	
 	if (is_single()) {
-		$class = 'border-top';
+		$class = 'border-top mt0 pt2';
 	} else {
 		$class = 'not-single';
 	}
