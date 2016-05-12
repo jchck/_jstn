@@ -30,4 +30,5 @@ header svg:hover #jc{stroke: var(--blue);}
 }
 .list-reset li:last-of-type:after{
 	content: '';
+	padding-left: 0;
 }
