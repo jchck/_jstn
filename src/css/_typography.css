@@ -1,0 +1,21 @@
+/**
+ *
+ * Serif font stack
+ *
+ */
+/* .serif{ font-family: Athelas, Georgia, Times, 'Times New Roman', serif;}
+
+/**
+ *
+ * Turn off margin-top for first of type <p> elements
+ *
+ */
+p:first-of-type{margin-top: 0 }
+
+/**
+ *
+ * Type measure ~66 characters
+ * @see https://github.com/tachyons-css/tachyons-typography
+ *
+ */
+.measure{ max-width: 30em }
