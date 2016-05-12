@@ -7,13 +7,6 @@
 
 /**
  *
- * The main content wrap max-width
- *
- */
-.wrap{ max-width: var(--width-4); }
-
-/**
- *
  * Turn off margin-top for first of type <p> elements
  *
  */

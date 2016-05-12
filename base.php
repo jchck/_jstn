@@ -13,7 +13,7 @@ use Jchck\Wrapper;
 </head>
 <body <?php body_class(); ?>>
 	<?php get_template_part( 'templates/header' ); ?>
-	<div class="px3 wrap mx-auto">
+	<div class="px3 lg-px4">
 		<?php include Wrapper\template_path(); ?>
 	</div>
 	<?php wp_footer(); ?>
