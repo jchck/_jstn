@@ -27,6 +27,12 @@ function title(){
 }
 
 function classes(){
+	/**
+	 *
+	 * This controls the added css classes to the page-title.php <h1> block
+	 *
+	 */
+	
 	if (is_single()) {
 		$class = 'border-top';
 	} else {
