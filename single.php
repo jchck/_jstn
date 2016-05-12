@@ -1,6 +1,7 @@
 <?php
 
 use Jchck\Excerpt;
+use Jchck\Category
 
 /**
  *
@@ -16,6 +17,9 @@ use Jchck\Excerpt;
 		<header class="col sm-col-6 sm-pr3">
 			<?php get_template_part( 'templates/page', 'title' ); ?>
 			<?= Excerpt\excerpt(); ?>
+			<ul class="list-reset">
+				<?= Category\categories(); ?>
+			</ul>
 			<time datetime="<?= get_post_time('c', true); ?>">
 				<?= get_the_date(); ?>
 			</time>
