@@ -1,34 +1,40 @@
-/**
- *
- * Set the size of header logo
- *
- */
-header svg{ width: calc( var(--space-4) + var(--space-2) ) }
+header svg{
 
-/**
- *
- * Set logo transition speed
- *
- */
-header svg #jc{ transition: all 0.1s ease-in-out }
+	/**
+	 *
+	 * Set the size of header logo
+	 *
+	 */
+	width: calc( var(--space-4) + var(--space-2) );
 
-/**
- *
- * Set logo :hover state
- *
- */
-header svg:hover #jc{stroke: var(--blue);}
+	/**
+	 *
+	 * Set logo transition speed
+	 *
+	 */
+	#jc{ transition: all 0.1s ease-in-out }
+
+	/**
+	 *
+	 * Set logo :hover state
+	 *
+	 */
+	&:hover #jc{ stroke: var(--blue) }
+}
 
 /**
  *
  * Add / after all but last <li> inside <ul class="list-reset">
  *
  */
-.list-reset li:after{
-	content: '/';
-	padding-left: var(--space-1);
-}
-.list-reset li:last-of-type:after{
-	content: '';
-	padding-left: 0;
+
+.list-reset li{
+	&:after{
+		content: '/';
+		padding-left: var(--space-1);
+	}
+	&:last-of-type:after{
+		content: '';
+		padding-left: 0;
+	}
 }
