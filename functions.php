@@ -5,6 +5,7 @@ $jchck_includes = [
 	'lib/setup.php',
 	'lib/titles.php',
 	'lib/menu.php',
+	'lib/excerpt.php',
 	'lib/wrapper.php'
 ];
 
