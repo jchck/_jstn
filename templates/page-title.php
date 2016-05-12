@@ -4,6 +4,6 @@ use Jchck\Titles;
 
 ?>
 
-<h2>
+<h1 class="<?= Titles\classes(); ?>">
 	<?= Titles\title(); ?>
-</h2>
+</h1>

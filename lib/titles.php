@@ -25,3 +25,12 @@ function title(){
 		return get_the_title();
 	}
 }
+
+function classes(){
+	if (is_single()) {
+		$class = 'border-top';
+	} else {
+		$class = 'not-single';
+	}
+	return $class;
+}
