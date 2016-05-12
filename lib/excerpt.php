@@ -6,6 +6,8 @@ function excerpt(){
 	/**
 	 *
 	 * Check to see if current post has an excerpt and if so get it
+	 * @see https://codex.wordpress.org/Function_Reference/has_excerpt
+	 * @see https://developer.wordpress.org/reference/functions/the_excerpt
 	 *
 	 */
 	
