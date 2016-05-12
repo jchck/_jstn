@@ -2,6 +2,21 @@
 
 namespace Jchck\Excerpt;
 
+function excerpt(){
+	/**
+	 *
+	 * Check to see if current post has an excerpt and if so get it
+	 *
+	 */
+	
+	if (has_excerpt( )) {
+		$excerpt = the_excerpt();
+	} else {
+		$excerpt = null;
+	}
+	return $excerpt;
+}
+
 function clean(){
 	/**
 	 *
