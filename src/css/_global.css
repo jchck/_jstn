@@ -3,7 +3,7 @@
  * Set our <body> level defaults
  *
  */
-body{ font-family: Athelas, Georgia, Times, 'Times New Roman', serif;}
+/* body{ font-family: Athelas, Georgia, Times, 'Times New Roman', serif;}
 
 /**
  *
@@ -11,3 +11,5 @@ body{ font-family: Athelas, Georgia, Times, 'Times New Roman', serif;}
  *
  */
 .wrap{ max-width: var(--width-4); }
+
+p:first-of-type{margin-top: 0 }
