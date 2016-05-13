@@ -39,15 +39,15 @@ function gallery($output, $attr){
 
     if (empty($attachments)) return '';
 
-    $output = "<div class=\"ENTER_CLASSES_HERE\">\n";
+    $output = "<div class=\"flex flex-wrap justify-end\">\n";
 
     /* Loop through attachments */
 
     foreach ($attachments as $id => $attachment) {
     	$img = wp_get_attachment_image_src($id, 'full');
 
-    	$output .= "<div class=\"ENTER_CLASSES_HERE\">\n";
-    	$output .= "<img src=\"{$img[0]}\" class=\"ENTER_CLASSES_HERE\" />\n";
+    	$output .= "<div class=\"col-6 pr1 pb1\">\n";
+    	$output .= "<img src=\"{$img[0]}\" class=\"border p1\" />\n";
     	$output .= "</div>\n";
 
     }
