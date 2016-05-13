@@ -12,8 +12,7 @@ function gallery($output, $attr){
 	 *
 	 */
 	
-	global $post;
-    global $img_css;
+	global $post, $img_css;
 
 	if (isset( $attr['orderby'])) {
 		$attr['orderby'] = sanitize_sql_orderby($attr['orderby']);
