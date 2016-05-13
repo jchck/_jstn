@@ -66,7 +66,16 @@ function gallery($output, $attr){
 
 add_filter( 'post_gallery', __NAMESPACE__ . '\\gallery', 10, 2);
 
+
+
 function img($html, $id, $caption, $title, $align, $url){
+    /**
+     *
+     * This allows us to control the output of <img /> tags inserted via WYSIWYG
+     * @link https://developer.wordpress.org/reference/hooks/image_send_to_editor/
+     *
+     */
+    
     $img = "<img src='$url' class='$align' />";
     return $img;
 }
