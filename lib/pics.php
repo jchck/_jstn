@@ -70,10 +70,10 @@ add_filter( 'post_gallery', __NAMESPACE__ . '\\gallery', 10, 2);
 
 
 
-function img($html, $id, $caption, $title, $align, $url){
+function new_imgs($html, $id, $caption, $title, $align, $url){
     /**
      *
-     * This allows us to control the output of <img /> tags inserted via WYSIWYG
+     * This allows us to control the output of new <img /> tags inserted via WYSIWYG
      * @link https://developer.wordpress.org/reference/hooks/image_send_to_editor/
      *
      */
@@ -84,14 +84,14 @@ function img($html, $id, $caption, $title, $align, $url){
     return $img;
 }
 
-add_action('image_send_to_editor', __NAMESPACE__ . '\\img', 10, 9);
+add_action('image_send_to_editor', __NAMESPACE__ . '\\new_imgs', 10, 9);
 
 
 
 function previous_imgs($content) {
     /**
      *
-     * Here we add our $img_css classes to preexisting <img />'s
+     * Here we add our $img_css classes to preexisting <img />'s inserted via WYSIWYG
      * @link http://stackoverflow.com/a/22078964/2258144
      * @uses http://php.net/manual/en/function.preg-replace.php
      * @uses https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content
