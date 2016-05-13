@@ -49,16 +49,16 @@ function gallery($output, $attr){
 
     if (empty($attachments)) return '';
 
-    $output = "<div class=\"flex flex-wrap justify-end\">\n";
+    $output = "<div class='flex flex-wrap justify-end'>";
 
     /* Loop through attachments */
 
     foreach ($attachments as $id => $attachment) {
     	$img = wp_get_attachment_image_src($id, 'full');
 
-    	$output .= "<div class=\"col-6 pr1 pb1\">\n";
-    	$output .= "<img src=\"{$img[0]}\" class=\"{$img_css}\" />\n";
-    	$output .= "</div>\n";
+    	$output .= "<div class='col-6 pr1 pb1'>";
+    	$output .= "<img src='{$img[0]}' class='{$img_css}' />";
+    	$output .= "</div>";
 
     }
 
@@ -81,7 +81,7 @@ function img($html, $id, $caption, $title, $align, $url){
 
     global $img_css;
     
-    $img = "<img src='$url' class='$img_css' />";
+    $img = "<img src='{$url}' class='{$img_css}' />";
     return $img;
 }
 
