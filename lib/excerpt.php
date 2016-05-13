@@ -31,3 +31,16 @@ function clean(){
 }
 
 add_filter('excerpt_more', __NAMESPACE__ . '\\clean');
+
+function classes($excerpt){
+	/**
+	 *
+	 * Add classes to the exerpt
+	 * @see http://php.net/manual/en/function.str-replace.php
+	 * @see https://developer.wordpress.org/reference/functions/the_excerpt
+	 *
+	 */
+	
+	return str_replace('<p', '<p class="h2"', $excerpt);
+}
+add_filter('the_excerpt', __NAMESPACE__ . '\\classes');
