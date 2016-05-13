@@ -20,9 +20,7 @@ use Jchck\Category
 			<time class="caps" datetime="<?= get_post_time('c', true); ?>">
 				<?= get_the_date('F j, Y'); ?>
 			</time>
-			<ul class="list-reset">
-				<?= Category\categories(); ?>
-			</ul>
+			<?= Category\categories(); ?>
 		</header>
 		<article class="col sm-col-6">
 			<?php get_template_part( 'templates/content', 'page' ); ?>
