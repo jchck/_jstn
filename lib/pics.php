@@ -1,6 +1,6 @@
 <?php
 
-namespace Jchck\Gallery;
+namespace Jchck\Pics;
 
 function gallery($output, $attr){
 	/**
