@@ -85,3 +85,24 @@ function img($html, $id, $caption, $title, $align, $url){
 }
 
 add_action('image_send_to_editor', __NAMESPACE__ . '\\img', 10, 9);
+
+
+
+function previous_imgs($content) {
+    /**
+     *
+     * Here we add our $img_css classes to preexisting <img />'s
+     * @link http://stackoverflow.com/a/22078964/2258144
+     * @uses http://php.net/manual/en/function.preg-replace.php
+     * @uses https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content
+     *
+     */
+    
+   global $post, $img_css;
+
+   $pattern ="/<img(.*?)class=\"(.*?)\"(.*?)>/i";
+   $replacement = '<img$1class="$2 ' . $img_css .'"$3>';
+   $content = preg_replace($pattern, $replacement, $content);
+   return $content;
+}
+add_filter('the_content', __NAMESPACE__ . '\\previous_imgs');
