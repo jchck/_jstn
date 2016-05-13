@@ -3,6 +3,13 @@
 namespace Jchck\Gallery;
 
 function gallery($output, $attr){
+	/**
+	 *
+	 * This refractors the [gallery] shortcode
+	 * @link http://stackoverflow.com/a/19804410
+	 *
+	 */
+	
 	global $post;
 
 	if (isset( $attr['orderby'])) {
