@@ -65,3 +65,10 @@ function gallery($output, $attr){
 }
 
 add_filter( 'post_gallery', __NAMESPACE__ . '\\gallery', 10, 2);
+
+function img($html, $id, $caption, $title, $align, $url){
+    $img = "<img src='$url' class='$align' />";
+    return $img;
+}
+
+add_action('image_send_to_editor', __NAMESPACE__ . '\\img', 10, 9);
