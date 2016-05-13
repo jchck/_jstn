@@ -1,4 +1,4 @@
-<header class="lg-py4 px3 wrap mx-auto">
+<header class="lg-py4">
 	<div class="flex flex-wrap items-center">
 		<div>
 			<a href="<?= esc_url(home_url('/')); ?>">
