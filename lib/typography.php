@@ -12,7 +12,9 @@ function measure($content){
 	 *
 	 */
 	
-	return preg_replace('/<p([^>]+)?>/', '<p$1 class="measure">', $content, -1);
+	if(is_single()){
+		return preg_replace('/<p([^>]+)?>/', '<p$1 class="measure">', $content, -1);
+	}
 }
 
 add_filter('the_content', __NAMESPACE__ . '\\measure');
