@@ -78,8 +78,10 @@ function img($html, $id, $caption, $title, $align, $url){
      * @link https://developer.wordpress.org/reference/hooks/image_send_to_editor/
      *
      */
+
+    global $img_css;
     
-    $img = "<img src='$url' class='$align' />";
+    $img = "<img src='$url' class='$img_css' />";
     return $img;
 }
 
