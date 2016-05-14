@@ -2,6 +2,7 @@
 	<header class="col-12 sm-col-6 sm-pr3">
 		<?php get_template_part( 'templates/page', 'title' ); ?>
 		<p class="h2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum condimentum elementum.</p>
+		<p class="m0 caps"><a href="#" target="_blank">Download PDF Resume</a></p>
 	</header>
 	<article class="col-12 sm-col-6 pb4">
 		<p class="measure">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -74,7 +75,7 @@
 	</div>
 	<article class="col-12 sm-col-6 pb4">
 		<h3 class="h2 bold mt0">The Chapel Law Group</h3>
-		<p class="measure caps m0">Case Study</p>
+		<p class="measure caps m0"><a href="#">Case Study</a></p>
 		<p class="measure mt0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,7 +83,7 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<h3 class="h2 bold">Wash U Med School</h3>
-		<p class="measure caps m0">Case Study</p>
+		<p class="measure caps m0"><a href="#">Case Study</a></p>
 		<p class="measure mt0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -90,7 +91,7 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<h3 class="h2 bold">Dashtaki Law Firm</h3>
-		<p class="measure caps m0">Case Study</p>
+		<p class="measure caps m0"><a href="#">Case Study</a></p>
 		<p class="measure mt0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -98,7 +99,7 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		<h3 class="h2 bold">Our Collective</h3>
-		<p class="measure caps m0">Case Study</p>
+		<p class="measure caps m0"><a href="#">Case Study</a></p>
 		<p class="measure mt0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
