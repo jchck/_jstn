@@ -33,7 +33,7 @@ function classes(){
 	 *
 	 */
 	
-	if (is_single()) {
+	if (is_singular()) {
 		$class = 'border-top mt0 pt2 bold';
 	} else {
 		$class = 'not-single';
