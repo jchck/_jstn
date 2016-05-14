@@ -114,6 +114,7 @@ function main(){
     /**
      *
      * This displays a posts main image to the front
+     * Currently this function is not in use
      * @uses https://www.advancedcustomfields.com/resources/get_field
      * @uses https://developer.wordpress.org/reference/functions/wp_get_attachment_image_url
      *

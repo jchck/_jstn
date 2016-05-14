@@ -2,7 +2,6 @@
 
 use Jchck\Category;
 use Jchck\Excerpt;
-use Jchck\Pics;
 
 /**
  *
@@ -21,7 +20,6 @@ use Jchck\Pics;
 			<?= get_the_date('F j, Y'); ?>
 		</time>
 		<?= Category\categories(); ?>
-		<?= Pics\main(); ?>
 	</header>
 	<article class="sm-col-6">
 		<?php get_template_part( 'templates/content', 'page' ); ?>
