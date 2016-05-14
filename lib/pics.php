@@ -119,13 +119,13 @@ function main(){
      */
     
     if(class_exists('acf')){
-        
+
         global $img_css;
 
         $img = get_field('main_image');
 
         if ($img) {
-            $url = wp_get_attachment_image_url($img );
+            $url = wp_get_attachment_image_url( $img, 'medium' );
 
             echo '<img src="' . $url . '" class="' . $img_css . '" />';
         }

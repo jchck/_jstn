@@ -31,7 +31,7 @@ function setup(){
 	 *
 	 */
 	register_nav_menus( [
-		'primary_nav'	=> __('Primary Navigation', 'jchck')
+		'primary_nav'	=> __( 'Primary Navigation', 'jchck' )
 	] );
 
 	/**
@@ -40,7 +40,15 @@ function setup(){
 	 * @see http://codex.wordpress.org/Function_Reference/add_theme_support#HTML5
 	 *
 	 */
-	add_theme_support('html5', ['caption', 'comment-form', 'comment-list', 'gallery', 'search-form']);
+	add_theme_support( 'html5', ['caption', 'comment-form', 'comment-list', 'gallery', 'search-form'] );
+
+	/**
+	 *
+	 * Add post thumbnail support
+	 * @see http://codex.wordpress.org/Post_Thumbnails
+	 *
+	 */
+	add_theme_support( 'post-thumbnails' );
 }
 
 add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
