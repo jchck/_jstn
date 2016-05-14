@@ -60,7 +60,13 @@
 			<li>JavaScript</li>
 			<ul class="list-reset mt0 pl2">
 				<li>jQuery</li>
+				<li>Gulp</li>
+				<li>Grunt</li>
 			</ul>
+			<li class="mb2">MySQL</li>
+			<li class="mb2">git</li>
+			<li class="mb2">Bower</li>
+			<li class="mb2">npm</li>
 		</ul>
 	</article>
 <?php endwhile; ?>
