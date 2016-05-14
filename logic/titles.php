@@ -35,10 +35,10 @@ function classes(){
 	 *
 	 */
 	if ( is_home()) {
-		$home_classes = 'mt0 pt2 bold';
+		$home_classes = 'mt0 pt2 bold is_home';
 		$classes = $home_classes;
 	} elseif ( is_singular() || is_page() ) {
-		$classes = 'border-top mt0 pt2 bold';
+		$classes = 'border-top mt0 mb0 pt2 bold';
 	} else {
 		$classes = 'not passing';
 	}
