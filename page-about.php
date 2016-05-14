@@ -41,4 +41,26 @@
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</article>
+	<div class="sm-col-6 sm-pr3">
+		<h3 class="h1 border-top mt0 pt2 bold">Skills Overview</h3>
+	</div>
+	<article class="sm-col-6">
+		<ul class="list-reset">
+			<li>HTML</li>
+			<li>CSS</li>
+			<ul class="list-reset">
+				<li>Sass</li>
+				<li>Less</li>
+				<li>PostCss</li>
+			</ul>
+			<li>PHP</li>
+			<ul class="list-reset">
+				<li>Liquid Templating</li>
+			</ul>
+			<li>JavaScript</li>
+			<ul class="list-reset">
+				<li>jQuery</li>
+			</ul>
+		</ul>
+	</article>
 <?php endwhile; ?>
