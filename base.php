@@ -18,6 +18,7 @@ use Jchck\Wrapper;
 			<div class="flex flex-wrap">
 				<?php include Wrapper\template_path(); ?>
 			</div>
+			<?php get_template_part( 'templates/footer' ); ?>
 		</div>
 	</div>
 	<?php wp_footer(); ?>

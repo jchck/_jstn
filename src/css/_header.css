@@ -1,4 +1,4 @@
-header svg{
+svg.logo{
 
 	/**
 	 *
@@ -12,7 +12,7 @@ header svg{
 	 * Set logo transition speed
 	 *
 	 */
-	#jc{ transition: all 0.1s ease-in-out }
+	#jc{ transition: all 0.3s ease-in-out }
 
 	/**
 	 *
