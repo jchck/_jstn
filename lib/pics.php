@@ -106,3 +106,28 @@ function previous_imgs($content) {
    return $content;
 }
 add_filter('the_content', __NAMESPACE__ . '\\previous_imgs');
+
+
+
+function main(){
+    /**
+     *
+     * This displays a posts main image to the front
+     * @uses https://www.advancedcustomfields.com/resources/get_field
+     * @uses https://developer.wordpress.org/reference/functions/wp_get_attachment_image_url
+     *
+     */
+    
+    if(class_exists('acf')){
+        
+        global $img_css;
+
+        $img = get_field('main_image');
+
+        if ($img) {
+            $url = wp_get_attachment_image_url($img );
+
+            echo '<img src="' . $url . '" class="' . $img_css . '" />';
+        }
+    }
+}
