@@ -67,7 +67,7 @@
 		<p class="measure mt0">Although the Dashtaki Law Firm is on of my oldest active clients the current version of the firm’s site launched August of 2015. I provided creative direction of the law firm’s brand identity and took the firm through two complete site builds.</p>
 		<h3 class="h2 bold">Our Collective</h3>
 		<p class="measure caps m0"><a href="#">Case Study</a></p>
-		<p class="measure mt0">Though in operation for just under a year, I helped co- found Our Collective to share in the making of a kind, humble, and just view of interaction design.</p>
+		<p class="measure mt0">Though in operation for just under a year, I helped co-found Our Collective to share in the making of a kind, humble, and just view of interaction design.</p>
 
 	</article>
 <?php endwhile; ?>
