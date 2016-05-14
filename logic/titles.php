@@ -21,6 +21,8 @@ function title(){
 		return sprintf( __( 'Search Results for %s', 'jchck' ), get_search_query() );
 	} elseif ( is_404() ) {
 		return __( 'Not Found', 'jchck' );
+	} elseif (is_page( 'resume' )) {
+		return __( 'Justin Chick Who?', 'jchck' );
 	} else {
 		return get_the_title();
 	}
