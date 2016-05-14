@@ -1,5 +1,12 @@
 /**
  *
+ * Base font-size
+ *
+ */
+ html{ font-size: var(--base-font-size) }
+
+/**
+ *
  * Serif font stack
  *
  */
