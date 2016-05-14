@@ -45,20 +45,20 @@
 		<h3 class="h1 border-top mt0 pt2 bold">Skills Overview</h3>
 	</div>
 	<article class="sm-col-6">
-		<ul class="list-reset">
-			<li>HTML</li>
+		<ul class="list-reset mt0">
+			<li class="mb2">HTML</li>
 			<li>CSS</li>
-			<ul class="list-reset">
+			<ul class="list-reset mt0 pl2">
 				<li>Sass</li>
 				<li>Less</li>
 				<li>PostCss</li>
 			</ul>
 			<li>PHP</li>
-			<ul class="list-reset">
+			<ul class="list-reset mt0 pl2">
 				<li>Liquid Templating</li>
 			</ul>
 			<li>JavaScript</li>
-			<ul class="list-reset">
+			<ul class="list-reset mt0 pl2">
 				<li>jQuery</li>
 			</ul>
 		</ul>
