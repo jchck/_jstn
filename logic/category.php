@@ -21,7 +21,7 @@ function categories(){
 	if(!has_category($not_these)){
 		$categories = get_the_category();
 
-		echo '<ul class="list-reset">';
+		echo '<ul class="list-reset slash">';
 
 		foreach ($categories as $category) {
 			$link = get_category_link( $category );
