@@ -15,7 +15,9 @@ use Jchck\Wrapper;
 	<div class="px3 lg-px4">
 		<div class="flex flex-column">
 			<?php get_template_part( 'templates/header' ); ?>
-			<?php include Wrapper\template_path(); ?>
+			<div class="flex flex-wrap">
+				<?php include Wrapper\template_path(); ?>
+			</div>
 		</div>
 	</div>
 	<?php wp_footer(); ?>
