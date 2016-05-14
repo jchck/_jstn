@@ -1,15 +1,15 @@
 <?php
 
 $jchck_includes = [
-	'lib/assets.php',
-	'lib/setup.php',
-	'lib/titles.php',
-	'lib/menu.php',
-	'lib/excerpt.php',
-	'lib/category.php',
-	'lib/typography.php',
-	'lib/pics.php',
-	'lib/wrapper.php'
+	'logic/assets.php',
+	'logic/setup.php',
+	'logic/titles.php',
+	'logic/menu.php',
+	'logic/excerpt.php',
+	'logic/category.php',
+	'logic/typography.php',
+	'logic/pics.php',
+	'logic/wrapper.php'
 ];
 
 foreach ($jchck_includes as $file) {
