@@ -21,20 +21,3 @@ header svg{
 	 */
 	&:hover #jc{ stroke: var(--blue) }
 }
-
-/**
- *
- * Add / after all but last <li> inside <ul class="list-reset">
- *
- */
-
-.list-reset li{
-	&:after{
-		content: '/';
-		padding-left: var(--space-1);
-	}
-	&:last-of-type:after{
-		content: '';
-		padding-left: 0;
-	}
-}
