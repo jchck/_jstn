@@ -40,7 +40,13 @@ function classes($excerpt){
 	 * @see https://developer.wordpress.org/reference/functions/the_excerpt
 	 *
 	 */
-	
-	return str_replace('<p', '<p class="h2"', $excerpt);
+
+	if (is_home()) {
+		$classes = str_replace('<p', '<p class="h3 measure"', $excerpt);
+	} else {
+		$classes = str_replace('<p', '<p class="h2"', $excerpt);
+	}
+
+	return $classes;
 }
 add_filter('the_excerpt', __NAMESPACE__ . '\\classes');

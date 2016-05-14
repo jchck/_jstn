@@ -35,7 +35,7 @@ function classes(){
 	 *
 	 */
 	
-	if ( is_singular() && is_page() ) {
+	if ( is_singular() || is_page() || is_home() ) {
 		$class = 'border-top mt0 pt2 bold';
 	} else {
 		$class = 'not-single';
