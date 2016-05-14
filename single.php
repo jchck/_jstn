@@ -14,8 +14,8 @@ use Jchck\Pics;
 ?>
 
 <?php while ( have_posts() ): the_post(); ?>
-	<div class="clearfix">
-		<header class="col sm-col-6 sm-pr3">
+	<div class="flex flex-wrap">
+		<header class="sm-col-6 sm-pr3">
 			<?php get_template_part( 'templates/page', 'title' ); ?>
 			<?= Excerpt\excerpt(); ?>
 			<time class="caps" datetime="<?= get_post_time('c', true); ?>">
@@ -24,7 +24,7 @@ use Jchck\Pics;
 			<?= Category\categories(); ?>
 			<?= Pics\main(); ?>
 		</header>
-		<article class="col sm-col-6">
+		<article class="sm-col-6">
 			<?php get_template_part( 'templates/content', 'page' ); ?>
 		</article>
 	</div>
