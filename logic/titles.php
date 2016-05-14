@@ -34,11 +34,13 @@ function classes(){
 	 * This controls the added css classes to the page-title.php <h1> block
 	 *
 	 */
-	
-	if ( is_singular() || is_page() || is_home() ) {
-		$class = 'border-top mt0 pt2 bold';
+	if ( is_home()) {
+		$home_classes = 'mt0 pt2 bold';
+		$classes = $home_classes;
+	} elseif ( is_singular() || is_page() ) {
+		$classes = 'border-top mt0 pt2 bold';
 	} else {
-		$class = 'not-single';
+		$classes = 'not passing';
 	}
-	return $class;
+	return $classes;
 }
