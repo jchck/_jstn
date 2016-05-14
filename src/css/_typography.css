@@ -43,3 +43,10 @@ p:first-of-type{margin-top: 0 }
 		padding-left: 0;
 	}
 }
+
+/**
+ *
+ * Skinny border width
+ *
+ */
+.border-width-skinny{ border-width: calc( var(--border-width) / 2 ); }
