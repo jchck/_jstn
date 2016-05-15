@@ -4,7 +4,10 @@
  * This template is not available for editing/filtering via PHP
  *
  */
-.posts-navigation{ width: 100% }
+.posts-navigation{ 
+	width: 100%;
+	padding-top: var(--space-3);
+}
 
 .screen-reader-text{ display: none }
 
