@@ -15,6 +15,8 @@ function title(){
 		} else {
 			return __( 'Latest Posts', 'jchck' );
 		}
+	} elseif ( is_post_type_archive( 'work' )){
+		return sprintf( __('Case Studies'), 'jchck' );
 	} elseif ( is_archive() ) {
 		return get_the_archive_title();
 	} elseif ( is_search() ) {
