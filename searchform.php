@@ -3,6 +3,7 @@
 	 *
 	 * Overrides the default search form
 	 * Called via get_search_field()
+	 * @see https://scotch.io/tutorials/google-material-design-input-boxes-in-css3
 	 *
 	 */
 ?>
