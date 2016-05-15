@@ -41,7 +41,7 @@ function classes($excerpt){
 	 *
 	 */
 
-	if (is_home()) {
+	if (is_home() || is_archive()) {
 		$classes = str_replace('<p', '<p class="h3 measure"', $excerpt);
 	} else {
 		$classes = str_replace('<p', '<p class="h2"', $excerpt);
