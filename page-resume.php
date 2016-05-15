@@ -1,7 +1,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 	<header class="col-12 sm-col-6 sm-pr3">
 		<?php get_template_part( 'templates/page', 'title' ); ?>
-		<p class="h2">I’m a freelance front-end developer with over 6 years experience in the WordPress ecosystem.</p>
+		<p class="h2">I’m a front-end developer with over 6 years experience in the WordPress ecosystem.</p>
 		<p class="h3">Currently seeking fulltime employment.</p>
 		<p class="m0 caps"><a href="#" target="_blank">Download PDF Resume</a></p>
 	</header>
