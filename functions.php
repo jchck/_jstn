@@ -9,7 +9,8 @@ $jchck_includes = [
 	'logic/category.php',
 	'logic/typography.php',
 	'logic/pics.php',
-	'logic/wrapper.php'
+	'logic/wrapper.php',
+	'logic/work.php'
 ];
 
 foreach ($jchck_includes as $file) {
