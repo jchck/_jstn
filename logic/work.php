@@ -73,3 +73,19 @@ function svg(){
 		return $svg;
 	}
 }
+
+function description(){
+	/**
+	 *
+	 * Check to see if ACF is active and then return the project description
+	 *
+	 */
+	
+	if (class_exists( 'acf')) {
+		$description = get_field( 'project_summary' );
+
+		$description = '<p class="h3 measure">' . $description . '</p>';
+
+		return $description;
+	}
+}

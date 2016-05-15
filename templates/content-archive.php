@@ -10,10 +10,7 @@ use Jchck\Work;
 	<div class="flex items-center work-excerpt">
 		<?= Work\svg(); ?>
 		<div class="flex-auto ml3">
-			<p class="h3 measure">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat.</p>
+			<?= Work\description(); ?>
 		</div>
 	</div>
 </article>
