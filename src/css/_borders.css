@@ -1,0 +1,6 @@
+/**
+ *
+ * Skinny border width
+ *
+ */
+.border-width-skinny{ border-width: calc( var(--border-width) / 2 ); }
