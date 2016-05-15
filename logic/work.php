@@ -13,18 +13,18 @@ namespace Jchck\Work;
 function work() {
 
 	$labels = array(
-		'name'                => __( 'Works', 'jchck_' ),
-		'singular_name'       => __( 'Work', 'jchck_' ),
-		'add_new'             => _x( 'Add New Work', 'jchck_', 'jchck_' ),
-		'add_new_item'        => __( 'Add New Work', 'jchck_' ),
-		'edit_item'           => __( 'Edit Work', 'jchck_' ),
-		'new_item'            => __( 'New Work', 'jchck_' ),
-		'view_item'           => __( 'View Work', 'jchck_' ),
-		'search_items'        => __( 'Search Works', 'jchck_' ),
-		'not_found'           => __( 'No Works found', 'jchck_' ),
-		'not_found_in_trash'  => __( 'No Works found in Trash', 'jchck_' ),
-		'parent_item_colon'   => __( 'Parent Work:', 'jchck_' ),
-		'menu_name'           => __( 'Works', 'jchck_' ),
+		'name'                => __( 'Works', 'jchck' ),
+		'singular_name'       => __( 'Work', 'jchck' ),
+		'add_new'             => _x( 'Add New Work', 'jchck', 'jchck' ),
+		'add_new_item'        => __( 'Add New Work', 'jchck' ),
+		'edit_item'           => __( 'Edit Work', 'jchck' ),
+		'new_item'            => __( 'New Work', 'jchck' ),
+		'view_item'           => __( 'View Work', 'jchck' ),
+		'search_items'        => __( 'Search Works', 'jchck' ),
+		'not_found'           => __( 'No Works found', 'jchck' ),
+		'not_found_in_trash'  => __( 'No Works found in Trash', 'jchck' ),
+		'parent_item_colon'   => __( 'Parent Work:', 'jchck' ),
+		'menu_name'           => __( 'Works', 'jchck' ),
 	);
 
 	$args = array(
