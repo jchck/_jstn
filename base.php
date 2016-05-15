@@ -14,11 +14,15 @@ use Jchck\Wrapper;
 <body <?php body_class(); ?>>
 	<div class="px3 lg-px4">
 		<div class="flex flex-column">
-			<?php get_template_part( 'templates/header' ); ?>
+			<?php if (!is_404()) {
+				get_template_part( 'templates/header' );
+			} ?>
 			<div class="flex flex-wrap">
 				<?php include Wrapper\template_path(); ?>
 			</div>
-			<?php get_template_part( 'templates/footer' ); ?>
+			<?php if (!is_404()) {
+				get_template_part( 'templates/footer' ); 
+			} ?>
 		</div>
 	</div>
 	<?php wp_footer(); ?>

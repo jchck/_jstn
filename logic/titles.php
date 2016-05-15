@@ -20,7 +20,7 @@ function title(){
 	} elseif ( is_search() ) {
 		return sprintf( __( 'Search Results for %s', 'jchck' ), get_search_query() );
 	} elseif ( is_404() ) {
-		return __( 'Not Found', 'jchck' );
+		return __( '404: Not Found', 'jchck' );
 	} elseif (is_page( 'resume' )) {
 		return __( 'Justin Chick Who?', 'jchck' );
 	} else {
@@ -35,12 +35,14 @@ function classes(){
 	 *
 	 */
 	if ( is_home() || is_archive()) {
-		$home_classes = 'mt0 pt2 bold is_home';
+		$home_classes = 'mt0 pt2 bold';
 		$classes = $home_classes;
 	} elseif ( is_singular() || is_page() ) {
 		$classes = 'border-top mt0 mb0 pt2 bold';
+	} elseif ( is_404()) {
+		$classes = 'border-top mt2 pt2 mb2';
 	} else {
-		$classes = 'not passing';
+		$classes = null;
 	}
 	return $classes;
 }
