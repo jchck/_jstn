@@ -8,7 +8,7 @@
 	 */
 ?>
 
-<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+<form role="search" method="get" class="search404" action="<?php echo home_url( '/' ); ?>">
 
 	<div class="relative mb3">
 

@@ -5,8 +5,16 @@
  *
  */
 
+ /**
+  *
+  * Styles Specific to 404 Search Bar
+  *
+  */
+.search404 input,
+.search404 .bar{ width: 24rem }
+
 input{
-	width:24rem; /* Variable to the form itself, input & .bar must be same width */
+	
 	border:none;
 }
 
@@ -23,10 +31,6 @@ input:focus ~ label, input:valid ~ label{
 	top: var(--space-2);
 	font-size: var(--h5);
 	color:#5264AE;
-}
-
-.bar{
-	width:24rem; /* Variable to the form itself, input & .bar must be same width */
 }
 
 .bar:before, .bar:after   {
