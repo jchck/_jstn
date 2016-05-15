@@ -1,6 +1,15 @@
 /**
  *
- * Hide screen reader text
+ * The following styles the next/previous post navigation on archive.php
+ * This template is not available for editing/filtering via PHP
  *
  */
+ .posts-navigation{ width: 100% }
+ 
 .screen-reader-text{ display: none }
+
+.nav-links{ 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
