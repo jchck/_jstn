@@ -44,3 +44,17 @@ function classes(){
 	}
 	return $classes;
 }
+
+
+/**
+ *
+ * Filter output of get_the_archive_title()
+ * @see http://wordpress.stackexchange.com/a/175903
+ *
+ */
+add_filter( 'get_the_archive_title', function($title){
+	if (is_category()) {
+		$title = single_cat_title( '', false );
+	}
+	return $title . ' Articles';
+});
