@@ -5,48 +5,27 @@
  *
  */
 
-.group{
-	/*position: relative;
-	margin-bottom: 45px;*/
-}
-
 input{
-	/*font-size:18px;
-	padding:10px 10px 10px 5px;
-	display:block;*/
 	width:24rem; /* Variable to the form itself, input & .bar must be same width */
 	border:none;
-	/*border-bottom:1px solid #757575;*/
 }
 
-input:focus{
-	outline: none
-}
+input:focus{ outline: none }
 
 label{
-	/*color:#999; 
-	font-size:18px;
-	font-weight:normal;*/
-	/*position:absolute;*/
 	pointer-events:none;
 	left: calc( var(--space-1) / 2);
-	/*left:5px;*/
-	/*top:10px;*/
 	top: var(--space-1);
 	transition:0.2s ease all; 
 }
 
 input:focus ~ label, input:valid ~ label{
-	/*top:-20px;*/
 	top: var(--space-2);
-	/*font-size:14px;*/
 	font-size: var(--h5);
 	color:#5264AE;
 }
 
 .bar{
-	/*position:relative;
-	display:block;*/
 	width:24rem; /* Variable to the form itself, input & .bar must be same width */
 }
 
@@ -68,33 +47,30 @@ input:focus ~ label, input:valid ~ label{
 
 /* active state */
 input:focus ~ .bar:before, input:focus ~ .bar:after {
-  width:50%;
+	width:50%;
 }
 
 .highlight {
- /* position:absolute;*/
-  height:60%; 
-  /*width:100px;*/
-  top:25%; 
-  /*left:0;*/
-  pointer-events:none;
-  opacity:0.5;
+	height:60%; 
+	top:25%; 
+	pointer-events:none;
+	opacity:0.5;
 }
 
 /* active state */
 input:focus ~ .highlight {
-  animation:inputHighlighter 0.3s ease;
+	animation:inputHighlighter 0.3s ease;
 }
 
 /* ANIMATIONS ================ */
 @keyframes inputHighlighter {
-  from  { background:#5264AE; }
-  to    { width:0; background:transparent; }
+	from  { background:#5264AE; }
+	to    { width:0; background:transparent; }
 }
 
 /* active state */
 input:focus ~ label, input:valid ~ label {
-  top:-20px;
-  font-size:14px;
-  color:#5264AE;
+	top:-20px;
+	font-size:14px;
+	color:#5264AE;
 }
