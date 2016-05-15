@@ -34,7 +34,7 @@ function classes(){
 	 * This controls the added css classes to the page-title.php <h1> block
 	 *
 	 */
-	if ( is_home()) {
+	if ( is_home() || is_archive()) {
 		$home_classes = 'mt0 pt2 bold is_home';
 		$classes = $home_classes;
 	} elseif ( is_singular() || is_page() ) {
