@@ -58,7 +58,15 @@ function work() {
 add_action( 'init', __NAMESPACE__ . '\\work' );
 
 
+
+
 function svg(){
+	/**
+	 *
+	 * Check's to see if ACF is active and then returns the project SVG
+	 *
+	 */
+	
 	if (class_exists( 'acf' )) {
 		$svg = get_field( 'project_svg_logo', false, false );
 
