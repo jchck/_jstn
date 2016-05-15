@@ -56,3 +56,12 @@ function work() {
 }
 
 add_action( 'init', __NAMESPACE__ . '\\work' );
+
+
+function svg(){
+	if (class_exists( 'acf' )) {
+		$svg = get_field( 'project_svg_logo', false, false );
+
+		return $svg;
+	}
+}

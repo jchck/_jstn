@@ -21,3 +21,9 @@
 	 */
 	&:hover #jc{ stroke: var(--blue) }
 }
+/**
+ *
+ * Size of project logos
+ *
+ */
+.work-excerpt svg{ min-width: var(--space-4); }
