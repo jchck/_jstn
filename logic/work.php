@@ -44,7 +44,7 @@ function work() {
 		'has_archive'         => true,
 		'query_var'           => true,
 		'can_export'          => true,
-		'rewrite'             => true,
+		'rewrite'             => array('slug' => 'case-studies'),
 		'capability_type'     => 'post',
 		'supports'            => array(
 			'title',
