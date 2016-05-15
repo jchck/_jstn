@@ -40,7 +40,7 @@ function classes(){
 	} elseif ( is_singular() || is_page() ) {
 		$classes = 'border-top mt0 mb0 pt2 bold';
 	} elseif ( is_404()) {
-		$classes = 'border-top mt2 pt2 mb2';
+		$classes = 'mt2 pt2 mb2';
 	} else {
 		$classes = null;
 	}
