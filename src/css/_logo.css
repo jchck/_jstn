@@ -12,7 +12,7 @@
 	 * Set logo transition speed
 	 *
 	 */
-	#jc{ transition: all 0.3s ease-in-out }
+	#jc{ transition: var(--transition) }
 
 	/**
 	 *

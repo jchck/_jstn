@@ -24,7 +24,7 @@ label{
 	pointer-events:none;
 	left: calc( var(--space-1) / 2);
 	top: var(--space-1);
-	transition:0.2s ease all; 
+	transition: var(--transition); 
 }
 
 input:focus ~ label, input:valid ~ label{
@@ -40,7 +40,7 @@ input:focus ~ label, input:valid ~ label{
   bottom:1px; 
   position:absolute;
   background: var(--blue); 
-  transition:0.2s ease all; 
+  transition: var(--transition); 
 }
 .bar:before {
   left:50%;
