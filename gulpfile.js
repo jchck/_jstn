@@ -70,7 +70,7 @@ gulp.task('watch', function(){
 
 		// the php files to watch
 		files: [
-			'{lib,templates}/**/*.php',
+			'{logic,templates}/**/*.php',
 			'*.php'
 		],
 
