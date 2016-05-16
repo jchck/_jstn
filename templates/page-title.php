@@ -17,6 +17,10 @@ use Jchck\Work;
 			<?= Work\svg(); ?>
 		</a>
 	</div>
+<?} elseif (is_front_page()) { ?>
+	<div class="flex border-top pt2 pb2">
+		<h1 class="m0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
+	</div>
 <?} else { ?>
 	<h1 class="<?= Titles\classes(); ?>">
 		<?= Titles\title(); ?>
