@@ -1,3 +1,9 @@
+<?php
+
+use Jchck\Excerpt;
+
+?>
+
 <?php while ( have_posts() ): the_post(); ?>
 	<header class="col-12 sm-col-10 md-col-8 sm-py3">
 		<?php get_template_part( 'templates/page', 'title' ); ?>
@@ -7,14 +13,29 @@
 		<p class="caps mb0">Featured Articles</p>
 	</div>
 
-	<article class="col-12 sm-col-6 my2 sm-my4">
-		<h2 class="mt0 pt2 bold"><a href="#">The Title</a></h2>
-		<p class="measure">The positioning of text within the page margins. Alignment can be flush left, flush right, justified, or centered. Flush left and flush right are sometimes referred to as left justified and right justified.</p>
-	</article>
-	<article class="col-12 sm-col-6 my2 sm-my4">
-		<h2 class="mt0 pt2 bold"><a href="#">Another Title</a></h2>
-		<p class="measure">The part of lowercase letters (such as k, b, and d) that ascends above the x-height of the other lowercase letters in a face.</p>
-	</article>
+	<?php 
+			/**
+			 * The WordPress Query class.
+			 * @link http://codex.wordpress.org/Function_Reference/WP_Query
+			 *
+			 */
+			$args = array(
+				'category_name' => 'featured',
+				'post_type' => 'post',
+				'posts_per_page' => 2
+			);
+		
+		$query = new WP_Query( $args );
+		
+	 ?>
+
+	<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+		<article class="col-12 sm-col-6 my2 sm-my4">
+			<h2 class="mt0 pt2 bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<p class="measure"><?= Excerpt\excerpt(); ?></p>
+		</article>
+	<?php endwhile; ?>
+	<?php wp_reset_postdata(); ?>
 
 	<div class="col-12 border-top border-width-skinny">
 		<p class="caps mb0">Open Source Projects</p>
