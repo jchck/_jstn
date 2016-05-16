@@ -19,7 +19,7 @@
 	 * Set logo :hover state
 	 *
 	 */
-	&:hover #jc{ stroke: var(--blue) }
+	&:hover #jc{ stroke: var(--color) }
 }
 /**
  *
