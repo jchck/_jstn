@@ -103,17 +103,3 @@ function link(){
 		return $link;
 	}
 }
-
-function classes(){
-	/**
-	 *
-	 * Check to see if is single-work template and if so return necassary css classes
-	 *
-	 */
-	
-	if (is_singular( 'work' )) {
-		$classes = 'justify-center';
-
-		return $classes;
-	}
-}

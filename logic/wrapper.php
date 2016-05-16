@@ -63,3 +63,17 @@ class Wrapping {
   }
 }
 add_filter('template_include', [__NAMESPACE__ . '\\Wrapping', 'wrap'], 109);
+
+function classes(){
+  /**
+   *
+   * Add some classes to the flex wrapper depending on the template
+   *
+   */
+  
+  if (is_singular( 'work' ) || is_front_page()) {
+    $classes = 'justify-center';
+
+    return $classes;
+  }
+}
