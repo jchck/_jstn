@@ -1,5 +1,5 @@
 <?php while ( have_posts() ): the_post(); ?>
-	<header class="col-12 sm-col-8">
+	<header class="col-12 sm-col-10 md-col-8 sm-py3">
 		<?php get_template_part( 'templates/page', 'title' ); ?>
 	</header>
 
