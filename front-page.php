@@ -17,10 +17,25 @@
 	</article>
 
 	<div class="col-12 border-top border-width-skinny">
-		<p class="caps mb0">Open Source</p>
+		<p class="caps mb0">Open Source Projects</p>
 	</div>
 
 	<article class="col-12 my4">
+
+		<p class="mb0 caps">CSS</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/jframe" target="_blank">jFrame.css</a></h2>
+		<p class="measure">Delightfully simple & scalable css.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/jchck-btn" target="_blank">jchck btn</a></h2>
+		<p class="measure">A button css module writen in sass, makes use of Bootstrap's default variables.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/jchck-spacing" target="_blank">jchck spacing</a></h2>
+		<p class="measure">A whitespace css module writen in sass, makes use of Bootstrap's default variables.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/jchck-type" target="_blank">jchck type</a></h2>
+		<p class="measure">A base typography css module writen in sass, makes use of Bootstrap's default variables.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/our-collective/bootstrap-center-navbar" target="_blank">Bootstrap center navbar</a></h2>
+		<p class="measure">A SASS mixin to center the default Bootstrap navbar, makes use of Bootstraps screen width variable.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/our-collective/oc-styles" target="_blank">Our Collective Styles</a></h2>
+		<p class="measure">Our Collective’s Base LESS Styles & Style Guide</p>
+
 		<p class="mb0 caps">WordPress</p>
 		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/jchck_" target="_blank">jchck_</a></h2>
 		<p class="measure">My current site.</p>
@@ -46,6 +61,8 @@
 		<p class="measure">A plugin to make it easier for your readers to tweet your content.</p>
 		<h2 class="mt0 pt2 bold"><a href="https://github.com/jchck/wp-modern-business" target="_blank">Modern Business</a></h2>
 		<p class="measure">A Roots WordPress template.</p>
+		<h2 class="mt0 pt2 bold"><a href="https://github.com/our-collective/oc-base" target="_blank">Our Collective Base</a></h2>
+		<p class="measure">The Roots starter WordPress theme with some Our Collective customs.</p>
 
 	</article>
 <?php endwhile; ?>
