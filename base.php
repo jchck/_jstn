@@ -1,6 +1,7 @@
 <?php
 
 use Jchck\Wrapper;
+use Jchck\Work;
 
 ?>
 
@@ -17,7 +18,7 @@ use Jchck\Wrapper;
 			<?php if (!is_404()) {
 				get_template_part( 'templates/header' );
 			} ?>
-			<div class="flex flex-wrap">
+			<div class="flex flex-wrap <?= Work\classes(); ?>">
 				<?php include Wrapper\template_path(); ?>
 			</div>
 			<?php if (!is_404()) {
