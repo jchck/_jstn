@@ -21,9 +21,27 @@
 	 */
 	&:hover #jc{ stroke: var(--color) }
 }
+
 /**
  *
- * Size of project logos
+ * Styling project logos on /case-studies/ index
  *
  */
-.work-excerpt svg{ min-width: var(--space-4); }
+.work-excerpt svg{ width: var(--space-4); }
+
+.work-excerpt svg path{ fill: var(--color); }
+
+/**
+ *
+ * These target inner sections of Chapel (#C) & Dashtaki (#D) logos
+ *
+ */
+#D,
+#C{
+	fill: #fff;
+}
+
+#C_feather{
+	stroke: #fff;
+	stroke-width: 5px;
+}
