@@ -16,9 +16,6 @@ use Jchck\Work;
 		<?php get_template_part( 'templates/page', 'title' ); ?>
 	</header>
 	<article class="sm-col-6">
-		<div class="logo-work">
-			<?= Work\svg(); ?>
-		</div>
 		<?php get_template_part( 'templates/content', 'page' ); ?>
 	</article>
 <?php endwhile; ?>

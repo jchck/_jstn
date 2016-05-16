@@ -10,7 +10,12 @@ use Jchck\Work;
 		<h1 class="<?= Titles\classes(); ?>">
 			<?= Titles\title(); ?>
 		</h1>
-		<a class="caps" target="_blank" href="<?= Work\link(); ?>">Project Link</a>
+		<a class="flex items-center logo-work" href="<?= Work\link(); ?>" target="_blank">
+			<?= Work\svg(); ?>
+			<div class="flex-auto">
+				<p class="caps m0">Project Link</p>
+			</div>
+		</a>
 	</div>
 <?} else { ?>
 	<h1 class="<?= Titles\classes(); ?>">
