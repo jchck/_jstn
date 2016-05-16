@@ -5,14 +5,14 @@
 @import 'basscss/node_modules/basscss-type-scale';
 @import 'basscss/node_modules/basscss-typography';
 @import 'basscss/node_modules/basscss-layout';
-@import 'basscss/node_modules/basscss-align';
+/*@import 'basscss/node_modules/basscss-align';*/
 @import 'basscss/node_modules/basscss-margin';
 @import 'basscss/node_modules/basscss-padding';
 @import 'basscss/node_modules/basscss-grid';
 @import 'basscss/node_modules/basscss-flexbox';
 @import 'basscss/node_modules/basscss-position';
 @import 'basscss/node_modules/basscss-border';
-@import 'basscss/node_modules/basscss-hide';
+/*@import 'basscss/node_modules/basscss-hide';*/
 
 /* Basscss Additional Modules */
 
