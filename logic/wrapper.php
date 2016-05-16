@@ -71,9 +71,10 @@ function classes(){
    *
    */
   
-  if (is_singular( 'work' ) || is_front_page()) {
+  if (is_singular( 'work' )) {
     $classes = 'justify-center';
-
-    return $classes;
+  } elseif (is_front_page()) {
+    $classes = 'justify-center border-top';
   }
+  return $classes;
 }

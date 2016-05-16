@@ -18,9 +18,9 @@ use Jchck\Work;
 		</a>
 	</div>
 <?} elseif (is_front_page()) { ?>
-	<div class="flex border-top pt2 pb2">
-		<h1 class="m0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-	</div>
+	<h1 class="mt4 mb1 h1-fp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
+	<p class="h2 mb1">Integer eu mattis sapien. Nulla ut pulvinar purus.</p>
+	<p class="h2 mt0 mb4">Integer eu mattis sapien. Nulla ut pulvinar purus.</p>
 <?} else { ?>
 	<h1 class="<?= Titles\classes(); ?>">
 		<?= Titles\title(); ?>
