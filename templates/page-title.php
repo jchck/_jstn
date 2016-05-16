@@ -6,11 +6,11 @@ use Jchck\Work;
 ?>
 
 <?php if (is_singular( 'work' )) { ?>
-	<div class="flex justify-between items-center border-top pt2 pb2">
+	<div class="md-flex justify-between items-center border-top pt2 pb2">
 		<h1 class="<?= Titles\classes(); ?>">
 			<?= Titles\title(); ?>
 		</h1>
-		<a class="flex items-center logo-work" href="<?= Work\link(); ?>" target="_blank">
+		<a style="max-width: 270px" class="flex items-center logo-work right" href="<?= Work\link(); ?>" target="_blank">
 			<div class="flex-auto">
 				<p class="caps m0 mr2">Project Link</p>
 			</div>

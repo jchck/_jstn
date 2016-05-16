@@ -40,7 +40,7 @@ function classes(){
 		$home_classes = 'mt0 pt2 bold';
 		$classes = $home_classes;
 	} elseif( is_singular( 'work' )) {
-		$classes = 'mt0 mb0 bold';
+		$classes = 'mt0 mb0 bold right-align';
 	} elseif ( is_singular() || is_page() ) {
 		$classes = 'border-top mt0 mb0 pt2 bold';
 	} elseif ( is_404()) {
