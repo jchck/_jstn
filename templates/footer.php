@@ -3,7 +3,7 @@
 		<a href="<?= esc_url(home_url('/')); ?>">
 			<?php get_template_part( 'templates/logo', 'jc' ); ?>
 		</a>
-		<p style="margin-top:.5rem" class="h5">I'm currently looking for full-time work in New England<br />If you're intrested in working together drop me a line:</p>
+		<p style="margin-top:.5rem" class="h5">I'm currently looking for full-time work in New England.<br />If you're intrested in working together drop me a line:</p>
 		<a href="mailto:hey@justinchick.com" class="h3 block">hey@justinchick.com</a>
 	</div>
 	<?php
