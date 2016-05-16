@@ -27,9 +27,9 @@
  * Styling project logos on /case-studies/ index
  *
  */
-.work-excerpt svg{ width: var(--space-4); }
+.logo-work svg{ width: var(--space-4); }
 
-.work-excerpt svg path{ fill: var(--color); }
+.logo-work svg path{ fill: var(--color); }
 
 /**
  *
