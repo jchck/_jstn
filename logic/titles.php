@@ -39,6 +39,8 @@ function classes(){
 	if ( is_home() || is_archive()) {
 		$home_classes = 'mt0 pt2 bold';
 		$classes = $home_classes;
+	} elseif( is_singular( 'work' )) {
+		$classes = 'mt0 mb0 bold';
 	} elseif ( is_singular() || is_page() ) {
 		$classes = 'border-top mt0 mb0 pt2 bold';
 	} elseif ( is_404()) {

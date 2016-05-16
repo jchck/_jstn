@@ -90,6 +90,20 @@ function description(){
 	}
 }
 
+function link(){
+	/**
+	 *
+	 * Check to see if ACF is active and then return the project link
+	 *
+	 */
+	
+	if (class_exists( 'acf' )) {
+		$link = get_field( 'project_url' );
+
+		return $link;
+	}
+}
+
 function classes(){
 	/**
 	 *
