@@ -11,10 +11,10 @@ use Jchck\Work;
 			<?= Titles\title(); ?>
 		</h1>
 		<a class="flex items-center logo-work" href="<?= Work\link(); ?>" target="_blank">
-			<?= Work\svg(); ?>
 			<div class="flex-auto">
-				<p class="caps m0">Project Link</p>
+				<p class="caps m0 mr2">Project Link</p>
 			</div>
+			<?= Work\svg(); ?>
 		</a>
 	</div>
 <?} else { ?>
