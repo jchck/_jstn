@@ -18,7 +18,7 @@
 
 @import 'basscss-addons/modules/responsive-margin';
 @import 'basscss-addons/modules/responsive-padding';
-@import 'basscss-addons/modules/media-object';
+/*@import 'basscss-addons/modules/media-object';*/
 @import 'basscss-addons/modules/all';
 @import 'basscss-addons/modules/forms';
 @import 'basscss-addons/modules/input-range';
