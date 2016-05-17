@@ -1,26 +1,23 @@
-.logo{
+/**
+ *
+ * Set the size of header logo
+ *
+ */
+.logo{ width: calc( var(--space-4) + var(--space-2) ) }
 
-	/**
-	 *
-	 * Set the size of header logo
-	 *
-	 */
-	width: calc( var(--space-4) + var(--space-2) );
+/**
+ *
+ * Set logo transition speed
+ *
+ */
+.logo #jc{ transition: var(--transition) }
 
-	/**
-	 *
-	 * Set logo transition speed
-	 *
-	 */
-	#jc{ transition: var(--transition) }
-
-	/**
-	 *
-	 * Set logo :hover state
-	 *
-	 */
-	&:hover #jc{ stroke: var(--color) }
-}
+/**
+ *
+ * Set logo :hover state
+ *
+ */
+.logo:hover #jc{ stroke: var(--color) }
 
 /**
  *
