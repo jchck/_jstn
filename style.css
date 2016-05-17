@@ -15,10 +15,20 @@ License URI:        http://opensource.org/licenses/MIT
 /**
 
 	TODO:
-	- Colors
-	- <code> block styling
-	- QA
+	- QA:
+		- current color is not working, go back to blue?
+		- Front Page:
+			- Copy
+		- Resume:
+			- Skills overview layout
+			- Skills overview connected to post tags
+			- Project highlight case study links connected
+		- Case Study:
+			- Project descriptions
+		- 404 text block color
 	- Mobile & Cross browser
+
+	- <code> block styling
 
 	- newsletter signup
 
