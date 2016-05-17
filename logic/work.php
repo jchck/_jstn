@@ -48,7 +48,8 @@ function work() {
 		'capability_type'     => 'post',
 		'supports'            => array(
 			'title',
-			'editor'
+			'editor',
+			'excerpt'
 		)
 	);
 

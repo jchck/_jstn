@@ -1,5 +1,6 @@
 <?php
 
+use Jchck\Excerpt;
 use Jchck\Titles;
 use Jchck\Work;
 
@@ -12,7 +13,7 @@ use Jchck\Work;
 			<?= Work\svg(); ?>
 		</a>
 		<div class="flex-auto ml3">
-			<?= Work\description(); ?>
+			<?= Excerpt\excerpt(); ?>
 		</div>
 	</div>
 </article>
