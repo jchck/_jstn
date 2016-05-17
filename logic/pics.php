@@ -56,7 +56,7 @@ function gallery($output, $attr){
     foreach ($attachments as $id => $attachment) {
     	$img = wp_get_attachment_image_src($id, 'full');
 
-    	$output .= "<div class='col-6 pr1 pb1'>";
+    	$output .= "<div class='col-12 sm-col-6 pr1 pb1'>";
     	$output .= "<img src='{$img[0]}' class='{$img_css}' />";
     	$output .= "</div>";
 
