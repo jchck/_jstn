@@ -12,7 +12,7 @@
 @import 'basscss/node_modules/basscss-flexbox';
 @import 'basscss/node_modules/basscss-position';
 @import 'basscss/node_modules/basscss-border';
-/*@import 'basscss/node_modules/basscss-hide';*/
+@import 'basscss/node_modules/basscss-hide';
 
 /* Basscss Additional Modules */
 
