@@ -9,11 +9,8 @@ namespace Jchck\Menu;
  *
  */
 function nav_class($classes, $item){
-	if ($item->title == 'Articles' || $item->title == 'Tutorials') {
-		$classes[] = 'inline-block mr1';
-	} else {
-		$classes[] = 'inline-block';
-	}
+	
+	$classes[] = 'inline-block';
 	return $classes;
 }
 
