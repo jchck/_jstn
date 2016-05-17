@@ -12,7 +12,7 @@ use Jchck\Wrapper;
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class('bg-white black'); ?>>
-	<div class="px3 lg-px4">
+	<div class="md-px4 sm-px2 px2">
 		<div class="flex flex-column">
 			<?php if (!is_404()) {
 				get_template_part( 'templates/header' );
