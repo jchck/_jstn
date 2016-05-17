@@ -5,6 +5,21 @@
  */
  html{ font-size: var(--base-font-size) }
 
+ /**
+  *
+  * Link styline
+  *
+  */
+a{
+	color: var(--color);
+	transition: var(--transition);
+	text-decoration: none;
+}
+ a:hover,
+ a:focus{
+ 	border-bottom: .25rem solid var(--color);
+ }
+
 /**
  *
  * Serif font stack
