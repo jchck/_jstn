@@ -73,6 +73,7 @@
 
 	--blue: #0074d9;
 	--color: var(--blue);
+	--color-hover: var(--teal);
 	--button-color: #fff;
 	--button-background-color: var(--blue);
 

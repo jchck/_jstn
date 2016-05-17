@@ -17,7 +17,7 @@ a{
 }
  a:hover,
  a:focus{
- 	border-bottom: .25rem solid var(--color);
+ 	color: var(--color-hover);
  }
 
 /**
