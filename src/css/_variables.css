@@ -75,7 +75,8 @@
 	--black: #4c4c4c;
 	--red: #F5586A;
 	--orange: #F59958;
-	--color: var(--maroon);
+	--blue: #0074D9;
+	--color: var(--blue);
 	--color-hover: var(--red);
 	--button-color: #fff;
 	--button-background-color: var(--color);
