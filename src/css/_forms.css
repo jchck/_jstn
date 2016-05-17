@@ -11,7 +11,12 @@
   *
   */
 .search404 input,
-.search404 .bar{ width: 24rem }
+.search404 .bar{ width: 12rem }
+
+@media (--breakpoint-sm){
+	.search404 input,
+	.search404 .bar{ width: 24rem }
+}
 
 input{
 	
