@@ -18,9 +18,9 @@ use Jchck\Work;
 		</a>
 	</div>
 <?} elseif (is_front_page() || is_page( 'ck' )) { ?>
-	<h1 class="mt4 mb1 h1-fp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
-	<p class="h2 mb1">Cras laoreet orci sed arcu, finibus arcu dapibus.</p>
-	<p class="h2 mt0 mb4">Integer eu mattis sapien. Nulla ut pulvinar purus.</p>
+	<h1 class="mt4 mb1 h1-fp"><span class="hide">Justin Chick</span>I’m a front-end developer with over 6 years experience in the WordPress ecosystem.</h1>
+	<p class="h2 mb1">I believe in simple, extendable, and reuseable code.</p>
+	<p class="h2 m0 mb4">I believe in design that let's users do what they need to. Quickly.</p>
 <?} else { ?>
 	<h1 class="<?= Titles\classes(); ?>">
 		<?= Titles\title(); ?>
