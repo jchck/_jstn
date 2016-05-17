@@ -75,6 +75,8 @@ function classes(){
     $classes = 'justify-center';
   } elseif (is_front_page()) {
     $classes = 'justify-center border-top';
+  } else{
+    $classes = null;
   }
   return $classes;
 }
