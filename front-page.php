@@ -32,7 +32,7 @@ use Jchck\Excerpt;
 	<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 		<article class="col-12 sm-col-6 my2 sm-my4">
 			<h2 class="mt0 pt2 bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-			<p class="measure"><?= Excerpt\excerpt(); ?></p>
+			<?= Excerpt\excerpt(); ?>
 		</article>
 	<?php endwhile; ?>
 	<?php wp_reset_postdata(); ?>
