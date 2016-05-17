@@ -72,11 +72,11 @@ li.inline-block{ font-size: var(--h5) }
 
 /**
  *
- * Decrease .caps letter spacing on mobile
+ * Decrease .caps letter spacing
  *
  */
- .caps{ letter-spacing: 0 }
+.caps{ letter-spacing: 0 }
 
- @media (--breakpoint-sm){
- 	.caps{ letter-spacing: .2em }
- }
+@media (--breakpoint-lg){
+	.caps{ letter-spacing: .2em }
+}
