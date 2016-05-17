@@ -41,6 +41,8 @@ function classes(){
 		$classes = $home_classes;
 	} elseif( is_singular( 'work' )) {
 		$classes = 'mt0 mb0 bold right-align';
+	} elseif (is_page( 'resume' )) {
+		$classes = 'border-top mt0 mb2 sm-mb1 pt2 bold';
 	} elseif ( is_singular() || is_page() ) {
 		$classes = 'border-top mt0 mb0 pt2 bold';
 	} elseif ( is_404()) {
