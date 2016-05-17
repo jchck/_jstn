@@ -5,6 +5,10 @@ use Jchck\Excerpt;
 ?>
 
 <?php while ( have_posts() ): the_post(); ?>
+	<div class="col-12 border-top border-width-skinny">
+		<p class="caps mb0">Justin Chick</p>
+	</div>
+
 	<header class="col-12 sm-col-10 md-col-8 sm-py3">
 		<?php get_template_part( 'templates/page', 'title' ); ?>
 	</header>

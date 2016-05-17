@@ -74,7 +74,7 @@ function classes(){
   if (is_singular( 'work' )) {
     $classes = 'justify-center';
   } elseif (is_front_page() || is_page( 'ck' )) {
-    $classes = 'justify-center border-top';
+    $classes = 'justify-center';
   } else{
     $classes = null;
   }
