@@ -71,11 +71,14 @@
 	--button-padding-y: .5rem;
 	--button-padding-x: 1rem;
 
-	--blue: #0074d9;
-	--color: var(--blue);
-	--color-hover: var(--teal);
+	--white: #f5f5f5;
+	--black: #4c4c4c;
+	--red: #F5586A;
+	--orange: #F59958;
+	--color: var(--red);
+	--color-hover: var(--blue);
 	--button-color: #fff;
-	--button-background-color: var(--blue);
+	--button-background-color: var(--color);
 
 	--button-small-padding-y: .25rem;
 	--button-small-padding-x: .5rem;
