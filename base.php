@@ -11,7 +11,7 @@ use Jchck\Wrapper;
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class('bg-white black'); ?>>
+<body class="bg-white black">
 	<div class="md-px4 sm-px2 px2">
 		<div class="flex flex-column">
 			<?php if (!is_404()) {
