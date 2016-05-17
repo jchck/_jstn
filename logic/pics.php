@@ -3,7 +3,7 @@
 namespace Jchck\Pics;
 
 /* Classes to append to <img>'s below */
-$img_css = 'border p1';
+$img_css = 'border sm-p1 p0';
 
 function gallery($output, $attr){
 	/**
