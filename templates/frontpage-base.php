@@ -49,17 +49,17 @@ use Jchck\Excerpt;
 
 		<p style="margin-top: 2rem" class="caps my3">CSS</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jframe" target="_blank">jFrame.css</a></h2>
-		<p class="measure">Delightfully simple & scalable css.</p>
+		<p class="measure">Object oriented CSS toolkit designed to help you and your team write easier to maintain and understand CSS.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jchck-btn" target="_blank">jchck btn</a></h2>
-		<p class="measure">A button css module writen in sass, makes use of Bootstrap's default variables.</p>
+		<p class="measure">A button module written in Sass making use of Bootstrap v3's default variables.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jchck-spacing" target="_blank">jchck spacing</a></h2>
-		<p class="measure">A whitespace css module writen in sass, makes use of Bootstrap's default variables.</p>
+		<p class="measure">A whitespace module written in Sass making use of Bootstrap v3's default variables.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jchck-type" target="_blank">jchck type</a></h2>
-		<p class="measure">A base typography css module writen in sass, makes use of Bootstrap's default variables.</p>
-		<h2 class="my2 bold"><a href="https://github.com/our-collective/bootstrap-center-navbar" target="_blank">Bootstrap center navbar</a></h2>
-		<p class="measure">A SASS mixin to center the default Bootstrap navbar, makes use of Bootstraps screen width variable.</p>
+		<p class="measure">A base typography CSS module written in Sass making use of Bootstrap v3's default variables.</p>
+		<h2 class="my2 bold"><a href="https://github.com/our-collective/bootstrap-center-navbar" target="_blank">Center Bootstrap's Navbar</a></h2>
+		<p class="measure">A Sass mixin to center the default Bootstrap v3's default navbar.</p>
 		<h2 class="my2 bold"><a href="https://github.com/our-collective/oc-styles" target="_blank">Our Collective Styles</a></h2>
-		<p class="measure">Our Collective’s Base LESS Styles & Style Guide</p>
+		<p class="measure">Our Collective’s Base Styles & Style Guide written in Less.</p>
 
 		<p class="caps my3">WordPress</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jchck_" target="_blank">jchck_</a></h2>
