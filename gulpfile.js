@@ -18,6 +18,7 @@ var mqpacker		=		require('css-mqpacker');
 var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
+var uncss			=		require('gulp-uncss');
 var browserSync		=		require('browser-sync').create();
 
 
@@ -86,6 +87,52 @@ gulp.task('watch', function(){
 
 	// the css files to watch on change runs the css processing task
 	gulp.watch(['./src/css/*'], ['css']);
+});
+
+gulp.task('uncss', function(){
+	
+	// postcss plugin registry
+	var postcssPlugins = [
+		atImport,
+		cssvariables,
+		cssnano,
+		cssnext({
+			'browsers': ['last 2 versions']
+		}),
+		mqpacker,
+	];
+
+	// processing plumbing
+	return gulp.src('./src/css/jchck_.css')
+
+		// postcss it 
+		.pipe(postcss(postcssPlugins))
+
+		.pipe(uncss({
+			html : [
+				devUrl,
+				devUrl + 'articles',
+				devUrl + 'photos-from-south-africa',
+				devUrl + 'inline-images',
+				devUrl + 'case-studies',
+				devUrl + 'case-studies/chapel-law-group-2',
+				devUrl + 'resume',
+				devUrl + '404'
+
+			]
+		}))
+
+		.pipe(postcss(postcssPlugins))
+
+		// what's the size?
+		.pipe(size({gzip: false, showFiles: true, title: 'Processed!'}))
+		.pipe(size({gzip: true, showFiles: true, title: 'UnCssed & gZipped!'}))
+
+		// spit it out
+		.pipe(gulp.dest('./dest'))
+
+		// add to the browser sync stream
+		.pipe(browserSync.stream());
 });
 
 
