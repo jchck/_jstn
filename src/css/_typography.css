@@ -58,3 +58,14 @@ p:first-of-type{margin-top: 0 }
 		padding-left: 0;
 	}
 }
+
+/**
+ *
+ * Decrease nav menu font size on mobile
+ *
+ */
+.menu-item{ font-size: var(--h5) }
+
+@media (--breakpoint-sm){
+	.menu-item{ font-size: var(--base-font-size) }
+}
