@@ -5,7 +5,7 @@
 	endif;
 	?>
 	<div class="pt3 pb1">
-		<a href="<?= esc_url(home_url('/')); ?>">
+		<a href="<?= esc_url(home_url('/ck')); ?>">
 			<?php get_template_part( 'templates/logo', 'jc' ); ?>
 		</a>
 	</div>
