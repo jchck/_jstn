@@ -7,7 +7,7 @@
 	<p class="measure">I oversee projects with organizations like <a href="#">Washington University Med School</a> and <a href="#">The Dashtaki Law Firm</a> (and many amazing folks in between) to craft custom WordPress solutions so they can achieve their goals.</p>
 	<h3 class="h2 bold">Development Lead & Partner - Our Collective</h3>
 	<time class="caps">Dec 2014 - Sep 2015</time>
-	<p class="mt0 measure">Our Collective was a design consultancy I co-founded early in 2015. I oversaw client strategy and development. Nearly all of our projects included a custom WordPress build.</p>
+	<p class="mt0 measure">Our Collective was a design consultancy I co-founded early in 2015. I oversaw client strategy and development. Nearly all our projects included a custom WordPress build which I oversaw in it's entirety.</p>
 	<h3 class="h2 bold">PR Firestarter - Eureka Interactive</h3>
 	<time class="caps">Aug 2010 - Jan 2011</time>
 	<p class="mt0 measure">I established Eureka Interactive’s online marketing offerings, oversaw strategy development and process implementation of client search marketing and social media campaigns.</p>

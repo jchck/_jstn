@@ -6,6 +6,7 @@
 </header>
 <article class="col-12 sm-col-6 pb4">
 	<p class="measure">I’m a front-end developer with over 6 years experience in the WordPress ecosystem.</p>
-	<p class="measure">I believe in simplicity and that the web should be easy to use for everyone.</p>
-	<p class="measure">My work is driven by collaboration, an inquisitive nature, and some good old fashioned elbow grease. With these three pillars, I'm able to create thoughtful, holistic design solutions that get out of the way to allow people to accomplish what they need to.</p>
+	<p class="measure">I believe in simple, extendable, and reusable code.</p>
+	<p class="measure">I believe in design that lets users do what they need to. Quickly.</p>
+	<p class="measure">Collaboration, exploration, and old fashioned elbow grease intersect on every project I undertake. It's at this intersection that I craft thoughtful, holistic design solutions.</p>
 </article>
