@@ -63,23 +63,23 @@ use Jchck\Excerpt;
 
 		<p class="caps my3">WordPress</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jchck_" target="_blank">jchck_</a></h2>
-		<p class="measure">My current site.</p>
+		<p class="measure">Underpinnings of my current site.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/modern-wordpress" target="_blank">Modern WordPress</a></h2>
-		<p class="measure">It's 2016, let's WordPress like it. Part of an ongoing tutorial series.</p>
+		<p class="measure">A WordPress theme built with a modern development process. Part of an ongoing tutorial.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/wp-pesticide" target="_blank">WordPress + Pesticide</a></h2>
-		<p class="measure">Lorem ipsum and such, etc.</p>
+		<p class="measure">A plugin to add pesticide.css to your WordPress site for faster CSS debugging.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/bow-tie" target="_blank">Bow Tie</a></h2>
-		<p class="measure">A WordPress theme that is so fresh and so clean.</p>
+		<p class="measure">A WordPress theme that is so fresh and so clean. Built with the Sage starter theme.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/sagebox" target="_blank">Sagebox</a></h2>
 		<p class="measure">Just the stuff needed to Sage + Flexboxgrid + have a happy day.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/here-now" target="_blank">Here Now</a></h2>
-		<p class="measure">A plugin to use WordPress for managing/hosting/etc a podcast</p>
+		<p class="measure">A plugin to use WordPress as a podcast host and manager.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/jaechicks-site" target="_blank">Jaechick's Site</a></h2>
-		<p class="measure">My previous WordPress site built on Roots.</p>
+		<p class="measure">A previous personal site built on the Roots starter theme.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/wp-bower-theme" target="_blank">WP Bower</a></h2>
-		<p class="measure">Just a simple theme to share using Bower in WordPress. Part of a tutorial.</p>
+		<p class="measure">Just a simple theme to share how to use Bower with WordPress.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/wp-recursion" target="_blank">WP Recursion</a></h2>
-		<p class="measure">A theme for those times when you really gotta show a client that you really did do something.</p>
+		<p class="measure">A theme for those times that just seem to keep repeating themselves.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/lorem-oberst" target="_blank">Lorem Oberst</a></h2>
 		<p class="measure">A plugin for all your Conor Oberst dummy text needs.</p>
 		<h2 class="my2 bold"><a href="https://github.com/jchck/tweet-it" target="_blank">Tweet It</a></h2>
