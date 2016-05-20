@@ -1,7 +1,7 @@
 // jchck_'s gulpfile
 
 //
-// site's dev URL (used in the watch task below)
+// site's dev URL (used in the watch + uncss tasks below)
 //
 
 var devUrl			=		'http://vagrant.local/jchck/';
