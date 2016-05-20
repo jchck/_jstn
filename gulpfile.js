@@ -19,7 +19,6 @@ var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
 var uncss			=		require('gulp-uncss');
-var lazypipe		=		require('lazypipe');
 var browserSync		=		require('browser-sync').create();
 
 // postcss plugin registry
