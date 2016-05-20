@@ -14,10 +14,8 @@ function code(){
 		
 		if (get_field('is_code')) {
 			$prism = locate_template( 'templates/prism-js.php' );
-			//$prism = get_template_part( 'templates/prism', 'js' );
 			require_once $prism;
 		}
 
 	}
-	add_action( 'wp_footer', __NAMESPACE__ . '\\code' );
 }
