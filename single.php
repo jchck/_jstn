@@ -18,10 +18,5 @@ use Jchck\Excerpt;
 	<article class="sm-col-6">
 		<?php get_template_part( 'templates/content', 'page' ); ?>
 	</article>
-	<?php if (get_field('is_code')) {
-		function code(){
-			get_template_part( 'templates/prism', 'js' );
-		}
-		add_action( 'wp_footer', 'code' );
-	} ?>
+	<?= Assets\code(); ?>
 <?php endwhile; ?>
