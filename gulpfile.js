@@ -59,8 +59,17 @@ gulp.task('css', function(){
 });
 
 gulp.task('prism', function(){
+	return gulp.src('./src/css/prism/prism.css')
 
-})
+	.pipe(postcss(postcssPlugins))
+
+	.pipe(size({gzip: false, showFiles: true, title: 'Processed!'}))
+	.pipe(size({gzip: true, showFiles: true, title: 'Processed & gZipped!'}))
+
+	.pipe(gulp.dest('./dest'))
+
+	.pipe(browserSync.stream());
+});
 
 
 //
