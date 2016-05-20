@@ -13,8 +13,8 @@ function prism_js(){
 	if (class_exists( 'acf')) {
 		
 		if (get_field('is_code')) {
-			$prism = locate_template( 'templates/prism-js.php' );
-			require_once $prism;
+			$prism_js = locate_template( 'templates/prism-js.php' );
+			require_once $prism_js;
 		}
 
 	}
