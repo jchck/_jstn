@@ -25,7 +25,7 @@ use Jchck\Wrapper;
 			} ?>
 		</div>
 	</div>
-	<?= Assets\code(); ?>
+	<?= Assets\prism_js(); ?>
 	<?php wp_footer(); ?>
 </body>
 </html>
