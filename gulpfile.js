@@ -58,6 +58,12 @@ gulp.task('css', function(){
 		.pipe(browserSync.stream());
 });
 
+//
+// prism cs processing task
+//
+// $gulp prism
+//
+
 gulp.task('prism', function(){
 	return gulp.src('./src/css/prism/prism.css')
 
@@ -102,6 +108,12 @@ gulp.task('watch', function(){
 	gulp.watch(['./src/css/*'], ['css']);
 });
 
+//
+// the uncss task
+// 
+// $ gulp uncss
+//
+
 gulp.task('uncss', function(){
 
 	// processing plumbing
@@ -110,6 +122,8 @@ gulp.task('uncss', function(){
 		// postcss it 
 		.pipe(postcss(postcssPlugins))
 
+		// pass to uncss
+		// the array contains URL"s to search through 
 		.pipe(uncss({
 			html : [
 				devUrl,
@@ -124,6 +138,7 @@ gulp.task('uncss', function(){
 			]
 		}))
 
+		// pass back to postcss
 		.pipe(postcss(postcssPlugins))
 
 		// what's the size?
