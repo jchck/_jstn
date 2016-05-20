@@ -44,6 +44,17 @@ p:first-of-type{margin-top: 0 }
 
 /**
  *
+ * Styling inline <code> blocks
+ *
+ */
+code{
+	color: var(--red);
+	background: #e8e8e8;
+	border-radius: var(--border-radius);
+}
+
+/**
+ *
  * Add / after all but last <li> inside <ul class="slash">
  *
  */
