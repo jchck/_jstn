@@ -19,8 +19,19 @@ var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
 var uncss			=		require('gulp-uncss');
+var lazypipe		=		require('lazypipe');
 var browserSync		=		require('browser-sync').create();
 
+// postcss plugin registry
+var postcssPlugins	=		[
+	atImport,
+	cssvariables,
+	cssnano,
+	cssnext({
+		'browsers' : ['last 2 versions']
+	}),
+	mqpacker
+];
 
 //
 // css processing task
@@ -29,17 +40,6 @@ var browserSync		=		require('browser-sync').create();
 //
 
 gulp.task('css', function(){
-	
-	// postcss plugin registry
-	var postcssPlugins = [
-		atImport,
-		cssvariables,
-		cssnano,
-		cssnext({
-			'browsers': ['last 2 versions']
-		}),
-		mqpacker,
-	];
 
 	// processing plumbing
 	return gulp.src('./src/css/jchck_.css')
@@ -57,6 +57,10 @@ gulp.task('css', function(){
 		// add to the browser sync stream
 		.pipe(browserSync.stream());
 });
+
+gulp.task('prism', function(){
+
+})
 
 
 //
@@ -90,17 +94,6 @@ gulp.task('watch', function(){
 });
 
 gulp.task('uncss', function(){
-	
-	// postcss plugin registry
-	var postcssPlugins = [
-		atImport,
-		cssvariables,
-		cssnano,
-		cssnext({
-			'browsers': ['last 2 versions']
-		}),
-		mqpacker,
-	];
 
 	// processing plumbing
 	return gulp.src('./src/css/jchck_.css')
