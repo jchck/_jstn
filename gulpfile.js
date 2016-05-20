@@ -128,6 +128,7 @@ gulp.task('uncss', function(){
 				devUrl,
 				devUrl + 'articles',
 				devUrl + 'photos-from-south-africa',
+				devUrl + 'this-is-a-post-with-code',
 				devUrl + 'inline-images',
 				devUrl + 'case-studies',
 				devUrl + 'case-studies/chapel-law-group-2',
