@@ -1,5 +1,6 @@
 <?php
 
+use Jchck\Assets;
 use Jchck\Wrapper;
 
 ?>
@@ -25,6 +26,7 @@ use Jchck\Wrapper;
 			} ?>
 		</div>
 	</div>
+	<?= Assets\code(); ?>
 	<?php wp_footer(); ?>
 </body>
 </html>

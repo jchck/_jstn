@@ -1,6 +1,5 @@
 <?php
 
-use Jchck\Assets;
 use Jchck\Category;
 use Jchck\Excerpt;
 
@@ -18,5 +17,4 @@ use Jchck\Excerpt;
 	<article class="sm-col-6">
 		<?php get_template_part( 'templates/content', 'page' ); ?>
 	</article>
-	<?= Assets\code(); ?>
 <?php endwhile; ?>
