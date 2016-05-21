@@ -7,14 +7,8 @@
  */
 
 .r-iframe{
-	padding-top: 0;
-	padding-right: 0;
 	padding-bottom: 56.25%;
-	padding-left: 0;
-	position: relative;
-	display: block;
 	height: 0;
-	overflow: hidden;
 }
 
 .r-iframe iframe{
