@@ -19,7 +19,6 @@ var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
 var uncss			=		require('gulp-uncss');
-var cssstats		=		require('gulp-cssstats');
 var browserSync		=		require('browser-sync').create();
 
 // postcss plugin registry
@@ -145,9 +144,6 @@ gulp.task('uncss', function(){
 		// what's the size?
 		.pipe(size({gzip: false, showFiles: true, title: 'Processed!'}))
 		.pipe(size({gzip: true, showFiles: true, title: 'UnCssed & gZipped!'}))
-
-		// CSS Stats
-		.pipe(cssstats())
 
 		// spit it out
 		.pipe(gulp.dest('./dest'))
