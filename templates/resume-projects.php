@@ -16,9 +16,15 @@ use Jchck\Excerpt;
 			 *
 			 */
 			$args = array(
-				//'category_name' => 'featured',
 				'post_type' => 'work',
-				'posts_per_page' => 4
+				'posts_per_page' => 2,
+				'tax_query' => array(
+					array(
+						'taxonomy' => 'featured-work',
+						'field' => 'slug',
+						'terms' => 'highlight',
+					),
+				),
 			);
 		
 		$query = new WP_Query( $args );
