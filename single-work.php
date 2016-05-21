@@ -2,13 +2,6 @@
 
 use Jchck\Work;
 
-/**
- *
- * @see http://tachyons.io/components/articles/left-title-top-border/index.html
- *
- */
-
-
 ?>
 
 <?php while ( have_posts() ): the_post(); ?>
