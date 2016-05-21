@@ -10,6 +10,12 @@ namespace Jchck\Jetpack;
  */
 add_filter( 'jetpack_development_mode', '__return_true' );
 
+/**
+ *
+ * Remove Jetpack CSS
+ * @link https://css-tricks.com/snippets/wordpress/removing-jetpack-css/
+ *
+ */
 add_filter( 'jetpack_implode_frontend_css', '__return_false' );
 
 function remove_css(){
