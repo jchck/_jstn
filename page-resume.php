@@ -4,7 +4,7 @@
 
 	<?php get_template_part( 'templates/resume', 'professional' ); ?>
 
-	<?php // get_template_part( 'templates/resume', 'skills' ); ?>
+	<?php get_template_part( 'templates/resume', 'skills' ); ?>
 	
 	<?php get_template_part( 'templates/resume', 'projects' ); ?>
 <?php endwhile; ?>
