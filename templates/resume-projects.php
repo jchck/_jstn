@@ -17,7 +17,7 @@ use Jchck\Excerpt;
 			 */
 			$args = array(
 				'post_type' => 'work',
-				'posts_per_page' => 2,
+				'posts_per_page' => 4,
 				'tax_query' => array(
 					array(
 						'taxonomy' => 'featured-work',
