@@ -59,30 +59,25 @@ function work() {
 add_action( 'init', __NAMESPACE__ . '\\work' );
 
 
-
-
-function svg(){
+if (class_exists( 'acf' )) {
+	
 	/**
 	 *
-	 * Check's to see if ACF is active and then returns the project SVG
+	 * Return project SVG
 	 *
 	 */
-	
-	if (class_exists( 'acf' )) {
+	function svg(){
 		$svg = get_field( 'project_svg_logo', false, false );
 
 		return $svg;
 	}
-}
 
-function link(){
 	/**
 	 *
-	 * Check to see if ACF is active and then return the project link
+	 * Return link to project
 	 *
 	 */
-	
-	if (class_exists( 'acf' )) {
+	function link(){
 		$link = get_field( 'project_url' );
 
 		return $link;
