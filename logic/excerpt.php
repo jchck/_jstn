@@ -45,6 +45,8 @@ function classes($excerpt){
 		$classes = str_replace('<p', '<p class="h3 measure"', $excerpt);
 	} elseif(is_single()){
 		$classes = str_replace('<p', '<p class="h2 xs-hide"', $excerpt);
+	} elseif(is_page( 'resume' )){
+		$classes = str_replace('<p', '<p class="measure mt0"', $excerpt);
 	} else {
 		$classes = str_replace('<p', '<p class="h2"', $excerpt);
 	}

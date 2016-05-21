@@ -1,3 +1,9 @@
+<?php 
+
+use Jchck\Excerpt;
+
+?>
+
 <div class="col-12 sm-col-6 sm-pr3">
 	<h3 class="h1 border-top mt0 pt2 bold">Project Highlights</h3>
 </div>
@@ -19,8 +25,10 @@
 		
 	 ?>
 
-	 <?php while( $query-have_posts() ) : $query->the_post(); ?>
-	 
+	 <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+	 	<h3 class="h2 bold mt0"><?php the_title(); ?></h3>
+	 	<p class="measure caps m0"><a href="<?php the_permalink(); ?>">Case Study</a></p>
+	 	<?= Excerpt\excerpt(); ?>
 	<?php endwhile; ?>
 	<?php wp_reset_postdata(); ?>
 
