@@ -2,6 +2,7 @@
 
 use Jchck\Category;
 use Jchck\Excerpt;
+use Jchck\Video;
 
 ?>
 
@@ -15,6 +16,7 @@ use Jchck\Excerpt;
 		<?= Category\categories(); ?>
 	</header>
 	<article class="sm-col-6">
+		<?= Video\video(); ?>
 		<?php get_template_part( 'templates/content', 'page' ); ?>
 	</article>
 <?php endwhile; ?>

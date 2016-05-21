@@ -9,6 +9,7 @@ $jchck_includes = [
 	'logic/category.php',
 	'logic/typography.php',
 	'logic/pics.php',
+	'logic/video.php',
 	'logic/wrapper.php',
 	'logic/work.php'
 ];
