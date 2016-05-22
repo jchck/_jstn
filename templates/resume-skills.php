@@ -1,10 +1,18 @@
+<?php
+
+use Jchck\Tags;
+
+?>
 <div class="col-12 sm-col-6 sm-pr3">
 	<h3 class="h1 border-top mt0 pt2 bold">Skills Overview</h3>
 </div>
 <article class="col-12 sm-col-6 pb4">
 
-	<div class="flex flex-wrap">
-		<div class="col-6 md-col-4 lg-col-3 p2">
+	<!-- <div class="flex flex-wrap"> -->
+
+		<?= Tags\all_tags(); ?>
+
+		<!-- <div class="col-6 md-col-4 lg-col-3 p2">
 			<p class="m0">HTML</p>
 		</div>
 		<div class="col-6 md-col-4 lg-col-3 p2">
@@ -45,7 +53,7 @@
 		</div>
 		<div class="col-6 md-col-4 lg-col-3 p2">
 			<p class="m0">npm</p>
-		</div>
-	</div>
+		</div> -->
+	<!-- </div> -->
 
 </article>
