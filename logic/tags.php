@@ -3,7 +3,12 @@
 namespace Jchck\Tags;
 
 function all_tags(){
-	$tags = get_tags();
+	$args = array(
+		'orderby' => 'count',
+		'order' => 'DESC'
+	);
+
+	$tags = get_tags($args);
 
 	$html = "<div class='flex flex-wrap'>";
 
@@ -18,7 +23,7 @@ function all_tags(){
 		}
 
 	$html .= "</div>";
-	
+
 	echo $html;
 
 }
