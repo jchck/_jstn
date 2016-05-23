@@ -110,6 +110,29 @@ add_filter('the_content', __NAMESPACE__ . '\\previous_imgs');
 
 
 
+function remove_links($content){
+    /**
+     *
+     * Remove img lings
+     * @link http://wordpress.stackexchange.com/a/33749
+     *
+     */
+    
+
+    $content = preg_replace(
+        array(
+            '{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}',
+            '{ wp-image-[0-9]*" /></a>}'
+        ),
+        array('<img','" />'),
+        $content
+    );
+    return $content;
+}
+add_filter('the_content', __NAMESPACE__ . '\\remove_links');
+
+
+
 function main(){
     /**
      *
