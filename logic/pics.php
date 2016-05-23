@@ -110,26 +110,20 @@ add_filter('the_content', __NAMESPACE__ . '\\previous_imgs');
 
 
 
-function remove_links($content){
+function remove_links(){
     /**
      *
      * Remove img lings
-     * @link http://wordpress.stackexchange.com/a/33749
      *
      */
-    
 
-    $content = preg_replace(
-        array(
-            '{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}',
-            '{ wp-image-[0-9]*" /></a>}'
-        ),
-        array('<img','" />'),
-        $content
-    );
-    return $content;
+    $image_set = get_option( 'image_default_link_type' );
+
+    if ($image_set !== 'none') {
+        update_option('image_default_link_type', 'none');
+    }
 }
-add_filter('the_content', __NAMESPACE__ . '\\remove_links');
+add_filter('admin_init', __NAMESPACE__ . '\\remove_links', 10);
 
 
 
