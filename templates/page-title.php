@@ -17,11 +17,21 @@ use Jchck\Work;
 			<?= Work\svg(); ?>
 		</a>
 	</div>
+
 <?} elseif (is_front_page() || is_page( 'ck' )) { ?>
+
 	<h1 class="mt4 mb1 h1-fp"><span class="hide">Justin Chick is a front-end WordPress developer located in Western Massachusetts</span>I’m a front-end developer with over 6 years experience in the WordPress ecosystem.</h1>
 	<p class="h2 mb1">I believe in simple, extendable, and reusable code.</p>
 	<p class="h2 m0 mb4">I believe in design that lets users do what they need to. Quickly.</p>
+
+<?} elseif(is_page_template( 'template-landing-seo.php' )) { ?>
+
+	<h1 class="mt4 mb1 h1-fp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis urna, ornare non pulvinar id, pellentesque eu mi.</h1>
+	<p class="h2 mb1">Etiam sit amet iaculis metus.</p>
+	<p class="h2 m0 mb4">Maecenas ut molestie neque, vel viverra magna.</p>
+
 <?} else { ?>
+
 	<h1 class="<?= Titles\classes(); ?>">
 		<?= Titles\title(); ?>
 	</h1>

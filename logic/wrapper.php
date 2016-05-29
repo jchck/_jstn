@@ -71,11 +71,9 @@ function classes(){
    *
    */
   
-  if (is_singular( 'work' )) {
+  if (is_singular( 'work' ) || is_front_page() || is_page( 'ck' ) || is_page_template( 'template-landing-seo.php' ) ) {
     $classes = 'justify-center';
-  } elseif (is_front_page() || is_page( 'ck' )) {
-    $classes = 'justify-center';
-  } else{
+  } else {
     $classes = null;
   }
   return $classes;
