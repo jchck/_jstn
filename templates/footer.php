@@ -3,12 +3,11 @@
 		<a href="<?= esc_url(home_url('/ck')); ?>">
 			<?php get_template_part( 'templates/logo', 'jc' ); ?>
 		</a>
-		<?php if (!is_page_template( 'template-landing-seo.php' )) { ?>
-			<p style="margin-top: .5rem" class="h5">I'm a WordPress developer located in Western MA<br />
-				whose seeking full-time work throughout New England.<br />
-				If you're intrested in working together, please drop me a line:</p>
-			<a href="mailto:hey@justinchick.com" class="h3">hey@justinchick.com</a>
-		<?php } ?>
+		<p style="margin-top: .5rem" class="h5">I'm a WordPress developer located in Western MA<br />
+			whose seeking full-time work throughout New England.<br />
+			If you're intrested in working together, please drop me a line:</p>
+		<a href="mailto:hey@justinchick.com" class="h3">hey@justinchick.com</a>
+		
 	</div>
 	<?php
 	if (has_nav_menu( 'primary_nav' )) :
