@@ -88,7 +88,7 @@ gulp.task('pics', function(){
 
 	.pipe(imagemin({verbose: true}))
 
-	.pipe(gulp.dest('.dest/pics'))
+	.pipe(gulp.dest('./dest/pics'))
 })
 
 
