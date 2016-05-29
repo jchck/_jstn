@@ -19,6 +19,14 @@ function excerpt(){
 	return $excerpt;
 }
 
+function page_excerpt(){
+	if (class_exists( 'acf' )) {
+		if (get_field( 'page_excerpt' )) {
+			the_field( 'page_excerpt' );
+		}
+	}
+}
+
 function clean(){
 	/**
 	 *
