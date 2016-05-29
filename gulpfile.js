@@ -19,6 +19,7 @@ var cssnano			=		require('cssnano');
 var size			=		require('gulp-size');
 var	cssvariables	=		require('postcss-css-variables');
 var uncss			=		require('gulp-uncss');
+var imagemin		=		require('gulp-imagemin');
 var browserSync		=		require('browser-sync').create();
 
 // postcss plugin registry
@@ -60,7 +61,7 @@ gulp.task('css', function(){
 //
 // prism cs processing task
 //
-// $gulp prism
+// $ gulp prism
 //
 
 gulp.task('prism', function(){
@@ -75,6 +76,20 @@ gulp.task('prism', function(){
 
 	.pipe(browserSync.stream());
 });
+
+//
+// Image optimizing task
+//
+// $ gulp pics
+//
+
+gulp.task('pics', function(){
+	return gulp.src('./src/pics/**.*')
+
+	.pipe(imagemin({verbose: true}))
+
+	.pipe(gulp.dest('.dest/pics'))
+})
 
 
 //
