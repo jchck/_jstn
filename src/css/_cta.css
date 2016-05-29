@@ -1,0 +1,4 @@
+.cta:hover{
+	background-color: var(--blue);
+	color: var(--white);
+}
