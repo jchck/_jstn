@@ -37,8 +37,7 @@ function classes(){
 	 *
 	 */
 	if ( is_home() || is_archive()) {
-		$home_classes = 'mt0 pt2 bold';
-		$classes = $home_classes;
+		$classes = 'mt0 pt2 bold';
 	} elseif( is_singular( 'work' )) {
 		$classes = 'mt0 mb0 bold right-align';
 	} elseif (is_page( 'resume' )) {
@@ -68,3 +67,15 @@ add_filter( 'get_the_archive_title', function($title){
 	}
 	return $title . ' Articles';
 });
+
+
+function landing_subtitle(){
+	if (is_page( 'ck' )) {
+		$subtitle = 'Justin Chick';
+	} elseif (is_page_template( 'template-landing-seo.php' )) {
+		$subtitle = 'WordPress Development in Williamstown';
+	} else {
+		$subtitle = 'Subtitle';
+	}
+	return $subtitle;
+}
