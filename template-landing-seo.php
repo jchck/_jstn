@@ -4,6 +4,7 @@
 	Template Name: Landing SEO
 */
 
+use Jchck\Excerpt;
 use Jchck\Pics;
 
 ?>
@@ -43,6 +44,34 @@ use Jchck\Pics;
 			<p class="m0 h2 caps">Let's Work Together</p>
 		</a>
 	</div>
+
+	<div class="col-12 border-top border-width-skinny">
+		<p class="caps mb0">This is a title too</p>
+	</div>
+
+	<?php 
+			/**
+			 * The WordPress Query class.
+			 * @link http://codex.wordpress.org/Function_Reference/WP_Query
+			 *
+			 */
+			$args = array(
+				'category_name' => 'wordpress',
+				'post_type' => 'post',
+				'posts_per_page' => 2
+			);
+		
+		$query = new WP_Query( $args );
+		
+	 ?>
+
+	 <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+		<article class="col-12 sm-col-6 my2 sm-my4 sm-pr2 pr0">
+			<h2 class="mt0 pt2 bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<?= Excerpt\excerpt(); ?>
+		</article>
+	<?php endwhile; ?>
+	<?php wp_reset_postdata(); ?>
 
 
 <?php endwhile; ?>
