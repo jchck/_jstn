@@ -26,6 +26,9 @@ use Jchck\Wrapper;
 			} ?>
 		</div>
 	</div>
+	<?php if (is_page_template( 'template-landing-seo.php' )) {
+		get_template_part( 'templates/footer', 'landing' );
+	} ?>
 	<?= Assets\prism_js(); ?>
 	<?php wp_footer(); ?>
 </body>
