@@ -46,7 +46,28 @@ use Jchck\Pics;
 	</div>
 
 	<div class="col-12 border-top border-width-skinny">
-		<p class="caps mb0">This is a title too</p>
+		<p class="caps mb0">Services</p>
+	</div>
+
+	<div class="col-10">
+		<div class="flex flex-wrap">
+			<div class="col-4 my2 sm-my4 sm-px3">
+			<h3 class="mt0">Level up your website</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-4 my2 sm-my4 sm-px3">
+			<h3 class="mt0">Simple, one stop service</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-4 my2 sm-my4 sm-px3">
+			<h3 class="mt0">Creativity + Experience</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12 border-top border-width-skinny">
+		<p class="caps mb0">Latest WordPress Articles</p>
 	</div>
 
 	<?php 
