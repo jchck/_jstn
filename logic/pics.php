@@ -5,6 +5,12 @@ namespace Jchck\Pics;
 /* Classes to append to <img>'s below */
 $img_css = 'border sm-p1 p0';
 
+function img_css(){
+    global $img_css;
+
+    return $img_css;
+}
+
 function gallery($output, $attr){
 	/**
 	 *
