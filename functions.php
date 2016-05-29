@@ -8,6 +8,7 @@ $jchck_includes = [
 	'logic/excerpt.php',
 	'logic/category.php',
 	'logic/jetpack.php',
+	'logic/footer.php',
 	'logic/typography.php',
 	'logic/pics.php',
 	'logic/video.php',

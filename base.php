@@ -1,6 +1,7 @@
 <?php
 
 use Jchck\Assets;
+use Jchck\Footer;
 use Jchck\Wrapper;
 
 ?>
@@ -20,8 +21,8 @@ use Jchck\Wrapper;
 			<div class="flex flex-wrap <?= Wrapper\classes(); ?>">
 				<?php include Wrapper\template_path(); ?>
 			</div>
-			<?php if (!is_404()) {
-				get_template_part( 'templates/footer' ); 
+			<?php if (Footer\footer_check()) {
+				get_template_part( 'templates/footer' );
 			} ?>
 		</div>
 	</div>
