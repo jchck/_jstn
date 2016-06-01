@@ -75,10 +75,10 @@ code{
  * Decrease inline-block lists (nav & post categories) font size on mobile
  *
  */
-li.inline-block{ font-size: var(--h5) }
+.slash .inline-block{ font-size: var(--h5) }
 
 @media (--breakpoint-sm){
-	li.inline-block{ font-size: var(--base-font-size) }
+	.slash .inline-block{ font-size: var(--base-font-size) }
 }
 
 /**
