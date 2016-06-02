@@ -5,7 +5,7 @@
 		</a>
 		<p style="margin-top: .5rem" class="h5">I'm a WordPress developer located in Western MA<br />
 			whose seeking full-time work throughout New England.<br />
-			If you're intrested in working together, please drop me a line:</p>
+			If you're interested in working together, please drop me a line:</p>
 		<a href="mailto:hey@justinchick.com" class="h3">hey@justinchick.com</a>
 		
 	</div>
