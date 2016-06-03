@@ -3,16 +3,15 @@
   "version": "4.0.0",
   "description": "Hullo",
   "main": "index.php",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://jaechick@justinchick.git.beanstalkapp.com/jchck_.git"
   },
   "keywords": [
     "jchck_",
-    "wordpress"
+    "wordpress",
+    "basscss",
+    "oocss"
   ],
   "author": "Justin Chick <hey@justinchick.com>",
   "license": "MIT",
