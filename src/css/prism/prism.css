@@ -6,6 +6,7 @@
  */
 
  @import '../_variables';
+ @import '../_mq';
 
 code[class*="language-"],
 pre[class*="language-"] {
@@ -13,13 +14,6 @@ pre[class*="language-"] {
 	font-size: 87.5%;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'Liberation Mono', monospace;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
