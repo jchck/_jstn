@@ -37,8 +37,8 @@ var postcssPlugins	=		[
 	color,
 	comments,
 	autoprefixer,
-	mqpacker,
-	cssnano
+	cssnano,
+	mqpacker
 ];
 
 //
@@ -139,10 +139,7 @@ gulp.task('watch', function(){
 gulp.task('uncss', function(){
 
 	// processing plumbing
-	return gulp.src('./src/css/jchck_.css')
-
-		// postcss it 
-		.pipe(postcss(postcssPlugins))
+	return gulp.src('./dest/jchck_.css')
 
 		// pass to uncss
 		// the array contains URL"s to search through 
@@ -165,8 +162,7 @@ gulp.task('uncss', function(){
 		.pipe(postcss(postcssPlugins))
 
 		// what's the size?
-		.pipe(size({gzip: false, showFiles: true, title: 'Processed!'}))
-		.pipe(size({gzip: true, showFiles: true, title: 'UnCssed & gZipped!'}))
+		.pipe(size({gzip: true, showFiles: true, title: 'Uncss\'d and gZipped!'}))
 
 		// spit it out
 		.pipe(gulp.dest('./dest'))
