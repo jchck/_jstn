@@ -58,16 +58,14 @@ code{
  * Add / after all but last <li> inside <ul class="slash">
  *
  */
+.slash li:after{
+	content: '/';
+	padding-left: var(--space-1);
+}
 
-.slash li{
-	&:after{
-		content: '/';
-		padding-left: var(--space-1);
-	}
-	&:last-of-type:after{
-		content: '';
-		padding-left: 0;
-	}
+.slash li:last-of-type{
+	content: '';
+	padding-left: 0;
 }
 
 /**
