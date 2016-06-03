@@ -10,27 +10,35 @@ var devUrl			=		'http://vagrant.local/jchck/';
 // gulp plugin registry
 //
 
-var gulp 			=		require('gulp');
-var postcss 		=		require('gulp-postcss');
-var cssnext 		= 		require('postcss-cssnext');
-var atImport		=		require('postcss-import');
-var mqpacker		=		require('css-mqpacker');
-var cssnano			=		require('cssnano');
-var size			=		require('gulp-size');
-var	cssvariables	=		require('postcss-css-variables');
-var uncss			=		require('gulp-uncss');
-var imagemin		=		require('gulp-imagemin');
-var browserSync		=		require('browser-sync').create();
+var autoprefixer	= require('autoprefixer');
+var browserSync		= require('browser-sync').create();
+var browserReload	= browserSync.reload;
+var mqpacker		= require('css-mqpacker');
+var cssnano			= require('cssnano');
+var gulp			= require('gulp');
+var imagemin		= require('gulp-imagemin');
+var postcss			= require('gulp-postcss');
+var size			= require('gulp-size');
+var uncss 			= require('gulp-uncss');
+var watch			= require('gulp-watch');
+var calc			= require('postcss-calc');
+var color			= require('postcss-color-function');
+var media			= require('postcss-custom-media');
+var properties		= require('postcss-custom-properties');
+var comments		= require('postcss-discard-comments');
+var atImport		= require('postcss-import');
 
 // postcss plugin registry
 var postcssPlugins	=		[
 	atImport,
-	cssvariables,
-	cssnano,
-	cssnext({
-		'browsers' : ['last 2 versions']
-	}),
-	mqpacker
+	media,
+	properties,
+	calc,
+	color,
+	comments,
+	autoprefixer,
+	mqpacker,
+	cssnano
 ];
 
 //
