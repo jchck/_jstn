@@ -63,7 +63,7 @@ code{
 	padding-left: var(--space-1);
 }
 
-.slash li:last-of-type{
+.slash li:last-of-type:after{
 	content: '';
 	padding-left: 0;
 }
