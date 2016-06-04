@@ -29,7 +29,7 @@ use Jchck\Excerpt;
 	 ?>
 
 	<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-		<article class="col-12 sm-col-6 my2 sm-my4 sm-pr2 pr0">
+		<article class="col-12 sm-col-6 my2 sm-my4 sm-pr3 pr0">
 			<h2 class="mt0 pt2 bold"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<?= Excerpt\excerpt(); ?>
 		</article>
