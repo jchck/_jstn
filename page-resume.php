@@ -7,4 +7,6 @@
 	<?php get_template_part( 'templates/resume', 'skills' ); ?>
 	
 	<?php get_template_part( 'templates/resume', 'projects' ); ?>
+
+	<?php get_template_part( 'templates/resume', 'edu') ?>
 <?php endwhile; ?>
