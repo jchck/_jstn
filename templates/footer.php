@@ -3,8 +3,7 @@
 		<a href="<?= esc_url(home_url('/ck')); ?>">
 			<?php get_template_part( 'templates/logo', 'jc' ); ?>
 		</a>
-		<p style="margin-top: .5rem" class="h5">I'm a WordPress developer located in Western MA<br />
-			whose seeking full-time work throughout New England.<br />
+		<p style="margin-top: .5rem" class="h5">I'm a front-end developer seeking full-time work.<br />
 			If you're interested in working together, please drop me a line:</p>
 		<a href="mailto:hey@justinchick.com" class="h3">hey@justinchick.com</a>
 		
