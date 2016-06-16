@@ -20,7 +20,10 @@ use Jchck\Work;
 
 <?} elseif (is_front_page() || is_page( 'ck' )) { ?>
 
-	<h1 class="mt4 mb1 h1-fp"><span class="hide">Justin Chick is a front-end WordPress developer located in Western Massachusetts</span>I’m a front-end developer with over 6 years experience in the WordPress ecosystem.</h1>
+	<h1 class="mt4 mb1 h1-fp">
+		<span class="hide">Justin Chick is a front-end WordPress developer located in Western Massachusetts</span>
+		I'm a tried and true front-end developer with 6 + years experience.
+	</h1>
 	<p class="h2 mb1">I believe in simple, extendable, and reusable code.</p>
 	<p class="h2 m0 mb4">I believe in design that lets users do what they need to. Quickly.</p>
 
