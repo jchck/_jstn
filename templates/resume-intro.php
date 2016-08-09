@@ -2,7 +2,7 @@
 	<?php get_template_part( 'templates/page', 'title' ); ?>
 	<p class="h3 mb1">I'm a front-end developer seeking full-time work.<br />If you're interested in working together, please drop me a line:</p>
 	<p class="h3 sm-mt0 mb2 mb1 caps"><a href="mailto:hey@justinchick.com">hey@justinchick.com</a></p>
-	<p class="sm-m0"><a href="https://www.dropbox.com/s/ivpyov2j2ycazhz/2016-05_jChck_Resume.pdf?dl=0" target="_blank">Download PDF Resume</a></p>
+	<p class="sm-m0"><a href="https://dl.dropboxusercontent.com/u/104344647/Resume/2016-08_jChck_Resume.pdf" target="_blank">Download PDF Resume</a></p>
 </header>
 <article class="col-12 sm-col-6 pb4">
 	<p class="measure">I'm a tried and true front-end developer with 6 + years experience.</p>
