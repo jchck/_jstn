@@ -49,7 +49,7 @@ function trvl() {
 		'supports'            => array()
 	);
 
-	register_post_type( 'slug', $args );
+	register_post_type( 'trvl', $args );
 }
 
 add_action( 'init', __NAMESPACE__ .  '\\trvl' );
