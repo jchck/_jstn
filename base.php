@@ -1,7 +1,7 @@
 <?php
 
 use Jchck\Assets;
-use Jchck\Footer;
+use Jchck\Template;
 use Jchck\Wrapper;
 
 ?>
@@ -15,13 +15,13 @@ use Jchck\Wrapper;
 <body <?php body_class( 'bg-white black' ); ?>>
 	<div class="md-px4 sm-px2 px2">
 		<div class="flex flex-column">
-			<?php if (!is_404()) {
+			<?php if (Template\header()) {
 				get_template_part( 'templates/header' );
 			} ?>
 			<div class="flex flex-wrap <?= Wrapper\classes(); ?>">
 				<?php include Wrapper\template_path(); ?>
 			</div>
-			<?php if (Footer\footer_check()) {
+			<?php if (Template\footer()) {
 				get_template_part( 'templates/footer' );
 			} ?>
 		</div>

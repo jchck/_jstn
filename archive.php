@@ -1,8 +1,13 @@
+<?php if (! is_post_type_archive( 'trvl' )) : ?>
+
 <header class="col-12 sm-col-6">
 	<?php get_template_part( 'templates/page', 'title' ); ?>
 </header>
 
-<div class="flex flex-wrap">
+<?php endif; ?>
+
+
+<div class="flex flex-wrap archive">
 
 	<?php if (!have_posts()) : ?>
 		<?php _e('Whoops! Nothing here.', 'jchck'); ?>
