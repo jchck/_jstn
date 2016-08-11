@@ -14,7 +14,8 @@ $jchck_includes = [
 	'logic/video.php',
 	'logic/wrapper.php',
 	'logic/work.php',
-	'logic/tags.php'
+	'logic/tags.php',
+	'logic/trvl.php'
 ];
 
 foreach ($jchck_includes as $file) {
