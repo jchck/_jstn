@@ -4,6 +4,8 @@ use Jchck\Excerpt;
 use Jchck\Titles;
 use Jchck\Work;
 
+// Used for the case studies (logic/work)
+
 ?>
 <article class="col-12">
 	<h2 class="<?= Titles\classes(); ?> border-top border-width-skinny"><a class="text-decoration-none" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
