@@ -1,3 +1,7 @@
+<div class="flex justify-center items-end col-12" style="height: 100vh;">
+	<button id="next" class="btn btn-primary">Next</button>
+</div>
+
 <script>
 	var img	= [
 
