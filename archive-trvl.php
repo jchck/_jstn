@@ -1,9 +1,12 @@
 <script>
 	var img	= [
-		"http://dl.dropbox.com/u/515046/www/outside.jpg",
-		"http://dl.dropbox.com/u/515046/www/garfield-interior.jpg",
-		"http://dl.dropbox.com/u/515046/www/cheers.jpg",
-		"http://dl.dropbox.com/u/515046/www/coffee-light.jpg"
+
+		<?php while (have_posts()) : the_post(); ?>
+
+			"<?php the_field('pic') ?>",
+
+		<?php endwhile; ?>
+
 	];
 
 	$(img).each(function(){
@@ -12,10 +15,3 @@
 
 	$.backstretch(img);
 </script>
-
-<?php while (have_posts()) : the_post(); ?>
-
-	
-
-<?php endwhile; ?>
-
