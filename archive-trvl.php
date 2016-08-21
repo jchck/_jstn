@@ -1,8 +1,8 @@
 <div class="flex justify-center items-end col-12" style="height: 100vh;">
-	<div class="btn-group">
-		<button id="prev" class="btn btn-primary">Prev</button>
-		<button id="pause" class="btn btn-primary">Pause</button>
-		<button id="next" class="btn btn-primary">Next</button>
+	<div class="btn-group flex">
+		<button id="prev" class="btn btn-white">Prev</button>
+		<button id="pause" class="btn btn-white">Pause</button>
+		<button id="next" class="btn btn-white">Next</button>
 	</div>
 </div>
 
