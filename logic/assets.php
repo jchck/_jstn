@@ -6,6 +6,7 @@ function assets(){
 	wp_enqueue_style('css', get_template_directory_uri() . '/dest/jchck_.css', false, null);
 
 	if (is_post_type_archive( 'trvl' )) {
+		wp_enqueue_script( 'fontawesome', '//use.fontawesome.com/3deaa6a8b6.js', null, null, true );
 		wp_enqueue_script( 'backstretch', '//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js', ['jquery'], null, false );
 	}
 }

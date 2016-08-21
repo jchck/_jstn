@@ -1,8 +1,8 @@
 <div class="flex justify-center items-end col-12" style="height: 100vh;">
 	<div class="btn-group flex">
-		<button id="prev" class="btn btn-white">Prev</button>
-		<button id="pause" class="btn btn-white">Pause</button>
-		<button id="next" class="btn btn-white">Next</button>
+		<button id="prev" class="btn btn-white"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+		<button id="pause" class="btn btn-white"><i class="fa fa-pause" aria-hidden="true"></i></button>
+		<button id="next" class="btn btn-white"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
 	</div>
 </div>
 
