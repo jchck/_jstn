@@ -24,7 +24,7 @@
  *
  */
 .one-thing input,
-.one-thing .bar{ width: 24rem }
+.one-thing .bar{ width: 100% }
 
 
 input{

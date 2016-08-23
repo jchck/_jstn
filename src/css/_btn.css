@@ -22,3 +22,17 @@
 	.btn-white:hover{
 		box-shadow: inset 0 0 0 20rem var(--darken-1);
 	}
+
+.btn-mnml{
+	/*border-color: transparent;*/
+	border: 0;
+	border-bottom: 2px solid var(--white);
+	transition: all .3s;
+	font-size: var(--h4);
+	font-weight: 400;
+}
+
+	.btn-mnml:hover{
+		border-bottom: 2px solid var(--blue);
+		transform: scale(1.05);
+	}
