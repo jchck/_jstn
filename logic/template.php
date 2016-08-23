@@ -32,7 +32,8 @@ function footer(){
 	isset($display) || $display = !in_array(true, [
 		is_404(),
 		is_page_template( 'template-landing-seo.php' ),
-		is_post_type_archive( 'trvl' )
+		is_post_type_archive( 'trvl' ),
+		is_page( 'one-thing' )
 	]);
 
 	return apply_filters( 'jchck/footer', $display );

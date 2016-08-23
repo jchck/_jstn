@@ -18,6 +18,15 @@
 	.search404 .bar{ width: 24rem }
 }
 
+/**
+ *
+ * Styles Specific to One Thing Page
+ *
+ */
+.one-thing input,
+.one-thing .bar{ width: 24rem }
+
+
 input{
 	
 	border:none;
