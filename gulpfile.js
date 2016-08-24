@@ -154,6 +154,7 @@ gulp.task('uncss', function(){
 				devUrl + 'case-studies/chapel-law-group-2',
 				devUrl + 'resume',
 				devUrl + 'trvl',
+				devUrl + 'one-thing',
 				devUrl + '404'
 
 			]
