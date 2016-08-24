@@ -31,7 +31,7 @@ $one_query = new WP_Query( $args ); ?>
 
 <div class="flex  flex-wrap justify-center">
 	<div class="col-12 sm-col-10 md-col-6">
-		<h1 class="h1-fp center">(just) 1 thing</h1>
+		<h1 class="h1-fp mt0 mb1 center">(just) 1 thing</h1>
 		<p class="h3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
