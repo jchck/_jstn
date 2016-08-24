@@ -1,4 +1,7 @@
 <?php 
+
+use Jchck\Excerpt;
+
 	/**
 	 * (just) one thing
 	 * 
@@ -59,9 +62,17 @@ $one_query = new WP_Query( $args ); ?>
 
 		<?php if ( $one_query->have_posts()) : ?>
 
+			<h2 class="h2-fp center">Recient Things</h2>
+
 			<?php while ( $one_query->have_posts()) : $one_query->the_post(); ?>
 
-				<a href="<?= the_permalink(); ?>"><h1 class="center"><?php the_title(); ?></h1></a>
+				<article class="col-12">
+
+					<h2 class="mt0 pt2 bold border-top border-width-skinny"><a href="<?= the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+					<?= Excerpt\excerpt(); ?>
+
+				</article>
 
 			<?php endwhile; wp_reset_postdata(); ?>
 

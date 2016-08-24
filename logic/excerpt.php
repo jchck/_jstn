@@ -49,7 +49,7 @@ function classes($excerpt){
 	 *
 	 */
 
-	if (is_home() || is_archive() || is_search()) {
+	if (is_home() || is_archive() || is_search() || is_page( 'one-thing' )) {
 		$classes = str_replace('<p', '<p class="h3 measure"', $excerpt);
 	} elseif(is_single()){
 		$classes = str_replace('<p', '<p class="h2 xs-hide"', $excerpt);
