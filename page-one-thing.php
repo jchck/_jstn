@@ -7,6 +7,9 @@ use Jchck\Excerpt;
 	 * 
 	 * The WordPress Query class.
 	 * @link http://codex.wordpress.org/Function_Reference/WP_Query
+	 * 
+	 * [1] Gravity Forms Function Call
+	 * @link https://www.gravityhelp.com/documentation/article/embedding-a-form/#function-call
 	 *
 	 */
 	$args = array(
@@ -41,6 +44,12 @@ $one_query = new WP_Query( $args ); ?>
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<?php if (function_exists( 'gravity_form') ) : ?>
+
+			<?php gravity_form( '1 Thing Signup', false, false, false, null, true, 5 );  ?>
+
+		<?php endif; ?>
 
 		<form class="one-thing flex flex-wrap pb4">
 			<div class="col-12 sm-col-6 relative mb3 pr0 sm-pr1">
