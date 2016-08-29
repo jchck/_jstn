@@ -24,7 +24,7 @@
 	}
 
 .btn-mnml{
-	border: 2px solid var(--white);
+	border: 2px solid var(--black);
 	transition: all .3s;
 	font-size: var(--h4);
 	font-weight: 400;
