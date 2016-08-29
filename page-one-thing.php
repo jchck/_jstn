@@ -7,9 +7,6 @@ use Jchck\Excerpt;
 	 * 
 	 * The WordPress Query class.
 	 * @link http://codex.wordpress.org/Function_Reference/WP_Query
-	 * 
-	 * [1] Gravity Forms Function Call
-	 * @link https://www.gravityhelp.com/documentation/article/embedding-a-form/#function-call
 	 *
 	 */
 	$args = array(
@@ -35,15 +32,13 @@ use Jchck\Excerpt;
 
 $one_query = new WP_Query( $args ); ?>
 
-<div class="flex  flex-wrap justify-center">
+<div class="flex  flex-wrap justify-center col-12">
 	<div class="col-12 sm-col-10 md-col-8 lg-col-6">
-		<h1 class="h1-fp mt0 mb1 center">(just) 1 thing</h1>
-		<p class="h3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h1 class="h1-fp mt0 mb1 center">1 Thing</h1>
+		<p class="h2">A weekly email on just one thing that's happened in the past seven days. 
+			That's it, just reflections on the life of a minimalist freelance creative. 
+			Want to try one thing? 
+			I need just two things from you first.</p>
 
 
 		<!-- Begin MailChimp Signup Form -->
@@ -78,7 +73,7 @@ $one_query = new WP_Query( $args ); ?>
 					</div>
 
 					<div class="col-12 center">
-						<input type="submit" value="Yes Please!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mnml">
+						<input type="submit" value="Yes, please" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mnml">
 					</div>
 
 				</div>
