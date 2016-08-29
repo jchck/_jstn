@@ -26,6 +26,8 @@
 .one-thing input,
 .one-thing .bar{ width: 100% }
 
+.one-thing .btn{ width: initial }
+
 
 input{
 	

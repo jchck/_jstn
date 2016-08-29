@@ -45,29 +45,47 @@ $one_query = new WP_Query( $args ); ?>
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		<?php if (function_exists( 'gravity_form') ) : ?>
 
-			<?php gravity_form( '1 Thing Signup', false, false, false, null, true, 5 );  ?>
+		<!-- Begin MailChimp Signup Form -->
+		<div id="mc_embed_signup">
+			<form action="//justinchick.us11.list-manage.com/subscribe/post?u=7e25f7d87fbbfde66043d4b76&amp;id=3fda13180b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="one-thing pb4 validate" target="_blank" novalidate>
+				<div class="flex flex-wrap" id="mc_embed_signup_scroll">
 
-		<?php endif; ?>
+					<div class="col-12 sm-col-6 relative mb3 pr0 sm-pr1 mc-field-group">
 
-		<form class="one-thing flex flex-wrap pb4">
-			<div class="col-12 sm-col-6 relative mb3 pr0 sm-pr1">
-				<input class="block h3 p1 border-bottom border-width-skinny bg-white" type="text" required>
-				<span class="highlight absolute col-12 left-0"></span>
-				<span class="bar relative block"></span>
-				<label class="h4 absolute">Name</label>
-			</div>
-			<div class="col-12 sm-col-6 relative mb3">
-				<input class="block h3 p1 border-bottom border-width-skinny bg-white" type="text" required>
-				<span class="highlight absolute col-12 left-0"></span>
-				<span class="bar relative block"></span>
-				<label class="h4 absolute">Email</label>
-			</div>
-			<div class="col-12 center">
-				<button class="btn btn-mnml">Yes Please</button>
-			</div>
-		</form>
+						<input type="text" value="" name="FNAME" class="block h3 p1 border-bottom border-width-skinny bg-white" id="mce-FNAME" required>
+						<span class="highlight absolute col-12 left-0"></span>
+						<span class="bar relative block"></span>
+						<label class="h4 absolute" for="mce-FNAME">Name</label>
+						
+					</div>
+
+					<div class="col-12 sm-col-6 relative mb3 mc-field-group">
+
+						<input type="email" value="" name="EMAIL" class="block h3 p1 border-bottom border-width-skinny bg-white required email" id="mce-EMAIL" required>
+						<span class="highlight absolute col-12 left-0"></span>
+						<span class="bar relative block"></span>
+						<label class="h4 absolute" for="mce-EMAIL">Email</label>
+
+					</div>
+
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7e25f7d87fbbfde66043d4b76_3fda13180b" tabindex="-1" value="">
+					</div>
+
+					<div class="col-12 center">
+						<input type="submit" value="Yes Please!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-mnml">
+					</div>
+
+				</div>
+			</form>
+		</div>
+
+		<!--End mc_embed_signup-->
 
 		<?php if ( $one_query->have_posts()) : ?>
 
