@@ -36,9 +36,10 @@ $one_query = new WP_Query( $args ); ?>
 	<div class="col-12 sm-col-10 md-col-8 lg-col-6">
 		<h1 class="h1-fp mt0 mb1 center">1 Thing</h1>
 		<p class="h2">A weekly email on just one thing that's happened in the past seven days. 
-			That's it, just reflections on the life of a minimalist freelance creative. 
-			Want to try one thing? 
-			I need just two things from you first.</p>
+			That's it, just minimalist reflections on the life of one creative.
+			(That's me.) 
+			Want to try 1 Thing? 
+			I need just 2 things from you first.</p>
 
 
 		<!-- Begin MailChimp Signup Form -->
