@@ -1,0 +1,10 @@
+footer .logo{ width: var(--space-3) }
+
+footer .logo #jc{
+	stroke: var(--black);
+	fill: var(--black);
+}
+
+footer .logo #jc:hover{
+	fill: var(--blue);
+}

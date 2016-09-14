@@ -2,14 +2,3 @@
 	background-color: var(--blue);
 	color: var(--white);
 }
-
-footer .logo{ width: var(--space-3) }
-
-footer .logo #jc{
-	stroke: var(--white);
-	fill: var(--white);
-}
-
-footer .logo #jc:hover{
-	fill: var(--blue);
-}
