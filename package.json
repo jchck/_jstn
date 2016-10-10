@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
+    "browser-sync": "^2.9.6",
     "cssnano": "^3.4.0",
     "postcss": "^5.0.14",
     "postcss-calc": "^5.2.0",
@@ -24,6 +25,7 @@
   "scripts": {
     "css": "postcss -c postcss.config.js",
     "minify": "postcss -u cssnano css/base.css -o css/base.min.css",
+    "server": "browser-sync start --server --files 'src/*.css, *.html'",
     "start": "postcss -c postcss.config.js -w"
   },
   "repository": {
