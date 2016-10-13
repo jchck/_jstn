@@ -86,5 +86,7 @@
 @import './_debug-children';
 @import './_debug-grid';
 
+h1{text-align: center; }
+
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
