@@ -68,9 +68,9 @@ edit all the code yourself, just run the following:
 ```$ npm start```
 
 This command will do 3 things: 
-    ~ Process all and concatenate styles included in `/src/tachyons.css`
-    ~ Start a static [BrowserSync](https://www.browsersync.io) proxy server
-    ~ Watch for changes to files inside `/src/` and to any `.html` files at the root of this directory
+    + Process all and concatenate styles included in `/src/tachyons.css`
+    + Start a static [BrowserSync](https://www.browsersync.io) proxy server
+    + Watch for changes to files inside `/src/` and to any `.html` files at the root of this directory
 
 If you want to check that a class hasn't been redefined or 'mutated' there is a linter to check that all of the classes have only been defined once. This can be useful if you are using another library or have written some of your own css and want to make sure there are no naming collisions. To do this run the command
 
