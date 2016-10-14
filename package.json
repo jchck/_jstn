@@ -50,11 +50,14 @@
     }
   ],
   "scripts": {
-    "start": "parallelshell 'npm run build:css' 'npm run build:watch' 'npm run server'",
+    "start": "parallelshell 'npm run build:css' 'npm run server' 'npm run build:watch'",
     "build": "npm run build:css && npm run build:minify",
+
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
+    "build:watch": "watch src/",
+
     "build:min": "tachyons src/tachyons.css -m > css/tachyons.min.css",
-    "build:watch": "watch 'npm run build:css' ./src/",
+    
     "build:minify": "tachyons src/tachyons.css -m > css/tachyons.min.css",
     "mutations": "immutable-css src/tachyons.css --strict",
     "server": "browser-sync start --server --files 'css/*.css, *.html'"
