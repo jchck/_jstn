@@ -50,8 +50,7 @@
     }
   ],
   "scripts": {
-    "start": "parallelshell 'npm run build:css' 'npm run server' 'npm run build:watch'",
-    "server": "browser-sync start --server --files 'css/*.css, *.html",
+    "start": "parallelshell 'npm run build:css' 'npm run build:watch' 'npm run server'",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
     "build:min": "tachyons src/tachyons.css -m > css/tachyons.min.css",
