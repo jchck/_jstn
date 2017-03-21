@@ -1,7 +1,55 @@
 <!--
-	<head> partial
-	imported via layout.ejs
+	Common <head> block
+	Imported via layout.ejs
+
+	[1] Character encoding
+	@link https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
+	[2] IE compatibility mode
+	@link http://stackoverflow.com/q/6771258
+
+	[3] Set site <title>, author, description using vars defined in ./_config.yml
+
+	[4] The Viewport
+	@link https://www.w3schools.com/css/css_rwd_viewport.asp
+
+	[5] Load CSS files
+	@link https://hexo.io/docs/helpers.html#css
+	+ Tachyons
+	+ Font Awesome
+	+ Local styles
+
+	[6] Import partial
+	@link https://hexo.io/docs/templates.html#Partials
 -->
+
 <head>
-	<title></title>
+
+	<!-- [1] -->
+	<meta charset="utf-8">
+
+	<!-- [2] -->
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<!-- [3] -->
+	<title>
+		<%= page.title ? page.title : config.title %>
+	</title>
+
+	<meta name="author" content="<%= config.author %>">
+
+	<meta name="description" content="<%= config.description %>">
+
+	<!-- [4] -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- [5] -->
+	<%- css([
+		'//unpkg.com/tachyons/css/tachyons.min.css',
+		'//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+		'css/styles'
+	])%>
+	
+	<!-- [6] -->
+	<%- partial('_partials/analytics') %>
 </head>
