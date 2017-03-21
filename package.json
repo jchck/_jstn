@@ -10,6 +10,7 @@
   },
   "scripts":{
     "start": "hexo clean && hexo serve --open",
+    "setup": "npm i && bower i && npm start",
     "deploy": "hexo deploy --generate"
   },
   "dependencies": {
