@@ -1,0 +1,40 @@
+<!--
+	This is our page wrapper
+	@link https://hexo.io/docs/templates.html
+
+	[1] HTML 5 doctype
+	@link https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Introduction_to_HTML5
+
+	[2] Import partial
+	@link https://hexo.io/docs/templates.html#Partials
+
+	[3] Import template content
+	@link https://hexo.io/docs/templates.html
+
+	[4] Load JS files
+	@link https://hexo.io/docs/helpers.html#js
+-->
+
+<!-- [1] -->
+<!DOCTYPE html>
+<html lang="en">
+	
+	<!-- [2] -->
+	<%- partial('_partials/head') %>
+
+<body>
+
+	<!-- [2] -->
+	<%- partial('_partials/header')%>
+
+	<!-- [3] -->
+	<%- body %>
+
+	<!-- [2] -->
+	<%- partial('_partials/footer')%>
+
+	<!--  -->
+	<%- js('js/scripts')%>
+
+</body>
+</html>
