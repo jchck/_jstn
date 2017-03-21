@@ -12,6 +12,9 @@ $ npm install
 
 ## commands
 
+* `$ npm start` -> to open dev server
+* `$ npm run deploy` -> to deploy as configured in `./_config.yml`
+
 ## dependencies
 
 ## folder structure
