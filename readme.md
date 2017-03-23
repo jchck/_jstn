@@ -14,6 +14,7 @@ $ npm run setup
 
 * `$ npm start` -> to open dev server
 * `$ npm run setup` -> install dependencies from npm, bower, and open dev server
+* `$ npm run build:js` -> lint & concatinate js using gulp.js
 * `$ npm run deploy` -> to deploy as configured in `./_config.yml`
 
 ## dependencies
@@ -41,6 +42,8 @@ gulp.js then concatenates all of our JS in the order defined in the `input.js` a
 finally, gulp.js places all this at `./source/js/`
 
 it's at this point that hexo takes over. hexo begins a watch task when we run `$ npm start` that task moves any js from `./source/js/` to the generated site root at `./public/js/`.
+
+this means that [a] it's possible to process js w/o hexo running and [b] when hexo is running, you'll need to hit `$ npm run build:js` to process js.
 
 ### views & templates
 
