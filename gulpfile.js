@@ -8,8 +8,8 @@ var pump = require('pump');
 
 var input = {
 	'js': [
-		'./_js/*.js',
-		'./_js/_scripts.js'
+		'./source/_js/*.js',
+		'./source/_js/_scripts.js'
 	]
 };
 
