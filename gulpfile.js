@@ -8,6 +8,12 @@ var pump = require('pump');
 
 var input = {
 	'js': [
+		/* 
+			this is the order which js files are concatinated
+			to include 3rd party js (installed via npm or bower): 
+			'./node_modules/module-name/js/scripts.js'
+			'./bower_components/module-name/js/scripts.js'
+		*/
 		'./source/_js/*.js',
 		'./source/_js/_scripts.js'
 	]
