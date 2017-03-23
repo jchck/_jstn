@@ -25,5 +25,14 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-server": "^0.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "pump": "^1.0.2"
+  }
 }
