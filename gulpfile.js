@@ -8,13 +8,13 @@ var pump = require('pump');
 
 var input = {
 	'js': [
-		'./themes/donuts/source/_js/*.js',
-		'./themes/donuts/source/_js/_scripts.js'
+		'./_js/*.js',
+		'./_js/_scripts.js'
 	]
 };
 
 var output = {
-	'js' : './themes/donuts/source/js'
+	'js' : './source/js'
 };
 
 /*
