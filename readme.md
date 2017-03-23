@@ -18,16 +18,37 @@ $ npm run setup
 
 ## dependencies
 
+* [node][6]
+* [hexo][2]
+* [gulp][3]
+
 ## folder structure
 
 ### static assets
 
-find these inside the `./source` directory along with the markdown files for all pages &amp; posts. working directories are prefaced `_underscore`, assets are processed and moved to their cooresponding non-prefaced destination directory via gulp tasks.
+otherwise known as css, js, svg, img, lol, etc...
 
-all non-prefaced directories inside of `./source` are moved to the generated site root upon `$ hexo generate` and/or `$ npm run deploy`.
+#### js processing pipeline
+
+there are unique parts to js processing the first is handled by [gulp.js][3], the sencond is handled by [hexo][2].
+
+gulp.js first lints all the javascript inside the `./source/_js/` directory using [jshint][4]/[gulp-jshint][5].
+
+this is `$ gulp js-hint`.
+
+gulp.js then concatenates all of our JS in the order defined in the `input.js` array found at the beginning of our gulpfile.
+
+finally, gulp.js places all this at `./source/js/`
+
+it's at this point that hexo takes over. hexo begins a watch task when we run `$ npm start` that task moves any js from `./source/js/` to the generated site root at `./public/js/`.
 
 ### views & templates
 
 find these inside the `./themes/donuts/layout` directory. at the root of this directory are all the [default hexo templates][1], layout wrapper, and a collection of partials for modularity.
 
 [1]: https://hexo.io/docs/templates.html
+[2]: https://hexo.io/
+[3]: http://gulpjs.com/
+[4]: http://jshint.com/
+[5]: https://www.npmjs.com/package/gulp-jshint
+[6]: https://nodejs.org
