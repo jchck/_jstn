@@ -17,7 +17,7 @@ $ npm run setup
 * `$ npm run build:js` -> lint & concatinate js using gulp.js
 * `$ npm run deploy` -> to deploy as configured in `./_config.yml`
 
-## dependencies
+## what's included
 
 * [node][6]
 * [npm][8]
@@ -26,13 +26,11 @@ $ npm run setup
 * [bower][7]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
 
-## folder structure
-
-### static assets
+## static assets
 
 otherwise known as css, js, svg, img, lol, etc...
 
-#### js processing pipeline
+### js processing pipeline
 
 there are unique parts to js processing the first is handled by [gulp.js][3], the sencond is handled by [hexo][2].
 
@@ -48,7 +46,7 @@ it's at this point that hexo takes over. hexo begins a watch task when we run `$
 
 this means that [a] it's possible to process js w/o hexo running and [b] when hexo is running, you'll need to hit `$ npm run build:js` to process js.
 
-##### adding 3rd party js to the mix
+#### adding 3rd party js to the mix
 
 we can also add any scripts installed via bower or npm to the pipeline by adding paths to those files to the `input.js` array of our gulpfile. see comments in the gulpfile for clarity.
 
