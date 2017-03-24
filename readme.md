@@ -44,11 +44,17 @@ finally, gulp.js places all this at `./source/js/`
 
 it's at this point that hexo takes over. hexo begins a watch task when we run `$ npm start` that task moves any js from `./source/js/` to the generated site root at `./public/js/`.
 
-this means that [a] it's possible to process js w/o hexo running and [b] when hexo is running, you'll need to hit `$ npm run build:js` to process js.
+this means that [a] it's possible to process js w/o dev server running and [b] when dev server is running, you'll need to hit `$ npm run build:js` to process js.
 
 #### adding 3rd party js to the mix
 
 we can also add any scripts installed via bower or npm to the pipeline by adding paths to those files to the `input.js` array of our gulpfile. see comments in the gulpfile for clarity.
+
+### css processing pipeline
+
+css processing takes the very same approach as js processing with gulp handling the first half and hexo the second. it's worth noting that our task runner, gulp is acting as a wrapper for postcss.
+
+to compile styles simply tap your fingers on the `$ npm run build:css` keys in that order. just like with our js, css processing must be triggered manually & can happen wothout the dev server running.
 
 ### views & templates
 

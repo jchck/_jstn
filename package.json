@@ -11,6 +11,7 @@
   "scripts": {
     "start": "hexo clean && hexo serve --open",
     "setup": "npm i && bower i && npm start",
+    "build:css": "gulp css",
     "build:js": "gulp js",
     "deploy": "hexo deploy --generate"
   },

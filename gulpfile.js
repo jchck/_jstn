@@ -36,6 +36,9 @@ var output = {
 	'js': './source/js'
 };
 
+/*
+	$ gulp css
+*/
 gulp.task('css', function() {
 
 	var plugins = [
