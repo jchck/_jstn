@@ -1,12 +1,24 @@
+var autoprefixer = require('autoprefixer');
+var mqpacker = require('css-mqpacker');
+var cssnano = require('cssnano');
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var jshint = require('gulp-jshint');
+var postcss = require('gulp-postcss');
+var size = require('gulp-size');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var util = require('gulp-util');
+var calc = require('postcss-calc');
+var color = require('postcss-color-function');
+var media = require('postcss-custom-media');
+var properties = require('postcss-custom-properties');
+var noComments = require('postcss-discard-comments');
+var atImport = require('postcss-import');
 var pump = require('pump');
 
 var input = {
+	'css': './source/_css/styles.css',
 	'js': [
 		/* 
 			this is the order which js files are concatinated
@@ -20,8 +32,35 @@ var input = {
 };
 
 var output = {
-	'js' : './source/js'
+	'css': './source/css', 
+	'js': './source/js'
 };
+
+gulp.task('css', function() {
+
+	var plugins = [
+		atImport,
+		media,
+		properties,
+		calc,
+		color,
+		noComments,
+		autoprefixer,
+		cssnano,
+		mqpacker,
+	];
+
+	var sizeConfigs = {
+		'gzip': false,
+		'showFiles': true,
+		'title': 'Size ->'
+	};
+
+	return gulp.src(input.css)
+		.pipe(postcss(plugins))
+		.pipe(size(sizeConfigs))
+		.pipe(gulp.dest(output.css))
+});
 
 /*
 	$ gulp js-concat
