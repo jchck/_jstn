@@ -21,10 +21,11 @@ $ npm run setup
 
 * [node][6]
 * [npm][8]
+* [bower][7]
 * [hexo][2]
 * [gulp][3]
 * [postcss][9]
-* [bower][7]
+* [critical css][10]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
 
 ## static assets
@@ -57,6 +58,14 @@ css processing takes the very same approach as js processing with gulp handling 
 
 to compile styles simply tap your fingers on the `$ npm run build:css` keys in that order. just like with our js, css processing must be triggered manually & can happen wothout the dev server running.
 
+### critical css
+
+critical is a node module that will extract fully processed css and, upon build, inject it into a `<styele>` block in the head of any page. critical css are the styles necassary to style html above the critical-path (read: above-the-fold) and those styles are generally inlined for preformance reasons.
+
+this approach is handy when ceating custom interactives to be placed inside a raw html module in brightspot.
+
+to turn critical on/off see `./themes/donuts/_config.yml`
+
 ### views & templates
 
 find these inside the `./themes/donuts/layout` directory. at the root of this directory are all the [default hexo templates][1], layout wrapper, and a collection of partials for modularity.
@@ -70,3 +79,4 @@ find these inside the `./themes/donuts/layout` directory. at the root of this di
 [7]: https://bower.io/
 [8]: https://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/
 [9]: http://postcss.org/
+[10]: https://github.com/addyosmani/critical

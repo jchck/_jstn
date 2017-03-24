@@ -3,6 +3,7 @@
 ## ga: UA-00000000-0
 
 # Critical CSS
+# enable/disable below
 criticalcss:
   enable: true
   inline: true
