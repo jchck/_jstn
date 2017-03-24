@@ -1,3 +1,13 @@
 # Google Analytics
 # uncomment the following:
 ## ga: UA-00000000-0
+
+# Critical CSS
+# enable/disable below
+criticalcss:
+  enable: true
+  inline: true
+  width: 320
+  height: 480
+  critical:
+    minify: true
