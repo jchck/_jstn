@@ -23,6 +23,7 @@ $ npm run setup
 * [npm][8]
 * [hexo][2]
 * [gulp][3]
+* [postcss][9]
 * [bower][7]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
 
@@ -68,3 +69,4 @@ find these inside the `./themes/donuts/layout` directory. at the root of this di
 [6]: https://nodejs.org
 [7]: https://bower.io/
 [8]: https://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/
+[9]: http://postcss.org/
