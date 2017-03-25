@@ -9,6 +9,7 @@ var size = require('gulp-size');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var util = require('gulp-util');
+var watch = require('gulp-watch');
 var calc = require('postcss-calc');
 var color = require('postcss-color-function');
 var media = require('postcss-custom-media');
@@ -95,3 +96,11 @@ gulp.task('js-hint', ['js-concat'], function() {
 	$ gulp js
 */
 gulp.task('js', ['js-hint', 'js-concat']);
+
+/*
+	$ gulp watch
+*/
+gulp.task('watch', function() {
+	gulp.watch('./source/_css/*.css', ['css']);
+	gulp.watch('./sourcemaps/_js/*.js', ['js']);
+})
