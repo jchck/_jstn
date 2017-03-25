@@ -66,6 +66,23 @@ pagination_dir: page
 ## dounts is our default theme name
 theme: donuts
 
+# Critical CSS
+# enable/disable below
+criticalcss:
+  enable: false
+  inline: true
+  width: 320
+  height: 480
+  critical:
+    minify: true
+
+# To minify html
+# Uses https://github.com/kangax/html-minifier
+html_minifier:
+  enable: true
+  removeComments: true
+  collapseWhitespace: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
