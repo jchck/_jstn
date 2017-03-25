@@ -28,6 +28,7 @@ $ npm run setup
 * [gulp][3]
 * [postcss][9]
 * [critical css][10]
+* [tachyons][11]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
 
 ## static assets
@@ -82,3 +83,4 @@ find these inside the `./themes/donuts/layout` directory. at the root of this di
 [8]: https://blog.jquery.com/2013/07/03/jquery-1-10-2-and-2-0-3-released/
 [9]: http://postcss.org/
 [10]: https://github.com/addyosmani/critical
+[11]: http://tachyons.io/
