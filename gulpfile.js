@@ -102,5 +102,5 @@ gulp.task('js', ['js-hint', 'js-concat']);
 */
 gulp.task('watch', function() {
 	gulp.watch('./source/_css/*.css', ['css']);
-	gulp.watch('./sourcemaps/_js/*.js', ['js']);
+	gulp.watch('./source/_js/_scripts.js', ['js']);
 })
