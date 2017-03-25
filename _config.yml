@@ -81,7 +81,7 @@ criticalcss:
 html_minifier:
   enable: true
   removeComments: true
-  collapseWhitespace: true
+  collapseWhitespace: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
