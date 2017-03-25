@@ -14,6 +14,8 @@ $ npm run setup
 
 * `$ npm start` -> to open dev server
 * `$ npm run setup` -> install dependencies from npm, bower, and open dev server
+* `$ npm run build:assets` -> process all assets via gulp.js
+* `$ npm run build:css` -> process css via gulp.js
 * `$ npm run build:js` -> lint & concatinate js using gulp.js
 * `$ npm run deploy` -> to deploy as configured in `./_config.yml`
 

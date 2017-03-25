@@ -9,8 +9,9 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "start": "hexo clean && hexo serve --open",
+    "start": "parallelshell 'hexo clean' 'hexo serve --open' 'gulp watch'",
     "setup": "npm i && bower i && npm start",
+    "build:assets": "gulp css && gulp js",
     "build:css": "gulp css",
     "build:js": "gulp js",
     "deploy": "hexo deploy --generate"
@@ -43,6 +44,7 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "jshint": "^2.9.4",
+    "parallelshell": "^2.0.0",
     "postcss-calc": "^5.3.1",
     "postcss-color-function": "^3.0.0",
     "postcss-custom-media": "^5.0.1",
