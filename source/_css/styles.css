@@ -1,3 +1,4 @@
+@import '../../node_modules/normalize.css/normalize';
 @import './_tachyons';
 @import './_vars';
 @import './_media-queries';
