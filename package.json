@@ -9,7 +9,7 @@
     "version": "3.2.2"
   },
   "scripts": {
-    "start": "parallelshell 'hexo clean' 'hexo serve --open' 'gulp watch'",
+    "start": "parallelshell 'hexo clean' 'hexo server --open' 'gulp watch'",
     "setup": "npm i && bower i && npm start",
     "build:assets": "gulp css && gulp js",
     "build:css": "gulp css",
@@ -51,6 +51,7 @@
     "postcss-custom-properties": "^5.0.2",
     "postcss-discard-comments": "^2.0.4",
     "postcss-import": "^9.1.0",
-    "pump": "^1.0.2"
+    "pump": "^1.0.2",
+    "tachyons-custom": "^4.5.5"
   }
 }

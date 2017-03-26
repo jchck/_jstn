@@ -1,11 +1,5 @@
-/*
-	Add styles here
-*/
+@import './_tachyons';
+@import './_vars';
+@import './_media-queries';
 
-body{
-	background-color: green;
-}
-
-h1{
-	text-align: left;
-}
+@import './_template';
