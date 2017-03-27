@@ -19,7 +19,7 @@ var atImport = require('postcss-import');
 var pump = require('pump');
 
 var input = {
-	'css': './source/_css/styles.css',
+	'css': './themes/donuts/source/_css/styles.css',
 	'js': [
 		/* 
 			this is the order which js files are concatinated
@@ -27,8 +27,8 @@ var input = {
 			'./node_modules/module-name/js/scripts.js'
 			'./bower_components/module-name/js/scripts.js'
 		*/
-		'./source/_js/*.js',
-		'./source/_js/_scripts.js'
+		'./themes/donuts/source/_js/*.js',
+		'./themes/donuts/source/_js/_scripts.js'
 	]
 };
 
