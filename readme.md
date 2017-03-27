@@ -1,33 +1,24 @@
 # starter
 
-a hexo starter stack for hanley wood's interactive team
+a front-end scaffolding for hanley wood team donuts
 
 ## getting started
 
 ```
-$ git clone https://github.com/hw-interactive/starter.git
-$ cd starter
+$ git clone https://github.com/hw-interactive/starter.git <project-name>
+$ cd <project-name>
 $ npm run setup
 ```
 
-## commands
+### what's required
 
-* `$ npm start` -> to open dev server
-* `$ npm run setup` -> install dependencies from npm, bower, and open dev server
-* `$ npm run build:assets` -> process all assets via gulp.js
-* `$ npm run build:css` -> process css via gulp.js
-* `$ npm run build:js` -> lint & concatinate js using gulp.js
-* `$ npm run deploy` -> to deploy as configured in `./_config.yml`
+| dependency  | to install            |
+| :---:       | :---:                 |
+| [node][6]   | `$ nvm install node`  |
+| [npm][13]   | `$ nvm install node`  |
+| [hexo][2]   | `$ npm i -g hexo-cli` |
 
-## what's required
-
-| dependency | to install            |
-| :---       | :---:                 |
-| [node][6]  | `$ nvm install node`  |
-| [npm][8]   | `$ nvm install node`  |
-| [hexo][2]  | `$ npm i -g hexo-cli` |
-
-## what's included
+### what's included
 
 * [bower][7]
 * [gulp][3]
@@ -36,6 +27,22 @@ $ npm run setup
 * [tachyons][11]
 * [imagemin][12]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
+* [jshint][14]
+
+### available commands
+
+* `$ npm start` -> to open dev server
+* `$ npm run setup` -> install dependencies from npm, bower, and open dev server
+* `$ npm run build:assets` -> process all assets via gulp.js
+* `$ npm run build:css` -> process css via gulp.js
+* `$ npm run build:js` -> lint & concatinate js using gulp.js
+* `$ npm run deploy` -> to deploy as configured in `./_config.yml`
+
+**all commands must be registered via package.json**
+
+## concepts
+
+[hexo][2] is a static site generator built on node. 
 
 ## static assets
 
@@ -91,3 +98,6 @@ find these inside the `./themes/donuts/layout` directory. at the root of this di
 [10]: https://github.com/addyosmani/critical
 [11]: http://tachyons.io/
 [12]: https://github.com/vseventer/hexo-imagemin
+[13]: https://www.npmjs.com/
+[14]: http://jshint.com/
+[15]: https://jekyllrb.com/
