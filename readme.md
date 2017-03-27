@@ -19,16 +19,22 @@ $ npm run setup
 * `$ npm run build:js` -> lint & concatinate js using gulp.js
 * `$ npm run deploy` -> to deploy as configured in `./_config.yml`
 
+## what's required
+
+| dependency | to install            |
+| :---       | :---:                 |
+| [node][6]  | `$ nvm install node`  |
+| [npm][8]   | `$ nvm install node`  |
+| [hexo][2]  | `$ npm i -g hexo-cli` |
+
 ## what's included
 
-* [node][6]
-* [npm][8]
 * [bower][7]
-* [hexo][2]
 * [gulp][3]
 * [postcss][9]
 * [critical css][10]
 * [tachyons][11]
+* [imagemin][12]
 * [jquery v1.10.2][8] (the same vesion in use on prod)
 
 ## static assets
@@ -84,3 +90,4 @@ find these inside the `./themes/donuts/layout` directory. at the root of this di
 [9]: http://postcss.org/
 [10]: https://github.com/addyosmani/critical
 [11]: http://tachyons.io/
+[12]: https://github.com/vseventer/hexo-imagemin
