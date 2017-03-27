@@ -61,7 +61,9 @@ gulp.task('css', function() {
 	};
 
 	return gulp.src(input.css)
+		.pipe(sourcemaps.init())
 		.pipe(postcss(plugins))
+		.pipe(sourcemaps.write('.'))
 		.pipe(size(sizeConfigs))
 		.pipe(gulp.dest(output.css))
 });
