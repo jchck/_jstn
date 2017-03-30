@@ -3,4 +3,5 @@
 @import './_vars';
 @import './_media-queries';
 
+/* follow this for creating modules */
 @import './_template';

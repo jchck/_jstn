@@ -1,0 +1,10 @@
+/*
+	Font Stacks
+
+	This module contains font stack declarations for all HW web properties
+*/
+
+/* for AR */
+.fakt{
+	font-family: 'FaktPro',helvetica,arial,sans-serif
+}
