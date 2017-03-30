@@ -1,6 +1,9 @@
 @import '../../../../node_modules/normalize.css/normalize';
 @import './_tachyons';
 @import './_vars';
+@import './_vars.color';
+@import './_vars.color.branded';
 @import './_media-queries';
 
+/* follow this for creating modules */
 @import './_template';

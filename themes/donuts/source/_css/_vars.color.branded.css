@@ -1,0 +1,17 @@
+/*
+	Branded Colors
+
+	This module contains every brand specific color for HW web properties
+*/
+
+:root{
+	/* AR */
+	--ar-white		: #fff;
+	--ar-gray-11	: #e6e6e6;
+	--ar-gray-12	: #e7e7e7;
+	--ar-gray-21	: #ababab;
+	--ar-gray-22	: #acacac;
+	--ar-gray-3		: #656565;
+	--ar-black		: #000;
+	--ar-blue		: #00aced;
+}
