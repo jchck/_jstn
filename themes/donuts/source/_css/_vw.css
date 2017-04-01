@@ -1,0 +1,24 @@
+.vw-25 {  width:  25vw; }
+.vw-50 {  width:  50vw; }
+.vw-75 {  width:  75vw; }
+.vw-100 { width: 100vw; }
+@media (--breakpoint-not-small) {
+	.vw-25-ns {  width:  25vw; }
+	.vw-50-ns {  width:  50vw; }
+	.vw-75-ns {  width:  75vw; }
+	.vw-100-ns { width: 100vw; }
+}
+
+@media (--breakpoint-medium) {
+	.vw-25-m {  width:  25vw; }
+	.vw-50-m {  width:  50vw; }
+	.vw-75-m {  width:  75vw; }
+	.vw-100-m { width: 100vw; }
+}
+
+@media (--breakpoint-large) {
+	.vw-25-l {  width:  25vw; }
+	.vw-50-l {  width:  50vw; }
+	.vw-75-l {  width:  75vw; }
+	.vw-100-l { width: 100vw; }
+}

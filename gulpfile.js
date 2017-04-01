@@ -103,6 +103,6 @@ gulp.task('js', ['js-hint', 'js-concat']);
 	$ gulp watch
 */
 gulp.task('watch', function() {
-	gulp.watch('./source/_css/*.css', ['css']);
-	gulp.watch('./source/_js/_scripts.js', ['js']);
+	gulp.watch('./themes/donuts/source/_css/*', ['css']);
+	gulp.watch('./themes/donuts/source/_js/_scripts.js', ['js']);
 })

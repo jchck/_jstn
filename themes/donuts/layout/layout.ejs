@@ -24,14 +24,18 @@
 
 <body>
 
-	<!-- [2] -->
-	<%- partial('_partials/header')%>
+	<div class="flex justify-center items-center vh-100-l">
+		<div class="vh-75-l vw-75-l">	
+			<!-- [2] -->
+			<%- partial('_partials/header')%>
 
-	<!-- [3] -->
-	<%- body %>
+			<!-- [3] -->
+			<%- body %>
 
-	<!-- [2] -->
-	<%- partial('_partials/footer')%>
+			<!-- [2] -->
+			<%- partial('_partials/footer')%>
+		</div>
+	</div>
 
 	<!-- [4] -->
 	<%- js([

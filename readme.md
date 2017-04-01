@@ -86,6 +86,10 @@ to turn critical on/off see `./themes/donuts/_config.yml`
 
 find these inside the `./themes/donuts/layout` directory. at the root of this directory are all the [default hexo templates][1], layout wrapper, and a collection of partials for modularity.
 
+http://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories
+
+http://coderuse.com/2016/08/Moving-new-Git-branch-with-different-history-to-master/
+
 [1]: https://hexo.io/docs/templates.html
 [2]: https://hexo.io/
 [3]: http://gulpjs.com/
