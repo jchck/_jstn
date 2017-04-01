@@ -1,7 +1,10 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# dest
-node_modules
-npm-debug.log
 .DS_Store
-
+Thumbs.db
+db.json
+*.log
+node_modules/
+bower_components/
+public/
+.deploy*/
+source/css/
+source/js/
