@@ -1,0 +1,92 @@
+{
+  "name": "jchck/_jstn",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://jstn.ch/ck",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/jchck/_jstn",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/jchck_",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "_jstn",
+      "subhead": "My current site",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "_jstn: My current site",
+          "url": "http://jstn.ch/ck"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "jchck",
+          "repo": "_jstn"
+        }
+      ],
+      "text": "v4.0.0"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/jchck/_jstn",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/jchck",
+          "text": "jchck"
+        }
+      ]
+    }
+  ]
+}
